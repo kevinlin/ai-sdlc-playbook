@@ -45,3 +45,17 @@ Build the static site:
 ```bash
 mkdocs build
 ```
+
+### GitHub Actions Deployment
+
+This repository includes a GitHub Actions workflow that automatically builds and deploys the site to GitHub Pages whenever changes are pushed to the main branch.
+
+The workflow configuration is located in `.github/workflows/publish.yml`.
+
+To manually trigger a deployment:
+
+```bash
+mkdocs gh-deploy --force --clean
+```
+
+The site is published at: https://kevinlin.github.io/ai-sdlc-playbook
