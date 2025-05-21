@@ -1,0 +1,17 @@
+---
+description: General playbook rules
+globs: *.md
+alwaysApply: false
+---
+# General Rules
+- Think step by step and plan before making any additions or changes to the code.
+- Always make targeted edits when changing.
+- Make sure you do not remove any text or code that is needed, validate you have made a targeted edit.
+- Always summarise your changes to validate after making changes.
+
+# Refactoring Rules
+When reviewing and refactoring content:
+- Only make targeted improvements if it helps with the readability.
+- We do not want to lose content, so don't remove anything that would diminish the original ideas conveyed in the text.
+- Don't overly generalise things, make the content specific.
+- Keep the changes to content improvements. Do not change the structure.
