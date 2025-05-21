@@ -9,25 +9,22 @@ This library provides a curated selection of prompts to optimise your use of AI 
 
 ## Available Prompts
 
-### Product Development
- - For understanding of product requirements prompt sequencing, please refer to the workflow steps in [Product Workflow](../workflow/workflow-product-requirements.md)
+### Product Specification
+For understanding of product requirements prompt sequencing, please refer to the workflow steps in [Product Workflow](../workflow/workflow-product-requirements.md)
+
  - [Example Product Requirements Input](product/example-product-requirements-input.md)
  - [Data Model Generation](product/prompt-data-model-generation.md)
  - [API Requirements](product/prompt-api-requirements.md)
  - [User Interface Requirements](product/prompt-user-interface-requirements.md)
- - [Combined Features and Stories Generation](product/prompt-combined-requirements-features-stories.md)
  - [User Story Creation](product/prompt-user-story-creation.md)
  - [Deep Product Analysis](product/prompt-product-analysis.md)
 
-### Feature / Story Implementation
+### Development
 - [Implement New Feature / Story](development/prompt-new-feature-story.md)
-
-### Testing and Quality Assurance
-- [Add End-to-End Test](testing/prompt-add-e2e-test.md)
-- [Add Integration Test](testing/prompt-add-integration-test.md)
-
-### Refactoring
-- [Refactor Feature](refactoring/prompt-refactor-feature.md)
+- [Add End-to-End Test](development/prompt-add-e2e-test.md)
+- [Add Integration Test](development/prompt-add-integration-test.md)
+- [Refactor Feature](development/prompt-refactor-feature.md)
+- [Review Merge Request](development/prompt-merge-request-review.md)
 
 ### Documentation
 - [Add / Update Documentation](documentation-writing/prompt-add-update-documentation.md)

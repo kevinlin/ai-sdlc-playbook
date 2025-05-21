@@ -1,6 +1,6 @@
 site_name: AI SDLC Playbook
 repo_url: https://github.com/kevinlin/ai-sdlc-playbook
-edit_uri: edit/main/ai-sdlc-playbook/
+edit_uri: edit/main/docs/
 site_author: Kevin Lin <kevin.lin@zuhlke.com>
 use_directory_urls: true
 theme:
