@@ -1,29 +1,48 @@
-name: Publish MkDocs to GitHub Pages
+name: Build & Publish site to GitHub Pages
+
 on:
   push:
-    branches:
-      - main  # or master, depending on your default branch name
+    branches: [ main ]          # or your default branch
+  workflow_dispatch:            # lets you trigger it manually in Actions tab
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:                  # prevents races on rapid pushes
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      # 1. Checkout source
+      - uses: actions/checkout@v4
+
+      # 2. Set up Python (only if you need it for MkDocs)
+      - uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
-      - uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python-version: '3.x'
+
+      # 3. Install dependencies & build the site
       - name: Build site
-        run: mkdocs build
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        run: |
+          pip install -r requirements.txt
+          mkdocs build --clean
+
+      # 4. Upload the generated files as an artifact
+      - uses: actions/upload-pages-artifact@v3
         with:
-          folder: site 
+          path: site            # ← must match site_dir you set above
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
