@@ -14,8 +14,8 @@ User Story:
 Acceptance Criteria:
 [Written as testable BBD Scenarios. The DDD scenarios should focus on functional/user-driven actions. Omit any technical details.  Try and group functionality so that we keep the number of scenarios to a minimum]
 
-Interface Design:
-[Relevant user interface design. This is a GOV.UK Application so it should follow GOV.UK guidelines including the GDS Design System and Accessibility. Ensure you include the GDS Components needed for the interface]
+UI Design:
+[Relevant user interface design. Follow guidelines including the Design System and Accessibility.]
 
 Technical Design:
 [The functionality defined in technical detail.  Include the API Responses as examples from below]
@@ -24,11 +24,7 @@ Technical Design:
 
 # Context
 
-[releavnt context 
-
-e.g. this is adding to an existing applicaiton, so give a suitably detailed summary of that application. 
-
-e.g. if it has an interface, then saying it must follow GOV.UK standards and style and use GDS components. It should also follow GOV.UK Accessibility Guidelines]
+[releavnt context e.g. this is adding to an existing applicaiton, so give a suitably detailed summary of that application.]
 
 # Detailed Requirements
 

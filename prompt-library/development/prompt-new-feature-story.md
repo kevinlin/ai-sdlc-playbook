@@ -30,7 +30,6 @@ Please analyze the User Story [] and implement the 'Technical Design' as follows
 
 Constraints:
 - Maintain consistency with existing codebase
-- Follow GOV.UK Frontend cursor rules
 - Do not add any unit tests at this time
 ```
 

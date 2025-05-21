@@ -19,7 +19,7 @@ A detailed feature description should be a *very* detailed account of the featur
 Ideally, this description should take the form of a markdown document, and could look something like this:
 
 ```
-I'm writing a governance checklist app for Defra governance project tracking. Here are the features of the app:
+I'm writing a governance checklist app for governance project tracking. Here are the features of the app:
 
 - This tool allows projects to track their governance process through a unified checklist, composed of multiple governance workflows, each with their own checklist items.
 - There can be multiple governance workflows of checklist items, such as a main governance flow, then sub-flows depending on what part of the business you're delivering for.
