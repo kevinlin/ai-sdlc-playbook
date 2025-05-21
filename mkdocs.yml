@@ -1,0 +1,35 @@
+site_name: AI SDLC Playbook
+repo_url: https://github.com/kevinlin/ai-sdlc-playbook
+edit_uri: edit/main/ai-sdlc-playbook/
+site_author: Kevin Lin <kevin.lin@zuhlke.com>
+use_directory_urls: true
+theme:
+  name: material
+  locale: en
+  logo: img/swex-logo.svg
+  favicon: img/favicon.png
+  palette:
+    primary: custom
+  font:
+    text: Luto
+  features:
+    - content.action.edit
+extra_css:
+- stylesheets/extra.css
+plugins:
+  - search
+  - awesome-nav
+  - mermaid2
+markdown_extensions:
+  - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+  - attr_list
+watch:
+  - docs
+extra:
+  generator: false
+copyright: Copyright &copy; 2025 Zühlke Technology Group AG

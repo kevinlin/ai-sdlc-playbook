@@ -1,4 +1,4 @@
-# Prompt Library
+# Prompt Library Overview
 
 This library provides a curated selection of prompts to optimise your use of AI tools in the development workflow. These examples serve as guidelines that you can adapt to your specific project needs rather than using them verbatim.
 

@@ -1,0 +1,31 @@
+:root > * {
+    --md-primary-fg-color: #985b9c;
+}
+.md-header {
+    background-image: linear-gradient(45deg, #aa41af 5%, #3c69c8 60%, #00a5e6 100%);
+}
+.md-footer {
+    background-color: #666;
+}
+
+.lr-level-label {
+    display: block;
+    background-color: #eee;
+    padding: .3em .75em;
+    border-radius: .3em;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: center;
+}
+.lr-level-beginner {
+    background-color: #0c6;
+    color: #fff;
+}
+.lr-level-intermediate {
+    background-color: #09c;
+    color: #fff;
+}
+.lr-level-advanced {
+    background-color: #666;
+    color: #fff;
+}

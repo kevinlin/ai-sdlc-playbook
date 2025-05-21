@@ -10,7 +10,6 @@ Thumbs.db
 # IDE and Editors
 ## Visual Studio Code
 .vscode/*
-!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -18,7 +17,6 @@ Thumbs.db
 .history/
 
 ## Cursor
-.cursor/
 *.cursor-project
 
 ## IntelliJ IDEA
@@ -76,3 +74,6 @@ temp/
 .cache/
 .parcel-cache/
 .history/
+
+# mkdocs
+site/
