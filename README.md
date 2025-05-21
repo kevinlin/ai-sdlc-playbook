@@ -1,13 +1,9 @@
 # AI SDLC Playbook
 
-A playbook for AI-driven software development lifecycle practices.
+This playbook provides guidance on best practices for integrating AI into the Software Development Lifecycle (SDLC), specifically tailored to Zuhlke's needs and challenges. It serves as a living document, continuously updated to reflect emerging practices and lessons learned.
 
 ## Table of Contents
-1. [Cursor Rules](docs/cursor-rules/README.md)
-    1. [Common Rules](docs/cursor-rules/common/README.md)
-	2. [Language Rules](docs/cursor-rules/languages/README.md)
-	3. [Framework Rules](docs/cursor-rules/frameworks/README.md)
-2. [AI Development Workflow](docs/workflow/README.md)
+1. [AI Development Workflow](docs/workflow/README.md)
 	1. [Getting Started](docs/workflow/workflow-getting-started.md)
 	2. [Project Setup](docs/workflow/workflow-project-setup.md)
 	3. Feature Development Lifecycle
@@ -17,8 +13,12 @@ A playbook for AI-driven software development lifecycle practices.
 		4. [Refactoring](docs/workflow/workflow-refactoring.md)
 		5. [Documentation](docs/workflow/workflow-documentation.md)
 	4. [Learning with AI](docs/workflow/workflow-learning.md)
-3. [Prompt Library](docs/prompt-library/README.md)
-   1. [Prompting Guidance](docs/prompt-library/prompting-guidance.md)
+1. [Cursor Rules](docs/cursor-rules/README.md)
+    1. [Common Rules](docs/cursor-rules/common/README.md)
+	2. [Language Rules](docs/cursor-rules/languages/README.md)
+	3. [Framework Rules](docs/cursor-rules/frameworks/README.md)
+1. [Prompt Library](docs/prompt-library/README.md)
+    1. [Prompting Guidance](docs/prompt-library/prompting-guidance.md)
 
 ## Site Publish
 
