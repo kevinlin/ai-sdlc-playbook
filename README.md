@@ -48,14 +48,17 @@ mkdocs build
 
 ### GitHub Actions Deployment
 
-This repository includes a GitHub Actions workflow that automatically builds and deploys the site to GitHub Pages whenever changes are pushed to the main branch.
+This repository includes a GitHub Actions workflow that automatically builds and deploys the site to GitHub Pages when:
+- Changes are pushed to the main branch
+- The workflow is manually triggered from the Actions tab
 
-The workflow configuration is located in `.github/workflows/publish.yml`.
+The workflow configuration is located in `.github/workflows/publish.yml` and uses GitHub's official Pages deployment actions with the following steps:
+1. Checkout the source code
+2. Set up Python environment
+3. Install dependencies and build the site
+4. Upload the generated files as an artifact
+5. Deploy to GitHub Pages
 
-To manually trigger a deployment:
-
-```bash
-mkdocs gh-deploy --force --clean
-```
+To manually trigger a deployment, go to the Actions tab in the GitHub repository and run the "Build & Publish site to GitHub Pages" workflow.
 
 The site is published at: https://kevinlin.github.io/ai-sdlc-playbook
