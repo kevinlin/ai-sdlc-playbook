@@ -10,19 +10,13 @@ This guide outlines how to set up a development project using AI tools and techn
 ## Initial Setup
 
 1. **Choose Project Platform**
-   - select hosting platform (GitHub, GitLab, Bitbucket)
+   - select hosting platform (Azure DevOps, GitHub, GitLab, Bitbucket)
    - agree on Git branching strategy
    - document collaboration guidelines
 
 2. **Configure Repository**
-   With CDP:
-   - initialise CDP project
-   - configure GitHub repository automatically
-
-   Without CDP:
    - create GitHub repository manually
    - set branch protection rules
-   - add issue templates
 
 ## Development Environment
 
