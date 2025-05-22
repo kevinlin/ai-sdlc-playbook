@@ -24,6 +24,8 @@ SOFTWARE.
 
 ## Attribution Notice
 
+### DEFRA AI SDLC Playbook
+
 Portions of this repository are derived from the
 "DEFRA AI SDLC Playbook" (https://github.com/DEFRA/defra-ai-sdlc)
 © Crown copyright (2023) Department for Environment, Food & Rural Affairs.
@@ -37,3 +39,12 @@ DEFRA does **not** endorse this modified version.
 
 For more information on the Open Government Licence, see:
 http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+
+### Awesome CursorRules
+
+The cursor rules section of this repository references and is inspired by
+"awesome-cursorrules" (https://github.com/PatrickJS/awesome-cursorrules)
+© Patrick JS and contributors, released under the CC0-1.0 license.
+
+This curated list of .cursorrules files has provided valuable examples and patterns
+for enhancing AI-assisted development with Cursor.
