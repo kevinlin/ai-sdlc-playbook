@@ -66,7 +66,7 @@ Please provide:
 2. Any potential bugs or issues that need to be addressed
 3. Performance considerations and optimization suggestions if applicable
 4. General comment that start with overall summary, followed by all the findings.
-5. DO NOT add a Final Summary comment
+5. DO NOT include a Final Summary comment
 
 Add comments directly to the merge request where possible.
 
