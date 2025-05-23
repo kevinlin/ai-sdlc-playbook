@@ -6,27 +6,41 @@ To get started working with AI ways of working, it's helpful to have a conceptua
 
 Below is a diagram that provides a high-level overview of the steps defined in this playbook. For the most part, this development workflow follows recognised best practices already established throughout government, with the additional aid of AI tools and techniques.
 
-![](attachments/development-workflow-diagram.png)
+```mermaid
+---
+config:
+  layout: dagre
+---
+flowchart TD
+    A["Product Idea"] -- Prompt with input --> B["Requirement document / Functional specificaiton"]
+    B -- Prompt with input --> C["Technical Specification"]
+    C -- Prompt with input --> D["Tests"] & E["Application Code"]
+    D -- Test passes --> E
+    E -- Refactor code as necessary --> D
+    E -- Prompt with input --> G["Create / update documentation"]
+    G -- Prompt with MCP --> H["Code review on Pull Request"]
+    H --> E
+    H -- Approve pull request --> I["Feature Branch Merged"]
+```
 
 *Image: Simplified development workflow diagram*
 
-### Key stages of the workflow
+### Workflow stages
 
 - **Product / Service idea** - This represents the problems to be solved for your users using existing service design and user research techniques.
-- **Prompt to generate requirements documents and designs** - Using advanced models, such as the latest "thinking" models, the clearly defined ideas can be used to generate requirements documentation (features, user stories, data models, etc.) that the AI IDEs (Integrated Development Environment - Cursor) can later use to generate code. 
-- **Create a new feature branch in git** - This workflow uses traditional git branching strategies for code versioning.
-- **Take requirements and prompt to generate code** - The requirements generated in the previous step are then used to prompt the AI IDE tools to generate code.
-- **Take requirements and prompt to generate tests** - Tests can be generated from the same product requirements in the AI IDE, ensuring the business logic defined in the requirements are tested independently from the code generation.
-- **Prompt to refactor as necessary** - Additional refactoring of the code can also be prompted at this point.
+- **Prompt to generate requirements document / functional specification** - Using advanced models, such as the latest "thinking" models, the clearly defined ideas can be used to generate requirements documentation (features, user stories, data models, etc.) that the AI IDEs (Integrated Development Environment - Cursor) can later use to generate code.
+- **Prompt to generate technical specification** - The requirements document is then used to create a detailed technical specification that defines the architecture, implementation approach, and technical details needed for development.
+- **Prompt to generate tests and application code** - Both tests and application code are generated from the technical specification in the AI IDE, ensuring the business logic defined in the requirements are tested independently from the code generation.
+- **Test-driven development cycle** - Tests must pass before code is considered complete, with refactoring prompted as necessary to ensure code quality and test compliance.
 - **Prompt to create / update documentation** - Documentation can be kept up to date by prompting the AI IDE to update documentation based on the changes that have been made.
-- **Create MR for developer code review** - A Merge Request (MR) in git is then generated following traditional development practices. Each line of code is reviewed for quality and brevity, ensuring that the code to be deployed is production-ready.
-- **Merge & Deploy** - Once the MR is merged into the main branch, the automated pipeline processes are used to deploy the code, as per your normal deployment processes.
+- **Create Pull Request for developer code review using MCP** - A Pull Request (PR) in git is then generated following traditional development practices, with Model Context Protocol (MCP) tools assisting in the review process. Each line of code is reviewed for quality and brevity, ensuring that the code to be deployed is production-ready.
+- **Merge feature branch** - Once the PR is approved and merged into the main branch, the feature branch is merged and automated pipeline processes are used to deploy the code, as per your normal deployment processes.
 
 ## Generating Consistent Code
 
 To generate consistent code, multiple elements must come together as depicted in this diagram:
 
-![](attachments/venn-diagram-consistent-code.png)
+![](venn-diagram-consistent-code.png)
 
 *Image: Venn diagram depicting the intersection of elements for consistent AI code generation*
 
