@@ -12,7 +12,7 @@ config:
   layout: dagre
 ---
 flowchart TD
-    A["Product Idea"] -- Prompt with input --> B["Requirement document / Functional specificaiton"]
+    A["Product Idea"] -- Prompt with input --> B["Functional Requirement"]
     B -- Prompt with input --> C["Technical Specification"]
     C -- Prompt with input --> D["Tests"] & E["Application Code"]
     D -- Test passes --> E
@@ -28,7 +28,7 @@ flowchart TD
 ### Workflow stages
 
 - **Product / Service idea** - This represents the problems to be solved for your users using existing service design and user research techniques.
-- **Prompt to generate requirements document / functional specification** - Using advanced models, such as the latest "thinking" models, the clearly defined ideas can be used to generate requirements documentation (features, user stories, data models, etc.) that the AI IDEs (Integrated Development Environment - Cursor) can later use to generate code.
+- **Prompt to generate functiional requirement** - Using advanced models, such as the latest "thinking" models, the clearly defined ideas can be used to generate requirements documentation (features, user stories, data models, etc.) that the AI IDEs (Integrated Development Environment - Cursor) can later use to generate code.
 - **Prompt to generate technical specification** - The requirements document is then used to create a detailed technical specification that defines the architecture, implementation approach, and technical details needed for development.
 - **Prompt to generate tests and application code** - Both tests and application code are generated from the technical specification in the AI IDE, ensuring the business logic defined in the requirements are tested independently from the code generation.
 - **Test-driven development cycle** - Tests must pass before code is considered complete, with refactoring prompted as necessary to ensure code quality and test compliance.
