@@ -29,3 +29,21 @@
     background-color: #666;
     color: #fff;
 }
+
+/* Force text wrapping in code blocks */
+.highlight pre,
+.highlight code,
+.codehilite pre,
+.codehilite code {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+}
+
+/* Ensure inline code also wraps */
+code {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
