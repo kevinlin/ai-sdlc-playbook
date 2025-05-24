@@ -15,6 +15,7 @@ theme:
     text: Luto
   features:
     - content.action.edit
+    - content.code.copy
 extra_css:
 - stylesheets/extra.css
 plugins:
