@@ -8,7 +8,7 @@ This playbook provides guidance on best practices for integrating AI into the So
 	1. [Getting Started](workflow/workflow-getting-started.md)
 	2. [Project Setup](workflow/workflow-project-setup.md)
 	3. Feature Development Lifecycle
-		1. [Functional Requirements](workflow/workflow-functional-requirements.md)
+		1. [Functional Requirement](workflow/workflow-functional-requirement.md)
 		2. [Technical Specification](workflow/workflow-technical-specification.md)
 		3. [Development](workflow/workflow-development.md)
 		4. [Testing](workflow/workflow-testing.md)

@@ -9,7 +9,7 @@ By following this workflow, teams can efficiently integrate AI into their develo
 1. **[Getting Started](workflow-getting-started.md)** - A conceptual overview of getting started with AI development workflows.
 2. **[Project Setup](workflow-project-setup.md)** - Define the foundational elements for the project, ensuring all necessary files, tools, and conventions are in place.
 3. **Feature Development Lifecycle**
-	1. [Functional Requirements](workflow-functional-requirements.md) - Define expected behavior, UI, testable features, and user experience using AI tools to draft and refine.
+	1. [Functional Requirement](workflow-functional-requirement.md) - Define expected behavior, UI, testable features, and user experience using AI tools to draft and refine.
   	2. [Technical Specification](workflow-technical-specification.md) - Define technical implementation, data models, API endpoints, and backend architecture.
 	3. [Development](workflow-development.md) - Develop the solution iteratively, leveraging AI for implementation.
 	4. [Testing](workflow-testing.md) - Unit, Functional and End to End testing

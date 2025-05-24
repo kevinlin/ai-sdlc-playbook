@@ -56,6 +56,6 @@ Ensure all documentation is:
 
 ## Next Steps
 
-Once your project setup is complete, proceed to the feature development lifecycle: 
+Once your project setup is complete, proceed to the feature development lifecycle:
 
-**[Functional Requirements](workflow-functional-requirements.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.
+**[Functional Requirement](workflow-functional-requirement.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.

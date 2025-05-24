@@ -2,22 +2,22 @@
 
 This section provides a structured approach to creating detailed technical specifications for an AI-powered development workflow. Technical specifications define how the system will be implemented, focusing on data models, API endpoints, backend architecture, and technical implementation details.
 
-The technical specification should be created after the [Functional Requirements](workflow-functional-requirements.md) have been defined and approved, as it translates the functional needs into technical implementation details.
+The technical specification should be created after the [Functional Requirement](workflow-functional-requirement.md) have been defined and approved, as it translates the functional needs into technical implementation details.
 
 ## 1. Define the Data Model
 
-Once you have detailed functional requirements, use an LLM to create a detailed data model. If the data model is not correct and does not follow the logic of your business requirements at this early stage, then it's unlikely the end result of the development process will function as expected. A data model also gives the LLMs guidance later in the process on how to structure code and models to conform to the data being stored, processed and retrieved.
+Once you have detailed functional requirement, use an LLM to create a detailed data model. If the data model is not correct and does not follow the logic of your business requirements at this early stage, then it's unlikely the end result of the development process will function as expected. A data model also gives the LLMs guidance later in the process on how to structure code and models to conform to the data being stored, processed and retrieved.
 
 Use the following prompt to define the data model, use an advanced reasoning model, such as a 'thinking' model for all heavy analysis technical work:
 
 ```
-I'd like to create a data model based on the following functional requirements and technical needs.
+I'd like to create a data model based on the following functional requirement and technical needs.
 
 ANALYSIS PHASE:
 
-Read, analyse and understand the following functional requirements:
+Read, analyse and understand the following functional requirement:
 
-[PASTE THE FUNCTIONAL REQUIREMENTS HERE]
+[PASTE THE FUNCTIONAL REQUIREMENT HERE]
 
 Ask any follow up questions that will clear up any ambiguities if needed.
 
@@ -35,7 +35,7 @@ Consider the following technical aspects:
 
 VERIFICATION AND COMPLETION PHASE:
 
-- Make sure the final model covers all the functional requirements
+- Make sure the final model covers all the functional requirement
 - Ensure the model is optimized for the expected query patterns
 - Highlight any areas where you have made assumptions
 - Include recommendations for database configuration
@@ -45,7 +45,7 @@ Once it produces a data model, review the data model thoroughly with your team t
 
 ## 2. Backend Requirements and Architecture
 
-Define the backend architecture and technical requirements that will support your functional requirements:
+Define the backend architecture and technical requirements that will support your functional requirement:
 
 ### 2.1. Backend System Requirements
 
@@ -90,10 +90,10 @@ If using an API for your backend, generate API endpoint requirements based on yo
 Run the following prompt, use an advanced reasoning model:
 
 ```
-Given the attached data model and functional requirements, please create detailed requirements for API endpoints that follow RESTful conventions. Please also include examples of the request/response objects for each endpoint.
+Given the attached data model and functional requirement, please create detailed requirements for API endpoints that follow RESTful conventions. Please also include examples of the request/response objects for each endpoint.
 
-FUNCTIONAL REQUIREMENTS:
-[PASTE FUNCTIONAL REQUIREMENTS HERE]
+FUNCTIONAL REQUIREMENT:
+[PASTE FUNCTIONAL REQUIREMENT HERE]
 
 DATA MODEL:
 [PASTE DATA MODEL HERE]
@@ -159,10 +159,10 @@ Define the overall technical architecture that will support your system:
 Use the following prompt to create a comprehensive technical architecture:
 
 ```
-Based on the following functional requirements, data model, and API specifications, create a detailed technical architecture document:
+Based on the following functional requirement, data model, and API specifications, create a detailed technical architecture document:
 
-FUNCTIONAL REQUIREMENTS:
-[PASTE FUNCTIONAL REQUIREMENTS HERE]
+FUNCTIONAL REQUIREMENT:
+[PASTE FUNCTIONAL REQUIREMENT HERE]
 
 DATA MODEL:
 [PASTE DATA MODEL HERE]
@@ -371,4 +371,4 @@ Once you have the markdown text, save it in the folder that was set up at the st
 
 ## Next Steps
 
-Once your technical specification is complete, you can proceed with the development phase where both the [Functional Requirements](workflow-functional-requirements.md) and Technical Specification will be used together to guide the AI-powered code generation process. 
+Once your technical specification is complete, you can proceed with the development phase where both the [Functional Requirement](workflow-functional-requirement.md) and Technical Specification will be used together to guide the AI-powered code generation process. 
