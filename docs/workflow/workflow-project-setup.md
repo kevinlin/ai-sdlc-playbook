@@ -53,3 +53,9 @@ Ensure all documentation is:
 - version controlled
 - accessible to the IDE
 - formatted in markdown
+
+## Next Steps
+
+Once your project setup is complete, proceed to the feature development lifecycle: 
+
+**[Functional Requirements](workflow-functional-requirements.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.
