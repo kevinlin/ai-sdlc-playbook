@@ -10,8 +10,8 @@ This guide outlines how to set up a development project using AI tools and techn
 ## Initial Setup
 
 1. **Choose Project Platform**
-	 - select hosting platform (Azure DevOps, GitHub, GitLab, Bitbucket)
-	 - agree on Git branching strategy
+	- select hosting platform (Azure DevOps, GitHub, GitLab, Bitbucket)
+	- agree on Git branching strategy
     - document collaboration guidelines
 
 1. **Configure Repository**
@@ -21,9 +21,12 @@ This guide outlines how to set up a development project using AI tools and techn
 ## Development Environment
 
 1. **Configure AI-Powered IDE**
-    - install Cursor
-    - add required VS Code extensions
-    - set up language-specific plugins
+    - **Cursor**
+        - Install Cursor
+        - Add required VS Code extensions
+        - Set up language-specific plugins
+    - **GitHub Coplilot**
+        - Install GitHub Copliot plugin to VS Code / JetBrains IDE
 
 2. **Configure Privacy Settings - IMPORTANT**
     - In ChatGPT -> Settings -> Data Controls -> "Improve the model for everyone" ->  toggle off / disable
@@ -32,18 +35,21 @@ This guide outlines how to set up a development project using AI tools and techn
 **IMPORTANT:** Privacy settings must be enabled. This ensures that data is not persisted on providers servers and it is not used for training models. 
 
 3. **Add Required Files**
-    - copy language-specific files from [language-specific library](../language-specific/README.md)
+    - copy language-specific rules from [programing language rules](../cursor-rules/languages/README.md)
+    - copy framework-specific rules from [framework rules](../cursor-rules/frameworks/README.md)
     - customise IDE rules for team requirements
     - update system prompt for LLM base understanding
 
 ## Using Repository Documentation
 
 Create directory within the repository to store documentation, such as:
+
 - product requirements
 - architecture documentation
-- development rules and guidelines (reference [IDE rules](../language-specific/README.md))
+- development rules and guidelines (reference [IDE rules](../cursor-rules/common/README.md))
 
 Ensure all documentation is:
+
 - version controlled
 - accessible to the IDE
 - formatted in markdown
