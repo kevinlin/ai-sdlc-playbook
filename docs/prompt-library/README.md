@@ -9,6 +9,9 @@ This library provides a curated selection of prompts to optimise your use of AI 
 
 ## Available Prompts
 
+### General
+- [Human-like Writing](general/prompt-human-like.md) - Make AI responses more natural and human-like
+
 ### Product Specification
 For understanding of product requirements prompt sequencing, please refer to the workflow steps in [Product Workflow](../workflow/workflow-product-requirements.md)
 
