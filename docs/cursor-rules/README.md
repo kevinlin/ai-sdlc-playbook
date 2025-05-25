@@ -60,3 +60,7 @@ graph TD
 1. Browse the rules for the relevant language and framework
 2. Apply the applicable rules to your project
 3. Contribute your own rules back
+
+## Memory Bank for Cursor
+
+The Memory Bank is a feature that allows Cursor to store, recall, and manage contextual information, such as sticky notes, project-specific knowledge, and user preferences. This helps the AI provide more relevant suggestions and maintain continuity across sessions. Learn more in the [Memory Bank documentation](memory-bank.md).
