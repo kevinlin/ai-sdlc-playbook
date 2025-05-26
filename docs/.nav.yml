@@ -2,4 +2,5 @@ nav:
   - README.md
   - workflow
   - cursor-rules
+  - mcp-server
   - prompt-library
