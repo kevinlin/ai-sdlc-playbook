@@ -1,5 +1,13 @@
 # Python Best Practices
 
+To create a new Cursor Rule:
+
+1. Enter the name as `python`
+2. Copy & paste the file content from below
+
+For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).
+
+
 ```markdown
 ---
 description: Python Best Practices
