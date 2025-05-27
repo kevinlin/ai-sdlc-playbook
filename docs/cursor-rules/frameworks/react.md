@@ -11,10 +11,9 @@ For more information, visit the [Project rules](https://docs.cursor.com/context/
 ```markdown
 ---
 description: React Best Practices
-globs: **/*.jsx, **/*.tsx, components/**/*
+globs: **/*.ts, **/*.tsx
 alwaysApply: false
 ---
-
 
 # React Best Practices
 
