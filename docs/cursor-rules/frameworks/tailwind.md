@@ -1,7 +1,12 @@
+# Tailwind CSS Best Practices
+
+```markdown
 ---
-description: Tailwind CSS and UI component best practices for modern web applications
-globs: **/*.css, **/*.tsx, **/*.jsx, tailwind.config.js, tailwind.config.ts
+description: Tailwind CSS Best Practices
+globs: **/*.css, **/*.html, **/*.jsx, **/*.tsx
+alwaysApply: false
 ---
+
 
 # Tailwind CSS Best Practices
 
@@ -75,4 +80,5 @@ globs: **/*.css, **/*.tsx, **/*.jsx, tailwind.config.js, tailwind.config.ts
 - Use proper documentation
 - Implement proper testing
 - Follow accessibility guidelines
-- Use proper version control 
+- Use proper version control
+```

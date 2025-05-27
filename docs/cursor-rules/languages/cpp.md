@@ -1,8 +1,12 @@
+# C++ Programming Guidelines
+
+```markdown
 ---
-description: 
-globs: **/*.c,**/*.cpp,**/*.h,**/*.hpp,**/*.cxx,CMakeLists.txt,*.cmake,conanfile.txt,Makefil,**/*.cc
+description: C++ Programming Guidelines
+globs: **/*.cpp, **/*.hpp, **/*.c, **/*.h
 alwaysApply: false
 ---
+
 # C++ Programming Guidelines
 
 ## Basic Principles
@@ -131,4 +135,4 @@ alwaysApply: false
 - Use std::atomic for atomic operations.
 - Avoid data races by proper synchronization.
 - Use thread-safe data structures when necessary.
-
+```

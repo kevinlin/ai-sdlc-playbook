@@ -1,7 +1,12 @@
+# FastAPI Best Practices
+
+```markdown
 ---
-description: FastAPI best practices and patterns for building modern Python web APIs
-globs: **/*.py, app/**/*.py, api/**/*.py
+description: FastAPI Best Practices
+globs: **/*.py, app/**/*.py
+alwaysApply: false
 ---
+
 
 # FastAPI Best Practices
 
@@ -83,4 +88,5 @@ globs: **/*.py, app/**/*.py, api/**/*.py
 - Use proper type hints
 - Keep documentation updated
 - Document error scenarios
-- Use proper versioning 
+- Use proper versioning
+```

@@ -1,13 +1,12 @@
+# TypeScript, React Native, Expo, and Mobile UI Development Rules
+
+```markdown
 ---
-description: 
-globs: 
+description: TypeScript, React Native, Expo, and Mobile UI Development Rules
+globs: **/*.jsx, **/*.tsx
 alwaysApply: false
 ---
----
-description: This rule explains the usage and best practices for TypeScript, React Native, Expo, and mobile UI development.
-globs: **/*.jsx,**/*.tsx
-alwaysApply: false
----
+
 
 # TypeScript, React Native, Expo, and Mobile UI Development Rules
 
@@ -107,3 +106,4 @@ alwaysApply: false
 - Use the official Expo documentation to set up and configure your project: https://docs.expo.dev/
 
 Refer to the Expo documentation for best practices on Views, Blueprints, and Extensions.
+```

@@ -1,13 +1,12 @@
+# SwiftUI Rules
+
+```markdown
 ---
-description: 
-globs: 
-alwaysApply: false
----
----
-description: This rule explains the patterns and best practices for developing in iOS, macOS, watchOS, and tvOS using SwiftUI.
+description: SwiftUI Rules
 globs: **/*.swift
 alwaysApply: false
 ---
+
 
 # SwiftUI Rules
 
@@ -18,4 +17,5 @@ alwaysApply: false
 - Create custom ViewModifiers to implement reusable styles
 - Use environment objects for dependency injection
 - Use LazyVStack and LazyHStack for large collections
-- Extract complex view logic into separate components 
+- Extract complex view logic into separate components
+```

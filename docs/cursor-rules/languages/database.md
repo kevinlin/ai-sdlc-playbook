@@ -1,7 +1,12 @@
+# Database Best Practices
+
+```markdown
 ---
-description: Database best practices focusing on Prisma and Supabase integration
-globs: prisma/**/*, src/db/**/*, **/*.prisma, supabase/**/*
+description: Database Best Practices
+globs: **/*.sql, **/*.db
+alwaysApply: false
 ---
+
 
 # Database Best Practices
 
@@ -83,4 +88,5 @@ globs: prisma/**/*, src/db/**/*, **/*.prisma, supabase/**/*
 - Implement proper versioning
 - Handle errors properly
 - Document schema properly
-- Monitor database health 
+- Monitor database health
+```

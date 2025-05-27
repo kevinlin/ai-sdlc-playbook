@@ -1,13 +1,12 @@
+# Django rules
+
+```markdown
 ---
-description: 
-globs: 
+description: Django rules
+globs: **/*.py, **/models.py, **/views.py
 alwaysApply: false
 ---
----
-description: This rule explains the conventions and best practices for Django backend development.
-globs: **/*.py
-alwaysApply: false
----
+
 
 # Django rules
 
@@ -40,4 +39,5 @@ class ActiveUserManager(models.Manager):
 ```
 
 - Use Django's built-in authentication system
-- Store settings in environment variables and access them via `settings.py` 
+- Store settings in environment variables and access them via `settings.py`
+```

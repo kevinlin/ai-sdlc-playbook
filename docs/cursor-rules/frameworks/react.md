@@ -1,7 +1,12 @@
+# React Best Practices
+
+```markdown
 ---
-description: React best practices and patterns for modern web applications
-globs: **/*.tsx, **/*.jsx, components/**/*
+description: React Best Practices
+globs: **/*.jsx, **/*.tsx, components/**/*
+alwaysApply: false
 ---
+
 
 # React Best Practices
 
@@ -75,4 +80,5 @@ globs: **/*.tsx, **/*.jsx, components/**/*
 - Implement proper directory structure
 - Keep styles close to components
 - Use proper imports/exports
-- Document complex component logic 
+- Document complex component logic
+```

@@ -1,13 +1,12 @@
+# General Project Guidelines
+
+```markdown
 ---
-description: 
-globs: 
-alwaysApply: true
+description: General Project Guidelines
+globs: **/*
+alwaysApply: false
 ---
----
-description: General project standards and basic information
-globs: ["*"]
-alwaysApply: true
----
+
 
 # General Project Guidelines
 
@@ -38,4 +37,5 @@ alwaysApply: true
 - Consider code maintainability and scalability  
 
 ## Response Language
-- Always respond to users in English  
+- Always respond to users in English
+```

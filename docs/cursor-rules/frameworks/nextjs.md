@@ -1,7 +1,12 @@
+# Next.js Best Practices
+
+```markdown
 ---
-description: Next.js with TypeScript and Tailwind UI best practices
-globs: **/*.tsx, **/*.ts, src/**/*.ts, src/**/*.tsx
+description: Next.js Best Practices
+globs: **/*.jsx, **/*.tsx, pages/**/*
+alwaysApply: false
 ---
+
 
 # Next.js Best Practices
 
@@ -49,4 +54,5 @@ globs: **/*.tsx, **/*.ts, src/**/*.ts, src/**/*.tsx
 - Minimize client-side state
 - Use React Context sparingly
 - Prefer server state when possible
-- Implement proper loading states 
+- Implement proper loading states
+```

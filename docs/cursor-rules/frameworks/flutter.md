@@ -1,13 +1,12 @@
+# Flutter Rules
+
+```markdown
 ---
-description: 
-globs: 
-alwaysApply: false
----
----
-description: This rule explains the best practices for Flutter widget patterns and cross-platform mobile development.
+description: Flutter Rules
 globs: **/*.dart
 alwaysApply: false
 ---
+
 
 # Flutter Rules
 
@@ -41,3 +40,4 @@ alwaysApply: false
 ## Performance optimisation
 - Prefer StatelessWidget when state is not required.
 - Make use of const constructors: if widgets are immutable, use const to optimise builds.
+```

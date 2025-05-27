@@ -1,7 +1,12 @@
+# TypeScript Best Practices
+
+```markdown
 ---
-description: TypeScript coding standards and best practices for modern web development
-globs: *.ts, *.tsx, *.d.ts
+description: TypeScript Best Practices
+globs: **/*.ts, **/*.tsx
+alwaysApply: false
 ---
+
 
 # TypeScript Best Practices
 
@@ -54,4 +59,5 @@ globs: *.ts, *.tsx, *.d.ts
 - Implement the Repository pattern for data access
 - Use the Factory pattern for object creation
 - Leverage dependency injection
-- Use the Module pattern for encapsulation 
+- Use the Module pattern for encapsulation
+```

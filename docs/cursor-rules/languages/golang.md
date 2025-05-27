@@ -1,8 +1,12 @@
+# Golang Guidelines
+
+```markdown
 ---
-description: conventions and best practices for Golang
-globs: *.go
+description: Golang Guidelines
+globs: **/*.go
 alwaysApply: false
 ---
+
 
 # Golang Guidelines
 
@@ -34,3 +38,4 @@ Always use the latest stable version of Go (1.22 or newer), and be familiar with
 - Use Go's testing package to provide suggestions for testing API endpoints.
 
 Always prioritize security, scalability, and maintainability in API design and implementation. Leverage the power and simplicity of the Go standard library to create efficient and idiomatic APIs.
+```

@@ -1,8 +1,12 @@
+# Git Guidelines
+
+```markdown
 ---
-description: Assit git commit message generation
-globs: 
+description: Git Guidelines
+globs: **/*
 alwaysApply: false
 ---
+
 # Git Guidelines
 
 ## Important Principles
@@ -50,6 +54,4 @@ feat(web): implement email verification workflow
 | Bugfix       | fix/[issueID]-[desc]    | fix/issue-42-login-crash     |
 | Release      | release/[version]       | release/v2.1.0               |
 | Hotfix       | hotfix/[version]-[desc] | hotfix/v2.0.1-payment-fix    |
-
-
-
+```

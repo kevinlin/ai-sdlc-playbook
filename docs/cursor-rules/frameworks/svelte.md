@@ -1,7 +1,12 @@
+# Svelte Best Practices
+
+```markdown
 ---
-description: Svelte best practices and patterns for modern web applications
-globs: **/*.svelte, src/**/*.ts, src/**/*.js
+description: Svelte Best Practices
+globs: **/*.svelte, **/*.js, **/*.ts
+alwaysApply: false
 ---
+
 
 # Svelte Best Practices
 
@@ -83,4 +88,5 @@ globs: **/*.svelte, src/**/*.ts, src/**/*.js
 - Use proper environment variables
 - Implement proper code splitting
 - Use proper asset handling
-- Configure proper optimization 
+- Configure proper optimization
+```

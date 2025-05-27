@@ -1,8 +1,12 @@
+# TypeScript coding standards and type safety guidelines
+
+```markdown
 ---
-description: 
-globs: packages/server/**/*.ts
+description: TypeScript coding standards and type safety guidelines
+globs: **/*.ts, src/**/*.ts
 alwaysApply: false
 ---
+
 # TypeScript coding standards and type safety guidelines
 
 - Use strict null checks to prevent null or undefined errors
@@ -45,3 +49,4 @@ alwaysApply: false
 - Implement conditional validation using the `@ValidateIf()` decorator
 - Use the `ValidationPipe` in NestJS for automatic DTO validation
 - Leverage the `ValidationError` class for detailed error reporting
+```

@@ -1,8 +1,12 @@
+# Documentation Guidelines
+
+```markdown
 ---
-description: 
-globs: *.md
+description: Documentation Guidelines
+globs: **/*.md, **/*.txt
 alwaysApply: false
 ---
+
 # Documentation Guidelines
 
 ## General Requirements
@@ -44,9 +48,4 @@ alwaysApply: false
 - Add appropriate comments to explain key parts
 - Explain the expected output or behavior of the code
 - Update examples to match the latest API
-
-
-
-
-
-
+```

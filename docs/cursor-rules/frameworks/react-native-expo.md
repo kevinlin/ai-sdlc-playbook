@@ -1,8 +1,12 @@
+# React Native Expo Best Practice
+
+```markdown
 ---
-description: Best practices for React Native applications using Expo
-globs: **/*.ts,**/*.tsx
+description: React Native Expo Best Practice
+globs: **/*.jsx, **/*.tsx
 alwaysApply: false
 ---
+
 # React Native Expo Best Practice
 
 - Use functional components with hooks for better state management and reusability
@@ -53,3 +57,4 @@ alwaysApply: false
 - Implement proper version control and release management
 - Use Expo's build services for easy app store submissions
 - Follow Expo's guidelines for app store optimization and metadata
+```

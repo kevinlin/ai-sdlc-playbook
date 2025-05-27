@@ -1,7 +1,12 @@
+# Vue.js Best Practices
+
+```markdown
 ---
-description: Vue.js best practices and patterns for modern web applications
-globs: **/*.vue, **/*.ts, components/**/*
+description: Vue.js Best Practices
+globs: **/*.vue, **/*.js, **/*.ts
+alwaysApply: false
 ---
+
 
 # Vue.js Best Practices
 
@@ -83,4 +88,5 @@ globs: **/*.vue, **/*.ts, components/**/*
 - Use proper environment variables
 - Implement proper code splitting
 - Use proper asset handling
-- Configure proper optimization 
+- Configure proper optimization
+```

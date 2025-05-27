@@ -1,7 +1,12 @@
+# Python Best Practices
+
+```markdown
 ---
-description: Python best practices and patterns for modern software development with Flask and SQLite
+description: Python Best Practices
 globs: **/*.py, src/**/*.py, tests/**/*.py
+alwaysApply: false
 ---
+
 
 # Python Best Practices
 
@@ -118,3 +123,4 @@ globs: **/*.py, src/**/*.py, tests/**/*.py
 - Use proper package versions
 - Regularly update dependencies
 - Check for security vulnerabilities
+```

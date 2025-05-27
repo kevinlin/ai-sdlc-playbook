@@ -1,6 +1,9 @@
+# Java and Spring Boot Guidelines
+
+```markdown
 ---
-description: This rule explains the conventions and best practices for Java and SpringBoot.
-globs: *.java
+description: Java and Spring Boot Guidelines
+globs: **/*.java, src/**/*.java
 alwaysApply: false
 ---
 
@@ -81,3 +84,4 @@ Follow these best practices:
 - Use Spring's @Async or Spring WebFlux for reactive programming and asynchronous processing.
 
 Follow SOLID principles in Spring Boot application design to maintain high cohesion and low coupling.
+``` 

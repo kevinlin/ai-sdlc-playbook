@@ -1,7 +1,12 @@
+# Node.js and Express.js Best Practices
+
+```markdown
 ---
-description: Node.js and Express.js best practices for backend development
-globs: **/*.js, **/*.ts, src/**/*.ts
+description: Node.js and Express.js Best Practices
+globs: **/*.js, **/*.ts, routes/**/*
+alwaysApply: false
 ---
+
 
 # Node.js and Express.js Best Practices
 
@@ -83,4 +88,5 @@ globs: **/*.js, **/*.ts, src/**/*.ts
 - Implement proper error handling
 - Use proper logging
 - Handle process signals properly
-- Document code properly 
+- Document code properly
+```

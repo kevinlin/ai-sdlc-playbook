@@ -1,8 +1,12 @@
+# Documentation Guidelines
+
+```markdown
 ---
-description: 
-globs: *.md,*.mdc
+description: Documentation Guidelines
+globs: **/*.md, **/*.mdc
 alwaysApply: false
 ---
+
 # Documentation Guidelines
 
 ## General Requirements
@@ -66,3 +70,4 @@ alwaysApply: false
 - Regularly check the accuracy and timeliness of documentation
 - Encourage users to provide feedback on documentation issues
 - Fix discovered documentation errors as a priority
+```

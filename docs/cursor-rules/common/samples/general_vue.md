@@ -1,8 +1,12 @@
+# General Project Guidelines
+
+```markdown
 ---
-description: 
-globs: 
-alwaysApply: true
+description: General Project Guidelines
+globs: **/*
+alwaysApply: false
 ---
+
 # General Project Guidelines
 
 ## Tech Stack
@@ -37,4 +41,4 @@ This project uses the following rule files:
 - document.mdc: Documentation guidelines
 - git.mdc: Git commit guidelines
 - xxx.mdc: XXX language development guidelines
-
+```

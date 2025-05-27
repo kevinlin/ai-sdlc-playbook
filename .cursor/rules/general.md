@@ -1,8 +1,12 @@
+# General Rules
+
+```markdown
 ---
-description: General playbook rules
-globs: *.md
+description: General Rules
+globs: **/*
 alwaysApply: false
 ---
+
 # General Rules
 - Think step by step and plan before making any additions or changes to the code.
 - Always make targeted edits when changing.
@@ -15,3 +19,4 @@ When reviewing and refactoring content:
 - We do not want to lose content, so don't remove anything that would diminish the original ideas conveyed in the text.
 - Don't overly generalise things, make the content specific.
 - Keep the changes to content improvements. Do not change the structure.
+``` 

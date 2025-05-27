@@ -1,13 +1,12 @@
+# Flask rules
+
+```markdown
 ---
-description: 
-globs: 
+description: Flask rules
+globs: **/*.py, app/**/*.py
 alwaysApply: false
 ---
----
-description: This rule explains the conventions and best practices for Flask lightweight Python Web applications.
-globs: **/*.py
-alwaysApply: false
----
+
 
 # Flask rules
 
@@ -18,4 +17,5 @@ alwaysApply: false
 - Store configuration in environment variables
 - Use Flask-Migrate for database migrations
 - Use error handlers to implement appropriate error handling
-- Use Flask-RESTful or similar tools to build APIs 
+- Use Flask-RESTful or similar tools to build APIs
+```
