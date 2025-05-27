@@ -1,8 +1,8 @@
-# Markdown Guidelines
+# Documentation Guidelines
 
 To create a new Cursor Rule:
 
-1. Enter the name as `markdown`
+1. Enter the name as `document`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).
@@ -10,12 +10,12 @@ For more information, visit the [Project rules](https://docs.cursor.com/context/
 
 ```markdown
 ---
-description: Markdown Guidelines
+description: Documentation Guidelines
 globs: **/*.md, **/*.txt
 alwaysApply: false
 ---
 
-# Markdown Guidelines
+# Documentation Guidelines
 
 ## General Requirements
 - All documentation should use Markdown format
