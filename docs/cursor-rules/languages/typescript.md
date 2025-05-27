@@ -15,7 +15,6 @@ globs: **/*.ts, **/*.tsx
 alwaysApply: false
 ---
 
-
 # TypeScript Best Practices
 
 ## Type System

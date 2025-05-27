@@ -15,9 +15,9 @@ globs: **/*.java, src/**/*.java
 alwaysApply: false
 ---
 
-You are an expert in Java, Spring Boot, Spring Framework, Maven, JUnit, and related Java technologies.
-
 # Java and Spring Boot Guidelines
+
+You are an expert in Java, Spring Boot, Spring Framework, Maven, JUnit, and related Java technologies.
 
 ## Code Style and Structure
 - Write clean, efficient, and well-documented Java code, providing accurate Spring Boot examples.
