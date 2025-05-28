@@ -1,4 +1,4 @@
-# Project Setup
+# 2. Project Setup
 
 Setting up a development project effectively using AI tools and techniques ensures smooth collaboration, high productivity, and adherence to best practices. Below is a detailed guide for initializing your project:
 
@@ -58,4 +58,4 @@ Ensure all documentation is:
 
 Once your project setup is complete, proceed to the feature development lifecycle:
 
-**[Functional Requirement](workflow-functional-requirement.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.
+**[Functional Requirement](03-functional-requirement.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.

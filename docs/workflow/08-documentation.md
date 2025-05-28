@@ -1,4 +1,4 @@
-# Documentation
+# 3.6 Documentation
 
 ## Overview
 
@@ -35,7 +35,7 @@ As the codebase grows, the importance of comprehensive documentation increases. 
 
 ### Embedding Documentation into Development
 
-Consider documentation as an integral part of the development lifecycle (ref: [workflow-development](workflow-development.md)), not a separate task to be completed later. LLMs make it straightforward to maintain clear and consistent documentation as you work, generating drafts for function descriptions, usage guides and code doc-strings in real-time.
+Consider documentation as an integral part of the development lifecycle (ref: [05-development](05-development.md)), not a separate task to be completed later. LLMs make it straightforward to maintain clear and consistent documentation as you work, generating drafts for function descriptions, usage guides and code doc-strings in real-time.
 
 ### Using Documentation as a Knowledge Base
 

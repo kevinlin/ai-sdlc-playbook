@@ -1,4 +1,4 @@
-# Testing Workflow
+# 3.4 Testing
 
 Testing effectively with AI can be challenging—often more so than developing new features. While AI can readily generate tests, these tests are not always valuable in the long term. We have observed that automated test creation without careful consideration often produces brittle, tightly coupled tests that break with code changes, offering little practical value.
 
@@ -46,7 +46,7 @@ If an integration test already comprehensively covers a specific logic path, a s
 
 3. **Realistic Mocking of External Dependencies**  
    - **Do mock:** Truly external systems such as databases, third-party APIs, and file systems—simulate realistic responses and error conditions.  
-   - **Don’t mock:** Internal modules, classes, or functions; test these together to ensure authentic interactions and comprehensive coverage.
+   - **Don't mock:** Internal modules, classes, or functions; test these together to ensure authentic interactions and comprehensive coverage.
 
 4. **Adopt a Structured Test Design**  
    - Utilise a clear narrative structure, such as the Given-When-Then format:

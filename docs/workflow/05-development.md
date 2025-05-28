@@ -1,4 +1,4 @@
-# Development
+# 3.3 Development
 
 This section outlines the recommended process and guidelines for developing features using an AI-powered development workflow.
 
@@ -37,11 +37,11 @@ Before starting development, ensure you have:
 
 ### 4. Test
 
-- See [Testing Workflow](workflow-testing.md)
+- See [Testing Workflow](06-testing.md)
 
 ### 5. Refactor
 
-- See [Refactoring Workflow](workflow-refactoring.md)
+- See [Refactoring Workflow](07-refactoring.md)
 
 ### 6. Code Review
 

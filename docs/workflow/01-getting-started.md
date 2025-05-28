@@ -1,4 +1,4 @@
-# Getting Started
+# 1. Getting Started
 
 To get started working with AI ways of working, it's helpful to have a conceptual understanding of how to use this playbook to generate quality, consistent code.
 
@@ -53,6 +53,6 @@ To generate consistent code, multiple elements must come together as depicted in
 
 ## Next steps
 
-To get started, ensure that your [project is set up for AI development](workflow-project-setup.md) and follow the steps in the [Playbook Workflow](README.md). **IMPORTANT - this includes ensuring that privacy settings are enabled, per the [project is set up](workflow-project-setup.md).** 
+To get started, ensure that your [project is set up for AI development](02-project-setup.md) and follow the steps in the [Playbook Workflow](README.md). **IMPORTANT - this includes ensuring that privacy settings are enabled, per the [project is set up](02-project-setup.md) section.** 
 
 We also advise reading and understanding the detailed [Prompting Guidance](../prompt-library/prompting-guidance.md) before you start.

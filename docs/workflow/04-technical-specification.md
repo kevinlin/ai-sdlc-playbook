@@ -1,8 +1,8 @@
-# Technical Specification
+# 3.2 Technical Specification
 
 This section provides a structured approach to creating detailed technical specifications for an AI-powered development workflow. Technical specifications define how the system will be implemented, focusing on data models, API endpoints, backend architecture, and technical implementation details.
 
-The technical specification should be created after the [Functional Requirement](workflow-functional-requirement.md) have been defined and approved, as it translates the functional needs into technical implementation details.
+The technical specification should be created after the [Functional Requirement](03-functional-requirement.md) have been defined and approved, as it translates the functional needs into technical implementation details.
 
 ## 1. Define the Data Model
 
@@ -371,4 +371,4 @@ Once you have the markdown text, save it in the folder that was set up at the st
 
 ## Next Steps
 
-Once your technical specification is complete, you can proceed with the development phase where both the [Functional Requirement](workflow-functional-requirement.md) and Technical Specification will be used together to guide the AI-powered code generation process. 
+Once your technical specification is complete, you can proceed with the development phase where both the [Functional Requirement](03-functional-requirement.md) and Technical Specification will be used together to guide the AI-powered code generation process. 

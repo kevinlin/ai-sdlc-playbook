@@ -1,4 +1,4 @@
-# Functional Requirement
+# 3.1 Functional Requirement
 
 This section provides a structured approach to creating and refining functional requirement for an AI-powered development workflow. Functional requirement defines what the system should do from a user's perspective, focusing on expected behaviors, user interface elements, and testable features.
 
@@ -38,4 +38,4 @@ Dedicate substantial time and team effort to refining the functional requirement
 
 ## Next Steps
 
-Once your functional requirement is complete, proceed to create the [Technical Specification](workflow-technical-specification.md) that will define how these functional requirement will be implemented technically. 
+Once your functional requirement is complete, proceed to create the [Technical Specification](04-technical-specification.md) that will define how these functional requirement will be implemented technically. 
