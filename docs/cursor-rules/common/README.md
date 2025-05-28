@@ -4,10 +4,10 @@ This directory contains general cursor rules that can be applied to various proj
 
 ## Contents
 
-- **[general.mdc](./general.mdc)**: General programming best practices and standards
-- **[git.mdc](./git.mdc)**: Git-related conventions and workflows
-- **[gitflow.mdc](./gitflow.mdc)**: Git Flow workflow specification and guidelines
-- **[document.mdc](./document.mdc)**: Documentation writing standards and best practices
+- **[general.mdc](./general.md)**: General programming best practices and standards
+- **[git.mdc](./git.md)**: Git-related conventions and workflows
+- **[gitflow.mc](./gitflow.md)**: Git Flow workflow specification and guidelines
+- **[document.mdc](./document.md)**: Documentation writing standards and best practices
 
 ## Samples
 

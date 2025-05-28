@@ -1,6 +1,6 @@
 nav:
   - README.md
   - workflow
-  - cursor-rules
+  - Cursor Rules: cursor-rules
   - MCP Server: mcp-server
-  - prompt-library
+  - Prompt Library: prompt-library

@@ -53,6 +53,7 @@ alwaysApply: false
 - Use type guards for runtime type checking
 - Implement proper null checking
 - Avoid type assertions unless necessary
+- Avoid JSDoc documentation
 
 ## Error Handling
 - Create custom error types for domain-specific errors
