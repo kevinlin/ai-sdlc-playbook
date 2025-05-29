@@ -1,14 +1,3 @@
-# Markdown Guidelines
-
-To create a new Cursor Rule:
-
-1. Enter the name as `markdown`
-2. Copy & paste the file content from below
-
-For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).
-
-
-```markdown
 ---
 description: Documentation Guidelines
 globs: **/*.md, **/*.mdc
@@ -31,4 +20,3 @@ alwaysApply: false
 - Provide meaningful alt text for images
 - Charts should be simple, avoid excessive decoration
 - Chart colors should consider accessibility for colorblind users
-```
