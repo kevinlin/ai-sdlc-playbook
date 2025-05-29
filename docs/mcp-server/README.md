@@ -35,3 +35,7 @@ When integrated with AI IDE like Cursor, the MCP server enables:
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Web Automation | Provides advanced web automation and cross-browser testing, serving as a modern, feature-rich alternative to Puppeteer. |
 | [Puppeteer MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) | Web Automation | Enables website navigation, screenshot capture, and web page interaction, making it invaluable for UI testing and automation tasks. |
 | [Sequential Thinking MCP](https://github.com/smithery-ai/server-sequential-thinking) | Problem Solving | Breaks down complex problems into manageable steps, supporting structured problem-solving for system design, architecture, and refactoring. |
+
+## Additional Resources
+
+For a comprehensive list of MCP server directories, communities, and resources, see [MCP Server Resources](mcp-server-resources.md).
