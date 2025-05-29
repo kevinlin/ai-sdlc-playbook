@@ -9,8 +9,8 @@ Perform code review on a GitLab merge rquest, add in-line comments and a summary
 - **Verification:** Before running this prompt, ensure:
   - The MCP server status light shows **green** 
   - All MCP functions are visible and properly loaded
-  - If the server appears inactive, try toggling it **Off/On** and refresh
-  - Wait for the status to show active before proceeding
+     - If the server appears inactive, try toggling it **Off/On** and refresh
+     - Wait for the status to show active before proceeding
 
 ```
 Please help me review merge request #[MR_NUMBER] of the current project.
