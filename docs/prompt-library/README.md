@@ -13,7 +13,7 @@ This library provides a curated selection of prompts to optimise your use of AI 
 - [Human-like Writing](general/prompt-human-like.md) - Make AI responses more natural and human-like
 
 ### Product Specification
-For understanding of product requirements prompt sequencing, please refer to the workflow steps in [Product Workflow](../workflow/workflow-product-requirements.md)
+For understanding of product requirements prompt sequencing, please refer to the workflow steps in [Functional Requirement](../workflow/03-functional-requirement.md)
 
  - [Example Product Requirements Input](product/example-product-requirements-input.md)
  - [Data Model Generation](product/prompt-data-model-generation.md)
@@ -30,11 +30,11 @@ For understanding of product requirements prompt sequencing, please refer to the
 - [Review Merge Request](development/prompt-merge-request-review.md)
 
 ### Documentation
-- [Add / Update Documentation](documentation-writing/prompt-add-update-documentation.md)
-- [Create Business Logic Documentation](documentation-writing/prompt-create-business-logic-documentation.md)
-- [Create API Documentation](documentation-writing/prompt-create-api-documentation.md)
-- [Create Repository Documentation](documentation-writing/prompt-create-repository-documentation.md)
-- [Create Service Layer Documentation](documentation-writing/prompt-create-service-layer-documentation.md)
+- [Add / Update Documentation](documentation/prompt-add-update-documentation.md)
+- [Create Business Logic Documentation](documentation/prompt-create-business-logic-documentation.md)
+- [Create API Documentation](documentation/prompt-create-api-documentation.md)
+- [Create Repository Documentation](documentation/prompt-create-repository-documentation.md)
+- [Create Service Layer Documentation](documentation/prompt-create-service-layer-documentation.md)
 
 ### Learning
 - [Add Code Knowledge and Teaching](learning/prompt-add-coding-knowledge-teaching.md)

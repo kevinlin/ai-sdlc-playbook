@@ -10,8 +10,8 @@ That fact that AI-powered development enables rapid creation and modification of
 
 Before starting development, ensure you have:
 
-1. **Clear Requirements**: Detailed feature requirements with defined scope, as outlined in the [Product Workflow](workflow-product-requirements.md)
-2. **IDE Configuration**: Language-specific [IDE rules](../language-specific/README.md) for consistent code style and design
+1. **Clear Requirements**: Detailed feature requirements with defined scope, as outlined in the [Product Workflow](03-functional-requirement.md)
+2. **IDE Configuration**: Language-specific [IDE rules](../cursor-rules/languages/README.md) for consistent code style and design
 3. **Clean Codebase**: 
     - passing tests with good coverage
     - up-to-date documentation
@@ -67,7 +67,7 @@ Before starting development, ensure you have:
 
 ## Guidelines
 
-- **Quality, consistent results**: The combination of good quality [IDE rules](../language-specific/README.md), good quality [prompts](../prompt-library/README.md) and clear [product requirements](workflow-product-requirements.md) are essential to limit the scope and be clear to the IDE tools on what they are trying to achieve.  This limiting of scope and clarity is critical for getting consistent and predictable results throughout the development process.
+- **Quality, consistent results**: The combination of good quality [IDE rules](../cursor-rules/languages/README.md), good quality [prompts](../prompt-library/README.md) and clear [product requirements](03-functional-requirement.md) are essential to limit the scope and be clear to the IDE tools on what they are trying to achieve.  This limiting of scope and clarity is critical for getting consistent and predictable results throughout the development process.
 
 - **Avoid multiple branches or simultaneous changes**: Avoid having two or more people separately changing the same codebase or at least the same of areas of the codebase at the same time.
 
