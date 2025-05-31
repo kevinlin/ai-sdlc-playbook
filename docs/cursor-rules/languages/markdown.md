@@ -14,6 +14,7 @@ description: Documentation Guidelines
 globs: **/*.md, **/*.mdc
 alwaysApply: false
 ---
+
 # Markdown Guidelines
 
 ## Markdown Formatting Guidelines
