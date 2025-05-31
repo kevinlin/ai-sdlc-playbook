@@ -9,16 +9,19 @@ The goal of this project is to collect, organize, and standardize these rule fil
 Cursor supports three types of rules:
 
 ### 1. Project Rules
+
 - Stored in `.cursor/rules`, version-controlled and scoped to your codebase
 - Written in **MDC** (`.mdc`) format, a lightweight format that supports metadata and content
 - Can be organized in nested directories throughout your project structure
 - Support four rule types:
+
   - **Always**: Always included in the model context
   - **Auto Attached**: Included when files matching a glob pattern are referenced
   - **Agent Requested**: Rule is available to the AI, which decides whether to include it
   - **Manual**: Only included when explicitly mentioned using @ruleName
 
 ### 2. User Rules
+
 - Global to your Cursor environment, defined in **Cursor Settings > Rules**
 - Always applied to all projects
 - Written in plain text format (do not support MDC)
@@ -84,6 +87,7 @@ You can generate rules directly in a conversation using the `/Generate Cursor Ru
 - You need to standardize approaches across your team or projects
 
 **How to use:**
+
 1. During or after a productive conversation with the AI
 2. Type `/Generate Cursor Rules` in the chat
 3. The AI will analyze the conversation and create appropriate rule files
