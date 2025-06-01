@@ -5,26 +5,34 @@ This playbook provides guidance on best practices for integrating AI into the So
 ## Table of Contents
 
 1. [Cursor Rules](docs/cursor-rules/README.md)
-  1. [Common Rules](docs/cursor-rules/common/README.md)
-  2. [Language Rules](docs/cursor-rules/languages/README.md)
-  3. [Framework Rules](docs/cursor-rules/frameworks/README.md)
-2. [MCP Server](docs/mcp-server/README.md)
-  1. [MCP Server Resources](docs/mcp-server/mcp-server-resources.md)
-  2. [Memory Bank MCP](docs/mcp-server/memory-bank.md)
-3. [AI Development Workflow](docs/workflow/README.md)
-  1. [Getting Started](docs/workflow/01-getting-started.md)
-  2. [Project Setup](docs/workflow/02-project-setup.md)
-  3. Feature Development Lifecycle
 
-    1. [Functional Requirement](docs/workflow/03-functional-requirement.md)
-    2. [Technical Specification](docs/workflow/04-technical-specification.md)
-    3. [Development](docs/workflow/05-development.md)
-    4. [Testing](docs/workflow/06-testing.md)
-    5. [Refactoring](docs/workflow/07-refactoring.md)
-    6. [Documentation](docs/workflow/08-documentation.md)
-  4. [Learning with AI](docs/workflow/09-learning.md)
+    1. [Common Rules](docs/cursor-rules/common/README.md)
+    2. [Language Rules](docs/cursor-rules/languages/README.md)
+    3. [Framework Rules](docs/cursor-rules/frameworks/README.md)
+
+2. [MCP Server](docs/mcp-server/README.md)
+
+    1. [MCP Server Resources](docs/mcp-server/mcp-server-resources.md)
+    2. [Memory Bank MCP](docs/mcp-server/memory-bank.md)
+
+3. [AI Development Workflow](docs/workflow/README.md)
+
+    1. [Getting Started](docs/workflow/01-getting-started.md)
+    2. [Project Setup](docs/workflow/02-project-setup.md)
+    3. Feature Development Lifecycle
+
+        1. [Functional Requirement](docs/workflow/03-functional-requirement.md)
+        2. [Technical Specification](docs/workflow/04-technical-specification.md)
+        3. [Development](docs/workflow/05-development.md)
+        4. [Testing](docs/workflow/06-testing.md)
+        5. [Refactoring](docs/workflow/07-refactoring.md)
+        6. [Documentation](docs/workflow/08-documentation.md)
+
+    4. [Learning with AI](docs/workflow/09-learning.md)
+
 4. [Prompt Library](docs/prompt-library/README.md)
-  1. [Prompting Guidance](docs/prompt-library/prompting-guidance.md)
+
+    1. [Prompting Guidance](docs/prompt-library/prompting-guidance.md)
 
 ## Site Publish
 
