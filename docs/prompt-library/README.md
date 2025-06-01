@@ -24,8 +24,10 @@ For understanding of product requirements prompt sequencing, please refer to the
 
 ### Development
 - [Implement New Feature / Story](development/prompt-new-feature-story.md)
-- [Add End-to-End Test](development/prompt-add-e2e-test.md)
-- [Add Integration Test](development/prompt-add-integration-test.md)
+- [Create Integration Test from Feature](development/prompt-new-integration-test-from-feature.md)
+- [Create API Integration Test](development/prompt-new-api-integration-test.md)
+- [Create Frontend Integration Test](development/prompt-new-frontend-integration-test.md)
+- [Create End-to-End Test](development/prompt-new-e2e-test.md)
 - [Refactor Feature](development/prompt-refactor-feature.md)
 - [Review Merge Request](development/prompt-merge-request-review.md)
 
