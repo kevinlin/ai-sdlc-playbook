@@ -2,7 +2,7 @@
 
 ## Overview
 
-Leveraging an AI-powered development workflow, such as utilising large language models (LLMs), makes it easier to create and maintain high-quality, readable documentation. 
+Leveraging an AI-powered development workflow makes it easier to create and maintain high-quality, readable documentation. 
 
 This documentation can be in the form of helpful user guides like README.md files aimed at setting the scene of what the repository is for and how to set up the required libraries and environment in order to start developing on the codebase. This is part of traditional repository hygiene and updating these documents should be done regularly.
 
@@ -10,14 +10,14 @@ This section outlines best practices for incorporating documentation into your d
 
 ## Guidelines
 
-### Have a Documentation Rules File
+### Defile Documentation Rules
 
 To ensure that documentation adheres to a specific standard or company guidelines, it is recommended to create a documentation rules file. This file can include a template or checklist with items such as:
 
 - **Consistency Guidelines:** Naming conventions, formatting rules, and style preferences.
 - **Content Requirements:** Mandatory sections (e.g., Overview, Setup, Usage, Contribution Guidelines).
 - **Review Process:** How and when documentation should be reviewed or updated.
-- **Examples:** Sample snippets or diagrams to follow. (Optional)
+- **Example:** [documentation guidelines](../cursor-rules/common/documentation.md)
 
 This template ensures that every document maintains a baseline level of quality and clarity, making it easier for both human collaborators and LLMs to understand and process the documentation.
 
@@ -29,7 +29,7 @@ Update documentation whenever you make changes to the codebase. This practice:
 - reduces technical debt
 - makes onboarding new team members easier
 
-Use the [prompt-add-update-documentation](../prompt-library/documentation-writing/prompt-add-update-documentation.md) prompt to have the LLMs update the codebase documentation regularly.
+Use the [prompt-add-update-documentation](../prompt-library/documentation/prompt-add-update-documentation.md) prompt to have the LLMs update the codebase documentation regularly.
 
 As the codebase grows, the importance of comprehensive documentation increases. Without it, the LLM's effectiveness in managing and evolving the system diminishes. Regularly revisiting and enriching documentation ensures that both human and AI contributors can operate efficiently in a complex development environment.
 
@@ -45,9 +45,9 @@ Well-maintained documentation serves as a vital knowledge base for both team mem
 - **Error Reduction:** Maintaining a knowledge base minimizes the likelihood of errors or redundant changes by providing a clear reference for what has been implemented.
 - **Predictive Generation:** With a robust documentation base, the LLM can predictively generate solutions aligned with existing patterns and architectural decisions.
 
-## Advanced Visual Documentation
+## Visual Documentation
 
-### Creating Complex Visuals
+### Creating Visual Diagrams
 
 LLMs can generate complex visual aids to support documentation, improving clarity and understanding. Examples include:
 
@@ -119,6 +119,7 @@ Export your report as a markdown file in /docs
 It is best to use this prompt with a advanced reasoning model as this helps the model gather more context and 'reason' about the implementation of the code and why some of the functionality is present in addition to what it is doing.
 
 The prompts to create technical documentation are below:
+
 - [prompt-create-api-documentation](../prompt-library/documentation-writing/prompt-create-api-documentation.md)
 - [prompt-create-service-layer-documentation](../prompt-library/documentation-writing/prompt-create-service-layer-documentation.md)
 - [prompt-create-business-logic-documentation](../prompt-library/documentation-writing/prompt-create-business-logic-documentation.md)
@@ -126,9 +127,37 @@ The prompts to create technical documentation are below:
 
 This provides a great starting point for creating business case documentation and user stories for features.
 
+## Perform Technical Assessment
+
+When working with legacy source repositories, conducting a comprehensive technical assessment is crucial for understanding the current state of the codebase and identifying areas for improvement. This assessment provides valuable insights into code quality, security vulnerabilities, performance bottlenecks, and technical debt.
+
+The [prompt-technical-assessment](../prompt-library/documentation/prompt-technical-assessment.md) provides a structured approach to generating detailed technical review reports that can help teams:
+
+- **Identify Critical Issues:** Systematically scan the entire codebase to uncover security vulnerabilities, performance issues, and code quality problems
+- **Prioritize Improvements:** Categorize findings by severity (critical, high, medium, low) to help teams focus on the most impactful issues first
+- **Document Technical Debt:** Create a comprehensive inventory of technical debt that can inform refactoring and modernization efforts
+- **Establish Baseline Metrics:** Generate repository statistics including total source files and lines of code for tracking progress over time
+
+The assessment generates a rich HTML report with:
+
+- Executive summary with repository statistics
+- Detailed findings with severity classifications
+- Code snippets and line number references
+- Recommended remediation strategies
+- Professional styling with dark/light mode support
+
+This technical assessment is particularly valuable when:
+
+- Onboarding new team members to legacy codebases
+- Planning modernization or refactoring initiatives
+- Conducting due diligence for acquisitions or audits
+- Establishing quality baselines for continuous improvement
+
+Use this assessment as a foundation for creating targeted improvement plans and ensuring that both human developers and AI assistants have a clear understanding of the codebase's current state and areas requiring attention.
+
 ## Best Practices
 
-1. Treat documentation updates as part of your definition of "done" for each development task.
+1. Treat documentation updates as part of your definition of "Done" for each development task.
 2. Use LLMs to draft, review, and refine documentation continuously.
 3. Integrate tools like Mermaid for visualisation to enhance clarity.
 4. Regularly review documentation to ensure accuracy, completeness, and relevance.

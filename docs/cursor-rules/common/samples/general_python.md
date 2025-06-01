@@ -48,6 +48,6 @@ alwaysApply: false
 This project uses the following rule files:
 - general.mdc: General guidelines (this file)
 - python.mdc: Python development guidelines
-- document.mdc: Documentation guidelines
+- documentation.mdc: Documentation guidelines
 - git.mdc: Git commit guidelines
 ```
