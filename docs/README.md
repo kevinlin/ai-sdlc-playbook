@@ -34,16 +34,3 @@ This playbook provides guidance on best practices for integrating AI into the So
 4. [Prompt Library](prompt-library/README.md)
 
     1. [Prompting Guidance](prompt-library/prompting-guidance.md)
-
-## Acknowledgements
-
-Large sections of this playbook were adapted from the
-[DEFRA AI SDLC Playbook](https://github.com/DEFRA/defra-ai-sdlc)
-© Crown copyright (2023) Department for Environment, Food & Rural Affairs.
-These portions were originally released under the
-[Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
-
-This modified version is released under the MIT License, while maintaining appropriate attribution
-to the original DEFRA content as required by the Open Government Licence.
-
-DEFRA does not endorse this modified version.

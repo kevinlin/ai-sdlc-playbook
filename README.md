@@ -1,40 +1,60 @@
 # AI SDLC Playbook
 
-This playbook provides guidance on best practices for integrating AI into the Software Development Lifecycle (SDLC), specifically tailored to Zuhlke's needs and challenges. It serves as a living document, continuously updated to reflect emerging practices and lessons learned.
+A comprehensive guide for integrating AI tools and practices into the Software Development Lifecycle (SDLC), specifically designed for development teams looking to enhance their productivity and code quality through AI assistance.
 
-## Table of Contents
+## About
 
-1. [Cursor Rules](docs/cursor-rules/README.md)
+This playbook provides practical guidance, rules, workflows, and prompts for effectively using AI tools like Cursor, GitHub Copilot, and other AI-powered development assistants. It's tailored for teams who want to adopt AI-driven development practices while maintaining high standards of code quality, security, and maintainability.
 
-    1. [Common Rules](docs/cursor-rules/common/README.md)
-    2. [Language Rules](docs/cursor-rules/languages/README.md)
-    3. [Framework Rules](docs/cursor-rules/frameworks/README.md)
+**Target Audience**: Software developers, development teams, technical leads, and organizations looking to integrate AI into their development workflow.
 
-2. [MCP Server](docs/mcp-server/README.md)
+## Quick Start
 
-    1. [MCP Server Resources](docs/mcp-server/mcp-server-resources.md)
-    2. [Memory Bank MCP](docs/mcp-server/memory-bank.md)
+1. **Browse the Documentation**: Visit the [complete documentation](docs/README.md) for detailed guidance
+2. **Choose Your Focus Area**:
+   - New to AI development? Start with [Getting Started](docs/workflow/01-getting-started.md)
+   - Setting up Cursor? Check [Cursor Rules](docs/cursor-rules/README.md)
+   - Looking for prompts? Explore the [Prompt Library](docs/prompt-library/README.md)
+3. **Follow the Workflow**: Implement the [AI Development Workflow](docs/workflow/README.md) in your projects
 
-3. [AI Development Workflow](docs/workflow/README.md)
+## What's Included
 
-    1. [Getting Started](docs/workflow/01-getting-started.md)
-    2. [Project Setup](docs/workflow/02-project-setup.md)
-    3. Feature Development Lifecycle
+- **[Cursor Rules](docs/cursor-rules/README.md)** - Rules and guidelines for Cursor IDE to improve AI assistance
+- **[MCP Server](docs/mcp-server/README.md)** - Model Control Protocol server resources for enhanced AI capabilities
+- **[AI Development Workflow](docs/workflow/README.md)** - Step-by-step workflow for AI-assisted development
+- **[Prompt Library](docs/prompt-library/README.md)** - Curated collection of effective AI prompts for development tasks
 
-        1. [Functional Requirement](docs/workflow/03-functional-requirement.md)
-        2. [Technical Specification](docs/workflow/04-technical-specification.md)
-        3. [Development](docs/workflow/05-development.md)
-        4. [Testing](docs/workflow/06-testing.md)
-        5. [Refactoring](docs/workflow/07-refactoring.md)
-        6. [Documentation](docs/workflow/08-documentation.md)
+## Usage Examples
 
-    4. [Learning with AI](docs/workflow/09-learning.md)
+- **Setting up a new project**: Follow the [Project Setup](docs/workflow/02-project-setup.md) guide
+- **Implementing a feature**: Use the [Feature Development Lifecycle](docs/workflow/README.md#workflow-steps)
+- **Code review**: Apply prompts from [Development](docs/prompt-library/README.md#development) section
+- **Documentation**: Use [Documentation prompts](docs/prompt-library/README.md#documentation) for automated docs
 
-4. [Prompt Library](docs/prompt-library/README.md)
+## Live Documentation
 
-    1. [Prompting Guidance](docs/prompt-library/prompting-guidance.md)
+The complete documentation is available at: **https://kevinlin.github.io/ai-sdlc-playbook**
 
-## Site Publish
+## Contributing
+
+We welcome contributions! Please:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes following our [Markdown Guidelines](docs/cursor-rules/languages/markdown.md)
+4. Submit a pull request
+
+For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+**Attribution**: Large sections of this playbook were adapted from the [DEFRA AI SDLC Playbook](https://github.com/DEFRA/defra-ai-sdlc) © Crown copyright (2023) Department for Environment, Food & Rural Affairs, originally released under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+---
+
+## 🔧 Development & Site Publishing
 
 ### Setting up Python Virtual Environment
 
@@ -76,5 +96,3 @@ The workflow configuration is located in `.github/workflows/publish.yml` and use
 5. Deploy to GitHub Pages
 
 To manually trigger a deployment, go to the Actions tab in the GitHub repository and run the "Build & Publish site to GitHub Pages" workflow.
-
-The site is published at: https://kevinlin.github.io/ai-sdlc-playbook
