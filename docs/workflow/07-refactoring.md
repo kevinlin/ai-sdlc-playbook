@@ -2,11 +2,13 @@
 
 As with human generated code, refactoring is an important step. Refactoring improves code readability, maintainability, and performance by restructuring existing code without changing its functionality, making it easier to debug, extend, and scale.
 
-It's also important to consider that for AI generated code, whilst following the guidelines and prompts elsewhere in this playbook will give the best possible code quality and consistency, but models are nondeterministic and can generate similar functionality using slight different approaches or conventions.
+When it comes to AI-generated code, it is important that the refactoring step is done with close human supervision, with the person prompting the model specific things to refactor. Simply telling the model to refactor in general will give unexpected results.
 
-When it comes to AI-generated code, it is important that the refactoring step is done with close human supervision.  With the person prompting the model specific things to refactor. Simply telling the model to refactor in general will give unexpected results.  
+For example, a person might prompt the model to:
 
-For example, a person might prompt the model to move some logic into a reusable function, or to move logic from a pretension class to a service class, or prompt it to change one module to copy the conventions in another module.
+- Move some logic into a reusable function,
+- Move logic from a pretension class to a service class,
+- Change one module to copy the conventions in another module.
 
 ## Guidelines
 
