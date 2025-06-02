@@ -43,7 +43,7 @@ VERIFICATION AND COMPLETION PHASE:
 
 Once it produces a data model, review the data model thoroughly with your team to ensure it covers the overall intent and any edge cases are picked up. Again, if the data model is wrong, then your app will be wrong.
 
-## 2. Backend Requirements and Architecture
+## 2. Backend Architecture and Technical Requirements
 
 Define the backend architecture and technical requirements that will support your functional requirement:
 
@@ -83,7 +83,7 @@ Define the backend architecture and technical requirements that will support you
     - Caching strategies.
     - Monitoring and alerting requirements.
 
-## 3. Generate API Endpoints Requirements
+## 3. API Endpoints Requirements
 
 If using an API for your backend, generate API endpoint requirements based on your refined data model:
 
@@ -342,21 +342,7 @@ VERIFICATION AND COMPLETION PHASE:
 Validate your work to check that all technical components defined in the documents above meet all necessary requirements and there is no ambiguity or technical gaps before writing the final output.
 ```
 
-## 8. Handling Broken Markdown Files
-
-If the generated markdown file is 'broken':
-
-1. Click the 'copy' icon at the bottom of the ChatGPT chat (this ensures cleaner copying than manual selection and copying).
-    
-2. Run the copied markdown text through Claude or a similar tool with the following prompt:
-    
-    ```
-    Please convert this to a single file md format. Do not change any of the content:
-    
-    [PASTE BROKEN MARKDOWN HERE]
-    ```
-
-## 9. Ensuring Technical Specification Precision
+## 8. Ensuring Technical Specification Precision
 
 Dedicate substantial time and team effort to refining the technical specifications to eliminate vagueness and potential misinterpretations.
 
