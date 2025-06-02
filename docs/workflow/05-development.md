@@ -35,29 +35,31 @@ Before starting development, ensure you have:
 - Iterate as needed, verifying each code change aligns with expectations.
 - Feeding log messages back into the model when it has issues enables it to rapidly identify and fix issues.
 
-### 4. Test
+### 4. Testing
 
-- See [Testing Workflow](06-testing.md)
+- See [Testing](06-testing.md)
 
 ### 5. Refactor
 
-- See [Refactoring Workflow](07-refactoring.md)
+- See [Refactoring](07-refactoring.md)
 
 ### 6. Code Review
 
 - Conduct a thorough code review by walking through the git diff for every change.
-- Make corrections or enhancements if required.
+    - For GitLab projects, use the [prompt-merge-request-review](../prompt-library/development/prompt-merge-request-review.md) to perform automated code review with AI assistance:
+- Ensure all feedback from the automated review is addressed before proceeding.
 
-### 7. Documentation
-
-- Prompt the AI to update or create relevant documentation in the repository's architecture folder, including regular updates to the data models, implementation specifics and general architecture. Use the [prompt-add-update-documentation](../prompt-library/documentation-writing/prompt-add-update-documentation.md) prompt for this purpose.
-- Update the IDE rules files as necessary.
-- Maintaining clear and up-to-date rules documentation ensures better context for future development cycles.
-
-### 8. Finalise and Merge
+### 7. Finalise and Merge
 
 - Use the standard git workflow of push the feature branch to the repository and creating a MR for review. Then merge into the main branch after acceptance.
 - Delete the feature branch after merging.
+
+### 8. Documentation
+
+- See [Documentation](08-documentation.md)
+- Prompt the AI to update or create relevant documentation in the repository's architecture folder, including regular updates to the data models, implementation specifics and general architecture. Use the [prompt-add-update-documentation](../prompt-library/documentation-writing/prompt-add-update-documentation.md) prompt for this purpose.
+- Update the IDE rules files as necessary.
+- Maintaining clear and up-to-date rules documentation ensures better context for future development cycles.
 
 ### 9. Reflect and Optimise Prompts
 
@@ -75,8 +77,6 @@ Before starting development, ensure you have:
 
 - **Use logging to rapidly debug.** Feeding log messages back into the model when it has issues enables it to rapidly identify and fix issues. Include detailed debug-level logs in the code when on the branch, this can always be removed / reduced when you refactor at the end of the feature.
 
-- **Consider Complexity**: As the codebase grows larger and more complex, the scope of tasks given to the LLM needs to be increasingly specific. If the scope is too broad, the LLM may make assumptions or overlook details due to its limited context window.
-  
 - **Revert and Re-prompt Workflow**: If you find yourself needing to go through multiple iterations (i.e. a "Doom Loop") with the model and the code doesn't meet requirements, it's likely that your initial prompt was unclear. Instead of extensive iterations, it is more efficient to stop, revert all changes, refine your prompt or the requirements, and restart the process.
 
 - **Thinking 'Script First'**: The models are very good at writing scripts, such as bash scripts, to perform repetitive tasks.
