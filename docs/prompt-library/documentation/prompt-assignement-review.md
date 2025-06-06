@@ -1,8 +1,8 @@
-# Assignement Submission Review Prompt
+# Assignment Submission Review Prompt
 Review and evaluate client assignment submissions based on curated evaluation guiedline, and generate a rich HTML report
 
 ---
-Base on the assignment @Cinema.md, and the evaluation guide @evaluation-guide.md , evaluate [CadidateName] submission under the folder: [submissionFolder]
+Base on the [assignmentRequirement.md], and the evaluation guide @evaluation-guide.md , evaluate [cadidateName] submission under the folder: [submissionFolder]
 
 # Output Format & Structure
 - Output the report as an HTML document with table of content in `/evaluation` folder
@@ -16,7 +16,7 @@ Base on the assignment @Cinema.md, and the evaluation guide @evaluation-guide.md
   - Overall Assessment for the client manager to grasp the evaluation outcome
   - Total number of src files and Totla lines of code reviewed (excluding non-src files)
 - Followed by a Highlight section
-  - List out where the candidate did well from the assignement
+  - List out where the candidate did well from the assignment
 - Followeed by the findings one by one
   - Each finding should have its own header h3 inside the div
   - Apply numbering on findings header
