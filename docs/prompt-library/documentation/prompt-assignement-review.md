@@ -89,6 +89,8 @@ Use the styling based the CSS code only:
             font-size: 3em;
             font-weight: bold;
             color: #ffc107;
+            <!-- Success color: #27ae60; -->
+            <!-- Failure color: #dc3545; -->
             text-align: center;
             margin: 20px 0;
         }
