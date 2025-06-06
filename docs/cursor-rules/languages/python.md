@@ -15,7 +15,6 @@ globs: **/*.py, src/**/*.py, tests/**/*.py
 alwaysApply: false
 ---
 
-
 # Python Best Practices
 
 ## Project Structure

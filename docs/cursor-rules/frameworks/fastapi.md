@@ -15,7 +15,6 @@ globs: **/*.py, app/**/*.py
 alwaysApply: false
 ---
 
-
 # FastAPI Best Practices
 
 ## Project Structure

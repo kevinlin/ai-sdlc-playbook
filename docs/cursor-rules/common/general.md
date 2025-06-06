@@ -12,9 +12,8 @@ For more information, visit the [Project rules](https://docs.cursor.com/context/
 ---
 description: General Project Guidelines
 globs: **/*
-alwaysApply: false
+alwaysApply: true
 ---
-
 
 # General Project Guidelines
 
