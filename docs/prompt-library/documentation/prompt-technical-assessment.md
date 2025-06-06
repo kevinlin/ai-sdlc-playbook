@@ -1,7 +1,7 @@
 # Technical Assessment Report Generation Prompt
 Generate a rich HTML technical review report for the whole repo
 
-```
+---
 Scan through the whole project source code and generate a technical review report.
 
 # Output Format & Structure
