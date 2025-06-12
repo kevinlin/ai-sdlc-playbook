@@ -11,10 +11,9 @@ For more information, visit the [Project rules](https://docs.cursor.com/context/
 ```markdown
 ---
 description: Tailwind CSS Best Practices
-globs: **/*.css, **/*.html, **/*.jsx, **/*.tsx
+globs: **/*.css, **/*.html, **/*.tsx
 alwaysApply: false
 ---
-
 
 # Tailwind CSS Best Practices
 
