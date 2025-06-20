@@ -16,7 +16,7 @@ Perform code review on a GitLab merge rquest, add in-line comments and a summary
 Please help me review merge request #[MR_NUMBER] of the current project.
 
 Make use of MCP tools from `gitlab-mr-mcp` MCP server:
-- DO NOT use `get-projects`, instead getting project id from @general.mdc 
+- DO NOT use `get-projects`, instead getting project id from `general.mdc` 
 - Use `get_merge_request_details` and `get_merge_request_diff` to fetch merge request details
 - Use `add_merge_request_comment` and `add_merge_request_diff_comment` to add comments to the merge request
 
