@@ -27,7 +27,7 @@ alwaysApply: true
 - Automated build and deployment with <GitLab CI>
 
 ## Code Style
-- Keep code concise and readable  
+- Keep code concise and readable. Prefer simple, readable implementation over premature optimization.
 - Use meaningful variable and function names  
 - Add appropriate comments to explain complex logic  
 - Follow the official style guides of each programming language  
