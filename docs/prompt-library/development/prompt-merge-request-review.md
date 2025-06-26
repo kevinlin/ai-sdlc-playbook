@@ -81,7 +81,8 @@ Add comments directly to the merge request where possible.
 
 For each comment, please:
 - Make it clear the comment it is made by Cursor IDE
-- Include line numbers and file names
+- Include file names and line numbers
+- The inline commment should be inserted right after the code referring to (line number + 1)
 - Be specific and actionable
 - Highlgiht any potential bugs or issues that need to be addressed
 - Provide code examples for suggested improvements
