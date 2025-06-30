@@ -72,20 +72,19 @@ For each file type, consider the following specific concerns:
 - CSS/SCSS: Style organization, responsiveness, accessibility
 - Shell scripts: Error handling, permissions, portability
 
-Please provide:
+Add comments directly to the merge request:
 1. General comment that start with overall summary, followed by all the findings.
 2. Detailed inline comments on specific code sections that expect code changes
 3. DO NOT include a Final Summary comment
 
-Add comments directly to the merge request where possible.
-
-For each comment, please:
+For each inline comment, please:
+- Reference the specific Cursor rule that applies, if any
 - Make it clear the comment it is made by Cursor IDE
 - Include file names and line numbers
 - The inline commment should be inserted right after the code referring to (line number + 1)
 - Be specific and actionable
+- Skip comments only about documentation changes
 - Highlgiht any potential bugs or issues that need to be addressed
 - Provide code examples for suggested improvements
 - Explain the reasoning behind each suggestion
-- Reference the specific Cursor rule that applies, if any
 ```
