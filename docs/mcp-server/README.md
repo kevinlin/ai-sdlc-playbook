@@ -25,7 +25,8 @@ When integrated with AI IDE like Cursor, the MCP server enables:
 |------------|------|-------------|
 | [Context7 MCP](https://github.com/upstash/context7-mcp) | Context Management | Provides intelligent context management and retrieval for enhanced AI interactions. |
 | [DuckDuckGo MCP](https://github.com/nickclyde/duckduckgo-mcp-server) | Search | Instantly search the web for documentation, troubleshooting, and up-to-date info, all without needing an API key. |
-| [Figma Developer MCP](https://github.com/GLips/Figma-Context-MCP) | Design Integration | Provides Cursor and other AI coding agents with direct access to Figma layout and design context, enabling accurate code generation from Figma files and nodes. |
+| [Figma Dev Mode MCP Server](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server) | Design Integration | Official Figma MCP server that brings Figma directly into your workflow, enabling code generation from selected frames, design context extraction, and Code Connect integration. Currently in open beta. |
+| [Figma MCP](https://github.com/GLips/Figma-Context-MCP) | Design Integration | Provides Cursor and other AI coding agents with direct access to Figma layout and design context, enabling accurate code generation from Figma files and nodes. |
 | [GitHub MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/github) | Version Control | Integrates GitHub operations into your workflow, letting you manage repositories, issues, pull requests, and content without leaving your environment. |
 | [GitLab MCP](https://github.com/smithery-ai/gitlab) | Version Control | Provides GitLab integration for repository management and CI/CD operations. |
 | [GitLab MR MCP](https://github.com/kopfrechner/gitlab-mr-mcp) | Code Review | Specialized GitLab merge request management and code review automation. |
