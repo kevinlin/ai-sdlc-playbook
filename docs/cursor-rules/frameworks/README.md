@@ -10,11 +10,14 @@ This directory contains cursor rules specific to different software frameworks a
 - **[Flask](./flask.md)**: Flask application structure and development standards
 - **[NestJS](./typescript-nestjs.md)**: NestJS architecture and development standards
 - **[Spring Boot Core](./spring-boot-core.md)**: Spring Boot core concepts and best practices
+- **[Spring Boot REST](./spring-boot-rest.md)**: Spring Boot REST API development standards
+- **[Spring Data JDBC](./spring-data-jdbc.md)**: Spring Data JDBC configuration and best practices
+
+## Testing Backend Frameworks
+
 - **[Spring Boot Integration Testing](./spring-boot-integration-testing.md)**: Spring Boot integration testing strategies and best practices
 - **[Spring Boot Local Testing](./spring-boot-local-testing.md)**: Spring Boot local testing setup and guidelines
-- **[Spring Boot REST](./spring-boot-rest.md)**: Spring Boot REST API development standards
 - **[Spring Boot Slice Testing](./spring-boot-slice-testing.md)**: Spring Boot slice testing techniques and practices
-- **[Spring Data JDBC](./spring-data-jdbc.md)**: Spring Data JDBC configuration and best practices
 
 ## Frontend Frameworks
 
