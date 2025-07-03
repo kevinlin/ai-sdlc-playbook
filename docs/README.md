@@ -3,6 +3,8 @@ Version 1.0
 
 This playbook provides guidance on best practices for integrating AI into the Software Development Lifecycle (SDLC), specifically tailored to Zuhlke's needs and challenges. It serves as a living document, continuously updated to reflect emerging practices and lessons learned.
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/kevinlin/ai-sdlc-playbook)
+
 ## Table of Contents
 
 1. [Cursor Rules](cursor-rules/README.md)
