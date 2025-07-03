@@ -2,27 +2,33 @@
 
 This directory contains cursor rules specific to different software frameworks and libraries.
 
-## Frontend Frameworks
-
-- **[React](./react.md)**: React component structure, hooks usage, and best practices
-- **[Vue.js](./vuejs.md)**: Vue component architecture, state management, and conventions
-- **[Next.js](./nextjs.md)**: Next.js project structure and best practices
-- **[Svelte](./svelte.md)**: Svelte component architecture and best practices
-- **[Tailwind CSS](./tailwind.md)**: Tailwind CSS styling guidelines and conventions
-
 ## Backend Frameworks
 
 - **[Django](./django.md)**: Django project structure, model design, and best practices
-- **[Flask](./flask.md)**: Flask application structure and development standards
-- **[FastAPI](./fastapi.md)**: FastAPI project organization and best practices
 - **[Express.js](./node-express.md)**: Express.js application structure and conventions
+- **[FastAPI](./fastapi.md)**: FastAPI project organization and best practices
+- **[Flask](./flask.md)**: Flask application structure and development standards
 - **[NestJS](./typescript-nestjs.md)**: NestJS architecture and development standards
+- **[Spring Boot Core](./spring-boot-core.md)**: Spring Boot core concepts and best practices
+- **[Spring Boot Integration Testing](./spring-boot-integration-testing.md)**: Spring Boot integration testing strategies and best practices
+- **[Spring Boot Local Testing](./spring-boot-local-testing.md)**: Spring Boot local testing setup and guidelines
+- **[Spring Boot REST](./spring-boot-rest.md)**: Spring Boot REST API development standards
+- **[Spring Boot Slice Testing](./spring-boot-slice-testing.md)**: Spring Boot slice testing techniques and practices
+- **[Spring Data JDBC](./spring-data-jdbc.md)**: Spring Data JDBC configuration and best practices
+
+## Frontend Frameworks
+
+- **[Next.js](./nextjs.md)**: Next.js project structure and best practices
+- **[React](./react.md)**: React component structure, hooks usage, and best practices
+- **[Svelte](./svelte.md)**: Svelte component architecture and best practices
+- **[Tailwind CSS](./tailwind.md)**: Tailwind CSS styling guidelines and conventions
+- **[Vue.js](./vuejs.md)**: Vue component architecture, state management, and conventions
 
 ## Mobile Development Frameworks
 
+- **[Flutter](./flutter.md)**: Flutter widget structure and Dart best practices
 - **[React Native](./react-native.md)**: React Native component structure and best practices
 - **[React Native with Expo](./react-native-expo.md)**: Expo-specific guidelines for React Native
-- **[Flutter](./flutter.md)**: Flutter widget structure and Dart best practices
 - **[SwiftUI](./swiftui.md)**: SwiftUI view structure and Swift best practices
 
 ## Usage

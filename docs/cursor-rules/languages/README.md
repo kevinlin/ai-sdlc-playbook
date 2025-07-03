@@ -4,13 +4,14 @@ This directory contains cursor rules specific to different programming languages
 
 ## Supported Languages
 
-- **[Python](./python.md)**: Best practices for Python development, including PEP 8 guidelines, code organization, and common patterns
-- **[Java](./java.md)**: Java coding standards, class organization, and best practices
-- **[TypeScript](./typescript.md)**: TypeScript development standards and best practices
-- **[Golang](./golang.md)**: Go language conventions and idioms
 - **[C++](./cpp.md)**: C++ coding standards and best practices
+- **[.NET](./dotnet.md)**: .NET development standards and best practices
+- **[Golang](./golang.md)**: Go language conventions and idioms
+- **[Java](./java.md)**: Java coding standards, class organization, and best practices
 - **[Markdown](./markdown.md)**: Markdown formatting guidelines for documentation
-- **[Database](./database.md)**: SQL and database-related best practices
+- **[Python](./python.md)**: Best practices for Python development, including PEP 8 guidelines, code organization, and common patterns
+- **[SQL](./sql.md)**: SQL and database-related best practices
+- **[TypeScript](./typescript.md)**: TypeScript development standards and best practices
 
 ## Usage
 
