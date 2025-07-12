@@ -54,6 +54,29 @@ Ensure all documentation is:
 - accessible to the IDE
 - formatted in markdown
 
+## Initialize Memory Bank with Tools
+
+Set up the Memory Bank system to enable effective AI assistance throughout the project lifecycle:
+
+1. **Create Memory Bank Structure**
+   - install Memory Bank MCP server
+   - initialize core memory bank files using prompt: `Initalise memory bank with tools`
+
+2. **Configure Memory Bank Files**
+   - `projectbrief.md` - foundation document defining project scope and goals
+   - `productContext.md` - user experience goals and problem definition
+   - `activeContext.md` - current work focus and recent changes
+   - `systemPatterns.md` - architecture and technical decisions
+   - `techContext.md` - technologies and development setup
+   - `progress.md` - current status and evolution tracking
+
+3. **Integrate with Development Workflow**
+   - ensure memory bank files are version controlled
+   - establish update patterns for maintaining current context
+   - configure AI tools to reference memory bank for project understanding
+
+The Memory Bank serves as the AI assistant's primary reference for understanding project context, enabling more effective and contextually-aware assistance throughout development.
+
 ## Next Steps
 
 Once your project setup is complete, proceed to the feature development lifecycle:

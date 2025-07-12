@@ -9,6 +9,7 @@
 - **Version Control**: Git/GitHub
 - **Python Environment**: Virtual environment with requirements.txt
 - **Diagram Support**: Mermaid (for flowcharts and diagrams)
+- **AI Context Management**: Memory Bank MCP server tools
 
 ## Development Setup
 ```bash
@@ -54,6 +55,7 @@ mkdocs build
 - **Local Testing**: Use `mkdocs serve` for immediate preview
 - **Version Control**: Standard Git workflow with feature branches
 - **Deployment**: Automated via GitHub Actions on push to main
-- **Memory Bank**: Separate tooling for AI assistant context management
+- **Memory Bank**: MCP server-based tooling for AI assistant context management
+- **Memory Bank Initialization**: Standardized prompt "Initialize memory bank with tools"
 - **Asset Management**: Direct file placement in appropriate directories
 - **Configuration**: YAML-based configuration in mkdocs.yml 
