@@ -95,10 +95,10 @@ Currently working on the user login feature. Next: implement task creation.
 
 ## Cursor Rule Example for Memory Bank
 
-To enable effective context management with Cursor, add the following rule to your Cursor rule file (e.g., `.cursor-rules.md` or similar):
+To enable effective context management with Cursor, add the following rule to your Cursor rule file (e.g., `memory_bank_instructions.mdc` or similar):
 
 <details>
-<summary>Full Memory Bank rule</summary>
+<summary>Memory Bank Instructions rule</summary>
 
 ```markdown
 # Cursor's Memory Bank
