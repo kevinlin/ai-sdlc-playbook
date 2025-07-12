@@ -11,6 +11,7 @@
 - **Mermaid Diagrams**: Flowcharts and diagrams render correctly in documentation
 - **MCP Server Tools**: Memory Bank initialization process documented and standardized
 - **Memory Bank Integration**: Successfully integrated into project setup workflow
+- **Dual Workflow Approach**: Both comprehensive and lightweight workflows provide flexibility for different project needs
 
 ## What's Left to Build
 - **Content Validation**: Review all existing documentation for accuracy and completeness
@@ -36,6 +37,7 @@
 - **Content Structure**: Evolved from simple documentation to comprehensive playbook
 - **Community Focus**: Shifted toward encouraging contributions and feedback
 - **Memory Bank Addition**: Recent addition to support AI assistant context
+- **Dual Workflow Strategy**: Added lightweight workflow to complement comprehensive approach, inspired by modern AI development practices
 
 ## Current Status
 - **Core Documentation**: Complete and functional

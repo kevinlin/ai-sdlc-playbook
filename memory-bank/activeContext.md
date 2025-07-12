@@ -1,21 +1,21 @@
 # Active Context: AI SDLC Playbook
 
 ## Current Work Focus
-Memory Bank system integration - Completing the integration of Memory Bank MCP server tools into the project setup workflow. This includes refining the initialization process and ensuring proper documentation of the Memory Bank setup steps for development teams.
+Lightweight workflow integration - Added a new lightweight development workflow for rapid prototyping and smaller projects. This provides an alternative to the comprehensive workflow, emphasizing speed and minimal overhead while maintaining quality standards.
 
 ## Recent Changes
-- Updated project setup documentation to include Memory Bank initialization
-- Added specific instructions for Memory Bank MCP server installation
-- Refined Memory Bank initialization process with standardized prompt: "Initialize memory bank with tools"
-- Completed core memory bank files structure and content
-- Integrated Memory Bank setup into the standard project workflow documentation
+- Added new lightweight development workflow document (09-lightweight-workflow.md)
+- Updated workflow README to distinguish between comprehensive and lightweight approaches
+- Updated main docs README to include lightweight workflow in table of contents
+- Adapted Harper Reed's LLM codegen workflow methodology to fit project structure and tone
+- Integrated lightweight workflow as complementary approach to existing comprehensive workflow
 
 ## Next Steps
-- Validate Memory Bank MCP server integration instructions
-- Test the standardized initialization prompt with development teams
-- Gather feedback on Memory Bank effectiveness for project context understanding
-- Consider adding more detailed MCP server configuration guidance
-- Document best practices for Memory Bank maintenance and updates
+- Gather feedback on the lightweight workflow from development teams
+- Create example projects demonstrating the lightweight workflow in action
+- Consider adding tool-specific guides for different AI coding assistants
+- Develop templates for common project types (web apps, APIs, CLI tools)
+- Document best practices for transitioning from lightweight to comprehensive workflow
 
 ## Active Decisions and Considerations
 - **Documentation Structure**: Maintaining consistency with existing MkDocs structure while adding memory bank capabilities

@@ -1,10 +1,18 @@
 # AI Development Workflow Overview
 
-This section outlines a streamlined workflow for integrating AI into the development lifecycle. The workflow ensures a consistent approach to developing, testing, and refining AI-driven solutions.
+This section outlines workflows for integrating AI into the development lifecycle. We provide two complementary approaches: a comprehensive workflow for enterprise projects and a lightweight workflow for rapid prototyping and smaller projects.
 
-By following this workflow, teams can efficiently integrate AI into their development processes, ensuring high-quality results, maintainable code, and streamlined operations. The workflow emphasizes iteration, validation, and continuous learning to maximize AI's potential in the SDLC.
+By following these workflows, teams can efficiently integrate AI into their development processes, ensuring high-quality results, maintainable code, and streamlined operations. Both workflows emphasize iteration, validation, and continuous learning to maximize AI's potential in the SDLC.
 
-## Workflow Steps
+## Workflow Options
+
+### Comprehensive Workflow
+For enterprise projects, complex systems, and team-based development requiring thorough documentation and process adherence.
+
+### Lightweight Workflow  
+For rapid prototyping, small projects, and situations where speed and flexibility are prioritized over comprehensive documentation.
+
+## Comprehensive Workflow Steps
 
 1. **[Getting Started](01-getting-started.md)** - A conceptual overview of getting started with AI development workflows.
 2. **[Project Setup](02-project-setup.md)** - Define the foundational elements for the project, ensuring all necessary files, tools, and conventions are in place.
@@ -17,4 +25,5 @@ By following this workflow, teams can efficiently integrate AI into their develo
     5. [Refactoring](07-refactoring.md) - Refactor once feature complete.
     6. [Documentation](08-documentation.md) - Update all relevant documentation to reflect changes, ensuring clarity and alignment with project goals.  Documentation is then used to feedback to the AI tools for future iterations.
 
-4. [Learning with AI](09-learning.md)
+4. **[Lightweight Workflow](09-lightweight-workflow.md)** - A streamlined approach for rapid prototyping and smaller projects, emphasizing speed and minimal overhead.
+5. [Learning with AI](99-learning.md)

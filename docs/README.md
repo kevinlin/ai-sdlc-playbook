@@ -31,7 +31,8 @@ This playbook provides guidance on best practices for integrating AI into the So
         5. [Refactoring](workflow/07-refactoring.md)
         6. [Documentation](workflow/08-documentation.md)
 
-    4. [Learning with AI](workflow/09-learning.md)
+    4. [Lightweight Workflow](workflow/09-lightweight-workflow.md)
+    5. [Learning with AI](workflow/99-learning.md)
 
 4. [Prompt Library](prompt-library/README.md)
 

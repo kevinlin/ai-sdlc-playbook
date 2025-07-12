@@ -1,4 +1,4 @@
-# 4. Learning with AI
+# Learning with AI
 
 ## Overview
 
