@@ -7,8 +7,8 @@ use_directory_urls: true
 theme:
   name: material
   locale: en
-  logo: img/swex-logo.svg
-  favicon: img/favicon.png
+  logo: img/ai-sdlc-icon.svg
+  favicon: img/favicon.svg
   palette:
     primary: custom
   font:
