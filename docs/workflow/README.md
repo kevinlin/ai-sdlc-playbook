@@ -18,7 +18,7 @@ For rapid prototyping, small projects, and situations where speed and flexibilit
 2. **[Project Setup](02-project-setup.md)** - Define the foundational elements for the project, ensuring all necessary files, tools, and conventions are in place.
 3. **Feature Development Lifecycle**
 
-    1. [Functional Requirement](03-functional-requirement.md) - Define expected behavior, UI, testable features, and user experience using AI tools to draft and refine.
+    1. [Functional Requirements](03-functional-requirement.md) - Define expected behavior, UI, testable features, and user experience using AI tools to draft and refine.
     2. [Technical Specification](04-technical-specification.md) - Define technical implementation, data models, API endpoints, and backend architecture.
     3. [Development](05-development.md) - Develop the solution iteratively, leveraging AI for implementation.
     4. [Testing](06-testing.md) - Unit, Functional and End to End testing

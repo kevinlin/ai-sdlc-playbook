@@ -47,5 +47,5 @@ alwaysApply: false
 
 ## Performance optimisation
 - Prefer StatelessWidget when state is not required.
-- Make use of const constructors: if widgets are immutable, use const to optimise builds.
+- Make use of const constructors: if widgets are immutable, use const to optimize builds.
 ```

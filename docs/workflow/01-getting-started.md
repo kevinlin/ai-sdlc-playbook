@@ -4,7 +4,7 @@ To get started working with AI ways of working, it's helpful to have a conceptua
 
 ## Workflow overview
 
-Below is a diagram that provides a high-level overview of the steps defined in this playbook. For the most part, this development workflow follows recognised best practices already established throughout government, with the additional aid of AI tools and techniques.
+Below is a diagram that provides a high-level overview of the steps defined in this playbook. For the most part, this development workflow follows recognized best practices already established throughout government, with the additional aid of AI tools and techniques.
 
 ```mermaid
 ---
@@ -12,7 +12,7 @@ config:
   layout: dagre
 ---
 flowchart TD
-    A["Product Idea"] -- Prompt with input --> B["Functional Requirement"]
+    A["Product Idea"] -- Prompt with input --> B["Functional Requirements"]
     B -- Prompt with input --> C["Technical Specification"]
     C -- Prompt with input --> D["Tests"] & E["Application Code"]
     D -- Test passes --> E
@@ -28,7 +28,7 @@ flowchart TD
 ### Workflow stages
 
 - **Product / Service idea** - This represents the problems to be solved for your users using existing service design and user research techniques.
-- **Prompt to generate functiional requirement** - Using advanced models, such as the latest "thinking" models, the clearly defined ideas can be used to generate requirements documentation (features, user stories, data models, etc.) that the AI IDEs (Integrated Development Environment - Cursor) can later use to generate code.
+- **Prompt to generate functional requirements** - Using advanced models, such as the latest "thinking" models, the clearly defined ideas can be used to generate requirements documentation (features, user stories, data models, etc.) that the AI IDE (Integrated Development Environment - Cursor) can later use to generate code.
 - **Prompt to generate technical specification** - The requirements document is then used to create a detailed technical specification that defines the architecture, implementation approach, and technical details needed for development.
 - **Prompt to generate tests and application code** - Both tests and application code are generated from the technical specification in the AI IDE, ensuring the business logic defined in the requirements are tested independently from the code generation.
 - **Test-driven development cycle** - Tests must pass before code is considered complete, with refactoring prompted as necessary to ensure code quality and test compliance.
@@ -56,3 +56,10 @@ To generate consistent code, multiple elements must come together as depicted in
 To get started, ensure that your [project is set up for AI development](02-project-setup.md) and follow the steps in the [Playbook Workflow](README.md). **IMPORTANT - this includes ensuring that privacy settings are enabled, per the [project is set up](02-project-setup.md) section.** 
 
 We also advise reading and understanding the detailed [Prompting Guidance](../prompt-library/prompting-guidance.md) before you start.
+
+## Related Resources
+
+- [Glossary](../glossary.md) - Key terms and definitions
+- [Cursor Rules Overview](../cursor-rules/README.md) - Setting up IDE rules for consistent AI behavior
+- [MCP Server Overview](../mcp-server/README.md) - Extending AI capabilities with external tools
+- [Prompt Library](../prompt-library/README.md) - Ready-to-use prompts for common tasks

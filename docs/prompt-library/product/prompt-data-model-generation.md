@@ -3,7 +3,7 @@ I'd like to create a data model based on the following project business and tech
 
 ANALYSIS PHASE:
 
-Read, analyse and understand the following product and technical requirements:
+Read, analyze and understand the following product and technical requirements:
 
 [PASTE THE REQUIREMENTS DESCRIPTION HERE]
 

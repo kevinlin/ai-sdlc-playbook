@@ -1,9 +1,9 @@
 ```
-Do some meta analysis to analyse the following product requirements, including what it does, and how effective it could be. Come up with a pros and cons list, thinking about how it will be used over the lifetime of the product. Come up with a list of recommendations to improve it, or alternatives to consider for a tool we could build.
+Do some meta analysis to analyze the following product requirements, including what it does, and how effective it could be. Come up with a pros and cons list, thinking about how it will be used over the lifetime of the product. Come up with a list of recommendations to improve it, or alternatives to consider for a tool we could build.
 
 ANALYSIS PHASE:
 
-Read, analyse and understand the following product and technical requirements:
+Read, analyze and understand the following product and technical requirements:
 
 PRODUCT REQUIREMENTS:
 [PASTE HERE]

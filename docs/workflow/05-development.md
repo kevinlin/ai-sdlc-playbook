@@ -61,9 +61,9 @@ Before starting development, ensure you have:
 - Update the IDE rules files as necessary.
 - Maintaining clear and up-to-date rules documentation ensures better context for future development cycles.
 
-### 9. Reflect and Optimise Prompts
+### 9. Reflect and Optimize Prompts
 
-- Analyse your prompts and ask the LLM for feedback on how to improve future prompt writing.
+- Analyze your prompts and ask the LLM for feedback on how to improve future prompt writing.
 - Incorporate feedback into your prompt library for continuous improvement.
 - Run at team retrospective to reflect and improve ways of working
 

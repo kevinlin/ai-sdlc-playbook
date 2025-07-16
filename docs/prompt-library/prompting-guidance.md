@@ -6,15 +6,15 @@ As LLMs have been trained on a vast array of internet content, they can generate
 
 ## Prompt Library
 
-The [Playbook Prompt Library](README.md) presents a curated collection of prompts that have been proven to optimise the use of AI development tools. These examples can be tailored to meet your specific requirements.
+The [Playbook Prompt Library](README.md) presents a curated collection of prompts that have been proven to optimize the use of AI development tools. These examples can be tailored to meet your specific requirements.
 
 ## The Fundamentals of a Good Prompt
 
-A well-crafted prompt centres on clarity. LLMs produce the best results when given precise instructions and a clearly defined scope. Consider these essential elements when designing your prompts:
+A well-crafted prompt centers on clarity. LLMs produce the best results when given precise instructions and a clearly defined scope. Consider these essential elements when designing your prompts:
 
 - **Context:** Provide the necessary background. For example, begin with: *"Programming in Python within a microservices architecture…”*
-- **Role:** Specify the required expertise or persona. For instance: *“You are an experienced software engineer with specialised knowledge in JavaScript.”*
-- **Tasks:** Clearly delineate the tasks. Break down your request into actionable steps—such as analysing requirements, planning tests, and implementing solutions. For example: *"First, summarise your understanding of the requirements. Next, conduct a codebase analysis to identify current conventions and patterns. Then…"*
+- **Role:** Specify the required expertise or persona. For instance: *“You are an experienced software engineer with specialized knowledge in JavaScript.”*
+- **Tasks:** Clearly delineate the tasks. Break down your request into actionable steps—such as analyzing requirements, planning tests, and implementing solutions. For example: *"First, summarize your understanding of the requirements. Next, conduct a codebase analysis to identify current conventions and patterns. Then…"*
 - **Constraints:** Outline any restrictions. For example: *“Do not implement sections outside the specified requirements.”*
 - **Examples:** Provide sample outputs to set clear expectations. For example: *"The document should be structured as follows…”*
 - **Output Format:** When possible, indicate the desired format. For example: *"Create a detailed user story document in markdown, outlining the following feature requirements. Please provide the content for a file named story.md in a markdown code block."*
@@ -42,7 +42,7 @@ The following guidelines are founded on two key principles:
 ### Generate Variants
 
 - When uncertain about the optimal phrasing, request multiple versions of the prompt.
-- For example: *"Provide three alternative prompts for summarising technical documents."*
+- For example: *"Provide three alternative prompts for summarizing technical documents."*
 - Consider consulting different LLM providers (e.g. OpenAI, Anthropic) to gain varied perspectives, as they may generate distinct responses.
 
 ### Problem Solve Collaboratively
@@ -52,7 +52,7 @@ The following guidelines are founded on two key principles:
     1. Begin with a comprehensive analysis of the issue and potential solutions, without making any edits.
     2. Then, use the analysis as a basis for implementing specific changes.
     3. Instruct the IDE to plan rather than generate code immediately. For instance: *“Outline the steps you will follow and prompt me for feedback before proceeding.”* Following this, you can ask it to execute some or all of its plan.
-- Alternatively, focus on one section at a time. For example: *“Analyse this product requirements document and only implement section 5.1. Do not address any other sections.”*
+- Alternatively, focus on one section at a time. For example: *“Analyze this product requirements document and only implement section 5.1. Do not address any other sections.”*
 
 ### Avoid the "Doom Loop"
 

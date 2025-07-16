@@ -20,24 +20,26 @@ This guide outlines how to set up a development project using AI tools and techn
 
 ## Development Environment
 
-1. **Configure AI-Powered IDE**
+1. **Configure AI IDE**
     - **Cursor**
-        - Install Cursor
-        - Add required VS Code extensions
+        - Install Cursor from [cursor.sh](https://cursor.sh)
+        - Add required VS Code extensions (Cursor is built on VS Code)
         - Set up language-specific plugins
-    - **GitHub Coplilot**
-        - Install GitHub Copliot plugin to VS Code / JetBrains IDE
+    - **GitHub Copilot**
+        - Install GitHub Copilot plugin to VS Code / JetBrains IDE
+        - Requires GitHub Copilot subscription
 
 2. **Configure Privacy Settings - IMPORTANT**
-    - In ChatGPT -> Settings -> Data Controls -> "Improve the model for everyone" ->  toggle off / disable
+    - In ChatGPT -> Settings -> Data Controls -> "Improve the model for everyone" -> toggle off / disable
     - In Cursor -> Settings -> General -> Privacy Mode -> enabled
+    - In GitHub Copilot -> Settings -> Data retention -> Configure according to your organization's policy
 
 **IMPORTANT:** Privacy settings must be enabled. This ensures that data is not persisted on providers servers and it is not used for training models. 
 
 3. **Add Required Files**
-    - copy language-specific rules from [programing language rules](../cursor-rules/languages/README.md)
+    - copy language-specific rules from [programming language rules](../cursor-rules/languages/README.md)
     - copy framework-specific rules from [framework rules](../cursor-rules/frameworks/README.md)
-    - customise IDE rules for team requirements
+    - customize IDE rules for team requirements
     - update system prompt for LLM base understanding
 
 ## Using Repository Documentation
@@ -60,7 +62,7 @@ Set up the Memory Bank system to enable effective AI assistance throughout the p
 
 1. **Create Memory Bank Structure**
    - install Memory Bank MCP server
-   - initialize core memory bank files using prompt: `Initalise memory bank with tools`
+   - initialize core memory bank files using prompt: `Initialize memory bank with tools`
 
 2. **Configure Memory Bank Files**
    - `projectbrief.md` - foundation document defining project scope and goals
@@ -81,4 +83,4 @@ The Memory Bank serves as the AI assistant's primary reference for understanding
 
 Once your project setup is complete, proceed to the feature development lifecycle:
 
-**[Functional Requirement](03-functional-requirement.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.
+**[Functional Requirements](03-functional-requirement.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.

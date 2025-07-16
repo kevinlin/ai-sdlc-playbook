@@ -23,3 +23,10 @@ We advise adding the prompt below into the "User Rules" in Cursor. This ensures 
 
 The prompt can be found here: [prompt-add-coding-knowledge-teaching](../prompt-library/learning/prompt-add-coding-knowledge-teaching.md)
 
+## Related Resources
+
+- [Prompting Guidance](../prompt-library/prompting-guidance.md) - Best practices for crafting effective learning prompts
+- [Development Workflow](05-development.md) - Main development process that can be enhanced with learning
+- [Cursor Rules](../cursor-rules/README.md) - Setting up IDE rules to support learning-focused development
+- [Glossary](../glossary.md) - Key terms and definitions used throughout the playbook
+

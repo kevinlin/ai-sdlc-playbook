@@ -7,6 +7,8 @@ This playbook provides guidance on best practices for integrating AI into the So
 
 ## Table of Contents
 
+**Quick Reference:** [Glossary](glossary.md) - Key terms and definitions used throughout this playbook
+
 1. [Cursor Rules](cursor-rules/README.md)
 
     1. [Common Rules](cursor-rules/common/README.md)
@@ -24,7 +26,7 @@ This playbook provides guidance on best practices for integrating AI into the So
     2. [Project Setup](workflow/02-project-setup.md)
     3. Feature Development Lifecycle
 
-        1. [Functional Requirement](workflow/03-functional-requirement.md)
+        1. [Functional Requirements](workflow/03-functional-requirement.md)
         2. [Technical Specification](workflow/04-technical-specification.md)
         3. [Development](workflow/05-development.md)
         4. [Testing](workflow/06-testing.md)
