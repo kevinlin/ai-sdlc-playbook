@@ -11,7 +11,7 @@ For more information, visit the [Project rules](https://docs.cursor.com/context/
 ```markdown
 ---
 description: Python Best Practices
-globs: **/*.py, src/**/*.py, tests/**/*.py
+globs: **/*.py
 alwaysApply: false
 ---
 
