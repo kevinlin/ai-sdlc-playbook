@@ -96,4 +96,4 @@ The Memory Bank serves as the AI assistant's primary reference for understanding
 
 Once your project setup is complete, proceed to the feature development lifecycle:
 
-**[Functional Requirements](03-functional-requirement.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.
+**[Functional Requirements](formal-process/01-functional-requirement.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.

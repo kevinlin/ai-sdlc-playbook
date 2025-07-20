@@ -1,4 +1,4 @@
-# 3.6 Documentation
+# 1.6 Documentation
 
 ## Overview
 
@@ -17,7 +17,7 @@ To ensure that documentation adheres to a specific standard or company guideline
 - **Consistency Guidelines:** Naming conventions, formatting rules, and style preferences.
 - **Content Requirements:** Mandatory sections (e.g., Overview, Setup, Usage, Contribution Guidelines).
 - **Review Process:** How and when documentation should be reviewed or updated.
-- **Example:** [documentation guidelines](../cursor-rules/common/documentation.md)
+- **Example:** [documentation guidelines](../../ide-rules/common/documentation.md)
 
 This template ensures that every document maintains a baseline level of quality and clarity, making it easier for both human collaborators and LLMs to understand and process the documentation.
 
@@ -29,13 +29,13 @@ Update documentation whenever you make changes to the codebase. This practice:
 - reduces technical debt
 - makes onboarding new team members easier
 
-Use the [prompt-add-update-documentation](../prompt-library/documentation/prompt-add-update-documentation.md) prompt to have the LLMs update the codebase documentation regularly.
+Use the [prompt-add-update-documentation](../../prompt-library/documentation/prompt-add-update-documentation.md) prompt to have the LLMs update the codebase documentation regularly.
 
 As the codebase grows, the importance of comprehensive documentation increases. Without it, the LLM's effectiveness in managing and evolving the system diminishes. Regularly revisiting and enriching documentation ensures that both human and AI contributors can operate efficiently in a complex development environment.
 
 ### Embedding Documentation into Development
 
-Consider documentation as an integral part of the development lifecycle (ref: [05-development](05-development.md)), not a separate task to be completed later. LLMs make it straightforward to maintain clear and consistent documentation as you work, generating drafts for function descriptions, usage guides and code doc-strings in real-time.
+Consider documentation as an integral part of the development lifecycle (ref: [03-development](03-development.md)), not a separate task to be completed later. LLMs make it straightforward to maintain clear and consistent documentation as you work, generating drafts for function descriptions, usage guides and code doc-strings in real-time.
 
 ### Using Documentation as a Knowledge Base
 
@@ -106,7 +106,7 @@ Additionally, these documents are beneficial when starting to work in a legacy c
 
 To generalize the software documentation process, the workflow splits the documentation using the software architecture layering paradigm. For example, the repository layer handles data access, while the service layer contains business logic. Documenting each layer clarifies the role of each component in one document—providing a large amount of context in one condensed representation.
 
-The entry point to use these prompts starts at the same place shown below, of note - you should have already run the [prompt-add-update-documentation](../prompt-library/documentation-writing/prompt-add-update-documentation.md):
+The entry point to use these prompts starts at the same place shown below, of note - you should have already run the [prompt-add-update-documentation](../../prompt-library/documentation/prompt-add-update-documentation.md):
 
 ```
 Run {{PROMPT_FOR_CREATING_DOCUMENTATION.md}} after reviewing the entire codebase.
@@ -120,10 +120,10 @@ It is best to use this prompt with a advanced reasoning model as this helps the 
 
 The prompts to create technical documentation are below:
 
-- [prompt-create-api-documentation](../prompt-library/documentation-writing/prompt-create-api-documentation.md)
-- [prompt-create-service-layer-documentation](../prompt-library/documentation-writing/prompt-create-service-layer-documentation.md)
-- [prompt-create-business-logic-documentation](../prompt-library/documentation-writing/prompt-create-business-logic-documentation.md)
-- [prompt-create-repository-documentation](../prompt-library/documentation-writing/prompt-create-repository-documentation.md)
+- [prompt-create-api-documentation](../../prompt-library/documentation/prompt-create-api-documentation.md)
+- [prompt-create-service-layer-documentation](../../prompt-library/documentation/prompt-create-service-layer-documentation.md)
+- [prompt-create-business-logic-documentation](../../prompt-library/documentation/prompt-create-business-logic-documentation.md)
+- [prompt-create-repository-documentation](../../prompt-library/documentation/prompt-create-repository-documentation.md)
 
 This provides a great starting point for creating business case documentation and user stories for features.
 
@@ -131,7 +131,7 @@ This provides a great starting point for creating business case documentation an
 
 When working with legacy source repositories, conducting a comprehensive technical assessment is crucial for understanding the current state of the codebase and identifying areas for improvement. This assessment provides valuable insights into code quality, security vulnerabilities, performance bottlenecks, and technical debt.
 
-The [prompt-technical-assessment](../prompt-library/documentation/prompt-technical-assessment.md) provides a structured approach to generating detailed technical review reports that can help teams:
+The [prompt-technical-assessment](../../prompt-library/documentation/prompt-technical-assessment.md) provides a structured approach to generating detailed technical review reports that can help teams:
 
 - **Identify Critical Issues:** Systematically scan the entire codebase to uncover security vulnerabilities, performance issues, and code quality problems
 - **Prioritize Improvements:** Categorize findings by severity (critical, high, medium, low) to help teams focus on the most impactful issues first
@@ -162,4 +162,4 @@ Use this assessment as a foundation for creating targeted improvement plans and 
 3. Integrate tools like Mermaid for visualisation to enhance clarity.
 4. Regularly review documentation to ensure accuracy, completeness, and relevance.
 
-By embedding these practices into your development workflow, you can ensure a robust, scalable, and efficient system that benefits from both human and AI collaboration.
+By embedding these practices into your development workflow, you can ensure a robust, scalable, and efficient system that benefits from both human and AI collaboration. 

@@ -1,4 +1,4 @@
-# 3.1 Functional Requirements
+# 1.1 Functional Requirements
 
 This section provides a structured approach to creating and refining functional requirements for an AI-powered development workflow. Functional requirements define what the system should do from a user's perspective, focusing on expected behaviors, user interface elements, and testable features.
 
@@ -17,7 +17,7 @@ Before embarking on detailed requirement creation, it is essential to clearly un
 A detailed feature description should be a *very* detailed account of the feature you want to implement, with as much detail as possible. It's better to err on the side of being very verbose and clear about what you want; the later processes will refine the detail into actionable requirements.
 
 Use a conversational LLM to hone in on the requirement:
-[Prompt to act as a Business Analyst](../prompt-library/product/prompt-business-analyst.md)
+[Prompt to act as a Business Analyst](../../prompt-library/product/prompt-business-analyst.md)
 
 Iterate with AI as much as you'd like until you're happy with the outcome.
 
@@ -38,11 +38,11 @@ Dedicate substantial time and team effort to refining the functional requirement
 
 ## Next Steps
 
-Once your functional requirements are complete, proceed to create the [Technical Specification](04-technical-specification.md) that will define how these functional requirements will be implemented technically.
+Once your functional requirements are complete, proceed to create the [Technical Specification](02-technical-specification.md) that will define how these functional requirements will be implemented technically.
 
 ## Related Resources
 
-- [Prompting Guidance](../prompt-library/prompting-guidance.md) - Best practices for crafting effective prompts
-- [Business Analyst Prompt](../prompt-library/product/prompt-business-analyst.md) - Specific prompt for requirement generation
-- [Project Setup](02-project-setup.md) - Ensure your development environment is properly configured
-- [Glossary](../glossary.md) - Key terms and definitions used in this workflow 
+- [Prompting Guidance](../../prompt-library/prompting-guidance.md) - Best practices for crafting effective prompts
+- [Business Analyst Prompt](../../prompt-library/product/prompt-business-analyst.md) - Specific prompt for requirement generation
+- [Project Setup](../02-project-setup.md) - Ensure your development environment is properly configured
+- [Glossary](../../glossary.md) - Key terms and definitions used in this workflow 

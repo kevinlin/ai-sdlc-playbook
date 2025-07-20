@@ -26,12 +26,12 @@ This playbook provides guidance on best practices for integrating AI into the So
     2. [Project Setup](workflow/02-project-setup.md)
     3. Feature Development Lifecycle
 
-        1. [Functional Requirements](workflow/03-functional-requirement.md)
-        2. [Technical Specification](workflow/04-technical-specification.md)
-        3. [Development](workflow/05-development.md)
-        4. [Testing](workflow/06-testing.md)
-        5. [Refactoring](workflow/07-refactoring.md)
-        6. [Documentation](workflow/08-documentation.md)
+        1. [Functional Requirements](workflow/formal-process/01-functional-requirement.md)
+        2. [Technical Specification](workflow/formal-process/02-technical-specification.md)
+        3. [Development](workflow/formal-process/03-development.md)
+        4. [Testing](workflow/formal-process/04-testing.md)
+        5. [Refactoring](workflow/formal-process/05-refactoring.md)
+        6. [Documentation](workflow/formal-process/06-documentation.md)
 
     4. [Lightweight Workflow](workflow/09-lightweight-workflow.md)
     5. [Learning with AI](workflow/99-learning.md)
