@@ -40,21 +40,21 @@ Understanding the reasoning process helps you:
 
 When analyzing and prioritizing requirements, the AI applies these evaluation criteria in order:
 
-1. **User Impact Severity**
-   1. Critical: Core functionality that blocks primary user workflows
-   2. High: Important features that significantly affect user experience
-   3. Medium: Useful features that enhance but don't block workflows
-   4. Low: Nice-to-have features that provide marginal value
-2. **Technical Feasibility**
-   1. Immediate: Can be implemented with existing tools and patterns
-   2. Moderate: Requires research or learning new approaches
-   3. Complex: Needs significant architectural decisions or new infrastructure
-   4. Uncertain: Requires proof-of-concept or technical validation
-3. **Dependency Relationships**
-   1. Foundation: Must be implemented before other features can work
-   2. Independent: Can be implemented in any order
-   3. Dependent: Requires other features to be completed first
-   4. Optional: Enhances other features but isn't required
+- **User Impact Severity**
+   - Critical: Core functionality that blocks primary user workflows
+   - High: Important features that significantly affect user experience
+   - Medium: Useful features that enhance but don't block workflows
+   - Low: Nice-to-have features that provide marginal value
+- **Technical Feasibility**
+   - Immediate: Can be implemented with existing tools and patterns
+   - Moderate: Requires research or learning new approaches
+   - Complex: Needs significant architectural decisions or new infrastructure
+   - Uncertain: Requires proof-of-concept or technical validation
+- **Dependency Relationships**
+   - Foundation: Must be implemented before other features can work
+   - Independent: Can be implemented in any order
+   - Dependent: Requires other features to be completed first
+   - Optional: Enhances other features but isn't required
 
 ### Requirements Validation Process
 
@@ -157,21 +157,21 @@ Technology Decision Required
 
 The AI evaluates task complexity using these dimensions:
 
-1. **Technical Complexity**
-   1. Simple: Uses well-known patterns and libraries
-   2. Moderate: Requires integration of multiple components
-   3. Complex: Needs custom algorithms or novel approaches
-   4. Expert: Requires deep domain knowledge or research
-2. **Scope Breadth**
-   1. Focused: Single component or function
-   2. Moderate: Multiple related components
-   3. Broad: Cross-cutting concerns or system-wide changes
-   4. Extensive: Major architectural modifications
-3. **Dependency Depth**
-   1. Independent: No dependencies on other tasks
-   2. Shallow: 1-2 direct dependencies
-   3. Moderate: 3-5 dependencies with some chains
-   4. Deep: Complex dependency networks
+- **Technical Complexity**
+   - Simple: Uses well-known patterns and libraries
+   - Moderate: Requires integration of multiple components
+   - Complex: Needs custom algorithms or novel approaches
+   - Expert: Requires deep domain knowledge or research
+- **Scope Breadth**
+   - Focused: Single component or function
+   - Moderate: Multiple related components
+   - Broad: Cross-cutting concerns or system-wide changes
+   - Extensive: Major architectural modifications
+- **Dependency Depth**
+   - Independent: No dependencies on other tasks
+   - Shallow: 1-2 direct dependencies
+   - Moderate: 3-5 dependencies with some chains
+   - Deep: Complex dependency networks
 
 ### Task Sequencing Logic
 
