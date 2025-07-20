@@ -1,4 +1,4 @@
-# Spec-Driven Development: A Comprehensive Introduction
+# Spec-Driven Development
 
 <!-- Navigation Metadata -->
 <!-- Section: Methodology | Level: Overview | Prerequisites: None -->
@@ -21,11 +21,6 @@
 6. [Comparison with Other Methodologies](#comparison-with-other-development-methodologies)
 7. [Integration with Existing Workflows](#integration-with-existing-workflows)
 8. [Getting Started](#getting-started)
-
-## In This Section
-
-- **[When to Use Specs](when-to-use.md)** - Decision framework for choosing specification level
-- **[Lightweight Specs](lightweight-specs.md)** - Streamlined process for small features and fixes
 
 ## What is Spec-Driven Development?
 
