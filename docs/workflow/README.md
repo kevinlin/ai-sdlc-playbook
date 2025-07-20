@@ -4,7 +4,7 @@ This section outlines workflows for integrating AI into the development lifecycl
 
 ## Getting Started
 
-**🚀 [Getting Started](formal-process/01-getting-started.md)** - Conceptual overview of AI development workflows
+**🚀 [Getting Started](feature-based-development/01-getting-started.md)** - Conceptual overview of AI development workflows
 
 **⚙️ [Project Setup](project-setup.md)** - Define foundational elements, tools, and conventions (start here for all workflows)
 
@@ -18,17 +18,17 @@ We provide three complementary approaches for different project needs:
 **Best for:** Enterprise projects, complex systems, and team-based development requiring thorough documentation and process adherence.
 
 **🎯 Get Started:**
-- **[Functional Requirements](formal-process/02-functional-requirement.md)** - Define expected behavior and user experience
-- **[Technical Specification](formal-process/03-technical-specification.md)** - Create technical implementation plans
-- **[Development](formal-process/04-development.md)** - Iterative development with AI assistance
+- **[Functional Requirements](feature-based-development/02-functional-requirement.md)** - Define expected behavior and user experience
+- **[Technical Specification](feature-based-development/03-technical-specification.md)** - Create technical implementation plans
+- **[Development](feature-based-development/04-development.md)** - Iterative development with AI assistance
 
 **📋 Complete Process:**
-1. [Functional Requirements](formal-process/02-functional-requirement.md) - Define expected behavior, UI, testable features, and user experience using AI tools to draft and refine
-2. [Technical Specification](formal-process/03-technical-specification.md) - Define technical implementation, data models, API endpoints, and backend architecture
-3. [Development](formal-process/04-development.md) - Develop the solution iteratively, leveraging AI for implementation
-4. [Testing](formal-process/05-testing.md) - Unit, functional and end-to-end testing
-5. [Refactoring](formal-process/06-refactoring.md) - Refactor once feature complete
-6. [Documentation](formal-process/07-documentation.md) - Update all relevant documentation to reflect changes
+1. [Functional Requirements](feature-based-development/02-functional-requirement.md) - Define expected behavior, UI, testable features, and user experience using AI tools to draft and refine
+2. [Technical Specification](feature-based-development/03-technical-specification.md) - Define technical implementation, data models, API endpoints, and backend architecture
+3. [Development](feature-based-development/04-development.md) - Develop the solution iteratively, leveraging AI for implementation
+4. [Testing](feature-based-development/05-testing.md) - Unit, functional and end-to-end testing
+5. [Refactoring](feature-based-development/06-refactoring.md) - Refactor once feature complete
+6. [Documentation](feature-based-development/07-documentation.md) - Update all relevant documentation to reflect changes
 
 **✅ Use when:**
 - Building complex features with multiple components
@@ -40,9 +40,9 @@ We provide three complementary approaches for different project needs:
 **Best for:** Systematic requirements management with AI-optimized planning before implementation.
 
 **🎯 Get Started:**
-- **[Overview](spec-driven-process/README.md)** - Quick introduction and decision framework
-- **[Process Guide](spec-driven-process/process/README.md)** - Three-phase methodology from idea to implementation
-- **[Examples](spec-driven-process/examples/README.md.md)** - Real specs and case studies
+- **[Overview](spec-driven-development/README.md)** - Quick introduction and decision framework
+- **[Process Guide](spec-driven-development/process/README.md)** - Three-phase methodology from idea to implementation
+- **[Examples](spec-driven-development/examples/README.md)** - Real specs and case studies
 
 **📋 Three-Phase Process:**
 1. **Requirements** - Transform vague ideas into clear, testable requirements

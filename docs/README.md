@@ -22,22 +22,22 @@ This playbook provides guidance on best practices for integrating AI into the So
 
 3. [AI Development Workflow](workflow/README.md)
 
-    1. [Getting Started](workflow/formal-process/01-getting-started.md)
+    1. [Getting Started](workflow/feature-based-development/01-getting-started.md)
     2. [Project Setup](workflow/project-setup.md)
     3. Development Workflows:
 
         **Feature-Based Development** (Enterprise/Complex Projects)
-        1. [Functional Requirements](workflow/formal-process/02-functional-requirement.md)
-        2. [Technical Specification](workflow/formal-process/03-technical-specification.md)
-        3. [Development](workflow/formal-process/04-development.md)
-        4. [Testing](workflow/formal-process/05-testing.md)
-        5. [Refactoring](workflow/formal-process/06-refactoring.md)
-        6. [Documentation](workflow/formal-process/07-documentation.md)
+        1. [Functional Requirements](workflow/feature-based-development/02-functional-requirement.md)
+        2. [Technical Specification](workflow/feature-based-development/03-technical-specification.md)
+        3. [Development](workflow/feature-based-development/04-development.md)
+        4. [Testing](workflow/feature-based-development/05-testing.md)
+        5. [Refactoring](workflow/feature-based-development/06-refactoring.md)
+        6. [Documentation](workflow/feature-based-development/07-documentation.md)
 
         **Spec-Driven Development** (Systematic Planning)
-        1. [Overview](workflow/spec-driven-process/README.md)
-        2. [Process Guide](workflow/spec-driven-process/process/README.md)
-        3. [Examples](workflow/spec-driven-process/examples/README.md)
+        1. [Overview](workflow/spec-driven-development/README.md)
+        2. [Process Guide](workflow/spec-driven-development/process/README.md)
+        3. [Examples](workflow/spec-driven-development/examples/README.md)
 
         **Vibe Coding Plus** (Rapid Prototyping)
         1. [Vibe Coding Plus Workflow](workflow/vibe-coding-plus.md)
