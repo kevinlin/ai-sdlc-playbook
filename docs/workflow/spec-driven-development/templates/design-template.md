@@ -2,12 +2,12 @@
 
 <!-- Navigation Metadata -->
 <!-- Template: Design | Level: Template | Prerequisites: requirements-template.md -->
-<!-- Related: process/design-phase.md, resources/ai-reasoning.md, examples/complex-system-spec.md -->
+<!-- Related: process/02-design-phase.md, resources/ai-reasoning.md, examples/complex-system-spec.md -->
 
 
 
 ## Quick Navigation
-- **📚 Learn Process:** [Design Phase Guide](../process/design-phase.md) - How to use this template
+- **📚 Learn Process:** [Design Phase Guide](../process/02-design-phase.md) - How to use this template
 - **📖 See Example:** [Complex System Design](../examples/complex-system-spec.md#design-document) - Template in action
 - **💡 Get Help:** [Best Practices](../prompting/best-practices.md) - Effective prompting strategies
 - **➡️ Next Template:** [Tasks Template](tasks-template.md) - After design is done

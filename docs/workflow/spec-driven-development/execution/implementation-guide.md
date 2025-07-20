@@ -1,13 +1,13 @@
 # Task Execution Documentation
 
 <!-- Navigation Metadata -->
-<!-- Execution: Implementation | Level: Detailed Guide | Prerequisites: process/tasks-phase.md -->
+<!-- Execution: Implementation | Level: Detailed Guide | Prerequisites: process/03-tasks-phase.md -->
 <!-- Related: templates/tasks-template.md, examples/simple-feature-spec.md, quality-assurance.md -->
 
 **📍 You are here:** [Main Guide](../../README.md) → [Execution Guide](README.md) → **Implementation Guide**
 
 ## Quick Navigation
-- **📋 Prerequisites:** [Tasks Phase](../process/tasks-phase.md) - Learn how to create implementation plans
+- **📋 Prerequisites:** [Tasks Phase](../process/03-tasks-phase.md) - Learn how to create implementation plans
 - **📝 Task Template:** [Tasks Template](../templates/tasks-template.md) - Structure your implementation plan
 - **📖 See Example:** [Simple Feature Tasks](../examples/simple-feature-spec.md#tasks-document) - Complete task example
 - **✅ Quality Control:** [Quality Assurance](quality-assurance.md) - Maintain code quality

@@ -1,13 +1,13 @@
 # Change Management
 
 <!-- Navigation Metadata -->
-<!-- Section: Process | Level: Advanced | Prerequisites: requirements-phase.md, design-phase.md -->
+<!-- Section: Process | Level: Advanced | Prerequisites: 01-requirements-phase.md, 02-design-phase.md -->
 <!-- Related: execution/implementation-guide.md, templates/checklists.md -->
 
 
 
 ## Quick Navigation
-- **Prerequisites:** [Requirements Phase](requirements-phase.md), [Design Phase](design-phase.md)
+- **Prerequisites:** [Requirements Phase](01-requirements-phase.md), [Design Phase](02-design-phase.md)
 - **Templates:** [Checklists](../templates/checklists.md) - Change impact assessment guides
 - **Execution:** [Implementation Guide](../execution/implementation-guide.md) - Handle discovered changes
 
@@ -127,8 +127,8 @@ flowchart TD
 ## Related Content
 
 ### Prerequisites
-- [Requirements Phase](requirements-phase.md) - Foundation for change management
-- [Design Phase](design-phase.md) - Understanding design evolution
+- [Requirements Phase](01-requirements-phase.md) - Foundation for change management
+- [Design Phase](02-design-phase.md) - Understanding design evolution
 
 ### Templates
 - [Checklists](../templates/checklists.md) - Impact assessment guidelines

@@ -2,10 +2,10 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: Resources | Level: Reference | Prerequisites: None -->
-<!-- Related: process/requirements-phase.md, templates/README.md, README.md -->
+<!-- Related: process/01-requirements-phase.md, templates/README.md, README.md -->
 
 ## Quick Navigation
-- **Apply Standards:** [Requirements Phase](../process/requirements-phase.md) - Use EARS format in practice
+- **Apply Standards:** [Requirements Phase](../process/01-requirements-phase.md) - Use EARS format in practice
 - **Get Templates:** [Templates & Checklists](../templates/README.md) - Ready-to-use starting points
 - **Understand Context:** [Methodology](../README.md) - See how resources fit the bigger picture
 - **Find Tools:** [Tool Integration Guide](tool-integration-guide.md) - Specific tool recommendations

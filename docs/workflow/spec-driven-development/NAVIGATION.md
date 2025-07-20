@@ -15,7 +15,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 ### Ready to Create Your First Spec
 1. [Requirements Template](templates/requirements-template.md) - Start here
-2. [Requirements Phase Guide](process/requirements-phase.md) - Detailed instructions
+2. [Requirements Phase Guide](process/01-requirements-phase.md) - Detailed instructions
 3. [EARS Standards](resources/standards.md) - Format reference
 4. [Prompting Strategies](prompting/README.md) - Get better AI help
 
@@ -42,9 +42,9 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 ### Step-by-Step Guides
 
-- [Requirements Phase](process/requirements-phase.md) - Transform ideas to requirements
-- [Design Phase](process/design-phase.md) - Create technical architecture
-- [Tasks Phase](process/tasks-phase.md) - Break down into implementation steps
+- [Requirements Phase](process/01-requirements-phase.md) - Transform ideas to requirements
+- [Design Phase](process/02-design-phase.md) - Create technical architecture
+- [Tasks Phase](process/03-tasks-phase.md) - Break down into implementation steps
 - [Implementation Guide](execution/implementation-guide.md) - Execute the plan
 
 ### Templates & Tools
@@ -96,7 +96,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 ### Technical Leads
 **Start Here:** [Process Guide](process/README.md)
 
-- [Design Phase](process/design-phase.md) - Architecture and technical decisions
+- [Design Phase](process/02-design-phase.md) - Architecture and technical decisions
 - [AI Decision Frameworks](resources/ai-reasoning.md) - Decision-making insights
 - [Complex System Specs](examples/complex-system-spec.md) - Advanced examples
 - [Quality Assurance](execution/quality-assurance.md) - Quality standards
@@ -115,10 +115,10 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 → [Methodology Overview](README.md) → [Simple Example](examples/simple-feature-spec.md) → [Requirements Template](templates/requirements-template.md)
 
 ### "My requirements are unclear/vague"
-→ [Requirements Phase Guide](process/requirements-phase.md) → [EARS Standards](resources/standards.md) → [Troubleshooting](examples/troubleshooting-pitfalls.md)
+→ [Requirements Phase Guide](process/01-requirements-phase.md) → [EARS Standards](resources/standards.md) → [Troubleshooting](examples/troubleshooting-pitfalls.md)
 
 ### "I need help with technical design"
-→ [Design Phase Guide](process/design-phase.md) → [Design Template](templates/design-template.md) → [Complex Examples](examples/complex-system-spec.md)
+→ [Design Phase Guide](process/02-design-phase.md) → [Design Template](templates/design-template.md) → [Complex Examples](examples/complex-system-spec.md)
 
 ### "My AI collaboration isn't working well"
 → [Prompting Strategies](prompting/README.md) → [Best Practices](prompting/best-practices.md) → [Troubleshooting](examples/troubleshooting-pitfalls.md)
@@ -134,9 +134,9 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 ### Sequential Learners (Step-by-Step)
 1. [Methodology Overview](README.md)
 2. [Process Guide](process/README.md)
-3. [Requirements Phase](process/requirements-phase.md)
-4. [Design Phase](process/design-phase.md)
-5. [Tasks Phase](process/tasks-phase.md)
+3. [Requirements Phase](process/01-requirements-phase.md)
+4. [Design Phase](process/02-design-phase.md)
+5. [Tasks Phase](process/03-tasks-phase.md)
 6. [Implementation Guide](execution/implementation-guide.md)
 
 ### Example-Driven Learners
@@ -189,9 +189,9 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 ### By Phase
 
-- **Requirements**: [Requirements Phase](process/requirements-phase.md), [EARS Standards](resources/standards.md), [Requirements Template](templates/requirements-template.md)
-- **Design**: [Design Phase](process/design-phase.md), [Design Template](templates/design-template.md), [Complex Examples](examples/complex-system-spec.md)
-- **Tasks**: [Tasks Phase](process/tasks-phase.md), [Implementation Guide](execution/implementation-guide.md), [Tasks Template](templates/tasks-template.md)
+- **Requirements**: [Requirements Phase](process/01-requirements-phase.md), [EARS Standards](resources/standards.md), [Requirements Template](templates/requirements-template.md)
+- **Design**: [Design Phase](process/02-design-phase.md), [Design Template](templates/design-template.md), [Complex Examples](examples/complex-system-spec.md)
+- **Tasks**: [Tasks Phase](process/03-tasks-phase.md), [Implementation Guide](execution/implementation-guide.md), [Tasks Template](templates/tasks-template.md)
 
 ### By Content Type
 - **Process**: [Process Guide](process/README.md), [Workflow Diagrams](process/README.md#workflow-diagrams-and-visual-aids)

@@ -10,7 +10,7 @@
 - **Get Started:** [Requirements Template](../templates/requirements-template.md) - Ready-to-use template
 - **See Example:** [Simple Feature Spec](../examples/simple-feature-spec.md) - Complete requirements example
 - **Learn EARS:** [Standards Reference](../resources/standards.md) - EARS format details
-- **Next Phase:** [Design Phase](design-phase.md) - After requirements are approved
+- **Next Phase:** [Design Phase](02-design-phase.md) - After requirements are approved
 
 ---
 
@@ -305,7 +305,7 @@ Before moving to the design phase, verify:
 
 Once requirements are complete and approved:
 
-1. **Transition to [Design Phase](design-phase.md)**: Use requirements as foundation for system design
+1. **Transition to [Design Phase](02-design-phase.md)**: Use requirements as foundation for system design
 2. **Maintain Traceability**: Ensure design decisions map back to specific requirements
 3. **Keep Requirements Updated**: Update requirements if design reveals gaps or conflicts
 4. **Prepare for Implementation**: Requirements will guide task breakdown and testing strategy

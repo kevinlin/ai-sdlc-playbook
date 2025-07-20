@@ -2,12 +2,12 @@
 
 <!-- Navigation Metadata -->
 <!-- Template: Requirements | Level: Template | Prerequisites: None -->
-<!-- Related: process/requirements-phase.md, resources/standards.md, examples/simple-feature-spec.md -->
+<!-- Related: process/01-requirements-phase.md, resources/standards.md, examples/simple-feature-spec.md -->
 
 
 
 ## Quick Navigation
-- **📚 Learn Process:** [Requirements Phase Guide](../process/requirements-phase.md) - How to use this template
+- **📚 Learn Process:** [Requirements Phase Guide](../process/01-requirements-phase.md) - How to use this template
 - **📖 See Example:** [Simple Feature Requirements](../examples/simple-feature-spec.md#requirements-document) - Template in action
 - **📋 EARS Reference:** [Standards Guide](../resources/standards.md) - EARS format details
 - **➡️ Next Template:** [Design Template](design-template.md) - After requirements are done

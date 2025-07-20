@@ -2,13 +2,13 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: AI Reasoning | Level: Overview | Prerequisites: README.md, process/README.md -->
-<!-- Related: prompting/README.md, examples/case-studies.md, process/design-phase.md -->
+<!-- Related: prompting/README.md, examples/case-studies.md, process/02-design-phase.md -->
 
 ## Quick Navigation
 - **Foundation:** [Methodology](../README.md) - Understand the spec process first
 - **Apply Learning:** [Prompting Strategies](../prompting/README.md) - Use insights for better AI collaboration
 - **See in Action:** [Case Studies](../examples/case-studies.md) - Real examples of AI reasoning
-- **Design Context:** [Design Phase](../process/design-phase.md) - Where reasoning is most critical
+- **Design Context:** [Design Phase](../process/02-design-phase.md) - Where reasoning is most critical
 
 ---
 
@@ -265,7 +265,7 @@ This framework ensures consistent, traceable decision-making throughout the spec
 
 ### Practical Application
 - **[Best Practices](../prompting/best-practices.md)** - Apply reasoning insights to improve AI collaboration
-- **[Design Phase](../process/design-phase.md)** - Where AI reasoning is most critical in the spec process
+- **[Design Phase](../process/02-design-phase.md)** - Where AI reasoning is most critical in the spec process
 
 ---
 

@@ -2,14 +2,14 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: Examples | Level: Advanced | Prerequisites: simple-feature-spec.md -->
-<!-- Related: resources/ai-reasoning.md, process/design-phase.md, templates/design-template.md -->
+<!-- Related: resources/ai-reasoning.md, process/02-design-phase.md, templates/design-template.md -->
 
 
 
 ## Quick Navigation
 - **🎯 Start Simple:** [Simple Feature Specs](simple-feature-spec.md) - Learn with basic examples first
 - **💡 Get Help:** [Best Practices](../prompting/best-practices.md) - Effective prompting strategies
-- **📋 Design Process:** [Design Phase Guide](../process/design-phase.md) - Systematic approach to complexity
+- **📋 Design Process:** [Design Phase Guide](../process/02-design-phase.md) - Systematic approach to complexity
 - **📝 Design Template:** [Design Template](../templates/design-template.md) - Structure for complex designs
 
 ---

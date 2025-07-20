@@ -16,10 +16,10 @@ Step-by-step walkthrough of the three-phase spec-driven development workflow.
 
 ## In This Section
 
-- **[Requirements Phase](requirements-phase.md)** - Gathering and structuring requirements using EARS format
-- **[Design Phase](design-phase.md)** - Creating comprehensive design documents with research
-- **[Tasks Phase](tasks-phase.md)** - Breaking down design into actionable coding tasks
-- **[Change Management](change-management.md)** - Managing spec evolution and handling discovered requirements
+- **[Requirements Phase](01-requirements-phase.md)** - Gathering and structuring requirements using EARS format
+- **[Design Phase](02-design-phase.md)** - Creating comprehensive design documents with research
+- **[Tasks Phase](03-tasks-phase.md)** - Breaking down design into actionable coding tasks
+- **[Change Management](04-change-management.md)** - Managing spec evolution and handling discovered requirements
 
 ## The Three-Phase Workflow
 
@@ -37,7 +37,7 @@ stateDiagram-v2
 
 Each phase builds upon the previous one, with explicit approval gates to ensure quality and alignment before proceeding.
 
-### Phase 1: [Requirements Gathering](requirements-phase.md)
+### Phase 1: [Requirements Gathering](01-requirements-phase.md)
 
 **Purpose**: Transform vague feature ideas into clear, testable requirements
 
@@ -55,7 +55,7 @@ Each phase builds upon the previous one, with explicit approval gates to ensure 
 - Reduces scope creep and feature drift
 - Creates a foundation for testing and validation
 
-### Phase 2: [Design Documentation](design-phase.md)
+### Phase 2: [Design Documentation](02-design-phase.md)
 
 **Purpose**: Create a comprehensive technical plan for implementation
 
@@ -73,7 +73,7 @@ Each phase builds upon the previous one, with explicit approval gates to ensure 
 - Provides a roadmap for implementation
 - Documents design decisions and their rationale
 
-### Phase 3: [Task Planning](tasks-phase.md)
+### Phase 3: [Task Planning](03-tasks-phase.md)
 
 **Purpose**: Break down the design into actionable, sequential implementation steps
 
@@ -507,7 +507,7 @@ These visual aids provide comprehensive guidance for understanding and navigatin
 - [Methodology Overview](../README.md) - Understand the foundation first
 
 ### Next Steps
-- [Requirements Phase](requirements-phase.md) - Start the three-phase process
+- [Requirements Phase](01-requirements-phase.md) - Start the three-phase process
 - [Templates](../templates/README.md) - Get ready-to-use starting points
 
 ### Related Sections

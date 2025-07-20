@@ -1,14 +1,14 @@
 # Tasks Phase
 
 <!-- Navigation Metadata -->
-<!-- Phase: Tasks | Level: Detailed Guide | Prerequisites: design-phase.md -->
+<!-- Phase: Tasks | Level: Detailed Guide | Prerequisites: 02-design-phase.md -->
 <!-- Related: templates/tasks-template.md, execution/implementation-guide.md, examples/simple-feature-spec.md -->
 
 ## Quick Navigation
 - **Get Started:** [Tasks Template](../templates/tasks-template.md) - Ready-to-use template
 - **See Example:** [Simple Feature Tasks](../examples/simple-feature-spec.md#tasks-document) - Complete tasks example
 - **Execute Tasks:** [Implementation Guide](../execution/implementation-guide.md) - How to work through tasks
-- **Back to Start:** [Requirements Phase](requirements-phase.md) - Full workflow context
+- **Back to Start:** [Requirements Phase](01-requirements-phase.md) - Full workflow context
 
 ---
 
@@ -914,13 +914,13 @@ Before beginning task execution, ensure you have:
 
 ### Connection to Previous Phases
 
-**From [Requirements Phase](requirements-phase.md)**:
+**From [Requirements Phase](01-requirements-phase.md)**:
 
 - Each task should trace back to specific requirements
 - User value should be clear for every implementation task
 - Acceptance criteria inform task completion validation
 
-**From [Design Phase](design-phase.md)**:
+**From [Design Phase](02-design-phase.md)**:
 
 - Task structure follows architectural decisions
 - Implementation approach aligns with design patterns

@@ -1,14 +1,14 @@
 # Design Phase
 
 <!-- Navigation Metadata -->
-<!-- Phase: Design | Level: Detailed Guide | Prerequisites: requirements-phase.md -->
+<!-- Phase: Design | Level: Detailed Guide | Prerequisites: 01-requirements-phase.md -->
 <!-- Related: templates/design-template.md, resources/ai-reasoning.md, examples/complex-system-spec.md -->
 
 ## Quick Navigation
 - **Get Started:** [Design Template](../templates/design-template.md) - Ready-to-use template
 - **See Example:** [Complex System Spec](../examples/complex-system-spec.md) - Complete design example
 - **Get Help:** [Best Practices](../prompting/best-practices.md) - Effective prompting strategies
-- **Next Phase:** [Tasks Phase](tasks-phase.md) - After design is approved
+- **Next Phase:** [Tasks Phase](03-tasks-phase.md) - After design is approved
 
 ---
 
@@ -403,7 +403,7 @@ Before moving to the tasks phase, verify:
 
 Once design is complete and approved:
 
-1. **Transition to [Tasks Phase](tasks-phase.md)**: Break down design into actionable implementation tasks
+1. **Transition to [Tasks Phase](03-tasks-phase.md)**: Break down design into actionable implementation tasks
 2. **Maintain Design-Task Traceability**: Ensure tasks implement all design elements
 3. **Keep Design Updated**: Update design if task breakdown reveals issues
 4. **Prepare Implementation Context**: Design serves as reference during coding

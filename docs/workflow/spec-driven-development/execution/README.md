@@ -1,11 +1,11 @@
 # Execution Guide
 
 <!-- Navigation Metadata -->
-<!-- Section: Execution | Level: Overview | Prerequisites: process/tasks-phase.md -->
+<!-- Section: Execution | Level: Overview | Prerequisites: process/03-tasks-phase.md -->
 <!-- Related: examples/simple-feature-spec.md, resources/tools.md, process/README.md -->
 
 ## Quick Navigation
-- **Prerequisites:** [Tasks Phase](../process/tasks-phase.md) - Learn how to create implementation plans
+- **Prerequisites:** [Tasks Phase](../process/03-tasks-phase.md) - Learn how to create implementation plans
 - **Complete Example:** [Simple Feature Spec](../examples/simple-feature-spec.md) - See full spec-to-code workflow
 - **Helpful Tools:** [Tools & Resources](../resources/tools.md) - Recommended execution tools
 - **Process Overview:** [Three-Phase Workflow](../process/README.md) - Understand the full context
