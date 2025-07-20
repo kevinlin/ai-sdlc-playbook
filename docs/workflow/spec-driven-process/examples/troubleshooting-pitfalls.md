@@ -4,7 +4,7 @@
 <!-- Section: Examples | Level: Advanced | Prerequisites: README.md -->
 <!-- Related: process/README.md, prompting/best-practices.md, execution/README.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Examples](README.md) → **Troubleshooting & Pitfalls**
+
 
 ## Quick Navigation
 - **📋 Learn Process:** [Process Guide](../process/README.md) - Avoid pitfalls with systematic approach

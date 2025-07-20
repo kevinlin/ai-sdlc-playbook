@@ -4,7 +4,7 @@
 <!-- Section: Examples | Level: Practical | Prerequisites: README.md -->
 <!-- Related: process/README.md, templates/README.md, prompting/README.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Examples](README.md) → **Simple Feature Specs**
+
 
 ## Quick Navigation
 - **📚 Learn First:** [Methodology Overview](../README.md) - Understand the foundation

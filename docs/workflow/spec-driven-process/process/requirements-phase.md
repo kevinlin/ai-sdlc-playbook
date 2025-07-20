@@ -4,7 +4,7 @@
 <!-- Phase: Requirements | Level: Detailed Guide | Prerequisites: methodology/README.md -->
 <!-- Related: templates/requirements-template.md, resources/standards.md, examples/simple-feature-spec.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Process Guide](README.md) → **Requirements Phase**
+
 
 ## Quick Navigation
 - **🎯 Get Started:** [Requirements Template](../templates/requirements-template.md) - Ready-to-use template

@@ -4,8 +4,6 @@
 <!-- Section: Methodology | Level: Practical | Prerequisites: when-to-use.md -->
 <!-- Related: templates/quick-spec-template.md, examples/simple-feature-spec.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Methodology](README.md) → **Lightweight Specs**
-
 ## Quick Navigation
 - **Prerequisites:** [When to Use Specs](when-to-use.md)
 - **Templates:** [Quick Spec Template](templates/quick-spec-template.md)
@@ -305,4 +303,4 @@ Quick checklist format:
 - [Lightweight Spec Examples](examples/lightweight-examples.md)
 - [Spec Upgrade Examples](examples/spec-upgrade-examples.md)
 
-[← Back to Methodology](README.md) | [Process Guide →](process/README.md)
+[← Back to Main Guide](../../README.md)

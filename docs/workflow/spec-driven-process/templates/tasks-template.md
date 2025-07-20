@@ -4,7 +4,7 @@
 <!-- Template: Tasks | Level: Template | Prerequisites: design-template.md -->
 <!-- Related: process/tasks-phase.md, execution/implementation-guide.md, examples/simple-feature-spec.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Templates](README.md) → **Tasks Template**
+
 
 ## Quick Navigation
 - **📚 Learn Process:** [Tasks Phase Guide](../process/tasks-phase.md) - How to use this template

@@ -4,8 +4,6 @@
 <!-- Section: Examples | Level: Reference | Prerequisites: README.md -->
 <!-- Related: templates/README.md, process/README.md, ai-reasoning/examples.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → **Examples**
-
 ## Quick Navigation
 - **Learn First:** [Methodology Overview](../README.md) - Understand the foundation
 - **Get Templates:** [Ready-to-Use Templates](../templates/README.md) - Start your own specs
@@ -53,4 +51,4 @@ Each example includes:
 
 ---
 
-[← Back to Main Guide](../../README.md) | [Start with Simple Examples →](simple-feature-spec.md)
+[← Back to Main Guide](../../README.md)

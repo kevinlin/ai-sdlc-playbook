@@ -4,7 +4,7 @@
 <!-- Example: Case Studies | Level: Troubleshooting | Prerequisites: simple-feature-spec.md -->
 <!-- Related: process/README.md, prompting/best-practices.md, execution/troubleshooting.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Examples](README.md) → **Case Studies**
+
 
 ## Quick Navigation
 - **📖 Learn Basics:** [Simple Feature Specs](simple-feature-spec.md) - See good examples first

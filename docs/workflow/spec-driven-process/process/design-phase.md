@@ -4,7 +4,7 @@
 <!-- Phase: Design | Level: Detailed Guide | Prerequisites: requirements-phase.md -->
 <!-- Related: templates/design-template.md, ai-reasoning/decision-frameworks.md, examples/complex-system-spec.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Process Guide](README.md) → **Design Phase**
+
 
 ## Quick Navigation
 - **🎯 Get Started:** [Design Template](../templates/design-template.md) - Ready-to-use template

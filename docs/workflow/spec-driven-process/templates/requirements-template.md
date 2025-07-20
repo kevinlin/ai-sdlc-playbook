@@ -4,7 +4,7 @@
 <!-- Template: Requirements | Level: Template | Prerequisites: None -->
 <!-- Related: process/requirements-phase.md, resources/standards.md, examples/simple-feature-spec.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Templates](README.md) → **Requirements Template**
+
 
 ## Quick Navigation
 - **📚 Learn Process:** [Requirements Phase Guide](../process/requirements-phase.md) - How to use this template

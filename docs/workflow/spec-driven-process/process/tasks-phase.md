@@ -4,7 +4,7 @@
 <!-- Phase: Tasks | Level: Detailed Guide | Prerequisites: design-phase.md -->
 <!-- Related: templates/tasks-template.md, execution/implementation-guide.md, examples/simple-feature-spec.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Process Guide](README.md) → **Tasks Phase**
+
 
 ## Quick Navigation
 - **🎯 Get Started:** [Tasks Template](../templates/tasks-template.md) - Ready-to-use template

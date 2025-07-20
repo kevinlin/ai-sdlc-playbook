@@ -4,7 +4,7 @@
 <!-- Section: Templates | Level: Practical | Prerequisites: ../methodology/lightweight-specs.md -->
 <!-- Related: quick-spec-template.md, checklists.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Templates](README.md) → **Micro Spec Template**
+
 
 ## Quick Navigation
 - **Prerequisites:** [Lightweight Specs](../methodology/lightweight-specs.md)

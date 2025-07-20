@@ -4,8 +4,6 @@
 <!-- Section: AI Reasoning | Level: Overview | Prerequisites: README.md, process/README.md -->
 <!-- Related: prompting/README.md, examples/case-studies.md, process/design-phase.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → **AI Reasoning**
-
 ## Quick Navigation
 - **Foundation:** [Methodology](../README.md) - Understand the spec process first
 - **Apply Learning:** [Prompting Strategies](../prompting/README.md) - Use insights for better AI collaboration
@@ -40,4 +38,4 @@ Understanding the reasoning process helps you:
 
 ---
 
-[← Back to Main Guide](../../README.md) | [Explore Decision Frameworks →](decision-frameworks.md)
+[← Back to Main Guide](../../README.md)

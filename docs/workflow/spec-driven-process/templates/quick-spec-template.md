@@ -3,7 +3,7 @@
 <!-- Template for 1-3 day features: Requirements + Tasks only -->
 <!-- Phase: Lightweight | Effort: 1-3 days | Complexity: Medium -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Templates](README.md) → **Quick Spec Template**
+
 
 ## Quick Navigation
 - **Prerequisites:** [Lightweight Specs](../lightweight-specs.md)

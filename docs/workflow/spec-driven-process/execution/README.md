@@ -4,8 +4,6 @@
 <!-- Section: Execution | Level: Overview | Prerequisites: process/tasks-phase.md -->
 <!-- Related: examples/simple-feature-spec.md, resources/tools.md, process/README.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → **Execution Guide**
-
 ## Quick Navigation
 - **Prerequisites:** [Tasks Phase](../process/tasks-phase.md) - Learn how to create implementation plans
 - **Complete Example:** [Simple Feature Spec](../examples/simple-feature-spec.md) - See full spec-to-code workflow
@@ -39,4 +37,4 @@ Once you have a completed spec with requirements, design, and tasks, this sectio
 
 ---
 
-[← Back to Main Guide](../../README.md) | [Start Implementation →](implementation-guide.md)
+[← Back to Main Guide](../../README.md)

@@ -4,7 +4,7 @@
 <!-- Section: Examples | Level: Advanced | Prerequisites: simple-feature-spec.md -->
 <!-- Related: ai-reasoning/decision-frameworks.md, process/design-phase.md, templates/design-template.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Examples](README.md) → **Complex System Specs**
+
 
 ## Quick Navigation
 - **🎯 Start Simple:** [Simple Feature Specs](simple-feature-spec.md) - Learn with basic examples first

@@ -4,7 +4,7 @@
 <!-- Section: Process | Level: Advanced | Prerequisites: requirements-phase.md, design-phase.md -->
 <!-- Related: execution/implementation-guide.md, templates/checklists.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Process Guide](README.md) → **Change Management**
+
 
 ## Quick Navigation
 - **Prerequisites:** [Requirements Phase](requirements-phase.md), [Design Phase](design-phase.md)
