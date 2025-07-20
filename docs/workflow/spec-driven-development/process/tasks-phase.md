@@ -36,6 +36,7 @@ The tasks phase serves to:
 **Objective**: Break down the design into implementable components
 
 **Process**:
+
 1. **Review Design Components**: Identify all system components that need to be built
 2. **Map to Code Artifacts**: Determine what files, classes, and functions need to be created
 3. **Identify Dependencies**: Understand what needs to be built before other components
@@ -43,6 +44,7 @@ The tasks phase serves to:
 5. **Sequence for Early Validation**: Order tasks to validate core functionality quickly
 
 **Task Identification Guidelines**:
+
 - Focus on concrete coding activities (writing, modifying, testing code)
 - Each task should produce working, testable code
 - Tasks should build incrementally on previous work
@@ -51,6 +53,7 @@ The tasks phase serves to:
 ### Step 2: Task Structuring and Hierarchy
 
 **Task Organization Principles**:
+
 1. **Two-Level Maximum**: Use only top-level tasks and sub-tasks (avoid deep nesting)
 2. **Logical Grouping**: Group related tasks under meaningful categories
 3. **Sequential Dependencies**: Order tasks so each builds on previous work
@@ -72,6 +75,7 @@ The tasks phase serves to:
 ### Step 3: Task Definition and Specification
 
 **Task Specification Elements**:
+
 1. **Clear Objective**: What specific code needs to be written or modified
 2. **Implementation Details**: Specific files, components, or functions to create
 3. **Requirements Traceability**: Reference to specific requirements being implemented
@@ -90,12 +94,14 @@ The tasks phase serves to:
 ### Step 4: Dependency Management and Sequencing
 
 **Dependency Considerations**:
+
 1. **Foundation First**: Core interfaces and data models before dependent components
 2. **Bottom-Up Approach**: Lower-level utilities before higher-level features
 3. **Test-Driven Sequence**: Tests alongside or before implementation
 4. **Integration Points**: Plan for connecting components as they're built
 
 **Sequencing Strategies**:
+
 - **Core-First**: Build essential functionality before optional features
 - **Risk-First**: Tackle uncertain or complex tasks early
 - **Value-First**: Implement high-value features that can be tested quickly
@@ -104,6 +110,7 @@ The tasks phase serves to:
 ### Step 5: Task Validation and Refinement
 
 **Task Quality Criteria**:
+
 1. **Actionable**: Can be executed by a coding agent without additional clarification
 2. **Specific**: Clear about what files, functions, or components to create
 3. **Testable**: Results in code that can be tested and validated
@@ -111,6 +118,7 @@ The tasks phase serves to:
 5. **Complete**: Covers all aspects of the design that require implementation
 
 **Validation Questions**:
+
 - Can a developer start coding immediately from this task description?
 - Does this task produce working, testable code?
 - Are the requirements being implemented clearly identified?
@@ -122,6 +130,7 @@ The tasks phase serves to:
 ### Foundation Tasks
 **Purpose**: Establish core structure and interfaces
 **Examples**:
+
 - Set up project structure and dependencies
 - Create core data model interfaces
 - Implement base classes and utilities
@@ -140,6 +149,7 @@ The tasks phase serves to:
 ### Data Layer Tasks
 **Purpose**: Implement data models and persistence
 **Examples**:
+
 - Create data model classes with validation
 - Implement repository pattern for data access
 - Set up database connections and migrations
@@ -158,6 +168,7 @@ The tasks phase serves to:
 ### Business Logic Tasks
 **Purpose**: Implement core feature functionality
 **Examples**:
+
 - Create service classes for business operations
 - Implement workflow and process logic
 - Add business rule validation
@@ -177,6 +188,7 @@ The tasks phase serves to:
 ### API/Interface Tasks
 **Purpose**: Create external interfaces and endpoints
 **Examples**:
+
 - Implement REST API endpoints
 - Create request/response handling
 - Add input validation and error handling
@@ -196,6 +208,7 @@ The tasks phase serves to:
 ### Integration Tasks
 **Purpose**: Connect components and external systems
 **Examples**:
+
 - Wire up dependency injection
 - Implement external API integrations
 - Connect frontend to backend services
@@ -702,6 +715,7 @@ This example demonstrates complex dependency management and multiple sequencing 
 ### Task Scope Guidelines
 
 **Appropriate Task Scope**:
+
 - Can be completed in 1-4 hours of focused work
 - Produces working, testable code
 - Has clear completion criteria
@@ -741,24 +755,24 @@ This example demonstrates complex dependency management and multiple sequencing 
 ## Common Task Planning Pitfalls
 
 ### Pitfall 1: Tasks Too Abstract
-**Problem**: "Implement user management"
-**Solution**: "Create User model with email validation and password hashing"
+- **Problem**: "Implement user management"
+- **Solution**: "Create User model with email validation and password hashing"
 
 ### Pitfall 2: Missing Dependencies
-**Problem**: Tasks that can't be completed because prerequisites aren't built
-**Solution**: Sequence tasks so each builds on completed work
+- **Problem**: Tasks that can't be completed because prerequisites aren't built
+- **Solution**: Sequence tasks so each builds on completed work
 
 ### Pitfall 3: Non-Coding Tasks
-**Problem**: "Deploy to production", "Get user feedback"
-**Solution**: Focus only on coding, testing, and implementation activities
+- **Problem**: "Deploy to production", "Get user feedback"
+- **Solution**: Focus only on coding, testing, and implementation activities
 
 ### Pitfall 4: Monolithic Tasks
-**Problem**: Tasks that try to implement entire features at once
-**Solution**: Break down into smaller, incremental steps
+- **Problem**: Tasks that try to implement entire features at once
+- **Solution**: Break down into smaller, incremental steps
 
 ### Pitfall 5: Missing Test Tasks
-**Problem**: Only implementation tasks without corresponding tests
-**Solution**: Include test creation as part of each implementation task
+- **Problem**: Only implementation tasks without corresponding tests
+- **Solution**: Include test creation as part of each implementation task
 
 ## Quality Checklist
 
@@ -791,20 +805,20 @@ Before finalizing the task list, verify:
 ## Troubleshooting Task Planning Issues
 
 ### Issue: Tasks Are Too Vague
-**Symptoms**: Developers can't start coding from task descriptions
-**Solution**: Add more specific implementation details and file/component names
+- **Symptoms**: Developers can't start coding from task descriptions
+- **Solution**: Add more specific implementation details and file/component names
 
 ### Issue: Task Dependencies Are Unclear
-**Symptoms**: Tasks can't be completed because prerequisites are missing
-**Solution**: Review task sequence and add missing foundation tasks
+- **Symptoms**: Tasks can't be completed because prerequisites are missing
+- **Solution**: Review task sequence and add missing foundation tasks
 
 ### Issue: Tasks Don't Map to Requirements
-**Symptoms**: Difficulty tracing tasks back to user value
-**Solution**: Add requirement references and validate coverage
+- **Symptoms**: Difficulty tracing tasks back to user value
+- **Solution**: Add requirement references and validate coverage
 
 ### Issue: Task List Is Overwhelming
-**Symptoms**: Too many tasks, unclear priorities
-**Solution**: Group related tasks and focus on core functionality first
+- **Symptoms**: Too many tasks, unclear priorities
+- **Solution**: Group related tasks and focus on core functionality first
 
 ## Task Execution Guidance
 
@@ -813,6 +827,7 @@ Before finalizing the task list, verify:
 Before beginning task execution, ensure you have:
 
 **Context Preparation**:
+
 - [ ] Requirements document accessible and understood
 - [ ] Design document reviewed and internalized
 - [ ] Development environment set up and tested
@@ -820,6 +835,7 @@ Before beginning task execution, ensure you have:
 - [ ] Version control system initialized
 
 **Task Selection Strategy**:
+
 1. **Start with Foundation Tasks**: Always begin with setup and core interface tasks
 2. **Follow Dependencies**: Don't skip ahead to tasks that depend on incomplete work
 3. **One Task at a Time**: Focus completely on a single task before moving to the next
@@ -829,6 +845,7 @@ Before beginning task execution, ensure you have:
 
 #### Phase 1: Task Analysis
 **Before starting any task**:
+
 1. **Read Task Details Thoroughly**: Understand exactly what needs to be implemented
 2. **Review Requirements References**: Understand the user value being delivered
 3. **Check Dependencies**: Ensure all prerequisite tasks are complete
@@ -837,6 +854,7 @@ Before beginning task execution, ensure you have:
 
 #### Phase 2: Implementation
 **During task execution**:
+
 1. **Update Task Status**: Mark task as "in progress" before starting
 2. **Create Tests First** (when applicable): Write failing tests that define success
 3. **Implement Incrementally**: Build functionality step by step
@@ -845,6 +863,7 @@ Before beginning task execution, ensure you have:
 
 #### Phase 3: Validation and Completion
 **Before marking task complete**:
+
 1. **Run All Tests**: Ensure new and existing tests pass
 2. **Review Against Requirements**: Verify the task delivers required functionality
 3. **Check Integration**: Ensure new code works with existing components
@@ -868,6 +887,7 @@ Please implement this task following the specified approach and include appropri
 ```
 
 **Iterative Development Approach**:
+
 1. **Start Simple**: Implement basic functionality first
 2. **Add Complexity Gradually**: Build up features incrementally
 3. **Test Each Addition**: Validate every change before proceeding
@@ -876,12 +896,14 @@ Please implement this task following the specified approach and include appropri
 #### Managing Task Dependencies
 
 **Dependency Validation Checklist**:
+
 - [ ] All prerequisite tasks are marked complete
 - [ ] Required interfaces and types are available
 - [ ] Necessary configuration is in place
 - [ ] Test infrastructure is ready
 
 **Handling Blocked Tasks**:
+
 1. **Identify Missing Dependencies**: What specifically is blocking progress?
 2. **Check Task Sequence**: Are tasks ordered correctly?
 3. **Create Missing Foundation**: Implement minimal prerequisites if needed
@@ -892,18 +914,21 @@ Please implement this task following the specified approach and include appropri
 #### Testing Strategy for Each Task
 
 **Unit Testing**:
+
 - Write tests for individual functions and methods
 - Test both happy path and error conditions
 - Aim for high code coverage on new functionality
 - Use descriptive test names that explain behavior
 
 **Integration Testing**:
+
 - Test how new components work with existing code
 - Validate data flow between components
 - Test error handling across component boundaries
 - Verify configuration and setup work correctly
 
 **Validation Testing**:
+
 - Test against original requirements
 - Verify user-facing functionality works as expected
 - Test edge cases and boundary conditions
@@ -912,6 +937,7 @@ Please implement this task following the specified approach and include appropri
 #### Code Quality Standards
 
 **During Implementation**:
+
 - Follow consistent coding style and conventions
 - Add meaningful comments for complex logic
 - Use descriptive variable and function names
@@ -919,6 +945,7 @@ Please implement this task following the specified approach and include appropri
 - Handle errors appropriately
 
 **Before Task Completion**:
+
 - Remove debugging code and console logs
 - Ensure proper error handling is in place
 - Verify no security vulnerabilities introduced
@@ -930,6 +957,7 @@ Please implement this task following the specified approach and include appropri
 #### Issue: Task Requirements Are Unclear
 **Symptoms**: Can't determine what exactly to implement
 **Solutions**:
+
 - Review the original requirements document for context
 - Check the design document for implementation guidance
 - Look at related tasks for patterns and consistency
@@ -938,6 +966,7 @@ Please implement this task following the specified approach and include appropri
 #### Issue: Dependencies Are Missing
 **Symptoms**: Can't complete task due to missing prerequisites
 **Solutions**:
+
 - Review previous tasks to ensure they're truly complete
 - Identify minimal implementation needed to unblock progress
 - Consider if task sequence needs adjustment
@@ -946,6 +975,7 @@ Please implement this task following the specified approach and include appropri
 #### Issue: Tests Are Failing
 **Symptoms**: New or existing tests break during implementation
 **Solutions**:
+
 - Understand why tests are failing before fixing them
 - Ensure new functionality doesn't break existing behavior
 - Update tests if requirements have legitimately changed
@@ -954,6 +984,7 @@ Please implement this task following the specified approach and include appropri
 #### Issue: Task Scope Creep
 **Symptoms**: Implementation becomes much larger than expected
 **Solutions**:
+
 - Review original task scope and stick to it
 - Identify what can be deferred to later tasks
 - Break large tasks into smaller, manageable pieces
@@ -964,6 +995,7 @@ Please implement this task following the specified approach and include appropri
 #### Task Status Management
 
 **Status Definitions**:
+
 - **Not Started**: Task hasn't been begun
 - **In Progress**: Actively working on implementation
 - **Blocked**: Cannot proceed due to dependencies or issues
@@ -971,6 +1003,7 @@ Please implement this task following the specified approach and include appropri
 - **Complete**: Fully implemented, tested, and validated
 
 **Status Update Guidelines**:
+
 - Update status when beginning work on a task
 - Add comments when tasks are blocked or delayed
 - Mark complete only when all acceptance criteria are met
@@ -979,12 +1012,14 @@ Please implement this task following the specified approach and include appropri
 #### Documentation During Execution
 
 **Implementation Notes**:
+
 - Record key technical decisions made during implementation
 - Document any deviations from original task plan
 - Note any issues encountered and how they were resolved
 - Update design documentation if implementation reveals gaps
 
 **Knowledge Transfer**:
+
 - Write clear commit messages explaining changes
 - Add inline documentation for complex logic
 - Update README files with new setup or usage instructions
@@ -995,18 +1030,21 @@ Please implement this task following the specified approach and include appropri
 #### Customizing for Different Project Types
 
 **Small Projects**:
+
 - Combine related tasks for efficiency
 - Focus on essential functionality first
 - Use simpler testing strategies
 - Prioritize working software over extensive documentation
 
 **Large Projects**:
+
 - Maintain strict task boundaries
 - Implement comprehensive testing at each step
 - Focus on maintainability and extensibility
 - Document architectural decisions thoroughly
 
 **Team Projects**:
+
 - Coordinate task assignments to avoid conflicts
 - Establish code review processes
 - Use consistent coding standards across team
@@ -1015,12 +1053,14 @@ Please implement this task following the specified approach and include appropri
 #### Handling Implementation Challenges
 
 **When Tasks Take Longer Than Expected**:
+
 1. Assess if scope has grown beyond original intent
 2. Identify if additional sub-tasks are needed
 3. Consider if task should be split into smaller pieces
 4. Update estimates for remaining tasks based on learnings
 
 **When Requirements Change During Implementation**:
+
 1. Stop current work and assess impact
 2. Update requirements and design documents first
 3. Revise affected tasks in the implementation plan
@@ -1028,6 +1068,7 @@ Please implement this task following the specified approach and include appropri
 5. Resume implementation with updated context
 
 **When Technical Blockers Arise**:
+
 1. Document the specific technical challenge
 2. Research potential solutions and alternatives
 3. Consider if design needs to be adjusted
@@ -1039,11 +1080,13 @@ Please implement this task following the specified approach and include appropri
 ### Connection to Previous Phases
 
 **From Requirements Phase**:
+
 - Each task should trace back to specific requirements
 - User value should be clear for every implementation task
 - Acceptance criteria inform task completion validation
 
 **From Design Phase**:
+
 - Task structure follows architectural decisions
 - Implementation approach aligns with design patterns
 - Component boundaries respect design interfaces
@@ -1051,11 +1094,13 @@ Please implement this task following the specified approach and include appropri
 ### Feedback to Earlier Phases
 
 **When Implementation Reveals Issues**:
+
 - Update design document if architecture needs adjustment
 - Clarify requirements if user needs are misunderstood
 - Revise task plan if dependencies were missed
 
 **Continuous Improvement**:
+
 - Document lessons learned during implementation
 - Update task planning process based on execution experience
 - Refine estimation accuracy for future projects
@@ -1063,6 +1108,7 @@ Please implement this task following the specified approach and include appropri
 ## Next Steps
 
 Once tasks are complete and approved:
+
 1. **Begin Implementation**: Start executing tasks in sequence using the guidance above
 2. **Track Progress**: Update task status as work is completed
 3. **Maintain Quality**: Follow testing and validation practices throughout
