@@ -29,6 +29,7 @@ As the third phase in the Requirements → Design → Tasks workflow, the tasks 
 ## Purpose and Goals
 
 The tasks phase serves to:
+
 - Convert design components into specific coding activities
 - Sequence tasks for optimal development flow and early validation
 - Create clear, actionable prompts for implementation

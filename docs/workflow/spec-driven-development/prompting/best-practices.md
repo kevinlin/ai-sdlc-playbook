@@ -99,6 +99,7 @@ User: "I need user authentication for my app."
 
 Better approach: "I'm building a SaaS application for small businesses. 
 I need user authentication that supports:
+
 - Business owners who need to manage team access
 - Team members with different permission levels
 - Integration with existing customer data
@@ -176,6 +177,7 @@ authentication fails, network is unavailable, and tokens expire."
 **Validate Understanding**
 ```
 "Before we move to design, let me confirm my understanding:
+
 - We're prioritizing security over convenience
 - Integration with existing systems is mandatory, not optional  
 - Performance requirements are firm (sub-200ms login)
@@ -197,6 +199,7 @@ Is this correct?"
 **Explain the Reasoning**
 ```
 "I want to change the authentication approach from OAuth to JWT because:
+
 - Our team has more experience with JWT implementation
 - It reduces external dependencies (no OAuth provider needed)
 - Better fits our offline-capable mobile app requirement
@@ -259,6 +262,7 @@ Please focus the requirements only on the MVP scope."
 "The design is getting complex. Let's simplify by focusing only on 
 requirements 1.1-1.4 for now. We can extend it later for requirements 
 2.x. Please revise the design to:
+
 - Handle current user load (not 10x future growth)
 - Use our existing tech stack (don't introduce new technologies)
 - Solve the specific problems in our requirements (not general problems)"
@@ -278,6 +282,7 @@ requirements 1.1-1.4 for now. We can extend it later for requirements
 **After:**
 ```
 "Please break down 'Implement user authentication system' into specific coding tasks like:
+
 - Create User model with email, password_hash, role fields
 - Write password hashing utility functions with bcrypt
 - Implement login endpoint that validates credentials and returns JWT
@@ -292,6 +297,7 @@ requirements 1.1-1.4 for now. We can extend it later for requirements
 **Completeness Check:**
 ```
 "Please review these requirements and identify any gaps:
+
 - Are all user types covered?
 - Do we handle all error scenarios?
 - Are integration points specified?
@@ -302,6 +308,7 @@ requirements 1.1-1.4 for now. We can extend it later for requirements
 **EARS Format Validation:**
 ```
 "Please check if these acceptance criteria follow EARS format properly:
+
 - Do they start with WHEN, IF, WHERE, WHILE?
 - Is the system response clearly specified with SHALL?
 - Are conditions and triggers specific and testable?"
@@ -312,6 +319,7 @@ requirements 1.1-1.4 for now. We can extend it later for requirements
 **Architecture Review:**
 ```
 "Please validate this design against our requirements:
+
 - Does it address all functional requirements?
 - Are non-functional requirements (performance, security) handled?
 - Are interfaces between components well-defined?
@@ -346,6 +354,7 @@ over-engineered or under-specified?"
 "Before we finalize the design, I need to research authentication 
 best practices for multi-tenant SaaS applications. Please help me 
 identify the key areas to research:
+
 - Industry standards for role-based access control
 - Common security vulnerabilities and mitigations
 - Performance optimization techniques for JWT at scale
@@ -368,6 +377,7 @@ but we also need offline capability (req 2.1). Please help me:
 **Multi-Perspective Validation:**
 ```
 "Please review these requirements from different stakeholder perspectives:
+
 - Developer: Are they technically feasible with our stack?
 - User: Do they solve real user problems effectively?
 - Business: Do they align with our business goals and constraints?

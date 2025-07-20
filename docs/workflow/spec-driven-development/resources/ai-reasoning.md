@@ -28,6 +28,7 @@ AI systems approach spec development through systematic frameworks that include:
 ## Why This Matters
 
 Understanding the reasoning process helps you:
+
 - Provide better input and feedback during spec development
 - Anticipate potential issues or alternative approaches
 - Learn systematic thinking patterns for your own planning

@@ -27,6 +27,7 @@ The Design Phase transforms approved requirements into a comprehensive technical
 ## Purpose and Goals
 
 The design phase serves to:
+
 - Translate requirements into technical architecture and system design
 - Conduct necessary research to inform design decisions
 - Define system components, interfaces, and data models

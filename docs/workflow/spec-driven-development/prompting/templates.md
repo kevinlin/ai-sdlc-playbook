@@ -20,6 +20,7 @@ I want to create a spec for [FEATURE_NAME]. Here's my initial idea:
 [BRIEF_FEATURE_DESCRIPTION]
 
 Please help me create comprehensive requirements using the EARS format. Focus on:
+
 - User stories that capture the core value proposition
 - Acceptance criteria that are testable and specific
 - Edge cases and error scenarios
@@ -34,12 +35,14 @@ The feature should serve [TARGET_USER_TYPE] and solve [CORE_PROBLEM].
 I'm planning a [SYSTEM_TYPE] that needs to handle [CORE_FUNCTIONALITY]. 
 
 Key constraints:
+
 - Performance: [PERFORMANCE_REQUIREMENTS]
 - Scale: [EXPECTED_USAGE_PATTERNS]
 - Integration: [EXISTING_SYSTEMS_TO_INTEGRATE]
 - Compliance: [REGULATORY_OR_BUSINESS_REQUIREMENTS]
 
 Please help me break this down into well-structured requirements using EARS format. Pay special attention to:
+
 - System boundaries and interfaces
 - Non-functional requirements
 - Data flow and processing requirements
@@ -56,11 +59,13 @@ Core functionality:
 - [SECONDARY_OPERATIONS]
 
 Technical context:
+
 - Expected consumers: [WHO_WILL_USE_IT]
 - Data sources: [WHERE_DATA_COMES_FROM]
 - Performance needs: [RESPONSE_TIME_REQUIREMENTS]
 
 Please create requirements that cover:
+
 - Endpoint specifications and data models
 - Authentication and authorization
 - Error handling and status codes
@@ -77,6 +82,7 @@ Based on the requirements we've established, I need a comprehensive design for [
 Requirements summary: [BRIEF_RECAP_OF_KEY_REQUIREMENTS]
 
 Please create a design that addresses:
+
 - Overall architecture and component relationships
 - Data models and their relationships
 - API interfaces and contracts
@@ -84,6 +90,7 @@ Please create a design that addresses:
 - Testing approach
 
 Consider these technical constraints:
+
 - Technology stack: [CURRENT_TECH_STACK]
 - Performance requirements: [KEY_PERFORMANCE_NEEDS]
 - Integration points: [SYSTEMS_TO_INTEGRATE_WITH]
@@ -100,6 +107,7 @@ Key data entities from requirements:
 - [ENTITY_3]: [BRIEF_DESCRIPTION]
 
 Please design:
+
 - Entity relationship diagrams
 - Table schemas with appropriate constraints
 - Indexing strategy for performance
@@ -115,11 +123,13 @@ Database context: [CURRENT_DATABASE_TECHNOLOGY]
 Based on our requirements, I need a user experience design for [FEATURE_NAME].
 
 User context:
+
 - Primary users: [USER_TYPES]
 - Usage patterns: [HOW_THEY_WILL_USE_IT]
 - Device/platform: [WHERE_THEY_ACCESS_IT]
 
 Please design:
+
 - User flow diagrams
 - Interface mockups or wireframes
 - Interaction patterns
@@ -137,12 +147,14 @@ Now that we have the design approved, please break it down into actionable codin
 Design summary: [KEY_DESIGN_COMPONENTS]
 
 Create an implementation plan that:
+
 - Follows test-driven development principles
 - Builds incrementally with early validation
 - Sequences tasks to minimize dependencies
 - Includes specific file/component creation steps
 
 Each task should:
+
 - Reference specific requirements it addresses
 - Be completable by a coding agent
 - Build on previous tasks
@@ -155,11 +167,13 @@ Each task should:
 I need to refactor [EXISTING_SYSTEM] to implement [NEW_FEATURE] based on our design.
 
 Current system context:
+
 - Existing codebase: [BRIEF_DESCRIPTION]
 - Technologies used: [CURRENT_TECH_STACK]
 - Areas that need changes: [COMPONENTS_TO_MODIFY]
 
 Create tasks that:
+
 - Minimize disruption to existing functionality
 - Allow for incremental rollout
 - Include comprehensive testing at each step
@@ -171,6 +185,7 @@ Create tasks that:
 ### Simple Feature (< 5 requirements)
 
 Use concise templates focusing on:
+
 - Core user story and acceptance criteria
 - Basic architecture decisions
 - Straightforward task breakdown
@@ -178,6 +193,7 @@ Use concise templates focusing on:
 ### Medium Feature (5-15 requirements)
 
 Include additional sections for:
+
 - Multiple user personas
 - Integration considerations
 - Performance and scalability
@@ -186,6 +202,7 @@ Include additional sections for:
 ### Complex Feature (15+ requirements)
 
 Expand templates to cover:
+
 - System-wide impact analysis
 - Detailed technical research needs
 - Phased implementation approach
@@ -284,6 +301,7 @@ Suggest improvements for any issues identified.
 The requirements seem too high-level. Please help me break down [SPECIFIC_REQUIREMENT] into more specific, testable acceptance criteria.
 
 Focus on:
+
 - Concrete user actions and system responses
 - Measurable success criteria
 - Specific error conditions and handling

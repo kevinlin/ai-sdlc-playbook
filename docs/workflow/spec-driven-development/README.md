@@ -70,7 +70,7 @@ stateDiagram-v2
 
 Each phase builds upon the previous one, creating a solid foundation for successful feature development.
 
-Refer to [Process Guide](process/README.md) for step-by-step walkthrough of the three phase s.
+Refer to [Process Guide](process/README.md) for step-by-step walkthrough of the three phases.
 
 ## Core Philosophy
 

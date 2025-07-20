@@ -194,6 +194,7 @@ Use this template to create actionable implementation plans that break down your
 ### Requirements Traceability
 
 Each task should reference specific requirements:
+
 - Use requirement numbers or identifiers
 - Link to acceptance criteria being addressed
 - Ensure all requirements are covered by tasks

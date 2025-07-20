@@ -27,6 +27,7 @@ The Requirements Phase is the foundation of spec-driven development, where rough
 ## Purpose and Goals
 
 The requirements phase serves to:
+
 - Transform vague feature ideas into concrete, measurable requirements
 - Establish clear acceptance criteria for feature success
 - Create a shared understanding between stakeholders

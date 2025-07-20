@@ -92,6 +92,7 @@ Only documenting the "happy path" scenarios.
 
 **The Solution:**
 For each requirement, explicitly consider:
+
 - What happens when this fails?
 - What are the boundary conditions?
 - How should the system behave under stress?
@@ -135,6 +136,7 @@ For each requirement, explicitly consider:
 
 **The Problem:**
 Making design decisions without understanding:
+
 - Available libraries and frameworks
 - Performance characteristics
 - Integration requirements

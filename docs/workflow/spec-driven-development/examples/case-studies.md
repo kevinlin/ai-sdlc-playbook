@@ -143,6 +143,7 @@ The content management system will use:
 ```markdown
 ## Architecture
 The content management system will start with:
+
 - Single service with clear module boundaries
 - Traditional database with proper indexing
 - Simple caching for frequently accessed content
@@ -216,6 +217,7 @@ A data processing system was designed without considering performance, security,
 ```markdown
 ## Data Processing Design
 The system will:
+
 - Read data from CSV files
 - Transform data according to business rules
 - Store results in database

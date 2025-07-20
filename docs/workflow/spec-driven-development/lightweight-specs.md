@@ -308,7 +308,7 @@ Quick checklist format:
 - [Micro Spec Template](templates/micro-spec-template.md)
 
 ### Examples
-- [Lightweight Spec Examples](examples/lightweight-examples.md)
-- [Spec Upgrade Examples](examples/spec-upgrade-examples.md)
+- [Simple Feature Examples](examples/simple-feature-spec.md)
+- [Case Studies](examples/case-studies.md)
 
 [← Back to Main Guide](../../README.md)
