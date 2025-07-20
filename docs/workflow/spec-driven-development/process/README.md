@@ -38,9 +38,7 @@ stateDiagram-v2
 
 Each phase builds upon the previous one, with explicit approval gates to ensure quality and alignment before proceeding.
 
-## The Three-Phase Approach
-
-### Phase 1: Requirements Gathering
+### Phase 1: [Requirements Gathering](requirements-phase.md)
 
 **Purpose**: Transform vague feature ideas into clear, testable requirements
 
@@ -58,7 +56,7 @@ Each phase builds upon the previous one, with explicit approval gates to ensure 
 - Reduces scope creep and feature drift
 - Creates a foundation for testing and validation
 
-### Phase 2: Design Documentation
+### Phase 2: [Design Documentation](design-phase.md)
 
 **Purpose**: Create a comprehensive technical plan for implementation
 
@@ -76,7 +74,7 @@ Each phase builds upon the previous one, with explicit approval gates to ensure 
 - Provides a roadmap for implementation
 - Documents design decisions and their rationale
 
-### Phase 3: Task Planning
+### Phase 3: [Task Planning](tasks-phase.md)
 
 **Purpose**: Break down the design into actionable, sequential implementation steps
 
