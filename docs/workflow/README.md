@@ -16,11 +16,13 @@ We provide three complementary approaches for different project needs:
 **Best for:** Enterprise projects, complex systems, and team-based development requiring thorough documentation and process adherence.
 
 **Get Started:**
+
 - **[Functional Requirements](feature-based-development/02-functional-requirement.md)** - Define expected behavior and user experience
 - **[Technical Specification](feature-based-development/03-technical-specification.md)** - Create technical implementation plans
 - **[Development](feature-based-development/04-development.md)** - Iterative development with AI assistance
 
 **Complete Process:**
+
 1. [Functional Requirements](feature-based-development/02-functional-requirement.md) - Define expected behavior, UI, testable features, and user experience using AI tools to draft and refine
 2. [Technical Specification](feature-based-development/03-technical-specification.md) - Define technical implementation, data models, API endpoints, and backend architecture
 3. [Development](feature-based-development/04-development.md) - Develop the solution iteratively, leveraging AI for implementation
@@ -29,6 +31,7 @@ We provide three complementary approaches for different project needs:
 6. [Documentation](feature-based-development/07-documentation.md) - Update all relevant documentation to reflect changes
 
 **Use when:**
+
 - Building complex features with multiple components
 - Working across multiple teams or stakeholders
 - Documentation and knowledge preservation are critical
@@ -38,16 +41,19 @@ We provide three complementary approaches for different project needs:
 **Best for:** Systematic requirements management with AI-optimized planning before implementation.
 
 **Get Started:**
+
 - **[Overview](spec-driven-development/README.md)** - Quick introduction and decision framework
 - **[Process Guide](spec-driven-development/process/README.md)** - Three-phase methodology from idea to implementation
 - **[Examples](spec-driven-development/examples/README.md)** - Real specs and case studies
 
 **Three-Phase Process:**
+
 1. **Requirements** - Transform vague ideas into clear, testable requirements
 2. **Design** - Create comprehensive technical plans for implementation
 3. **Tasks** - Break down designs into actionable, sequential implementation steps
 
 **Use when:**
+
 - Features involve multiple components or integrations
 - Working on high-stakes projects where failure is costly
 - Coordinating work across multiple developers or teams
@@ -58,9 +64,11 @@ We provide three complementary approaches for different project needs:
 **Best for:** Rapid prototyping, small projects, and situations where speed and flexibility are prioritized.
 
 **Get Started:**
+
 - **[Vibe Coding Plus Workflow](vibe-coding-plus.md)** - Streamlined approach for rapid development
 
 **Use when:**
+
 - Building experimental prototypes
 - Working on small, well-understood features
 - Time-critical development
