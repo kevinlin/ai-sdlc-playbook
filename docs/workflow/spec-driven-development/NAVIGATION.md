@@ -5,7 +5,7 @@
 
 This comprehensive index provides multiple ways to navigate the Spec-Driven Development Guide based on your needs, experience level, and current goals.
 
-## 🎯 Quick Start Paths
+## Quick Start Paths
 
 ### New to Spec-Driven Development
 1. [Methodology Overview](README.md) - Understand the foundation
@@ -31,7 +31,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 3. [Tasks Template](templates/tasks-template.md) - Structure your implementation plan
 4. [Execution Troubleshooting](execution/README.md) - Handle implementation issues
 
-## 📚 By Content Type
+## By Content Type
 
 ### Core Methodology
 
@@ -75,7 +75,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - [Tools & Resources](resources/tools.md) - Recommended tools
 - [Tool Integration](resources/tool-integration-guide.md) - Setup and configuration
 
-## 🎭 By User Role
+## By User Role
 
 ### Developers
 **Start Here:** [Simple Feature Example](examples/simple-feature-spec.md)
@@ -109,7 +109,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - [Complex Examples](examples/complex-system-spec.md) - Advanced use cases
 - [Implementation Guide](execution/implementation-guide.md) - Execution strategies
 
-## 🔍 By Problem/Need
+## By Problem/Need
 
 ### "I don't know where to start"
 → [Methodology Overview](README.md) → [Simple Example](examples/simple-feature-spec.md) → [Requirements Template](templates/requirements-template.md)
@@ -129,7 +129,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 ### "I need examples for my specific situation"
 → [Simple Features](examples/simple-feature-spec.md) → [Complex Systems](examples/complex-system-spec.md) → [Case Studies](examples/case-studies.md)
 
-## 📖 By Learning Style
+## By Learning Style
 
 ### Sequential Learners (Step-by-Step)
 1. [Methodology Overview](README.md)
@@ -157,7 +157,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 3. [Best Practices](prompting/best-practices.md)
 4. [Quality Assurance](execution/quality-assurance.md)
 
-## 🔗 Cross-Reference Map
+## Cross-Reference Map
 
 ### Requirements ↔ Related Content
 - **Requirements Phase** ↔ [EARS Standards](resources/standards.md), [Requirements Template](templates/requirements-template.md)
@@ -179,7 +179,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - **Communication** ↔ [Best Practices](prompting/best-practices.md), [Troubleshooting](examples/troubleshooting-pitfalls.md)
 - **Templates** ↔ [Prompt Templates](prompting/templates.md), [Case Studies](examples/case-studies.md)
 
-## 🏷️ Topic Tags
+## Topic Tags
 
 ### By Complexity Level
 

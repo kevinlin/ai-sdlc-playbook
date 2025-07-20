@@ -298,7 +298,7 @@ Quick checklist format:
 
 ---
 
-## 🔗 Related Content
+## Related Content
 
 ### Prerequisites
 - [When to Use Specs](when-to-use.md) - Decision framework for specification

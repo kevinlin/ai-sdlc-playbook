@@ -126,7 +126,7 @@ flowchart TD
 3. **Traceability:** Link changes to original requirements
 4. **Communication:** Notify stakeholders of changes
 
-## 🔗 Related Content
+## Related Content
 
 ### Prerequisites
 - [Requirements Phase](requirements-phase.md) - Foundation for change management

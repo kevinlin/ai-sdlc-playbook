@@ -263,7 +263,7 @@ Weighted Score    |   4.6      |   3.4   |  3.2
 
 This framework ensures consistent, traceable decision-making throughout the spec development process, enabling better collaboration between developers and AI systems.
 
-## 🔗 Related Content
+## Related Content
 
 ### Examples and Case Studies
 - **[AI Reasoning Examples](../examples/ai-reasoning-examples.md)** - Detailed thought process examples showing decision frameworks in action

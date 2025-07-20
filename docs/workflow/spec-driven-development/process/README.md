@@ -94,7 +94,7 @@ Each phase builds upon the previous one, with explicit approval gates to ensure 
 
 ---
 
-## 🔗 Related Content
+## Related Content
 
 ### Prerequisites
 - [Methodology Overview](../README.md) - Understand the foundation first

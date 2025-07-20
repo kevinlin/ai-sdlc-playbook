@@ -242,7 +242,7 @@ Save button shows spinner and is disabled during form submission, returns to nor
 
 ---
 
-## 🔗 Related Content
+## Related Content
 
 ### Prerequisites
 - [Lightweight Specs Guide](../lightweight-specs.md)

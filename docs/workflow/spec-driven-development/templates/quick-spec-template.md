@@ -277,7 +277,7 @@ Ready-to-use template for 1-3 day features that need requirements and tasks but 
 
 ---
 
-## 🔗 Related Content
+## Related Content
 
 ### Prerequisites
 - [Lightweight Specs Guide](../lightweight-specs.md)
