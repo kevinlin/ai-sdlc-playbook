@@ -156,9 +156,9 @@ WHEN [user requests data] THEN [system] SHALL [respond within 2 seconds]
 IF [user session expires] THEN [system] SHALL [redirect to login page]
 ```
 
-## Examples of Well-Formed Requirements
+### Examples of Well-Formed Requirements
 
-### Example 1: User Authentication Feature
+#### Example 1: User Authentication Feature
 
 **User Story**: As a new user, I want to create an account, so that I can access personalized features.
 
@@ -171,7 +171,7 @@ IF [user session expires] THEN [system] SHALL [redirect to login page]
 5. WHEN account creation succeeds THEN system SHALL send confirmation email
 6. WHEN account creation succeeds THEN system SHALL redirect to welcome page
 
-### Example 2: Data Validation Feature
+#### Example 2: Data Validation Feature
 
 **User Story**: As a user, I want my input to be validated, so that I don't submit incorrect information.
 
@@ -183,7 +183,7 @@ IF [user session expires] THEN [system] SHALL [redirect to login page]
 4. WHEN all validation passes THEN system SHALL enable submit button
 5. IF validation fails THEN system SHALL keep submit button disabled
 
-### Example 3: File Upload Feature
+#### Example 3: File Upload Feature
 
 **User Story**: As a user, I want to upload files, so that I can share documents with my team.
 
@@ -197,29 +197,29 @@ IF [user session expires] THEN [system] SHALL [redirect to login page]
 6. WHEN upload fails THEN system SHALL display retry option
 7. IF user is not authenticated THEN system SHALL redirect to login before upload
 
-## Common Pitfalls and How to Avoid Them
+### Common Pitfalls and How to Avoid Them
 
-### Pitfall 1: Vague Requirements
+#### Pitfall 1: Vague Requirements
 
 - **Problem**: "System should be fast"
 - **Solution**: "WHEN user requests data THEN system SHALL respond within 2 seconds"
 
-### Pitfall 2: Implementation Details in Requirements
+#### Pitfall 2: Implementation Details in Requirements
 
 - **Problem**: "System shall use Redis for caching"
 - **Solution**: "WHEN user requests frequently accessed data THEN system SHALL return cached results"
 
-### Pitfall 3: Missing Error Cases
+#### Pitfall 3: Missing Error Cases
 
 - **Problem**: Only defining happy path scenarios
 - **Solution**: Always include WHEN/IF statements for error conditions
 
-### Pitfall 4: Conflicting Requirements
+#### Pitfall 4: Conflicting Requirements
 
 - **Problem**: Requirements that contradict each other
 - **Solution**: Review all requirements together and resolve conflicts explicitly
 
-### Pitfall 5: Untestable Requirements
+#### Pitfall 5: Untestable Requirements
 
 - **Problem**: "System should be user-friendly"
 - **Solution**: "WHEN new user completes onboarding THEN system SHALL require no more than 3 clicks to reach main features"
