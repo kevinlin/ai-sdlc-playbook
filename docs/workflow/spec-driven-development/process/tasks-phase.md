@@ -171,6 +171,7 @@ flowchart TD
 
 ### Foundation Tasks
 **Purpose**: Establish core structure and interfaces
+
 **Examples**:
 
 - Set up project structure and dependencies
@@ -190,6 +191,7 @@ flowchart TD
 
 ### Data Layer Tasks
 **Purpose**: Implement data models and persistence
+
 **Examples**:
 
 - Create data model classes with validation
@@ -209,6 +211,7 @@ flowchart TD
 
 ### Business Logic Tasks
 **Purpose**: Implement core feature functionality
+
 **Examples**:
 
 - Create service classes for business operations
@@ -229,6 +232,7 @@ flowchart TD
 
 ### API/Interface Tasks
 **Purpose**: Create external interfaces and endpoints
+
 **Examples**:
 
 - Implement REST API endpoints
@@ -249,6 +253,7 @@ flowchart TD
 
 ### Integration Tasks
 **Purpose**: Connect components and external systems
+
 **Examples**:
 
 - Wire up dependency injection
@@ -270,81 +275,88 @@ flowchart TD
 
 ### Strategy 1: Foundation-First Approach
 **Best for**: New projects, complex systems with many interdependencies
+
 **Sequence**:
-```markdown
+
 1. Project setup and core interfaces
 2. Data models and validation
 3. Data access layer
 4. Business logic services
 5. API endpoints
 6. Integration and wiring
-```
 
 **Advantages**:
+
 - Establishes solid foundation before building features
 - Reduces rework from architectural changes
 - Clear dependency chain
 
 **Disadvantages**:
+
 - Longer time before visible functionality
 - Risk of over-engineering foundation
 
 ### Strategy 2: Feature-Slice Approach
 **Best for**: MVP development, user-facing applications, agile development
+
 **Sequence**:
-```markdown
+
 1. Core user registration (end-to-end)
 2. User authentication (end-to-end)
 3. User profile management (end-to-end)
 4. Advanced features and optimizations
-```
 
 **Advantages**:
+
 - Early user value delivery
 - Faster feedback cycles
 - Reduced integration risk
 
 **Disadvantages**:
+
 - May require refactoring as features expand
 - Potential for technical debt
 
 ### Strategy 3: Risk-First Approach
 **Best for**: Projects with high technical uncertainty, proof-of-concepts
+
 **Sequence**:
-```markdown
+
 1. Most uncertain/complex components
 2. External integrations and dependencies
 3. Core business logic
 4. User interface and experience
 5. Polish and optimization
-```
 
 **Advantages**:
+
 - Early validation of technical feasibility
 - Reduces project risk
 - Informs architectural decisions
 
 **Disadvantages**:
+
 - May not deliver user value early
 - Requires strong technical expertise
 
 ### Strategy 4: Hybrid Approach
 **Best for**: Most real-world projects
+
 **Sequence**:
-```markdown
+
 1. Minimal foundation (core interfaces, basic setup)
 2. High-risk/high-value feature slice
 3. Expand foundation as needed
 4. Additional feature slices
 5. Integration and polish
-```
 
 **Advantages**:
+
 - Balances risk management with early value
 - Flexible and adaptable
 - Pragmatic approach
 
-## Advanced Dependency Management Strategies
+## Dependency Management Strategies
 
 ### Dependency Types and Management
 
@@ -844,25 +856,7 @@ Before finalizing the task list, verify:
 - [ ] No tasks require external dependencies or manual processes
 - [ ] Task complexity increases gradually
 
-## Troubleshooting Task Planning Issues
-
-### Issue: Tasks Are Too Vague
-- **Symptoms**: Developers can't start coding from task descriptions
-- **Solution**: Add more specific implementation details and file/component names
-
-### Issue: Task Dependencies Are Unclear
-- **Symptoms**: Tasks can't be completed because prerequisites are missing
-- **Solution**: Review task sequence and add missing foundation tasks
-
-### Issue: Tasks Don't Map to Requirements
-- **Symptoms**: Difficulty tracing tasks back to user value
-- **Solution**: Add requirement references and validate coverage
-
-### Issue: Task List Is Overwhelming
-- **Symptoms**: Too many tasks, unclear priorities
-- **Solution**: Group related tasks and focus on core functionality first
-
-## Task Execution Guidance
+## Task Execution
 
 ### Preparing for Implementation
 
@@ -911,211 +905,6 @@ Before beginning task execution, ensure you have:
 3. **Check Integration**: Ensure new code works with existing components
 4. **Code Quality Review**: Check for maintainability and best practices
 5. **Update Task Status**: Mark as complete only when fully validated
-
-### Task Execution Best Practices
-
-#### Working with AI Coding Agents
-
-**Effective Prompting for Task Execution**:
-```
-I need to implement task [X.Y] from the spec. Here's the context:
-
-Requirements: [Reference specific requirements]
-Design Context: [Key design decisions that affect this task]
-Task Details: [Copy task description and details]
-Dependencies: [What previous tasks this builds on]
-
-Please implement this task following the specified approach and include appropriate tests.
-```
-
-**Iterative Development Approach**:
-
-1. **Start Simple**: Implement basic functionality first
-2. **Add Complexity Gradually**: Build up features incrementally
-3. **Test Each Addition**: Validate every change before proceeding
-4. **Refactor When Needed**: Improve code quality as you go
-
-#### Managing Task Dependencies
-
-**Dependency Validation Checklist**:
-
-- [ ] All prerequisite tasks are marked complete
-- [ ] Required interfaces and types are available
-- [ ] Necessary configuration is in place
-- [ ] Test infrastructure is ready
-
-**Handling Blocked Tasks**:
-
-1. **Identify Missing Dependencies**: What specifically is blocking progress?
-2. **Check Task Sequence**: Are tasks ordered correctly?
-3. **Create Missing Foundation**: Implement minimal prerequisites if needed
-4. **Update Task Plan**: Adjust sequence if dependencies were missed
-
-### Quality Assurance During Execution
-
-#### Testing Strategy for Each Task
-
-**Unit Testing**:
-
-- Write tests for individual functions and methods
-- Test both happy path and error conditions
-- Aim for high code coverage on new functionality
-- Use descriptive test names that explain behavior
-
-**Integration Testing**:
-
-- Test how new components work with existing code
-- Validate data flow between components
-- Test error handling across component boundaries
-- Verify configuration and setup work correctly
-
-**Validation Testing**:
-
-- Test against original requirements
-- Verify user-facing functionality works as expected
-- Test edge cases and boundary conditions
-- Validate performance meets expectations
-
-#### Code Quality Standards
-
-**During Implementation**:
-
-- Follow consistent coding style and conventions
-- Add meaningful comments for complex logic
-- Use descriptive variable and function names
-- Keep functions focused and single-purpose
-- Handle errors appropriately
-
-**Before Task Completion**:
-
-- Remove debugging code and console logs
-- Ensure proper error handling is in place
-- Verify no security vulnerabilities introduced
-- Check for performance implications
-- Validate accessibility requirements met
-
-### Troubleshooting Common Execution Issues
-
-#### Issue: Task Requirements Are Unclear
-**Symptoms**: Can't determine what exactly to implement
-**Solutions**:
-
-- Review the original requirements document for context
-- Check the design document for implementation guidance
-- Look at related tasks for patterns and consistency
-- Break down the task into smaller, clearer sub-steps
-
-#### Issue: Dependencies Are Missing
-**Symptoms**: Can't complete task due to missing prerequisites
-**Solutions**:
-
-- Review previous tasks to ensure they're truly complete
-- Identify minimal implementation needed to unblock progress
-- Consider if task sequence needs adjustment
-- Implement temporary stubs if necessary
-
-#### Issue: Tests Are Failing
-**Symptoms**: New or existing tests break during implementation
-**Solutions**:
-
-- Understand why tests are failing before fixing them
-- Ensure new functionality doesn't break existing behavior
-- Update tests if requirements have legitimately changed
-- Add new tests to cover edge cases discovered
-
-#### Issue: Task Scope Creep
-**Symptoms**: Implementation becomes much larger than expected
-**Solutions**:
-
-- Review original task scope and stick to it
-- Identify what can be deferred to later tasks
-- Break large tasks into smaller, manageable pieces
-- Focus on minimum viable implementation first
-
-### Progress Tracking and Communication
-
-#### Task Status Management
-
-**Status Definitions**:
-
-- **Not Started**: Task hasn't been begun
-- **In Progress**: Actively working on implementation
-- **Blocked**: Cannot proceed due to dependencies or issues
-- **Review**: Implementation complete, awaiting validation
-- **Complete**: Fully implemented, tested, and validated
-
-**Status Update Guidelines**:
-
-- Update status when beginning work on a task
-- Add comments when tasks are blocked or delayed
-- Mark complete only when all acceptance criteria are met
-- Include brief notes about implementation decisions
-
-#### Documentation During Execution
-
-**Implementation Notes**:
-
-- Record key technical decisions made during implementation
-- Document any deviations from original task plan
-- Note any issues encountered and how they were resolved
-- Update design documentation if implementation reveals gaps
-
-**Knowledge Transfer**:
-
-- Write clear commit messages explaining changes
-- Add inline documentation for complex logic
-- Update README files with new setup or usage instructions
-- Create examples or demos for new functionality
-
-### Adapting the Process
-
-#### Customizing for Different Project Types
-
-**Small Projects**:
-
-- Combine related tasks for efficiency
-- Focus on essential functionality first
-- Use simpler testing strategies
-- Prioritize working software over extensive documentation
-
-**Large Projects**:
-
-- Maintain strict task boundaries
-- Implement comprehensive testing at each step
-- Focus on maintainability and extensibility
-- Document architectural decisions thoroughly
-
-**Team Projects**:
-
-- Coordinate task assignments to avoid conflicts
-- Establish code review processes
-- Use consistent coding standards across team
-- Communicate progress and blockers regularly
-
-#### Handling Implementation Challenges
-
-**When Tasks Take Longer Than Expected**:
-
-1. Assess if scope has grown beyond original intent
-2. Identify if additional sub-tasks are needed
-3. Consider if task should be split into smaller pieces
-4. Update estimates for remaining tasks based on learnings
-
-**When Requirements Change During Implementation**:
-
-1. Stop current work and assess impact
-2. Update requirements and design documents first
-3. Revise affected tasks in the implementation plan
-4. Communicate changes to stakeholders
-5. Resume implementation with updated context
-
-**When Technical Blockers Arise**:
-
-1. Document the specific technical challenge
-2. Research potential solutions and alternatives
-3. Consider if design needs to be adjusted
-4. Implement minimal viable solution to maintain progress
-5. Plan for optimization in later tasks if needed
 
 ## Integration with Spec-Driven Development Workflow
 
