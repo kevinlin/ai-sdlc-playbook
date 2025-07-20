@@ -29,8 +29,15 @@ For rapid prototyping, small projects, and situations where speed and flexibilit
     6. [Documentation](formal-process/06-documentation.md) - Update all relevant documentation to reflect changes, ensuring clarity and alignment with project goals. Documentation is then used to feedback to the AI tools for future iterations.
 
 ## Spec-driven Development Process
+A structured approach that emphasizes comprehensive specification and requirements analysis before development begins. Transform rough feature ideas into well-defined, implementable solutions through a systematic three-phase process.
 
-*[Coming Soon]* - A structured approach that emphasizes comprehensive specification and requirements analysis before development begins. This process focuses on:
+**📖 [Complete Guide](spec-driven-process/guide.md)** - Learn the methodology from idea to implementation
+
+**📂 Quick Links:**
+- **[Examples](spec-driven-process/examples.md)** - Real specs and case studies  
+- **[Resources](spec-driven-process/resources.md)** - Templates, tools, and standards
+
+This process focuses on:
 
 - Detailed requirements gathering and stakeholder alignment
 - Comprehensive technical specification development  
@@ -46,7 +53,7 @@ This process is ideal for:
 - Environments where requirements changes are costly
 - Projects requiring detailed technical architecture documentation
 
-## Additional Workflows
+## **[Vibe Coding Plus Workflow](04-vibe-coding-workflow.md)**
+A streamlined approach for rapid prototyping and smaller projects, emphasizing speed and minimal overhead.
 
-4. **[Vibe Coding Plus Workflow](04-vibe-coding-workflow.md)** - A streamlined approach for rapid prototyping and smaller projects, emphasizing speed and minimal overhead.
-5. [Learning with AI](09-learning.md)
+[Learning with AI](09-learning.md)
