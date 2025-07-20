@@ -265,7 +265,7 @@ flowchart TD
 - Define what constitutes adequate test coverage
 - Specify testing tools and frameworks
 
-## Examples of Design Patterns and Decisions
+## Examples of Design Document
 
 ### Example 1: API Design Decision
 
@@ -403,7 +403,7 @@ Before moving to the tasks phase, verify:
 
 Once design is complete and approved:
 
-1. **Transition to Tasks Phase**: Break down design into actionable implementation tasks
+1. **Transition to [Tasks Phase](tasks-phase.md)**: Break down design into actionable implementation tasks
 2. **Maintain Design-Task Traceability**: Ensure tasks implement all design elements
 3. **Keep Design Updated**: Update design if task breakdown reveals issues
 4. **Prepare Implementation Context**: Design serves as reference during coding
