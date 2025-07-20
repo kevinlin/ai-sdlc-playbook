@@ -53,6 +53,7 @@ alwaysApply: false
 - Use ATX style headings (use # symbol)
 - Heading levels should not be skipped (e.g., do not use h3 directly after h1)
 - Use sentence case for headings (capitalize only the first word and proper nouns)
+- Do not use emojis in heading
 
 ### Code Blocks
 - Code blocks should specify the language type for syntax highlighting
