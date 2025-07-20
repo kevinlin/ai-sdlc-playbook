@@ -1,6 +1,6 @@
 # AI Development Workflow Overview
 
-This section outlines workflows for integrating AI into the development lifecycle. We provide three complementary approaches: a comprehensive formal workflow for enterprise projects, a spec-driven development process for systematic requirements management, and a lightweight workflow for rapid prototyping and smaller projects.
+This section outlines workflows for integrating AI into the development lifecycle. We provide three complementary approaches: a comprehensive formal workflow for enterprise projects, a spec-driven development process for systematic requirements management, and a Vibe Coding Plus workflow for rapid prototyping and smaller projects.
 
 By following these workflows, teams can efficiently integrate AI into their development processes, ensuring high-quality results, maintainable code, and streamlined operations. All workflows emphasize iteration, validation, and continuous learning to maximize AI's potential in the SDLC.
 
@@ -12,7 +12,7 @@ For enterprise projects, complex systems, and team-based development requiring t
 ### Spec-driven Development Process
 A systematic approach to development that emphasizes thorough specification and requirements management before implementation. This process ensures alignment between stakeholders and development teams through detailed upfront planning.
 
-### Lightweight Workflow  
+### Vibe Coding Plus Workflow  
 For rapid prototyping, small projects, and situations where speed and flexibility are prioritized over comprehensive documentation.
 
 ## Formal Process Workflow Steps
@@ -48,5 +48,5 @@ This process is ideal for:
 
 ## Additional Workflows
 
-4. **[Lightweight Workflow](09-lightweight-workflow.md)** - A streamlined approach for rapid prototyping and smaller projects, emphasizing speed and minimal overhead.
+4. **[Vibe Coding Plus Workflow](04-vibe-coding-workflow.md)** - A streamlined approach for rapid prototyping and smaller projects, emphasizing speed and minimal overhead.
 5. [Learning with AI](99-learning.md)

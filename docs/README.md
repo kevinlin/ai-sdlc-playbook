@@ -33,7 +33,7 @@ This playbook provides guidance on best practices for integrating AI into the So
         5. [Refactoring](workflow/formal-process/05-refactoring.md)
         6. [Documentation](workflow/formal-process/06-documentation.md)
 
-    4. [Lightweight Workflow](workflow/09-lightweight-workflow.md)
+    4. [Vibe Coding Plus Workflow](workflow/04-vibe-coding-workflow.md)
     5. [Learning with AI](workflow/99-learning.md)
 
 4. [Prompt Library](prompt-library/README.md)
