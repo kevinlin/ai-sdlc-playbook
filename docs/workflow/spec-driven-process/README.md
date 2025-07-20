@@ -211,7 +211,9 @@ Specs serve as living documentation that preserves the reasoning behind design d
 
 ## When to Use Spec-Driven Development
 
-### Decision Framework
+[When to Use Specs](when-to-use.md) - Decision framework for specification
+
+### Decision Framework Summary
 
 Use this framework to determine if spec-driven development is right for your project:
 

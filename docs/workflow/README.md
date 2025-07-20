@@ -49,4 +49,4 @@ This process is ideal for:
 ## Additional Workflows
 
 4. **[Vibe Coding Plus Workflow](04-vibe-coding-workflow.md)** - A streamlined approach for rapid prototyping and smaller projects, emphasizing speed and minimal overhead.
-5. [Learning with AI](99-learning.md)
+5. [Learning with AI](09-learning.md)
