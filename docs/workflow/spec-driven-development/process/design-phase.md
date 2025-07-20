@@ -272,17 +272,19 @@ flowchart TD
 **Context**: Need to design REST API for user management
 
 **Options Considered**:
-1. **RESTful with standard HTTP methods**
-   1. Pros: Standard, well-understood, good tooling support
-   2. Cons: May not fit all operations perfectly
-2. **GraphQL API**
-   1. Pros: Flexible queries, single endpoint
-   2. Cons: Additional complexity, learning curve
-3. **RPC-style API**
-   1. Pros: Direct mapping to business operations
-   2. Cons: Less standard, harder to cache
+
+- **RESTful with standard HTTP methods**
+  - Pros: Standard, well-understood, good tooling support
+  - Cons: May not fit all operations perfectly
+- **GraphQL API**
+  - Pros: Flexible queries, single endpoint
+  - Cons: Additional complexity, learning curve
+- **RPC-style API**
+  - Pros: Direct mapping to business operations
+  - Cons: Less standard, harder to cache
 
 **Decision**: RESTful API with standard HTTP methods
+
 **Rationale**: Requirements indicate standard CRUD operations, team familiarity with REST, good ecosystem support
 
 ### Example 2: Data Storage Decision
@@ -290,17 +292,19 @@ flowchart TD
 **Context**: Need to store user profiles and preferences
 
 **Options Considered**:
-1. **Relational Database (PostgreSQL)**
-   - Pros: ACID compliance, complex queries, mature ecosystem
-   - Cons: Schema rigidity, scaling complexity
-2. **Document Database (MongoDB)**
-   - Pros: Schema flexibility, easy scaling
-   - Cons: Eventual consistency, less mature tooling
-3. **Key-Value Store (Redis)**
-   - Pros: High performance, simple operations
-   - Cons: Limited query capabilities, memory constraints
+
+- **Relational Database (PostgreSQL)**
+  - Pros: ACID compliance, complex queries, mature ecosystem
+  - Cons: Schema rigidity, scaling complexity
+- **Document Database (MongoDB)**
+  - Pros: Schema flexibility, easy scaling
+  - Cons: Eventual consistency, less mature tooling
+- **Key-Value Store (Redis)**
+  - Pros: High performance, simple operations
+  - Cons: Limited query capabilities, memory constraints
 
 **Decision**: PostgreSQL with JSON columns for flexible data
+
 **Rationale**: Need for data consistency, complex relationships, with flexibility for user preferences
 
 ### Example 3: Authentication Strategy
@@ -308,17 +312,18 @@ flowchart TD
 **Context**: Need secure user authentication
 
 **Options Considered**:
-1. **Session-based authentication**
-   1. Pros: Simple, server-controlled, secure
-   2. Cons: Scalability challenges, state management
-2. **JWT tokens**
-   1. Pros: Stateless, scalable, cross-domain support
-   2. Cons: Token revocation complexity, size limitations
-3. **OAuth 2.0 with external provider**
-   1. Pros: No password management, user convenience
-   2. Cons: External dependency, limited customization
+
+- **Session-based authentication**
+  - Pros: Simple, server-controlled, secure
+  - Cons: Scalability challenges, state management
+- **JWT tokens**
+  - Pros: Stateless, scalable, cross-domain support
+- **OAuth 2.0 with external provider**
+  - Pros: No password management, user convenience
+  - Cons: External dependency, limited customization
 
 **Decision**: JWT tokens with refresh token rotation
+
 **Rationale**: Scalability requirements, API-first architecture, security best practices
 
 ## Quality Checklist
