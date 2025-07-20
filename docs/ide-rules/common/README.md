@@ -5,8 +5,7 @@ This directory contains general IDE rules that can be applied to various project
 ## Contents
 
 - **[general.md](./general.md)**: General programming best practices and standards
-- **[git.md](./git.md)**: Git-related conventions and workflows
-- **[gitflow.md](./gitflow.md)**: Git Flow workflow specification and guidelines
+- **[git-workflow.md](./git-workflow.md)**: Comprehensive git workflow guidelines including GitFlow methodology
 - **[documentation.md](./documentation.md)**: Documentation writing standards and best practices
 
 ## Samples
