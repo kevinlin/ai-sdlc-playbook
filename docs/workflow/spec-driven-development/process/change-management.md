@@ -13,8 +13,6 @@
 
 ---
 
-Managing spec evolution and handling discovered requirements during implementation.
-
 ## Overview
 
 Specs are living documents that evolve as understanding deepens. This guide covers strategies for managing changes while maintaining traceability and quality.
