@@ -2,7 +2,7 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: Prompting | Level: Overview | Prerequisites: README.md -->
-<!-- Related: process/README.md, ai-reasoning/decision-frameworks.md, templates/README.md -->
+<!-- Related: process/README.md, resources/ai-reasoning.md, templates/README.md -->
 
 ## Quick Navigation
 - **Foundation:** [Methodology Overview](../README.md) - Understand spec-driven development first
@@ -16,9 +16,8 @@ Effective communication techniques for successful AI collaboration during spec d
 
 ## In This Section
 
-- **[Strategies](strategies.md)** - Core approaches for clear, effective prompting
 - **[Templates](templates.md)** - Ready-to-use prompt patterns for each phase
-- **[Best Practices](best-practices.md)** - Tips for getting better results
+- **[Best Practices](best-practices.md)** - Core approaches and tips for getting better results
 
 ## Key Principles
 

@@ -2,7 +2,7 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: Prompting | Level: Advanced | Prerequisites: README.md -->
-<!-- Related: templates.md, ai-reasoning/decision-frameworks.md, examples/troubleshooting-pitfalls.md -->
+<!-- Related: templates.md, resources/ai-reasoning.md, examples/troubleshooting-pitfalls.md -->
 
 **📍 You are here:** [Main Guide](../../README.md) → [Prompting Strategies](README.md) → **Best Practices**
 

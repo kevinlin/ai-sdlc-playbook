@@ -2,7 +2,7 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: Examples | Level: Reference | Prerequisites: README.md -->
-<!-- Related: templates/README.md, process/README.md, ai-reasoning/examples.md -->
+<!-- Related: templates/README.md, process/README.md, resources/ai-reasoning.md -->
 
 ## Quick Navigation
 - **Learn First:** [Methodology Overview](../README.md) - Understand the foundation

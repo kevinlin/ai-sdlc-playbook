@@ -2,7 +2,7 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: Examples | Level: Advanced | Prerequisites: simple-feature-spec.md -->
-<!-- Related: ai-reasoning/decision-frameworks.md, process/design-phase.md, templates/design-template.md -->
+<!-- Related: resources/ai-reasoning.md, process/design-phase.md, templates/design-template.md -->
 
 
 

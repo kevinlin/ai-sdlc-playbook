@@ -2,7 +2,7 @@
 
 <!-- Navigation Metadata -->
 <!-- Template: Design | Level: Template | Prerequisites: requirements-template.md -->
-<!-- Related: process/design-phase.md, ai-reasoning/decision-frameworks.md, examples/complex-system-spec.md -->
+<!-- Related: process/design-phase.md, resources/ai-reasoning.md, examples/complex-system-spec.md -->
 
 
 

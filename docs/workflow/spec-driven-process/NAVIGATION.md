@@ -17,7 +17,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 1. [Requirements Template](templates/requirements-template.md) - Start here
 2. [Requirements Phase Guide](process/requirements-phase.md) - Detailed instructions
 3. [EARS Standards](resources/standards.md) - Format reference
-4. [Prompting Strategies](prompting/strategies.md) - Get better AI help
+4. [Prompting Strategies](prompting/README.md) - Get better AI help
 
 ### Working with AI Systems
 1. [Prompting Strategies](prompting/README.md) - Core communication techniques
@@ -58,14 +58,13 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - [Troubleshooting Examples](examples/troubleshooting-pitfalls.md) - Common mistakes
 
 ### AI Collaboration
-- [Prompting Strategies](prompting/strategies.md) - Core communication approaches
+- [Prompting Strategies](prompting/README.md) - Core communication approaches
 - [Prompt Templates](prompting/templates.md) - Ready-to-use patterns
 - [Best Practices](prompting/best-practices.md) - Effective techniques
 - [AI Decision Frameworks](resources/ai-reasoning.md) - How AI makes choices
 
 ### Reference Materials
 - [EARS Standards](resources/standards.md) - Requirements syntax reference
-- [AI Reasoning](resources/ai-reasoning.md) - Decision-making frameworks
 - [Tools & Resources](resources/tools.md) - Recommended tools
 - [Tool Integration](resources/tool-integration-guide.md) - Setup and configuration
 
@@ -93,11 +92,11 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - [Quality Assurance](execution/quality-assurance.md) - Quality standards
 
 ### AI Practitioners
-**Start Here:** [AI Reasoning](resources/ai-reasoning.md)
-- [Decision Frameworks](resources/ai-reasoning.md) - Systematic decision-making
-- [Prompting Strategies](prompting/strategies.md) - Effective communication
-- [Best Practices](prompting/best-practices.md) - Advanced techniques
-- [AI Reasoning Guide](resources/ai-reasoning.md) - Complete reasoning frameworkion strategies
+**Start Here:** [Prompting Strategies](prompting/README.md)
+- [Best Practices](prompting/best-practices.md) - Effective communication
+- [Prompt Templates](prompting/templates.md) - Ready-to-use patterns
+- [Complex Examples](examples/complex-system-spec.md) - Advanced use cases
+- [Implementation Guide](execution/implementation-guide.md) - Execution strategies
 
 ## 🔍 By Problem/Need
 
@@ -108,10 +107,10 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 → [Requirements Phase Guide](process/requirements-phase.md) → [EARS Standards](resources/standards.md) → [Troubleshooting](examples/troubleshooting-pitfalls.md)
 
 ### "I need help with technical design"
-→ [Design Phase Guide](process/design-phase.md) → [AI Decision Frameworks](resources/ai-reasoning.md) → [Complex Examples](examples/complex-system-spec.md)
+→ [Design Phase Guide](process/design-phase.md) → [Design Template](templates/design-template.md) → [Complex Examples](examples/complex-system-spec.md)
 
 ### "My AI collaboration isn't working well"
-→ [Prompting Strategies](prompting/strategies.md) → [Best Practices](prompting/best-practices.md) → [Troubleshooting](examples/troubleshooting-pitfalls.md)
+→ [Prompting Strategies](prompting/README.md) → [Best Practices](prompting/best-practices.md) → [Troubleshooting](examples/troubleshooting-pitfalls.md)
 
 ### "I'm stuck during implementation"
 → [Implementation Guide](execution/implementation-guide.md) → [Quality Assurance](execution/quality-assurance.md) → [Execution Troubleshooting](execution/README.md)
@@ -139,7 +138,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 1. [Standards Reference](resources/standards.md)
 2. [Templates Collection](templates/README.md)
 3. [Tools & Resources](resources/tools.md)
-4. [AI Decision Frameworks](resources/ai-reasoning.md)
+4. [Best Practices](prompting/best-practices.md)
 
 ### Problem-Solving Learners
 1. [Troubleshooting Guide](examples/troubleshooting-pitfalls.md)
@@ -155,9 +154,9 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - **Acceptance Criteria** ↔ [EARS Reference](resources/standards.md), [Quality Assurance](execution/quality-assurance.md)
 
 ### Design ↔ Related Content
-- **Design Phase** ↔ [AI Decision Frameworks](resources/ai-reasoning.md), [Design Template](templates/design-template.md)
+- **Design Phase** ↔ [Design Template](templates/design-template.md), [Best Practices](prompting/best-practices.md)
 - **Architecture Decisions** ↔ [Complex Examples](examples/complex-system-spec.md), [Case Studies](examples/case-studies.md)
-- **Technical Research** ↔ [Prompting Strategies](prompting/strategies.md), [Best Practices](prompting/best-practices.md)
+- **Technical Research** ↔ [Prompting Strategies](prompting/README.md), [Best Practices](prompting/best-practices.md)
 
 ### Tasks ↔ Related Content
 - **Tasks Phase** ↔ [Implementation Guide](execution/implementation-guide.md), [Tasks Template](templates/tasks-template.md)
@@ -165,27 +164,27 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - **Implementation Planning** ↔ [Execution Guide](execution/README.md), [Tools Reference](resources/tools.md)
 
 ### AI Collaboration ↔ Related Content
-- **Prompting** ↔ [AI Reasoning](resources/ai-reasoning.md), [Decision Frameworks](resources/ai-reasoning.md)
+- **Prompting** ↔ [Prompting Strategies](prompting/README.md), [Best Practices](prompting/best-practices.md)
 - **Communication** ↔ [Best Practices](prompting/best-practices.md), [Troubleshooting](examples/troubleshooting-pitfalls.md)
-- **Understanding AI** ↔ [AI Reasoning Guide](resources/ai-reasoning.md), [Case Studies](examples/case-studies.md)
+- **Templates** ↔ [Prompt Templates](prompting/templates.md), [Case Studies](examples/case-studies.md)
 
 ## 🏷️ Topic Tags
 
 ### By Complexity Level
 - **Beginner**: [Methodology](README.md), [Simple Examples](examples/simple-feature-spec.md), [Templates](templates/README.md)
 - **Intermediate**: [Process Guide](process/README.md), [Prompting Strategies](prompting/README.md), [Implementation Guide](execution/implementation-guide.md)
-- **Advanced**: [AI Reasoning](resources/ai-reasoning.md), [Complex Examples](examples/complex-system-spec.md), [Decision Frameworks](resources/ai-reasoning.md)
+- **Advanced**: [Complex Examples](examples/complex-system-spec.md), [Best Practices](prompting/best-practices.md), [Implementation Guide](execution/implementation-guide.md)
 
 ### By Phase
 - **Requirements**: [Requirements Phase](process/requirements-phase.md), [EARS Standards](resources/standards.md), [Requirements Template](templates/requirements-template.md)
-- **Design**: [Design Phase](process/design-phase.md), [Decision Frameworks](resources/ai-reasoning.md), [Design Template](templates/design-template.md)
+- **Design**: [Design Phase](process/design-phase.md), [Design Template](templates/design-template.md), [Complex Examples](examples/complex-system-spec.md)
 - **Tasks**: [Tasks Phase](process/tasks-phase.md), [Implementation Guide](execution/implementation-guide.md), [Tasks Template](templates/tasks-template.md)
 
 ### By Content Type
 - **Process**: [Process Guide](process/README.md), [Workflow Diagrams](process/workflow-diagrams.md)
 - **Examples**: [Examples](examples/README.md), [Case Studies](examples/case-studies.md)
 - **Templates**: [Templates](templates/README.md), [Checklists](templates/checklists.md)
-- **Reference**: [Resources](resources/README.md), [Standards](resources/standards.md), [AI Reasoning](resources/ai-reasoning.md)
+- **Reference**: [Resources](resources/README.md), [Standards](resources/standards.md)
 
 ---
 
