@@ -262,6 +262,16 @@ Weighted Score    |   4.6      |   3.4   |  3.2
 
 This framework ensures consistent, traceable decision-making throughout the spec development process, enabling better collaboration between developers and AI systems.
 
+## 🔗 Related Content
+
+### Examples and Case Studies
+- **[AI Reasoning Examples](../examples/ai-reasoning-examples.md)** - Detailed thought process examples showing decision frameworks in action
+- **[Case Studies](../examples/case-studies.md)** - Complete project examples with AI collaboration insights
+
+### Practical Application
+- **[Best Practices](../prompting/best-practices.md)** - Apply reasoning insights to improve AI collaboration
+- **[Design Phase](../process/design-phase.md)** - Where AI reasoning is most critical in the spec process
+
 ---
 
-[← Back to Main Guide](../README.md)
+[← Back to Resources](README.md) | [AI Reasoning Examples →](../examples/ai-reasoning-examples.md)

@@ -1,5 +1,19 @@
 # AI Thought Process Examples
 
+<!-- Navigation Metadata -->
+<!-- Section: Examples | Level: Advanced | Prerequisites: README.md -->
+<!-- Related: resources/ai-reasoning.md, prompting/best-practices.md, case-studies.md -->
+
+**📍 You are here:** [Main Guide](../README.md) → [Examples](README.md) → **AI Reasoning Examples**
+
+## Quick Navigation
+- **Foundation:** [AI Reasoning Guide](../resources/ai-reasoning.md) - Understand the decision frameworks
+- **Apply Learning:** [Best Practices](../prompting/best-practices.md) - Use insights for better AI collaboration
+- **Real Cases:** [Case Studies](case-studies.md) - See complete project examples
+- **All Examples:** [Examples Overview](README.md) - Browse all available examples
+
+---
+
 ## Overview
 
 This document provides concrete examples of AI reasoning during spec development, showing how decision frameworks are applied to real-world scenarios. Each example walks through the complete thought process from initial analysis to final decisions.
@@ -419,4 +433,4 @@ This document provides concrete examples of AI reasoning during spec development
 
 ---
 
-[← Back to Decision Frameworks](decision-frameworks.md) | [Main AI Reasoning Guide](README.md) | [Back to Main Guide](../../README.md)
+[← Back to AI Reasoning](../resources/ai-reasoning.md) | [Examples Overview](README.md) | [Back to Main Guide](../README.md)

@@ -16,8 +16,12 @@ Real-world case studies and complete spec examples showing the methodology in ac
 
 ## In This Section
 
+### Complete Spec Examples
 - **[Simple Feature Specs](simple-feature-spec.md)** - Complete examples for basic features
 - **[Complex System Specs](complex-system-spec.md)** - Large-scale system development examples  
+
+### AI Collaboration & Process
+- **[AI Reasoning Examples](ai-reasoning-examples.md)** - Detailed AI thought processes and decision-making examples
 - **[Case Studies](case-studies.md)** - Success stories and lessons learned
 - **[Troubleshooting & Pitfalls](troubleshooting-pitfalls.md)** - Common mistakes and recovery strategies
 
@@ -42,6 +46,12 @@ Each example includes:
 - Data processing pipeline
 - Real-time notification system
 - Content management platform
+
+### AI Collaboration Examples
+- Authentication system design decisions
+- API architecture reasoning chains
+- Technology choice evaluations
+- Error handling strategy development
 
 ### Domain-Specific Examples
 - E-commerce checkout flow
