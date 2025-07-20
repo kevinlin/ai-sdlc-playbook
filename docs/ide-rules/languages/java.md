@@ -1,21 +1,41 @@
-# Java and Spring Boot Guidelines
+# Java Best Practices
+
+## IDE Configuration Headers
+
+### For Cursor IDE
 
 To create a new Cursor Rule:
 
 1. Enter the name as `java`
-2. Copy & paste the file content from below
-
-For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).
-
+2. Copy & paste the following header and rule content below:
 
 ```markdown
 ---
-description: Java and Spring Boot Guidelines
-globs: **/*.java, src/**/*.java
+description: Java Best Practices
+globs: **/*.java
 alwaysApply: false
 ---
+```
 
-# Java and Spring Boot Guidelines
+### For Kiro IDE
+
+To create a new Kiro Steering Document:
+
+1. Create a file named `java.md` in `.kiro/steering/`
+2. Copy & paste the following header and rule content below:
+
+```markdown
+---
+inclusion: fileMatch
+fileMatchPattern: '**/*.java'
+---
+```
+
+For more information about IDE rules, visit:
+- [Cursor Project Rules](https://docs.cursor.com/context/rules#project-rules)
+- [Kiro Steering Documents](https://github.com/kirolabs/kiro)
+
+## Rule Content
 
 You are an expert in Java, Spring Boot, Spring Framework, Maven, JUnit, and related Java technologies.
 
@@ -91,5 +111,4 @@ Follow these best practices:
 - Microservices architecture (if applicable).
 - Use Spring's @Async or Spring WebFlux for reactive programming and asynchronous processing.
 
-Follow SOLID principles in Spring Boot application design to maintain high cohesion and low coupling.
-``` 
+Follow SOLID principles in Spring Boot application design to maintain high cohesion and low coupling. 

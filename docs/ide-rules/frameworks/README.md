@@ -1,6 +1,6 @@
-# Framework Rules
+# Framework IDE Rules
 
-This directory contains cursor rules specific to different software frameworks and libraries.
+This directory contains IDE rules specific to different software frameworks and libraries. These rules are compatible with multiple AI-powered IDEs including Cursor, Kiro, and other similar development environments.
 
 ## Backend Frameworks
 
@@ -36,10 +36,20 @@ This directory contains cursor rules specific to different software frameworks a
 
 ## Usage
 
+### For Cursor IDE
 1. Identify the framework(s) used in your project
-2. Copy the relevant rule files to your project's cursor-rules directory
+2. Copy the relevant MDC rule content to your project's `.cursor/rules` directory
 3. Customize as needed to align with your project's specific requirements
+
+### For Kiro IDE
+1. Identify the framework(s) used in your project
+2. Copy the relevant Markdown content to your project's `.kiro/steering` directory
+3. Modify the front-matter inclusion settings as needed
+
+### For Other IDEs
+1. Adapt the rule content format to your IDE's requirements
+2. Use the core framework guidelines while adjusting the metadata format
 
 ## Contributing
 
-If you'd like to contribute improvements to existing framework rules or add support for additional frameworks, please submit a pull request. 
+If you'd like to contribute improvements to existing framework rules or add support for additional frameworks, please submit a pull request. Ensure your contributions include support for both Cursor and Kiro formats. 

@@ -4,7 +4,7 @@ A comprehensive guide for integrating AI tools and practices into the Software D
 
 ## About
 
-This playbook provides practical guidance, rules, workflows, and prompts for effectively using AI tools like Cursor, GitHub Copilot, and other AI-powered development assistants. It's tailored for teams who want to adopt AI-driven development practices while maintaining high standards of code quality, security, and maintainability.
+This playbook provides practical guidance, rules, workflows, and prompts for effectively using AI-powered IDEs like Cursor, Kiro, and other AI development assistants. It's tailored for teams who want to adopt AI-driven development practices while maintaining high standards of code quality, security, and maintainability.
 
 **Target Audience**: Software developers, development teams, technical leads, and organizations looking to integrate AI into their development workflow.
 
@@ -13,13 +13,13 @@ This playbook provides practical guidance, rules, workflows, and prompts for eff
 1. **Browse the Documentation**: Visit the [complete documentation](docs/README.md) for detailed guidance
 2. **Choose Your Focus Area**:
    - New to AI development? Start with [Getting Started](docs/workflow/01-getting-started.md)
-   - Setting up Cursor? Check [Cursor Rules](docs/cursor-rules/README.md)
+   - Setting up AI IDE rules? Check [IDE Rules](docs/ide-rules/README.md)
    - Looking for prompts? Explore the [Prompt Library](docs/prompt-library/README.md)
 3. **Follow the Workflow**: Implement the [AI Development Workflow](docs/workflow/README.md) in your projects
 
 ## What's Included
 
-- **[Cursor Rules](docs/cursor-rules/README.md)** - Rules and guidelines for Cursor IDE to improve AI assistance
+- **[IDE Rules](docs/ide-rules/README.md)** - Rules and guidelines for AI-powered IDEs to improve AI assistance
 - **[MCP Server](docs/mcp-server/README.md)** - Model Control Protocol server resources for enhanced AI capabilities
 - **[AI Development Workflow](docs/workflow/README.md)** - Step-by-step workflow for AI-assisted development
 - **[Prompt Library](docs/prompt-library/README.md)** - Curated collection of effective AI prompts for development tasks
@@ -41,7 +41,7 @@ We welcome contributions! Please:
 
 1. Fork the repository
 2. Create a feature branch
-3. Make your changes following our [Markdown Guidelines](docs/cursor-rules/languages/markdown.md)
+3. Make your changes following our [Markdown Guidelines](docs/ide-rules/languages/markdown.md)
 4. Submit a pull request
 
 For major changes, please open an issue first to discuss what you would like to change.

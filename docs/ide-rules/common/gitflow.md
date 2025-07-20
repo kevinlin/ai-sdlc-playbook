@@ -1,11 +1,40 @@
-# Gitflow Workflow Rules
+# GitFlow Guidelines
+
+## IDE Configuration Headers
+
+### For Cursor IDE
 
 To create a new Cursor Rule:
 
 1. Enter the name as `gitflow`
-2. Copy & paste the file content from below
+2. Copy & paste the following header and rule content below:
 
-For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).
+```markdown
+---
+description: GitFlow Guidelines
+globs: **/*
+alwaysApply: false
+---
+```
+
+### For Kiro IDE
+
+To create a new Kiro Steering Document:
+
+1. Create a file named `gitflow.md` in `.kiro/steering/`
+2. Copy & paste the following header and rule content below:
+
+```markdown
+---
+inclusion: always
+---
+```
+
+For more information about IDE rules, visit:
+- [Cursor Project Rules](https://docs.cursor.com/context/rules#project-rules)
+- [Kiro Steering Documents](https://github.com/kirolabs/kiro)
+
+## Rule Content
 
 
 ```markdown

@@ -1,12 +1,13 @@
 # Python Project Rules
 
+## IDE Configuration Headers
+
+### For Cursor IDE
+
 To create a new Cursor Rule:
 
 1. Enter the name as `general`
-2. Copy & paste the file content from below
-
-For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).
-
+2. Copy & paste the following header and rule content below:
 
 ```markdown
 ---
@@ -14,7 +15,28 @@ description: General Project Guidelines
 globs: **/*
 alwaysApply: false
 ---
+```
 
+### For Kiro IDE
+
+To create a new Kiro Steering Document:
+
+1. Create a file named `general.md` in `.kiro/steering/`
+2. Copy & paste the following header and rule content below:
+
+```markdown
+---
+inclusion: always
+---
+```
+
+For more information about IDE rules, visit:
+- [Cursor Project Rules](https://docs.cursor.com/context/rules#project-rules)
+- [Kiro Steering Documents](https://github.com/kirolabs/kiro)
+
+## Rule Content
+
+```markdown
 # General Project Guidelines
 
 ## Tech Stack
@@ -46,8 +68,8 @@ alwaysApply: false
 
 ## Rule File Description
 This project uses the following rule files:
-- general.mdc: General guidelines (this file)
-- python.mdc: Python development guidelines
-- documentation.mdc: Documentation guidelines
-- git.mdc: Git commit guidelines
+- general: General guidelines (this file)
+- python: Python development guidelines
+- documentation: Documentation guidelines
+- git: Git commit guidelines
 ```

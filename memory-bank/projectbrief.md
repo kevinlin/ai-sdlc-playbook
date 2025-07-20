@@ -6,7 +6,7 @@ A comprehensive guide for integrating AI tools and practices into the Software D
 ## Core Requirements
 - Provide practical guidance for AI-driven development practices
 - Maintain high standards of code quality, security, and maintainability
-- Include Cursor Rules for IDE optimization
+- Include IDE Rules for AI-powered development environment optimization
 - Offer curated prompt library for development tasks
 - Document AI development workflow processes
 - Support MCP (Model Control Protocol) server resources
@@ -21,7 +21,7 @@ A comprehensive guide for integrating AI tools and practices into the Software D
 
 ## Project Scope
 **In Scope:**
-- Cursor IDE rules and configurations
+- IDE rules and configurations for AI-powered development environments (Cursor, Kiro, etc.)
 - AI development workflow documentation
 - Prompt library for common development tasks
 - MCP server integration guides
@@ -31,6 +31,6 @@ A comprehensive guide for integrating AI tools and practices into the Software D
 **Out of Scope:**
 - Custom AI model development
 - Non-development AI applications
-- IDE-specific integrations beyond Cursor
+- IDE-specific implementations beyond rule configuration
 - Real-time AI tool implementations
 - Commercial AI service integrations beyond documentation 

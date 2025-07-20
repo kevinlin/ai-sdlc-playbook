@@ -1,7 +1,7 @@
 # Overview
 Version 1.0
 
-This playbook provides guidance on best practices for integrating AI into the Software Development Lifecycle (SDLC), specifically tailored to Zuhlke's needs and challenges. It serves as a living document, continuously updated to reflect emerging practices and lessons learned.
+This playbook provides guidance on best practices for integrating AI into the Software Development Lifecycle (SDLC), specifically tailored for development teams using AI-powered IDEs. It serves as a living document, continuously updated to reflect emerging practices and lessons learned.
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/kevinlin/ai-sdlc-playbook)
 
@@ -9,11 +9,11 @@ This playbook provides guidance on best practices for integrating AI into the So
 
 **Quick Reference:** [Glossary](glossary.md) - Key terms and definitions used throughout this playbook
 
-1. [Cursor Rules](cursor-rules/README.md)
+1. [IDE Rules](ide-rules/README.md)
 
-    1. [Common Rules](cursor-rules/common/README.md)
-    2. [Language Rules](cursor-rules/languages/README.md)
-    3. [Framework Rules](cursor-rules/frameworks/README.md)
+    1. [Common Rules](ide-rules/common/README.md)
+    2. [Language Rules](ide-rules/languages/README.md)
+    3. [Framework Rules](ide-rules/frameworks/README.md)
 
 2. [MCP Server](mcp-server/README.md)
 
