@@ -12,12 +12,6 @@
 - **📚 Learn EARS:** [Standards Reference](../resources/standards.md) - EARS format details
 - **➡️ Next Phase:** [Design Phase](design-phase.md) - After requirements are approved
 
-## Phase Navigation
-- **Previous:** [Process Overview](README.md) - Three-phase workflow
-- **Current:** **Requirements Phase** - Transform ideas into structured requirements
-- **Next:** [Design Phase](design-phase.md) - Create technical architecture
-- **Final:** [Tasks Phase](tasks-phase.md) - Break down into implementation steps
-
 ---
 
 ## Overview
@@ -288,7 +282,7 @@ Before moving to the design phase, verify:
 
 Once requirements are complete and approved:
 
-1. **Transition to Design Phase**: Use requirements as foundation for system design
+1. **Transition to [Design Phase](design-phase.md)**: Use requirements as foundation for system design
 2. **Maintain Traceability**: Ensure design decisions map back to specific requirements
 3. **Keep Requirements Updated**: Update requirements if design reveals gaps or conflicts
 4. **Prepare for Implementation**: Requirements will guide task breakdown and testing strategy
