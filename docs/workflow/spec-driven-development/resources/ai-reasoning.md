@@ -41,20 +41,20 @@ Understanding the reasoning process helps you:
 When analyzing and prioritizing requirements, the AI applies these evaluation criteria in order:
 
 - **User Impact Severity**
-   - Critical: Core functionality that blocks primary user workflows
-   - High: Important features that significantly affect user experience
-   - Medium: Useful features that enhance but don't block workflows
-   - Low: Nice-to-have features that provide marginal value
+  - Critical: Core functionality that blocks primary user workflows
+  - High: Important features that significantly affect user experience
+  - Medium: Useful features that enhance but don't block workflows
+  - Low: Nice-to-have features that provide marginal value
 - **Technical Feasibility**
-   - Immediate: Can be implemented with existing tools and patterns
-   - Moderate: Requires research or learning new approaches
-   - Complex: Needs significant architectural decisions or new infrastructure
-   - Uncertain: Requires proof-of-concept or technical validation
+  - Immediate: Can be implemented with existing tools and patterns
+  - Moderate: Requires research or learning new approaches
+  - Complex: Needs significant architectural decisions or new infrastructure
+  - Uncertain: Requires proof-of-concept or technical validation
 - **Dependency Relationships**
-   - Foundation: Must be implemented before other features can work
-   - Independent: Can be implemented in any order
-   - Dependent: Requires other features to be completed first
-   - Optional: Enhances other features but isn't required
+  - Foundation: Must be implemented before other features can work
+  - Independent: Can be implemented in any order
+  - Dependent: Requires other features to be completed first
+  - Optional: Enhances other features but isn't required
 
 ### Requirements Validation Process
 
@@ -64,24 +64,24 @@ The AI follows this systematic approach to validate requirements:
 Input: Raw requirement statement
 ↓
 1. Clarity Check
-   - Is the requirement unambiguous?
-   - Are all terms clearly defined?
-   - Can success be objectively measured?
+  - Is the requirement unambiguous?
+  - Are all terms clearly defined?
+  - Can success be objectively measured?
 ↓
 2. Completeness Analysis
-   - Are all necessary conditions specified?
-   - Are edge cases considered?
-   - Are error scenarios addressed?
+  - Are all necessary conditions specified?
+  - Are edge cases considered?
+  - Are error scenarios addressed?
 ↓
 3. Consistency Verification
-   - Does this conflict with other requirements?
-   - Are there logical contradictions?
-   - Do related requirements align?
+  - Does this conflict with other requirements?
+  - Are there logical contradictions?
+  - Do related requirements align?
 ↓
 4. Feasibility Assessment
-   - Is this technically achievable?
-   - Are there resource constraints?
-   - What are the implementation risks?
+  - Is this technically achievable?
+  - Are there resource constraints?
+  - What are the implementation risks?
 ↓
 Output: Validated requirement with confidence level
 ```
@@ -92,31 +92,31 @@ Output: Validated requirement with confidence level
 
 When making architectural decisions, the AI evaluates options using these weighted factors:
 
-1. **Maintainability (30%)**
-   1. Code clarity and readability
-   2. Separation of concerns
-   3. Testing ease and coverage potential
-   4. Documentation requirements
-2. **Scalability (25%)**
-   1. Performance under load
-   2. Resource utilization efficiency
-   3. Horizontal scaling potential
-   4. Future extension capabilities
-3. **Reliability (20%)**
-   1. Error handling robustness
-   2. Failure recovery mechanisms
-   3. Data consistency guarantees
-   4. Monitoring and observability
-4. **Development Velocity (15%)**
-   1. Implementation complexity
-   2. Time to first working version
-   3. Learning curve for team
-   4. Available tooling and libraries
-5. **Security (10%)**
-   1. Attack surface minimization
-   2. Data protection mechanisms
-   3. Access control implementation
-   4. Compliance requirements
+- **Maintainability (30%)**
+  - Code clarity and readability
+  - Separation of concerns
+  - Testing ease and coverage potential
+  - Documentation requirements
+- **Scalability (25%)**
+  - Performance under load
+  - Resource utilization efficiency
+  - Horizontal scaling potential
+  - Future extension capabilities
+- **Reliability (20%)**
+  - Error handling robustness
+  - Failure recovery mechanisms
+  - Data consistency guarantees
+  - Monitoring and observability
+- **Development Velocity (15%)**
+  - Implementation complexity
+  - Time to first working version
+  - Learning curve for team
+  - Available tooling and libraries
+- **Security (10%)**
+  - Attack surface minimization
+  - Data protection mechanisms
+  - Access control implementation
+  - Compliance requirements
 
 ### Technology Selection Process
 
@@ -126,29 +126,29 @@ The AI uses this decision tree for technology choices:
 Technology Decision Required
 ↓
 1. Requirement Analysis
-   - What specific problem needs solving?
-   - What are the performance requirements?
-   - What are the integration constraints?
+  - What specific problem needs solving?
+  - What are the performance requirements?
+  - What are the integration constraints?
 ↓
 2. Option Generation
-   - List 3-5 viable alternatives
-   - Include both familiar and emerging options
-   - Consider build vs. buy decisions
+  - List 3-5 viable alternatives
+  - Include both familiar and emerging options
+  - Consider build vs. buy decisions
 ↓
 3. Evaluation Matrix
-   - Score each option against criteria (1-5 scale)
-   - Weight scores by importance
-   - Calculate total weighted scores
+  - Score each option against criteria (1-5 scale)
+  - Weight scores by importance
+  - Calculate total weighted scores
 ↓
 4. Risk Assessment
-   - Identify implementation risks for top options
-   - Evaluate mitigation strategies
-   - Consider fallback alternatives
+  - Identify implementation risks for top options
+  - Evaluate mitigation strategies
+  - Consider fallback alternatives
 ↓
 5. Decision Documentation
-   - Record chosen option with rationale
-   - Document rejected alternatives and reasons
-   - Note assumptions and dependencies
+  - Record chosen option with rationale
+  - Document rejected alternatives and reasons
+  - Note assumptions and dependencies
 ```
 
 ## Task Breakdown Framework
@@ -158,20 +158,20 @@ Technology Decision Required
 The AI evaluates task complexity using these dimensions:
 
 - **Technical Complexity**
-   - Simple: Uses well-known patterns and libraries
-   - Moderate: Requires integration of multiple components
-   - Complex: Needs custom algorithms or novel approaches
-   - Expert: Requires deep domain knowledge or research
+  - Simple: Uses well-known patterns and libraries
+  - Moderate: Requires integration of multiple components
+  - Complex: Needs custom algorithms or novel approaches
+  - Expert: Requires deep domain knowledge or research
 - **Scope Breadth**
-   - Focused: Single component or function
-   - Moderate: Multiple related components
-   - Broad: Cross-cutting concerns or system-wide changes
-   - Extensive: Major architectural modifications
+  - Focused: Single component or function
+  - Moderate: Multiple related components
+  - Broad: Cross-cutting concerns or system-wide changes
+  - Extensive: Major architectural modifications
 - **Dependency Depth**
-   - Independent: No dependencies on other tasks
-   - Shallow: 1-2 direct dependencies
-   - Moderate: 3-5 dependencies with some chains
-   - Deep: Complex dependency networks
+  - Independent: No dependencies on other tasks
+  - Shallow: 1-2 direct dependencies
+  - Moderate: 3-5 dependencies with some chains
+  - Deep: Complex dependency networks
 
 ### Task Sequencing Logic
 
@@ -190,6 +190,7 @@ The AI applies these rules for task ordering:
 **Context**: Need to store user profiles and authentication data
 
 **Options Considered**:
+
 - PostgreSQL (relational)
 - MongoDB (document)
 - Redis (key-value)
