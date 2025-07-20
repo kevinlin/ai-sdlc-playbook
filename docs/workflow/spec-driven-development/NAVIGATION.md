@@ -38,7 +38,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - [Methodology Overview](README.md) - Philosophy and approach
 - [When to Use](when-to-use.md) - Decision framework
 - [Process Guide](process/README.md) - Three-phase workflow
-- [Workflow Diagrams](process/workflow-diagrams.md) - Visual process flows
+- [Workflow Diagrams](process/README.md#workflow-diagrams-and-visual-aids) - Visual process flows
 
 ### Step-by-Step Guides
 
@@ -194,7 +194,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - **Tasks**: [Tasks Phase](process/tasks-phase.md), [Implementation Guide](execution/implementation-guide.md), [Tasks Template](templates/tasks-template.md)
 
 ### By Content Type
-- **Process**: [Process Guide](process/README.md), [Workflow Diagrams](process/workflow-diagrams.md)
+- **Process**: [Process Guide](process/README.md), [Workflow Diagrams](process/README.md#workflow-diagrams-and-visual-aids)
 - **Examples**: [Examples](examples/README.md), [Case Studies](examples/case-studies.md)
 - **Templates**: [Templates](templates/README.md), [Checklists](templates/checklists.md)
 - **Reference**: [Resources](resources/README.md), [Standards](resources/standards.md)
