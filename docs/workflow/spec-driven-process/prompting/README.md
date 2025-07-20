@@ -7,7 +7,7 @@
 ## Quick Navigation
 - **Foundation:** [Methodology Overview](../README.md) - Understand spec-driven development first
 - **Process Steps:** [Process Guide](../process/README.md) - Learn the three-phase workflow
-- **AI Reasoning:** [Decision Frameworks](../ai-reasoning/decision-frameworks.md) - Understand how AI makes choices
+- **Quality Focus:** [Best Practices](best-practices.md) - Tips for better AI collaboration
 - **Practice:** [Templates](../templates/README.md) - Try prompting with structured templates
 
 ---

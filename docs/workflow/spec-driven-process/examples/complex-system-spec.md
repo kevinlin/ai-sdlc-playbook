@@ -8,7 +8,7 @@
 
 ## Quick Navigation
 - **🎯 Start Simple:** [Simple Feature Specs](simple-feature-spec.md) - Learn with basic examples first
-- **🧠 Decision Help:** [AI Decision Frameworks](../ai-reasoning/decision-frameworks.md) - Handle complex choices
+- **💡 Get Help:** [Best Practices](../prompting/best-practices.md) - Effective prompting strategies
 - **📋 Design Process:** [Design Phase Guide](../process/design-phase.md) - Systematic approach to complexity
 - **📝 Design Template:** [Design Template](../templates/design-template.md) - Structure for complex designs
 

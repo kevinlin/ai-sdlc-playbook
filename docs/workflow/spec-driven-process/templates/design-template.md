@@ -9,7 +9,7 @@
 ## Quick Navigation
 - **📚 Learn Process:** [Design Phase Guide](../process/design-phase.md) - How to use this template
 - **📖 See Example:** [Complex System Design](../examples/complex-system-spec.md#design-document) - Template in action
-- **🧠 Decision Help:** [Decision Frameworks](../ai-reasoning/decision-frameworks.md) - How to make design choices
+- **💡 Get Help:** [Best Practices](../prompting/best-practices.md) - Effective prompting strategies
 - **➡️ Next Template:** [Tasks Template](tasks-template.md) - After design is done
 
 ---

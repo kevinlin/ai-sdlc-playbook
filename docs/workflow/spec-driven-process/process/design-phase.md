@@ -2,14 +2,14 @@
 
 <!-- Navigation Metadata -->
 <!-- Phase: Design | Level: Detailed Guide | Prerequisites: requirements-phase.md -->
-<!-- Related: templates/design-template.md, ai-reasoning/decision-frameworks.md, examples/complex-system-spec.md -->
+<!-- Related: templates/design-template.md, resources/ai-reasoning.md, examples/complex-system-spec.md -->
 
 
 
 ## Quick Navigation
 - **🎯 Get Started:** [Design Template](../templates/design-template.md) - Ready-to-use template
 - **📖 See Example:** [Complex System Spec](../examples/complex-system-spec.md) - Complete design example
-- **🧠 Decision Help:** [AI Decision Frameworks](../ai-reasoning/decision-frameworks.md) - How to evaluate choices
+- **💡 Get Help:** [Best Practices](../prompting/best-practices.md) - Effective prompting strategies
 - **➡️ Next Phase:** [Tasks Phase](tasks-phase.md) - After design is approved
 
 ## Phase Navigation

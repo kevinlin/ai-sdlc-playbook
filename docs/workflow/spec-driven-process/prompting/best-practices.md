@@ -9,7 +9,7 @@
 ## Quick Navigation
 - **📚 Learn Strategies:** [Core Strategies](README.md) - Core approaches first
 - **📝 Use Templates:** [Prompt Templates](templates.md) - Ready-to-use patterns
-- **🧠 Understand AI:** [Decision Frameworks](../ai-reasoning/decision-frameworks.md) - How AI makes choices
+- **📖 See Examples:** [Simple Examples](../examples/simple-feature-spec.md) - Prompting in practice
 - **🔧 Fix Problems:** [Troubleshooting Guide](../examples/troubleshooting-pitfalls.md) - When prompting goes wrong
 
 ---

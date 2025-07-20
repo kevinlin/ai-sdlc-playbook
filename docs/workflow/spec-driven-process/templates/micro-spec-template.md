@@ -1,13 +1,10 @@
 # Micro Spec Template
 
-<!-- Navigation Metadata -->
-<!-- Section: Templates | Level: Practical | Prerequisites: ../methodology/lightweight-specs.md -->
-<!-- Related: quick-spec-template.md, checklists.md -->
-
-
+<!-- Template for sub-1 day changes: Minimal documentation -->
+<!-- Phase: Minimal | Effort: < 1 day | Complexity: Low -->
 
 ## Quick Navigation
-- **Prerequisites:** [Lightweight Specs](../methodology/lightweight-specs.md)
+- **Prerequisites:** [Lightweight Specs](../lightweight-specs.md)
 - **Related:** [Quick Spec Template](quick-spec-template.md), [Checklists](checklists.md)
 
 ---
@@ -248,13 +245,13 @@ Save button shows spinner and is disabled during form submission, returns to nor
 ## 🔗 Related Content
 
 ### Prerequisites
-- [Lightweight Specs Guide](../methodology/lightweight-specs.md)
+- [Lightweight Specs Guide](../lightweight-specs.md)
 
 ### Other Templates
 - [Quick Spec Template](quick-spec-template.md) - For 1-3 day features
 - [Checklists](checklists.md) - Quality gates and reviews
 
 ### Examples
-- [Micro Spec Examples](../examples/micro-spec-examples.md)
+- [Simple Feature Examples](../examples/simple-feature-spec.md)
 
 [← Back to Templates](README.md) | [Quick Spec Template →](quick-spec-template.md)

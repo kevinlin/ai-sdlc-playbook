@@ -1,22 +1,37 @@
-# AI Decision-Making Frameworks
+# AI Reasoning in Spec-Driven Development
 
 <!-- Navigation Metadata -->
-<!-- AI Reasoning: Decision Frameworks | Level: Advanced | Prerequisites: README.md -->
-<!-- Related: process/design-phase.md, prompting/README.md, examples/complex-system-spec.md -->
-
-
+<!-- Section: AI Reasoning | Level: Overview | Prerequisites: README.md, process/README.md -->
+<!-- Related: prompting/README.md, examples/case-studies.md, process/design-phase.md -->
 
 ## Quick Navigation
-- **📚 Foundation:** [Methodology Overview](../README.md) - Understand the context first
-- **📋 Apply to Design:** [Design Phase](../process/design-phase.md) - Use frameworks for design decisions
-- **💬 Better Prompting:** [Prompting Strategies](../prompting/README.md) - Leverage understanding for better AI collaboration
-- **🏗️ Complex Examples:** [Complex System Specs](../examples/complex-system-spec.md) - See frameworks in action
+- **Foundation:** [Methodology](../README.md) - Understand the spec process first
+- **Apply Learning:** [Prompting Strategies](../prompting/README.md) - Use insights for better AI collaboration
+- **See in Action:** [Case Studies](../examples/case-studies.md) - Real examples of AI reasoning
+- **Design Context:** [Design Phase](../process/design-phase.md) - Where reasoning is most critical
 
 ---
 
 ## Overview
 
-This document explains the systematic decision-making frameworks used by AI during spec-driven development. Understanding these frameworks helps developers collaborate more effectively with AI systems and anticipate how decisions will be made throughout the requirements, design, and task phases.
+This document provides insights into the decision-making frameworks and thought processes used by AI during spec-driven development. Understanding these frameworks helps developers collaborate more effectively with AI systems and anticipate how decisions will be made throughout the requirements, design, and task phases.
+
+## Understanding AI Decision-Making
+
+AI systems approach spec development through systematic frameworks that include:
+
+- **Requirement Analysis** - How user needs are interpreted and structured
+- **Design Evaluation** - Criteria used to assess technical approaches
+- **Task Sequencing** - Logic behind implementation order and dependencies
+- **Trade-off Assessment** - How competing priorities are balanced
+
+## Why This Matters
+
+Understanding the reasoning process helps you:
+- Provide better input and feedback during spec development
+- Anticipate potential issues or alternative approaches
+- Learn systematic thinking patterns for your own planning
+- Collaborate more effectively with AI systems
 
 ## Requirements Analysis Framework
 
@@ -107,7 +122,6 @@ When making architectural decisions, the AI evaluates options using these weight
    - Data protection mechanisms
    - Access control implementation
    - Compliance requirements
-```
 
 ### Technology Selection Process
 
@@ -247,3 +261,7 @@ Weighted Score    |   4.6      |   3.4   |  3.2
 ```
 
 This framework ensures consistent, traceable decision-making throughout the spec development process, enabling better collaboration between developers and AI systems.
+
+---
+
+[← Back to Main Guide](../README.md)

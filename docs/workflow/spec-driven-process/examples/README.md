@@ -8,7 +8,7 @@
 - **Learn First:** [Methodology Overview](../README.md) - Understand the foundation
 - **Get Templates:** [Ready-to-Use Templates](../templates/README.md) - Start your own specs
 - **Follow Process:** [Process Guide](../process/README.md) - Step-by-step instructions
-- **AI Insights:** [AI Reasoning Examples](../ai-reasoning/examples.md) - See decision-making in action
+- **AI Help:** [Prompting Strategies](../prompting/README.md) - Effective AI collaboration
 
 ---
 
