@@ -102,14 +102,6 @@ flowchart TD
 [Continue with additional requirements...]
 ```
 
-**EARS Format Guidelines**:
-
-- **WHEN**: Describes triggering events or conditions
-- **IF**: Describes preconditions that must be met
-- **THEN**: Describes the system's required response
-- **SHALL**: Indicates mandatory behavior (use consistently)
-- **AND/OR**: Combines conditions when necessary
-
 ### Step 3: Requirements Validation
 
 **Validation Criteria**:
