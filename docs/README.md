@@ -23,7 +23,7 @@ This playbook provides guidance on best practices for integrating AI into the So
 3. [AI Development Workflow](workflow/README.md)
 
     1. [Getting Started](workflow/formal-process/01-getting-started.md)
-    2. [Project Setup](workflow/02-project-setup.md)
+    2. [Project Setup](workflow/project-setup.md)
     3. Development Workflows:
 
         **Feature-Based Development** (Enterprise/Complex Projects)
@@ -40,9 +40,9 @@ This playbook provides guidance on best practices for integrating AI into the So
         3. [Examples](workflow/spec-driven-process/examples/README.md)
 
         **Vibe Coding Plus** (Rapid Prototyping)
-        4. [Vibe Coding Plus Workflow](workflow/04-vibe-coding-workflow.md)
+        1. [Vibe Coding Plus Workflow](workflow/vibe-coding-plus.md)
 
-    4. [Learning with AI](workflow/09-learning.md)
+    4. [Learning with AI](workflow/learning.md)
 
 4. [Prompt Library](prompt-library/README.md)
 

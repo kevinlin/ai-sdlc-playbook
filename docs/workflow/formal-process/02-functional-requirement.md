@@ -44,5 +44,5 @@ Once your functional requirements are complete, proceed to create the [Technical
 
 - [Prompting Guidance](../../prompt-library/prompting-guidance.md) - Best practices for crafting effective prompts
 - [Business Analyst Prompt](../../prompt-library/product/prompt-business-analyst.md) - Specific prompt for requirement generation
-- [Project Setup](../02-project-setup.md) - Ensure your development environment is properly configured
+- [Project Setup](../project-setup.md) - Ensure your development environment is properly configured
 - [Glossary](../../glossary.md) - Key terms and definitions used in this workflow 

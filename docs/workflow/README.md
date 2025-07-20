@@ -6,7 +6,7 @@ This section outlines workflows for integrating AI into the development lifecycl
 
 **🚀 [Getting Started](formal-process/01-getting-started.md)** - Conceptual overview of AI development workflows
 
-**⚙️ [Project Setup](02-project-setup.md)** - Define foundational elements, tools, and conventions (start here for all workflows)
+**⚙️ [Project Setup](project-setup.md)** - Define foundational elements, tools, and conventions (start here for all workflows)
 
 ---
 
@@ -60,7 +60,7 @@ We provide three complementary approaches for different project needs:
 **Best for:** Rapid prototyping, small projects, and situations where speed and flexibility are prioritized.
 
 **🎯 Get Started:**
-- **[Vibe Coding Plus Workflow](04-vibe-coding-workflow.md)** - Streamlined approach for rapid development
+- **[Vibe Coding Plus Workflow](vibe-coding-plus.md)** - Streamlined approach for rapid development
 
 **✅ Use when:**
 - Building experimental prototypes
@@ -73,7 +73,7 @@ We provide three complementary approaches for different project needs:
 
 ## Additional Resources
 
-**📚 [Learning with AI](09-learning.md)** - Continuous learning and skill development with AI assistance
+**📚 [Learning with AI](learning.md)** - Continuous learning and skill development with AI assistance
 
 ## Choosing the Right Workflow
 
@@ -86,4 +86,4 @@ We provide three complementary approaches for different project needs:
 | **Risk Tolerance** | Low | Low-Medium | Medium-High |
 | **Change Frequency** | Low | Medium | High |
 
-**Not sure which to choose?** Start with [Project Setup](02-project-setup.md), then try Spec-Driven Development for your first AI-assisted feature to learn the principles before adapting to your team's needs.
+**Not sure which to choose?** Start with [Project Setup](project-setup.md), then try Spec-Driven Development for your first AI-assisted feature to learn the principles before adapting to your team's needs.

@@ -53,7 +53,7 @@ To generate consistent code, multiple elements must come together as depicted in
 
 ## Next steps
 
-To get started, ensure that your [project is set up for AI development](02-project-setup.md) and follow the steps in the [Playbook Workflow](README.md). **IMPORTANT - this includes ensuring that privacy settings are enabled, per the [project is set up](02-project-setup.md) section.** 
+To get started, ensure that your [project is set up for AI development](../project-setup.md) and follow the steps in the [Playbook Workflow](../README.md). **IMPORTANT - this includes ensuring that privacy settings are enabled, per the [project is set up](../project-setup.md) section.** 
 
 We also advise reading and understanding the detailed [Prompting Guidance](../prompt-library/prompting-guidance.md) before you start.
 
