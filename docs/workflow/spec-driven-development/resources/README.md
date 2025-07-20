@@ -17,6 +17,8 @@ Curated references and learning materials to deepen your understanding of spec-d
 ## In This Section
 
 - **[Standards](standards.md)** - EARS format and industry requirements engineering standards
+- **[AI Reasoning](ai-reasoning.md)** - Decision frameworks and thought processes for AI collaboration
+- **[AI Reasoning Examples](ai-reasoning-examples.md)** - Detailed examples of AI decision-making in action
 - **[Tools](tools.md)** - Recommended tools and integrations for spec development
 - **[Tool Integration Guide](tool-integration-guide.md)** - Detailed setup and configuration guides
 

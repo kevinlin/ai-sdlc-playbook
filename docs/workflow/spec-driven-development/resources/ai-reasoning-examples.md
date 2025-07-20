@@ -2,15 +2,15 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: Examples | Level: Advanced | Prerequisites: README.md -->
-<!-- Related: resources/ai-reasoning.md, prompting/best-practices.md, case-studies.md -->
+<!-- Related: ai-reasoning.md, ../prompting/best-practices.md, ../examples/case-studies.md -->
 
-**📍 You are here:** [Main Guide](../README.md) → [Examples](README.md) → **AI Reasoning Examples**
+**📍 You are here:** [Main Guide](../README.md) → [Resources](README.md) → **AI Reasoning Examples**
 
 ## Quick Navigation
-- **Foundation:** [AI Reasoning Guide](../resources/ai-reasoning.md) - Understand the decision frameworks
+- **Foundation:** [AI Reasoning Guide](ai-reasoning.md) - Understand the decision frameworks
 - **Apply Learning:** [Best Practices](../prompting/best-practices.md) - Use insights for better AI collaboration
-- **Real Cases:** [Case Studies](case-studies.md) - See complete project examples
-- **All Examples:** [Examples Overview](README.md) - Browse all available examples
+- **Real Cases:** [Case Studies](../examples/case-studies.md) - See complete project examples
+- **All Examples:** [Examples Overview](../examples/README.md) - Browse all available examples
 
 ---
 
@@ -433,4 +433,4 @@ This document provides concrete examples of AI reasoning during spec development
 
 ---
 
-[← Back to AI Reasoning](../resources/ai-reasoning.md) | [Examples Overview](README.md) | [Back to Main Guide](../README.md)
+[← Back to AI Reasoning](ai-reasoning.md) | [Examples Overview](../examples/README.md) | [Back to Main Guide](../README.md)

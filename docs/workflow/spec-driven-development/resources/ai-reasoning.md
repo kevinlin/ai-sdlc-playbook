@@ -260,7 +260,7 @@ This framework ensures consistent, traceable decision-making throughout the spec
 ## Related Content
 
 ### Examples and Case Studies
-- **[AI Reasoning Examples](../examples/ai-reasoning-examples.md)** - Detailed thought process examples showing decision frameworks in action
+- **[AI Reasoning Examples](ai-reasoning-examples.md)** - Detailed thought process examples showing decision frameworks in action
 - **[Case Studies](../examples/case-studies.md)** - Complete project examples with AI collaboration insights
 
 ### Practical Application
@@ -269,4 +269,4 @@ This framework ensures consistent, traceable decision-making throughout the spec
 
 ---
 
-[← Back to Resources](README.md) | [AI Reasoning Examples →](../examples/ai-reasoning-examples.md)
+[← Back to Resources](README.md) | [AI Reasoning Examples →](ai-reasoning-examples.md)

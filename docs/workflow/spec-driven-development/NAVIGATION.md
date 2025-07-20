@@ -58,7 +58,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 - [Simple Feature Specs](examples/simple-feature-spec.md) - Basic feature examples
 - [Complex System Specs](examples/complex-system-spec.md) - Large system examples
-- [AI Reasoning Examples](examples/ai-reasoning-examples.md) - Decision-making thought processes
+- [AI Reasoning Examples](resources/ai-reasoning-examples.md) - Decision-making thought processes
 - [Case Studies](examples/case-studies.md) - Success stories and lessons
 - [Troubleshooting Examples](examples/troubleshooting-pitfalls.md) - Common mistakes
 
