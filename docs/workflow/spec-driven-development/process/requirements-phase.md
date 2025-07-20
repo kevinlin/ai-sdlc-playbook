@@ -7,10 +7,10 @@
 
 
 ## Quick Navigation
-- ** Get Started:** [Requirements Template](../templates/requirements-template.md) - Ready-to-use template
-- ** See Example:** [Simple Feature Spec](../examples/simple-feature-spec.md) - Complete requirements example
-- ** Learn EARS:** [Standards Reference](../resources/standards.md) - EARS format details
-- ** Next Phase:** [Design Phase](design-phase.md) - After requirements are approved
+- **Get Started:** [Requirements Template](../templates/requirements-template.md) - Ready-to-use template
+- **See Example:** [Simple Feature Spec](../examples/simple-feature-spec.md) - Complete requirements example
+- **Learn EARS:** [Standards Reference](../resources/standards.md) - EARS format details
+- **Next Phase:** [Design Phase](design-phase.md) - After requirements are approved
 
 ---
 
