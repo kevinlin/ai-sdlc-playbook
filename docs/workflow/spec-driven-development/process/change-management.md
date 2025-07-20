@@ -59,38 +59,21 @@ flowchart TD
     K --> O[Design Review]
 ```
 
-## Version Control Strategy
-
-### Semantic Versioning for Specs
-- **Major (1.0.0 → 2.0.0):** Breaking changes to requirements or core design
-- **Minor (1.0.0 → 1.1.0):** New requirements or significant design changes
-- **Patch (1.0.0 → 1.0.1):** Clarifications, bug fixes, minor updates
-
-### Branch Strategy
-```
-main/
-├── spec-v1.0/          # Stable spec versions
-├── feature/new-req     # New requirement branches
-└── fix/clarification   # Minor fix branches
-```
-
 ## Change Impact Assessment
 
 ### Questions to Ask
 1. **Requirements Impact**
-   - Does this change existing user stories?
-   - Are new acceptance criteria needed?
-   - Do any requirements become obsolete?
-
+   1. Does this change existing user stories?
+   2. Are new acceptance criteria needed?
+   3. Do any requirements become obsolete?
 2. **Design Impact**
-   - What components are affected?
-   - Are new dependencies introduced?
-   - Does the architecture need revision?
-
+   1. What components are affected?
+   2. Are new dependencies introduced?
+   3. Does the architecture need revision?
 3. **Implementation Impact**
-   - How many tasks need updating?
-   - What's the estimated effort change?
-   - Are there new risks or blockers?
+   1. How many tasks need updating?
+   2. What's the estimated effort change?
+   3. Are there new risks or blockers?
 
 ### Impact Scoring
 - **Low (1-2 points):** Clarifications, minor additions
@@ -118,12 +101,14 @@ main/
 [Why this change is needed]
 
 ### Impact Assessment
+
 - Requirements: [None/Minor/Major]
 - Design: [None/Minor/Major]
 - Implementation: [None/Minor/Major]
 - Effort Change: [+/- X hours/days]
 
 ### Approval Required
+
 - [ ] Product Owner (for scope changes)
 - [ ] Tech Lead (for design changes)
 - [ ] Stakeholders (for major changes)
@@ -140,95 +125,6 @@ main/
 2. **Version Bump:** Update version according to change type
 3. **Traceability:** Link changes to original requirements
 4. **Communication:** Notify stakeholders of changes
-
-## Handling Implementation Discoveries
-
-### Common Discovery Types
-1. **Technical Constraints**
-   - Third-party API limitations
-   - Performance requirements
-   - Security considerations
-
-2. **Integration Challenges**
-   - Data format mismatches
-   - Authentication complexities
-   - Timing dependencies
-
-3. **User Experience Issues**
-   - Accessibility requirements
-   - Mobile responsiveness
-   - Browser compatibility
-
-### Discovery Response Process
-1. **Document Discovery:** Record what was found and why it matters
-2. **Assess Options:** List possible solutions and trade-offs
-3. **Update Spec:** Modify design or requirements as needed
-4. **Validate Changes:** Ensure changes align with original goals
-
-## Living Spec Practices
-
-### Regular Review Cycles
-- **Weekly:** Check for implementation discoveries
-- **Sprint End:** Review completed tasks against spec
-- **Monthly:** Assess overall spec health and accuracy
-
-### Spec Health Metrics
-- **Accuracy:** % of requirements that match implementation
-- **Completeness:** % of implementation covered by spec
-- **Currency:** Days since last meaningful update
-- **Traceability:** % of code changes linked to spec items
-
-### Maintenance Guidelines
-1. **Keep It Current:** Update specs as implementation progresses
-2. **Maintain Traceability:** Link all changes back to requirements
-3. **Document Decisions:** Record why changes were made
-4. **Communicate Changes:** Keep stakeholders informed
-
-## Change Communication
-
-### Stakeholder Notification
-```markdown
-## Spec Change Notification
-
-**Spec:** [Spec Name v1.2.0]
-**Change Type:** [Minor/Major]
-**Date:** [YYYY-MM-DD]
-
-### Summary
-[Brief description of changes]
-
-### Impact
-- Timeline: [No change/+X days]
-- Scope: [No change/Added/Removed features]
-- Resources: [No change/+X hours]
-
-### Action Required
-- [ ] Review updated requirements
-- [ ] Approve design changes
-- [ ] Update project timeline
-
-### Questions/Concerns
-Contact: [Name] at [email]
-```
-
-## Tools and Integration
-
-### Version Control Integration
-- Use Git tags for spec versions
-- Link commits to change requests
-- Maintain changelog in spec repository
-
-### Project Management Integration
-- Update task estimates based on changes
-- Create new tickets for change-driven work
-- Link changes to original user stories
-
-### Documentation Integration
-- Auto-generate change logs
-- Update API documentation
-- Sync with project wikis
-
----
 
 ## 🔗 Related Content
 
