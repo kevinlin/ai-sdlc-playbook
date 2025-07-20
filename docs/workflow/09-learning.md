@@ -26,7 +26,7 @@ The prompt can be found here: [prompt-add-coding-knowledge-teaching](../prompt-l
 ## Related Resources
 
 - [Prompting Guidance](../prompt-library/prompting-guidance.md) - Best practices for crafting effective learning prompts
-- [Development Workflow](formal-process/03-development.md) - Main development process that can be enhanced with learning
-- [Cursor Rules](../cursor-rules/README.md) - Setting up IDE rules to support learning-focused development
+- [Development Workflow](formal-process/04-development.md) - Main development process that can be enhanced with learning
+- [IDE Rules](../ide-rules/README.md) - Setting up IDE rules to support learning-focused development
 - [Glossary](../glossary.md) - Key terms and definitions used throughout the playbook
 

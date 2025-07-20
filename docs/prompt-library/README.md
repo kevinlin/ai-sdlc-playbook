@@ -13,7 +13,7 @@ This library provides a curated selection of prompts to optimize your use of AI 
 - [Human-like Writing](general/prompt-human-like.md) - Make AI responses more natural and human-like
 
 ### Product Specification
-For understanding of product requirements prompt sequencing, please refer to the workflow steps in [Functional Requirements](../workflow/formal-process/01-functional-requirement.md)
+For understanding of product requirements prompt sequencing, please refer to the workflow steps in [Functional Requirements](../workflow/formal-process/02-functional-requirement.md)
 
 - [Example Product Requirements Input](product/example-product-requirements-input.md)
 - [Data Model Generation](product/prompt-data-model-generation.md)
