@@ -1,4 +1,4 @@
-# When to Use Spec-Driven Development
+# When to Use
 
 ## Decision Framework
 
