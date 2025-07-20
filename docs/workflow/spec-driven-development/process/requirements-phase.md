@@ -14,11 +14,9 @@
 
 ---
 
-## Overview
+## Purpose and Goals
 
 The Requirements Phase is the foundation of spec-driven development, where rough feature ideas are transformed into clear, testable requirements using the EARS (Easy Approach to Requirements Syntax) format. This phase ensures all stakeholders have a shared understanding of what needs to be built before moving to design and implementation.
-
-## Purpose and Goals
 
 The requirements phase serves to:
 

@@ -12,13 +12,11 @@
 
 ---
 
-## Overview
+## Purpose and Goals
 
 The Tasks Phase is the final phase of the spec-driven development process, transforming the approved design into a structured implementation plan consisting of discrete, actionable coding tasks. This phase serves as the bridge between planning and execution, breaking down complex system designs into manageable steps that can be executed incrementally by development teams or AI coding agents.
 
 As the third phase in the Requirements → Design → Tasks workflow, the tasks phase ensures that all the careful planning and design work translates into systematic, trackable implementation progress.
-
-## Purpose and Goals
 
 The tasks phase serves to:
 
