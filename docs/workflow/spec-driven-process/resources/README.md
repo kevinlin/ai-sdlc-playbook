@@ -26,11 +26,13 @@ Curated references and learning materials to deepen your understanding of spec-d
 **E**asy **A**pproach to **R**equirements **S**yntax - A structured way to write clear, testable requirements using keywords like WHEN, IF, WHILE, WHERE, and SHALL.
 
 ### Key Standards
+
 - IEEE 830 - Software Requirements Specifications
 - ISO/IEC 25010 - Systems and software Quality Requirements and Evaluation
 - Agile Requirements Engineering practices
 
 ### Essential Tools
+
 - Documentation platforms (Markdown, Notion, Confluence)
 - Diagramming tools (Mermaid, Lucidchart, Draw.io)
 - Project management (Linear, Jira, GitHub Issues)

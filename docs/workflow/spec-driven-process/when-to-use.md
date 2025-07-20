@@ -8,6 +8,7 @@ Spec-driven development is most effective when applied strategically. Use this d
 
 #### Complexity Assessment
 **Use spec-driven development when:**
+
 - The feature involves multiple components or systems
 - Integration with external APIs or services is required
 - Complex business logic or data transformations are involved
@@ -15,12 +16,14 @@ Spec-driven development is most effective when applied strategically. Use this d
 - The feature affects existing system architecture
 
 **Consider alternatives when:**
+
 - The change is a simple bug fix or minor adjustment
 - The implementation is well-understood and follows established patterns
 - The feature is purely cosmetic (UI-only changes with no logic)
 
 #### Risk and Impact Evaluation
 **Use spec-driven development when:**
+
 - The feature is customer-facing or affects user experience significantly
 - Failure could impact system stability or data integrity
 - The feature involves sensitive data or security considerations
@@ -28,12 +31,14 @@ Spec-driven development is most effective when applied strategically. Use this d
 - The implementation will be difficult to change once deployed
 
 **Consider alternatives when:**
+
 - The feature is internal tooling with limited impact
 - The change is easily reversible
 - You're building a throwaway prototype or proof of concept
 
 #### Team and Collaboration Factors
 **Use spec-driven development when:**
+
 - Multiple developers will work on the feature
 - Cross-functional collaboration is required (design, product, engineering)
 - Knowledge transfer and documentation are important
@@ -41,6 +46,7 @@ Spec-driven development is most effective when applied strategically. Use this d
 - New team members need to understand the feature
 
 **Consider alternatives when:**
+
 - You're working solo on a well-understood problem
 - The team has extensive shared context about the feature
 - Immediate implementation is more valuable than documentation

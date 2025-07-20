@@ -5,6 +5,7 @@
 <!-- Related: process/README.md, examples/simple-feature-spec.md, prompting/README.md -->
 
 ## Quick Navigation
+
 - **Next Step:** [Process Guide](process/README.md) - Learn the step-by-step workflow
 - **See Examples:** [Simple Feature Specs](examples/simple-feature-spec.md) - See methodology in action
 - **Get Started:** [Requirements Template](templates/requirements-template.md) - Start your first spec
@@ -37,6 +38,7 @@ Spec-driven development is a systematic approach to software feature development
 ### The Problem It Solves
 
 Traditional development approaches often suffer from:
+
 - Unclear requirements leading to scope creep and rework
 - Technical debt from rushed implementation decisions
 - Poor communication between stakeholders and developers
@@ -78,12 +80,14 @@ Specifications serve as more than just planning documents—they're communicatio
 **Purpose**: Transform vague feature ideas into clear, testable requirements
 
 **Key Activities**:
+
 - Capture user stories that express value and purpose
 - Define acceptance criteria using EARS (Easy Approach to Requirements Syntax)
 - Identify edge cases and constraints
 - Validate completeness and feasibility
 
 **Benefits**:
+
 - Ensures all stakeholders understand what's being built
 - Provides clear success criteria for implementation
 - Reduces scope creep and feature drift
@@ -94,12 +98,14 @@ Specifications serve as more than just planning documents—they're communicatio
 **Purpose**: Create a comprehensive technical plan for implementation
 
 **Key Activities**:
+
 - Research technical approaches and constraints
 - Define system architecture and component interactions
 - Specify data models and interfaces
 - Plan error handling and testing strategies
 
 **Benefits**:
+
 - Identifies technical challenges before coding begins
 - Enables better estimation and resource planning
 - Provides a roadmap for implementation
@@ -110,12 +116,14 @@ Specifications serve as more than just planning documents—they're communicatio
 **Purpose**: Break down the design into actionable, sequential implementation steps
 
 **Key Activities**:
+
 - Convert design elements into specific coding tasks
 - Sequence tasks to enable incremental progress
 - Define clear objectives and completion criteria
 - Reference requirements to ensure traceability
 
 **Benefits**:
+
 - Makes large features manageable through decomposition
 - Enables parallel work and better progress tracking
 - Reduces cognitive load during implementation
@@ -148,10 +156,12 @@ Specs serve as living documentation that preserves the reasoning behind design d
 ### Traditional Waterfall Development
 
 **Similarities**:
+
 - Both emphasize upfront planning and documentation
 - Both follow a sequential phase approach
 
 **Key Differences**:
+
 - Spec-driven development is more iterative within each phase
 - Specs are designed to be living documents that evolve
 - The methodology is optimized for feature-level development rather than entire projects
@@ -160,10 +170,12 @@ Specs serve as living documentation that preserves the reasoning behind design d
 ### Agile Development
 
 **Similarities**:
+
 - Both value working software and customer collaboration
 - Both embrace iterative refinement and feedback
 
 **Key Differences**:
+
 - Spec-driven development places greater emphasis on upfront design
 - More structured documentation requirements
 - Designed to work within agile frameworks rather than replace them
@@ -172,10 +184,12 @@ Specs serve as living documentation that preserves the reasoning behind design d
 ### Test-Driven Development (TDD)
 
 **Similarities**:
+
 - Both emphasize defining success criteria before implementation
 - Both use an iterative red-green-refactor cycle (requirements-design-implementation)
 
 **Key Differences**:
+
 - Spec-driven development operates at a higher level of abstraction
 - Includes business requirements and system design, not just test cases
 - Can incorporate TDD practices within the implementation phase
@@ -184,10 +198,12 @@ Specs serve as living documentation that preserves the reasoning behind design d
 ### Design-First Development
 
 **Similarities**:
+
 - Both prioritize design and planning before coding
 - Both create detailed technical specifications
 
 **Key Differences**:
+
 - Spec-driven development includes explicit requirements gathering
 - More structured approach to task breakdown and implementation planning
 - Designed specifically for AI-assisted development workflows
@@ -200,6 +216,7 @@ Specs serve as living documentation that preserves the reasoning behind design d
 Use this framework to determine if spec-driven development is right for your project:
 
 **✅ Use Full Specs When:**
+
 - Building features with multiple components or integrations
 - Working on high-stakes projects where failure is costly
 - Coordinating work across multiple developers or teams
@@ -208,12 +225,14 @@ Use this framework to determine if spec-driven development is right for your pro
 - Requirements are complex or likely to change
 
 **⚡ Use Lightweight Specs When:**
+
 - Feature is moderately complex but well-understood
 - Working with familiar technology patterns
 - Time constraints require faster delivery
 - Team is small and communication is easy
 
 **❌ Skip Specs When:**
+
 - Making simple bug fixes or minor tweaks
 - Building experimental prototypes for learning
 - Handling time-critical hotfixes
@@ -223,6 +242,7 @@ Use this framework to determine if spec-driven development is right for your pro
 ### Making the Right Choice
 
 Consider these factors when deciding on your approach:
+
 - **Complexity**: How many moving parts are involved?
 - **Risk**: What's the cost of getting it wrong?
 - **Collaboration**: How many people need to understand the work?

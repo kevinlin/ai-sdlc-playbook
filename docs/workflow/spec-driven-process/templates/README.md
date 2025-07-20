@@ -17,15 +17,18 @@ Ready-to-use templates and checklists to accelerate your spec development proces
 ## In This Section
 
 ### Full Spec Templates
+
 - **[Requirements Template](requirements-template.md)** - EARS-formatted requirements structure
 - **[Design Template](design-template.md)** - Comprehensive design document framework
 - **[Tasks Template](tasks-template.md)** - Implementation planning format
 
 ### Lightweight Templates
+
 - **[Quick Spec Template](quick-spec-template.md)** - For 1-3 day features (requirements + tasks only)
 - **[Micro Spec Template](micro-spec-template.md)** - For sub-1 day changes (minimal documentation)
 
 ### Supporting Templates
+
 - **[Checklists](checklists.md)** - Quality gates and validation checklists
 
 ## How to Use Templates

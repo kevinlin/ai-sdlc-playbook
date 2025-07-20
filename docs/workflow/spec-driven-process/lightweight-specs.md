@@ -5,6 +5,7 @@
 <!-- Related: templates/quick-spec-template.md, examples/simple-feature-spec.md -->
 
 ## Quick Navigation
+
 - **Prerequisites:** [When to Use Specs](when-to-use.md)
 - **Templates:** [Quick Spec Template](templates/quick-spec-template.md)
 - **Full Examples:** [Simple Feature Specs](examples/simple-feature-spec.md)
@@ -44,6 +45,7 @@ flowchart TD
 
 ### 1. Micro Spec (< 1 day effort)
 **Use for:**
+
 - Bug fixes
 - Copy changes
 - Configuration updates
@@ -66,6 +68,7 @@ flowchart TD
 **What:** Change login button from blue to green to match brand guidelines
 **Why:** Brand consistency requirement from design team
 **How:** 
+
 - Update CSS variable `--primary-button-color` to `#28a745`
 - Verify color meets accessibility contrast requirements
 **Acceptance:** Login button displays green and passes WCAG AA contrast test
@@ -73,12 +76,14 @@ flowchart TD
 
 ### 2. Quick Spec (1-3 days effort)
 **Use for:**
+
 - Small features
 - API endpoint additions
 - Database schema changes
 - Component modifications
 
 **Format:**
+
 - **Requirements:** 2-3 user stories in simplified format
 - **Tasks:** Direct implementation steps (skip design phase)
 - **Acceptance:** Clear success criteria
@@ -93,15 +98,18 @@ flowchart TD
 **So that** [benefit]
 
 **Acceptance Criteria:**
+
 - [ ] [Specific, testable criterion]
 - [ ] [Another criterion]
 
 ## Implementation Tasks
+
 1. [Specific coding task with estimated time]
 2. [Another task]
 3. [Testing/validation task]
 
 ## Definition of Done
+
 - [ ] Code complete and reviewed
 - [ ] Tests passing
 - [ ] Acceptance criteria verified

@@ -17,10 +17,12 @@ Real-world case studies and complete spec examples showing the methodology in ac
 ## In This Section
 
 ### Complete Spec Examples
+
 - **[Simple Feature Specs](simple-feature-spec.md)** - Complete examples for basic features
 - **[Complex System Specs](complex-system-spec.md)** - Large-scale system development examples  
 
 ### AI Collaboration & Process
+
 - **[AI Reasoning Examples](ai-reasoning-examples.md)** - Detailed AI thought processes and decision-making examples
 - **[Case Studies](case-studies.md)** - Success stories and lessons learned
 - **[Troubleshooting & Pitfalls](troubleshooting-pitfalls.md)** - Common mistakes and recovery strategies
@@ -28,6 +30,7 @@ Real-world case studies and complete spec examples showing the methodology in ac
 ## Learning from Examples
 
 Each example includes:
+
 - **Complete Spec Trilogy** - Requirements, Design, and Tasks documents
 - **Decision Commentary** - Explanation of key choices and trade-offs
 - **Implementation Notes** - How the spec translated to actual code

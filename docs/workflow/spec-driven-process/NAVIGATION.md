@@ -34,24 +34,28 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 ## 📚 By Content Type
 
 ### Core Methodology
+
 - [Methodology Overview](README.md) - Philosophy and approach
 - [When to Use](when-to-use.md) - Decision framework
 - [Process Guide](process/README.md) - Three-phase workflow
 - [Workflow Diagrams](process/workflow-diagrams.md) - Visual process flows
 
 ### Step-by-Step Guides
+
 - [Requirements Phase](process/requirements-phase.md) - Transform ideas to requirements
 - [Design Phase](process/design-phase.md) - Create technical architecture
 - [Tasks Phase](process/tasks-phase.md) - Break down into implementation steps
 - [Implementation Guide](execution/implementation-guide.md) - Execute the plan
 
 ### Templates & Tools
+
 - [Requirements Template](templates/requirements-template.md) - EARS-formatted structure
 - [Design Template](templates/design-template.md) - Comprehensive design framework
 - [Tasks Template](templates/tasks-template.md) - Implementation planning format
 - [Checklists](templates/checklists.md) - Quality validation checklists
 
 ### Real Examples
+
 - [Simple Feature Specs](examples/simple-feature-spec.md) - Basic feature examples
 - [Complex System Specs](examples/complex-system-spec.md) - Large system examples
 - [AI Reasoning Examples](examples/ai-reasoning-examples.md) - Decision-making thought processes
@@ -59,12 +63,14 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - [Troubleshooting Examples](examples/troubleshooting-pitfalls.md) - Common mistakes
 
 ### AI Collaboration
+
 - [Prompting Strategies](prompting/README.md) - Core communication approaches
 - [Prompt Templates](prompting/templates.md) - Ready-to-use patterns
 - [Best Practices](prompting/best-practices.md) - Effective techniques
 - [AI Decision Frameworks](resources/ai-reasoning.md) - How AI makes choices
 
 ### Reference Materials
+
 - [EARS Standards](resources/standards.md) - Requirements syntax reference
 - [Tools & Resources](resources/tools.md) - Recommended tools
 - [Tool Integration](resources/tool-integration-guide.md) - Setup and configuration
@@ -73,6 +79,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 ### Developers
 **Start Here:** [Simple Feature Example](examples/simple-feature-spec.md)
+
 - [Implementation Guide](execution/implementation-guide.md) - Execute specs systematically
 - [Quality Assurance](execution/quality-assurance.md) - Maintain code quality
 - [Troubleshooting](examples/troubleshooting-pitfalls.md) - Fix common problems
@@ -80,6 +87,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 ### Project Managers
 **Start Here:** [Methodology Overview](README.md)
+
 - [When to Use](when-to-use.md) - Decision framework
 - [Process Guide](process/README.md) - Three-phase workflow
 - [Case Studies](examples/case-studies.md) - Success stories
@@ -87,6 +95,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 ### Technical Leads
 **Start Here:** [Process Guide](process/README.md)
+
 - [Design Phase](process/design-phase.md) - Architecture and technical decisions
 - [AI Decision Frameworks](resources/ai-reasoning.md) - Decision-making insights
 - [Complex System Specs](examples/complex-system-spec.md) - Advanced examples
@@ -94,6 +103,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 ### AI Practitioners
 **Start Here:** [Prompting Strategies](prompting/README.md)
+
 - [Best Practices](prompting/best-practices.md) - Effective communication
 - [Prompt Templates](prompting/templates.md) - Ready-to-use patterns
 - [Complex Examples](examples/complex-system-spec.md) - Advanced use cases
@@ -172,11 +182,13 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 ## 🏷️ Topic Tags
 
 ### By Complexity Level
+
 - **Beginner**: [Methodology](README.md), [Simple Examples](examples/simple-feature-spec.md), [Templates](templates/README.md)
 - **Intermediate**: [Process Guide](process/README.md), [Prompting Strategies](prompting/README.md), [Implementation Guide](execution/implementation-guide.md)
 - **Advanced**: [Complex Examples](examples/complex-system-spec.md), [Best Practices](prompting/best-practices.md), [Implementation Guide](execution/implementation-guide.md)
 
 ### By Phase
+
 - **Requirements**: [Requirements Phase](process/requirements-phase.md), [EARS Standards](resources/standards.md), [Requirements Template](templates/requirements-template.md)
 - **Design**: [Design Phase](process/design-phase.md), [Design Template](templates/design-template.md), [Complex Examples](examples/complex-system-spec.md)
 - **Tasks**: [Tasks Phase](process/tasks-phase.md), [Implementation Guide](execution/implementation-guide.md), [Tasks Template](templates/tasks-template.md)
