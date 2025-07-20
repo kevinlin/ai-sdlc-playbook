@@ -38,11 +38,61 @@ stateDiagram-v2
 
 Each phase builds upon the previous one, with explicit approval gates to ensure quality and alignment before proceeding.
 
-## Phase Overview
+## The Three-Phase Approach
 
-1. **Requirements** - Transform rough ideas into structured, testable requirements
-2. **Design** - Research and architect a comprehensive solution
-3. **Tasks** - Create an actionable implementation plan with discrete coding steps
+### Phase 1: Requirements Gathering
+
+**Purpose**: Transform vague feature ideas into clear, testable requirements
+
+**Key Activities**:
+
+- Capture user stories that express value and purpose
+- Define acceptance criteria using EARS (Easy Approach to Requirements Syntax)
+- Identify edge cases and constraints
+- Validate completeness and feasibility
+
+**Benefits**:
+
+- Ensures all stakeholders understand what's being built
+- Provides clear success criteria for implementation
+- Reduces scope creep and feature drift
+- Creates a foundation for testing and validation
+
+### Phase 2: Design Documentation
+
+**Purpose**: Create a comprehensive technical plan for implementation
+
+**Key Activities**:
+
+- Research technical approaches and constraints
+- Define system architecture and component interactions
+- Specify data models and interfaces
+- Plan error handling and testing strategies
+
+**Benefits**:
+
+- Identifies technical challenges before coding begins
+- Enables better estimation and resource planning
+- Provides a roadmap for implementation
+- Documents design decisions and their rationale
+
+### Phase 3: Task Planning
+
+**Purpose**: Break down the design into actionable, sequential implementation steps
+
+**Key Activities**:
+
+- Convert design elements into specific coding tasks
+- Sequence tasks to enable incremental progress
+- Define clear objectives and completion criteria
+- Reference requirements to ensure traceability
+
+**Benefits**:
+
+- Makes large features manageable through decomposition
+- Enables parallel work and better progress tracking
+- Reduces cognitive load during implementation
+- Facilitates code review and quality assurance
 
 ---
 

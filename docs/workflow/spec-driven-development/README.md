@@ -16,12 +16,11 @@
 
 1. [What is Spec-Driven Development?](#what-is-spec-driven-development)
 2. [Core Philosophy](#core-philosophy)
-3. [The Three-Phase Approach](#the-three-phase-approach)
-4. [Benefits of Spec-Driven Development](#benefits-of-spec-driven-development)
-5. [When to Use Spec-Driven Development](#when-to-use-spec-driven-development)
-6. [Comparison with Other Methodologies](#comparison-with-other-development-methodologies)
-7. [Integration with Existing Workflows](#integration-with-existing-workflows)
-8. [Getting Started](#getting-started)
+3. [Benefits of Spec-Driven Development](#benefits-of-spec-driven-development)
+4. [When to Use Spec-Driven Development](#when-to-use-spec-driven-development)
+5. [Comparison with Other Methodologies](#comparison-with-other-development-methodologies)
+6. [Integration with Existing Workflows](#integration-with-existing-workflows)
+7. [Getting Started](#getting-started)
 
 ## What is Spec-Driven Development?
 
@@ -53,11 +52,25 @@ The methodology is particularly powerful when combined with AI-assisted developm
 
 ### At a Glance: The Three Phases
 
+```mermaid
+stateDiagram-v2
+  [*] --> Requirements : Start with user needs
+  Requirements --> Design : Requirements approved
+  Design --> Tasks : Design approved
+  Tasks --> [*] : Ready for implementation
+  
+  Requirements --> Requirements : Iterate based on feedback
+  Design --> Design : Refine design
+  Tasks --> Tasks : Adjust task breakdown
+```
+
 1. **Requirements Gathering**: Transform vague ideas into clear, testable requirements
 2. **Design Documentation**: Create comprehensive technical plans for implementation  
 3. **Task Planning**: Break down designs into actionable, sequential implementation steps
 
 Each phase builds upon the previous one, creating a solid foundation for successful feature development.
+
+Refer to [Process Guide](process/README.md) for step-by-step walkthrough of the three phase s.
 
 ## Core Philosophy
 
@@ -72,62 +85,6 @@ Each phase of the spec process is designed to be iterative. Rather than moving l
 ### Documentation as Communication
 
 Specifications serve as more than just planning documents—they're communication tools that align stakeholders, preserve decision rationale, and provide context for future maintenance and enhancement. Well-written specs become valuable assets that outlive the initial implementation.
-
-## The Three-Phase Approach
-
-### Phase 1: Requirements Gathering
-
-**Purpose**: Transform vague feature ideas into clear, testable requirements
-
-**Key Activities**:
-
-- Capture user stories that express value and purpose
-- Define acceptance criteria using EARS (Easy Approach to Requirements Syntax)
-- Identify edge cases and constraints
-- Validate completeness and feasibility
-
-**Benefits**:
-
-- Ensures all stakeholders understand what's being built
-- Provides clear success criteria for implementation
-- Reduces scope creep and feature drift
-- Creates a foundation for testing and validation
-
-### Phase 2: Design Documentation
-
-**Purpose**: Create a comprehensive technical plan for implementation
-
-**Key Activities**:
-
-- Research technical approaches and constraints
-- Define system architecture and component interactions
-- Specify data models and interfaces
-- Plan error handling and testing strategies
-
-**Benefits**:
-
-- Identifies technical challenges before coding begins
-- Enables better estimation and resource planning
-- Provides a roadmap for implementation
-- Documents design decisions and their rationale
-
-### Phase 3: Task Planning
-
-**Purpose**: Break down the design into actionable, sequential implementation steps
-
-**Key Activities**:
-
-- Convert design elements into specific coding tasks
-- Sequence tasks to enable incremental progress
-- Define clear objectives and completion criteria
-- Reference requirements to ensure traceability
-
-**Benefits**:
-
-- Makes large features manageable through decomposition
-- Enables parallel work and better progress tracking
-- Reduces cognitive load during implementation
-- Facilitates code review and quality assurance
 
 ## Benefits of Spec-Driven Development
 
