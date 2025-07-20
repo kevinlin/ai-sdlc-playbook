@@ -1,4 +1,4 @@
-# 1.1 Functional Requirements
+# 2. Functional Requirements
 
 This section provides a structured approach to creating and refining functional requirements for an AI-powered development workflow. Functional requirements define what the system should do from a user's perspective, focusing on expected behaviors, user interface elements, and testable features.
 

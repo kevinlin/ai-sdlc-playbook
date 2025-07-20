@@ -1,4 +1,4 @@
-# 1.3 Development
+# 4. Development
 
 This section outlines the recommended process and guidelines for developing features using an AI-powered development workflow.
 

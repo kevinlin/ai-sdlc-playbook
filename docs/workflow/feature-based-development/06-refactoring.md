@@ -1,4 +1,4 @@
-# 1.5 Refactoring
+# 6. Refactoring
 
 As with human generated code, refactoring is an important step. Refactoring improves code readability, maintainability, and performance by restructuring existing code without changing its functionality, making it easier to debug, extend, and scale.
 
