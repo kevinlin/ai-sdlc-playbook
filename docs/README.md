@@ -36,11 +36,11 @@ This playbook provides guidance on best practices for integrating AI into the So
 
         **Spec-Driven Development** (Systematic Planning)
         1. [Overview](workflow/spec-driven-process/README.md)
-        2. [Complete Guide](workflow/spec-driven-process/guide.md)
-        3. [Examples](workflow/spec-driven-process/examples.md)
+        2. [Process Guide](workflow/spec-driven-process/process/README.md)
+        3. [Examples](workflow/spec-driven-process/examples/README.md)
 
         **Vibe Coding Plus** (Rapid Prototyping)
-        1. [Vibe Coding Plus Workflow](workflow/04-vibe-coding-workflow.md)
+        4. [Vibe Coding Plus Workflow](workflow/04-vibe-coding-workflow.md)
 
     4. [Learning with AI](workflow/09-learning.md)
 

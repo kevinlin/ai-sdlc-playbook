@@ -41,8 +41,8 @@ We provide three complementary approaches for different project needs:
 
 **🎯 Get Started:**
 - **[Overview](spec-driven-process/README.md)** - Quick introduction and decision framework
-- **[Complete Guide](spec-driven-process/guide.md)** - Three-phase methodology from idea to implementation
-- **[Examples](spec-driven-process/examples.md)** - Real specs and case studies
+- **[Process Guide](spec-driven-process/process/README.md)** - Three-phase methodology from idea to implementation
+- **[Examples](spec-driven-process/examples/README.md.md)** - Real specs and case studies
 
 **📋 Three-Phase Process:**
 1. **Requirements** - Transform vague ideas into clear, testable requirements
