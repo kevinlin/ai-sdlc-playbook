@@ -29,6 +29,57 @@ The design phase serves to:
 
 ## Step-by-Step Process
 
+```mermaid
+flowchart TD
+    A["📋 Approved Requirements"] --> B["Step 1: Requirements Analysis & Research Planning"]
+    B --> B1["Review Requirements Thoroughly"]
+    B --> B2["Identify Technical Unknowns"]
+    B --> B3["Plan Research Activities"]
+    B --> B4["Set Research Boundaries"]
+    
+    B1 & B2 & B3 & B4 --> C["Step 2: Conduct Research & Build Context"]
+    C --> C1["Gather Information"]
+    C --> C2["Evaluate Options"]
+    C --> C3["Document Findings"]
+    C --> C4["Make Preliminary Decisions"]
+    
+    C1 & C2 & C3 & C4 --> D["Step 3: Create System Architecture"]
+    D --> D1["System Overview"]
+    D --> D2["Component Architecture"]
+    D --> D3["Data Flow"]
+    D --> D4["Integration Points"]
+    D --> D5["Technology Stack"]
+    
+    D1 & D2 & D3 & D4 & D5 --> E["Step 4: Define Components & Interfaces"]
+    E --> E1["Component Responsibilities"]
+    E --> E2["Interface Definitions"]
+    E --> E3["Dependency Relationships"]
+    E --> E4["Configuration & Setup"]
+    
+    E1 & E2 & E3 & E4 --> F["Step 5: Design Data Models"]
+    F --> F1["Entity Definitions"]
+    F --> F2["Relationships"]
+    F --> F3["Validation Rules"]
+    F --> F4["Storage Considerations"]
+    
+    F1 & F2 & F3 & F4 --> G["Step 6: Plan Error Handling & Edge Cases"]
+    G --> G1["Error Categories"]
+    G --> G2["Error Response Strategies"]
+    G --> G3["User Experience"]
+    G --> G4["Recovery Mechanisms"]
+    
+    G1 & G2 & G3 & G4 --> H["Step 7: Define Testing Strategy"]
+    H --> H1["Testing Levels"]
+    H --> H2["Test Coverage"]
+    H --> H3["Testing Tools"]
+    H --> H4["Quality Gates"]
+    
+    H1 & H2 & H3 & H4 --> I["✅ Complete Design<br/>Ready for Tasks Phase"]
+    
+    style A fill:#e1f5fe
+    style I fill:#e8f5e8
+```
+
 ### Step 1: Requirements Analysis and Research Planning
 
 **Objective**: Understand requirements deeply and identify areas needing research

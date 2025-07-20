@@ -31,6 +31,50 @@ The tasks phase serves to:
 
 ## Step-by-Step Process
 
+```mermaid
+flowchart TD
+    A["🏗️ Approved Design"] --> B["Step 1: Design Analysis & Task Identification"]
+    B --> B1["Review Design Components"]
+    B --> B2["Map to Code Artifacts"]
+    B --> B3["Identify Dependencies"]
+    B --> B4["Consider Testing Requirements"]
+    B --> B5["Sequence for Early Validation"]
+    
+    B1 & B2 & B3 & B4 & B5 --> C["Step 2: Task Structuring & Hierarchy"]
+    C --> C1["Two-Level Maximum"]
+    C --> C2["Logical Grouping"]
+    C --> C3["Sequential Dependencies"]
+    C --> C4["Testable Increments"]
+    
+    C1 & C2 & C3 & C4 --> D["Step 3: Task Definition & Specification"]
+    D --> D1["Clear Objective"]
+    D --> D2["Implementation Details"]
+    D --> D3["Requirements Traceability"]
+    D --> D4["Acceptance Criteria"]
+    D --> D5["Testing Expectations"]
+    
+    D1 & D2 & D3 & D4 & D5 --> E["Step 4: Dependency Management & Sequencing"]
+    E --> E1["Foundation First"]
+    E --> E2["Bottom-Up Approach"]
+    E --> E3["Test-Driven Sequence"]
+    E --> E4["Integration Points"]
+    
+    E1 & E2 & E3 & E4 --> F["Step 5: Task Validation & Refinement"]
+    F --> F1["Actionable"]
+    F --> F2["Specific"]
+    F --> F3["Testable"]
+    F --> F4["Incremental"]
+    F --> F5["Complete"]
+    
+    F1 & F2 & F3 & F4 & F5 --> G{"Tasks Ready<br/>for Implementation?"}
+    G -->|No| F1
+    G -->|Yes| H["🚀 Implementation Plan<br/>Ready for Execution"]
+    
+    style A fill:#e1f5fe
+    style H fill:#e8f5e8
+    style G fill:#fff3e0
+```
+
 ### Step 1: Design Analysis and Task Identification
 
 **Objective**: Break down the design into implementable components

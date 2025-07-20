@@ -30,6 +30,39 @@ The requirements phase serves to:
 
 ## Step-by-Step Process
 
+```mermaid
+flowchart TD
+    A["🎯 Feature Idea"] --> B["Step 1: Initial Requirements Generation"]
+    B --> B1["Analyze Feature Idea"]
+    B --> B2["Identify User Roles"]
+    B --> B3["Define User Stories"]
+    B --> B4["Generate Acceptance Criteria"]
+    
+    B1 & B2 & B3 & B4 --> C["Step 2: Requirements Structure and Format"]
+    C --> C1["Apply EARS Format"]
+    C --> C2["Structure Document"]
+    C --> C3["Write Clear Acceptance Criteria"]
+    
+    C1 & C2 & C3 --> D["Step 3: Requirements Validation"]
+    D --> D1["Check Testability"]
+    D --> D2["Validate Coverage"]
+    D --> D3["Review Clarity"]
+    
+    D1 & D2 & D3 --> E["Step 4: Iterative Refinement"]
+    E --> E1["Review with Stakeholders"]
+    E --> E2["Identify Gaps"]
+    E --> E3["Clarify Ambiguities"]
+    E --> E4["Add Missing Details"]
+    
+    E4 --> F{"Requirements<br/>Complete?"}
+    F -->|No| E1
+    F -->|Yes| G["✅ Approved Requirements<br/>Ready for Design Phase"]
+    
+    style A fill:#e1f5fe
+    style G fill:#e8f5e8
+    style F fill:#fff3e0
+```
+
 ### Step 1: Initial Requirements Generation
 
 **Objective**: Create a first draft of requirements based on the feature idea
