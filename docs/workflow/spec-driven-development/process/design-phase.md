@@ -4,19 +4,11 @@
 <!-- Phase: Design | Level: Detailed Guide | Prerequisites: requirements-phase.md -->
 <!-- Related: templates/design-template.md, resources/ai-reasoning.md, examples/complex-system-spec.md -->
 
-
-
 ## Quick Navigation
-- **🎯 Get Started:** [Design Template](../templates/design-template.md) - Ready-to-use template
-- **📖 See Example:** [Complex System Spec](../examples/complex-system-spec.md) - Complete design example
-- **💡 Get Help:** [Best Practices](../prompting/best-practices.md) - Effective prompting strategies
-- **➡️ Next Phase:** [Tasks Phase](tasks-phase.md) - After design is approved
-
-## Phase Navigation
-- **Previous:** [Requirements Phase](requirements-phase.md) - Must be completed first
-- **Current:** **Design Phase** - Create technical architecture and plan
-- **Next:** [Tasks Phase](tasks-phase.md) - Break down into implementation steps
-- **Context:** [Process Overview](README.md) - Three-phase workflow
+- **Get Started:** [Design Template](../templates/design-template.md) - Ready-to-use template
+- **See Example:** [Complex System Spec](../examples/complex-system-spec.md) - Complete design example
+- **Get Help:** [Best Practices](../prompting/best-practices.md) - Effective prompting strategies
+- **Next Phase:** [Tasks Phase](tasks-phase.md) - After design is approved
 
 ---
 

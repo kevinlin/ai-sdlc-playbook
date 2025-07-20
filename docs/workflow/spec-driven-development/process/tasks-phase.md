@@ -4,19 +4,11 @@
 <!-- Phase: Tasks | Level: Detailed Guide | Prerequisites: design-phase.md -->
 <!-- Related: templates/tasks-template.md, execution/implementation-guide.md, examples/simple-feature-spec.md -->
 
-
-
 ## Quick Navigation
-- **🎯 Get Started:** [Tasks Template](../templates/tasks-template.md) - Ready-to-use template
-- **📖 See Example:** [Simple Feature Tasks](../examples/simple-feature-spec.md#tasks-document) - Complete tasks example
-- **⚡ Execute Tasks:** [Implementation Guide](../execution/implementation-guide.md) - How to work through tasks
-- **🔄 Back to Start:** [Requirements Phase](requirements-phase.md) - Full workflow context
-
-## Phase Navigation
-- **Previous:** [Design Phase](design-phase.md) - Must be completed first
-- **Current:** **Tasks Phase** - Break down design into actionable steps
-- **Next:** [Implementation](../execution/implementation-guide.md) - Execute the tasks
-- **Context:** [Process Overview](README.md) - Three-phase workflow
+- **Get Started:** [Tasks Template](../templates/tasks-template.md) - Ready-to-use template
+- **See Example:** [Simple Feature Tasks](../examples/simple-feature-spec.md#tasks-document) - Complete tasks example
+- **Execute Tasks:** [Implementation Guide](../execution/implementation-guide.md) - How to work through tasks
+- **Back to Start:** [Requirements Phase](requirements-phase.md) - Full workflow context
 
 ---
 
