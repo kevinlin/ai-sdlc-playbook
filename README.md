@@ -27,7 +27,7 @@ This playbook provides practical guidance, rules, workflows, and prompts for eff
 ## Usage Examples
 
 - **Setting up a new project**: Follow the [Project Setup](docs/workflow/02-project-setup.md) guide
-- **Implementing a feature**: Use the [Feature Development Lifecycle](docs/workflow/README.md#workflow-steps)
+- **Implementing a feature**: Choose from [3 Development Workflows](docs/workflow/README.md#choose-your-development-workflow) based on your project needs
 - **Code review**: Apply prompts from [Development](docs/prompt-library/README.md#development) section
 - **Documentation**: Use [Documentation prompts](docs/prompt-library/README.md#documentation) for automated docs
 
