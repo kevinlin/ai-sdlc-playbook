@@ -333,4 +333,4 @@ Some tasks in the implementation plan are too abstract for direct coding. Please
 
 ---
 
-[← Back to Prompting Guide](README.md) | [Best Practices →](best-practices.md)
+[← Back to Prompting Guide](README.md)

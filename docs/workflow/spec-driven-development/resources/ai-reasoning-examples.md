@@ -2,13 +2,13 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: Examples | Level: Advanced | Prerequisites: README.md -->
-<!-- Related: ai-reasoning.md, ../prompting/best-practices.md, ../examples/case-studies.md -->
+<!-- Related: ai-reasoning.md, ../prompting/README.md, ../examples/case-studies.md -->
 
 **You are here:** [Main Guide](../README.md) → [Resources](README.md) → **AI Reasoning Examples**
 
 ## Quick Navigation
 - **Foundation:** [AI Reasoning Guide](ai-reasoning.md) - Understand the decision frameworks
-- **Apply Learning:** [Best Practices](../prompting/best-practices.md) - Use insights for better AI collaboration
+- **Apply Learning:** [Prompting Strategies](../prompting/README.md) - Use insights for better AI collaboration
 - **Real Cases:** [Case Studies](../examples/case-studies.md) - See complete project examples
 - **All Examples:** [Examples Overview](../examples/README.md) - Browse all available examples
 

@@ -22,7 +22,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 ### Working with AI Systems
 1. [Prompting Strategies](prompting/README.md) - Core communication techniques
 2. [AI Decision Frameworks](resources/ai-reasoning.md) - Understand AI reasoning
-3. [Best Practices](prompting/best-practices.md) - Avoid common mistakes
+3. [Prompt Templates](prompting/templates.md) - Ready-to-use patterns
 
 ### Implementing from Specs
 1. [Implementation Guide](execution/implementation-guide.md) - Execute tasks systematically
@@ -64,7 +64,6 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 - [Prompting Strategies](prompting/README.md) - Core communication approaches
 - [Prompt Templates](prompting/templates.md) - Ready-to-use patterns
-- [Best Practices](prompting/best-practices.md) - Effective techniques
 - [AI Decision Frameworks](resources/ai-reasoning.md) - How AI makes choices
 
 ### Reference Materials
@@ -101,7 +100,6 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 ### AI Practitioners
 **Start Here:** [Prompting Strategies](prompting/README.md)
 
-- [Best Practices](prompting/best-practices.md) - Effective communication
 - [Prompt Templates](prompting/templates.md) - Ready-to-use patterns
 - [Complex Examples](examples/complex-system-spec.md) - Advanced use cases
 - [Implementation Guide](execution/implementation-guide.md) - Execution strategies
@@ -118,7 +116,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 → [Design Phase Guide](process/02-design-phase.md) → [Design Template](templates/design-template.md) → [Complex Examples](examples/complex-system-spec.md)
 
 ### "My AI collaboration isn't working well"
-→ [Prompting Strategies](prompting/README.md) → [Best Practices](prompting/best-practices.md) → [AI Reasoning](resources/ai-reasoning.md)
+→ [Prompting Strategies](prompting/README.md) → [Prompt Templates](prompting/templates.md) → [AI Reasoning](resources/ai-reasoning.md)
 
 ### "I'm stuck during implementation"
 → [Implementation Guide](execution/implementation-guide.md) → [Quality Assurance](execution/quality-assurance.md) → [Execution Troubleshooting](execution/README.md)
@@ -146,11 +144,11 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 1. [Standards Reference](resources/standards.md)
 2. [Templates Collection](templates/README.md)
 3. [Tools & Resources](resources/tools.md)
-4. [Best Practices](prompting/best-practices.md)
+4. [Prompting Strategies](prompting/README.md)
 
 ### Problem-Solving Learners
 1. [Case Studies](examples/case-studies.md)
-2. [Best Practices](prompting/best-practices.md)
+2. [Prompting Strategies](prompting/README.md)
 3. [Quality Assurance](execution/quality-assurance.md)
 
 ## Cross-Reference Map
@@ -161,9 +159,9 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - **Acceptance Criteria** ↔ [EARS Reference](resources/standards.md), [Quality Assurance](execution/quality-assurance.md)
 
 ### Design ↔ Related Content
-- **Design Phase** ↔ [Design Template](templates/design-template.md), [Best Practices](prompting/best-practices.md)
+- **Design Phase** ↔ [Design Template](templates/design-template.md), [Prompting Strategies](prompting/README.md)
 - **Architecture Decisions** ↔ [Complex Examples](examples/complex-system-spec.md), [Case Studies](examples/case-studies.md)
-- **Technical Research** ↔ [Prompting Strategies](prompting/README.md), [Best Practices](prompting/best-practices.md)
+- **Technical Research** ↔ [Prompting Strategies](prompting/README.md), [Prompt Templates](prompting/templates.md)
 
 ### Tasks ↔ Related Content
 - **Tasks Phase** ↔ [Implementation Guide](execution/implementation-guide.md), [Tasks Template](templates/tasks-template.md)
@@ -171,8 +169,8 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - **Implementation Planning** ↔ [Execution Guide](execution/README.md), [Tools Reference](resources/tools.md)
 
 ### AI Collaboration ↔ Related Content
-- **Prompting** ↔ [Prompting Strategies](prompting/README.md), [Best Practices](prompting/best-practices.md)
-- **Communication** ↔ [Best Practices](prompting/best-practices.md), [Case Studies](examples/case-studies.md)
+- **Prompting** ↔ [Prompting Strategies](prompting/README.md), [Prompt Templates](prompting/templates.md)
+- **Communication** ↔ [Prompt Templates](prompting/templates.md), [Case Studies](examples/case-studies.md)
 - **Templates** ↔ [Prompt Templates](prompting/templates.md), [Case Studies](examples/case-studies.md)
 
 ## Topic Tags
@@ -181,7 +179,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 - **Beginner**: [Methodology](README.md), [Simple Examples](examples/simple-feature-spec.md), [Templates](templates/README.md)
 - **Intermediate**: [Process Guide](process/README.md), [Prompting Strategies](prompting/README.md), [Implementation Guide](execution/implementation-guide.md)
-- **Advanced**: [Complex Examples](examples/complex-system-spec.md), [Best Practices](prompting/best-practices.md), [Implementation Guide](execution/implementation-guide.md)
+- **Advanced**: [Complex Examples](examples/complex-system-spec.md), [Prompting Strategies](prompting/README.md), [Implementation Guide](execution/implementation-guide.md)
 
 ### By Phase
 

@@ -7,7 +7,7 @@
 ## Quick Navigation
 - **Get Started:** [Design Template](../templates/design-template.md) - Ready-to-use template
 - **See Example:** [Complex System Spec](../examples/complex-system-spec.md) - Complete design example
-- **Get Help:** [Best Practices](../prompting/best-practices.md) - Effective prompting strategies
+- **Get Help:** [Prompting Strategies](../prompting/README.md) - Effective prompting strategies
 - **Next Phase:** [Tasks Phase](03-tasks-phase.md) - After design is approved
 
 ---

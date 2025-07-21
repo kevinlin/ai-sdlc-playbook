@@ -2,14 +2,14 @@
 
 <!-- Navigation Metadata -->
 <!-- Example: Case Studies | Level: Troubleshooting | Prerequisites: simple-feature-spec.md -->
-<!-- Related: process/README.md, prompting/best-practices.md, execution/troubleshooting.md -->
+<!-- Related: process/README.md, prompting/README.md, execution/troubleshooting.md -->
 
 
 
 ## Quick Navigation
 - **Learn Basics:** [Simple Feature Specs](simple-feature-spec.md) - See good examples first
 - **Process Help:** [Process Guide](../process/README.md) - Avoid pitfalls with systematic approach
-- **Better Prompting:** [Best Practices](../prompting/best-practices.md) - Communicate more effectively
+- **Better Prompting:** [Prompting Strategies](../prompting/README.md) - Communicate more effectively
 - **Execution Issues:** [Execution Guide](../execution/README.md) - Fix implementation problems
 
 ---
