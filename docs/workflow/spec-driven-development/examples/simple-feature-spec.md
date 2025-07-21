@@ -25,7 +25,7 @@ A basic user authentication system that allows users to register, login, and man
 
 #### Requirements Document
 
-```markdown
+~~~markdown
 # User Authentication System - Requirements
 
 ## Introduction
@@ -59,11 +59,11 @@ This feature implements a secure user authentication system that allows users to
 2. WHEN a user makes authenticated requests THEN the system SHALL validate the session token
 3. WHEN a session expires THEN the system SHALL require re-authentication
 4. WHEN a user logs out THEN the system SHALL invalidate the session token
-```
+~~~
 
 #### Design Document
 
-```markdown
+~~~markdown
 # User Authentication System - Design
 
 ## Overview
@@ -115,11 +115,11 @@ interface AuthService {
 - Integration tests for complete authentication flows
 - Security testing for common vulnerabilities
 - Performance testing for concurrent authentication requests
-```
+~~~
 
 #### Tasks Document
 
-```markdown
+~~~markdown
 # User Authentication System - Implementation Plan
 
 - [ ] 1. Set up project structure and dependencies
@@ -190,11 +190,12 @@ interface AuthService {
   - Create alerts for suspicious authentication patterns
   - Write tests for logging functionality
   - _Requirements: 2.3_
-```
+~~~
 
 ### Key Decision Commentary
 
 #### Why JWT Tokens?
+
 - **Stateless**: No server-side session storage required
 - **Scalable**: Works well in distributed systems
 - **Standard**: Well-established security practices
@@ -215,6 +216,7 @@ interface AuthService {
 ### Implementation Notes
 
 This spec translates to approximately 8-10 TypeScript files:
+
 - `models/User.ts` - Data model and interfaces
 - `services/AuthService.ts` - Core authentication logic
 - `services/PasswordService.ts` - Password hashing utilities
@@ -228,11 +230,13 @@ This spec translates to approximately 8-10 TypeScript files:
 ### Lessons Learned
 
 **What Worked Well:**
+
 - Breaking down authentication into discrete services made testing easier
 - Starting with clear interfaces helped maintain consistency
 - Security considerations were addressed systematically
 
 **What Could Be Improved:**
+
 - Could have included more specific error message requirements
 - Rate limiting strategy could be more detailed in design phase
 - Password reset functionality was not included but often needed
@@ -248,7 +252,7 @@ A reusable data validation component that can validate different types of input 
 
 #### Requirements Document
 
-```markdown
+~~~markdown
 # Data Validation Component - Requirements
 
 ## Introduction
@@ -282,11 +286,11 @@ This feature implements a flexible data validation component that can validate v
 2. WHEN multiple validations fail THEN the system SHALL collect all error messages
 3. WHEN displaying errors THEN the system SHALL identify which field failed validation
 4. IF custom error messages are provided THEN the system SHALL use them instead of defaults
-```
+~~~
 
 #### Design Document
 
-```markdown
+~~~markdown
 # Data Validation Component - Design
 
 ## Overview
@@ -346,11 +350,11 @@ interface ValidationChain<T> {
 - Integration tests for validation chains
 - Edge case testing for boundary conditions
 - Performance testing for large data sets
-```
+~~~
 
 #### Tasks Document
 
-```markdown
+~~~markdown
 # Data Validation Component - Implementation Plan
 
 - [ ] 1. Set up validation component structure
@@ -421,7 +425,7 @@ interface ValidationChain<T> {
   - Create comprehensive documentation and usage examples
   - Write performance tests and benchmarks
   - _Requirements: 1.1, 2.1, 3.1_
-```
+~~~
 
 ### Key Decision Commentary
 
@@ -440,6 +444,7 @@ interface ValidationChain<T> {
 ### Implementation Notes
 
 This spec results in a modular validation library:
+
 - `core/Validator.ts` - Base interfaces and types
 - `core/ValidationChain.ts` - Fluent API implementation
 - `validators/StringValidators.ts` - String validation functions
@@ -452,38 +457,16 @@ This spec results in a modular validation library:
 ### Lessons Learned
 
 **What Worked Well:**
+
 - Fluent API made the component very developer-friendly
 - Separating built-in and custom validators provided good flexibility
 - Comprehensive error collection improved debugging experience
 
 **What Could Be Improved:**
+
 - Could have specified performance requirements more clearly
 - Async validation support wasn't considered but might be needed
 - Integration with popular form libraries could be more detailed
-
----
-
-## Usage Guidelines
-
-### When to Use These Examples
-
-**User Authentication Example** is ideal for:
-- Learning how to spec security-critical features
-- Understanding how to break down complex business logic
-- Seeing how security requirements translate to implementation tasks
-
-**Data Validation Example** is perfect for:
-- Understanding utility component specification
-- Learning how to design reusable, composable systems
-- Seeing how developer experience requirements drive design decisions
-
-### Adapting These Examples
-
-Both examples can be adapted for different contexts:
-- **Technology Stack**: Replace specific technologies while keeping the structure
-- **Complexity Level**: Add or remove features based on project needs
-- **Domain Requirements**: Modify business rules while maintaining the process
-- **Integration Needs**: Adjust interfaces based on existing system architecture
 
 ---
 
