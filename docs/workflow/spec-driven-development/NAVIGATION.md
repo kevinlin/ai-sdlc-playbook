@@ -201,6 +201,6 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 ---
 
-**💡 Tip**: Use your browser's search function (Ctrl/Cmd+F) to quickly find specific topics within this index.
+**Tip**: Use your browser's search function (Ctrl/Cmd+F) to quickly find specific topics within this index.
 
 [← Back to Main Guide](README.md)

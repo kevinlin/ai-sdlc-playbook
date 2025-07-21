@@ -29,7 +29,7 @@ The design phase serves to:
 
 ```mermaid
 flowchart TD
-    A["📋 Approved Requirements"] --> B["Step 1: Requirements Analysis & Research Planning"]
+    A["Approved Requirements"] --> B["Step 1: Requirements Analysis & Research Planning"]
     B --> B1["Review Requirements Thoroughly"]
     B --> B2["Identify Technical Unknowns"]
     B --> B3["Plan Research Activities"]
@@ -72,7 +72,7 @@ flowchart TD
     H --> H3["Testing Tools"]
     H --> H4["Quality Gates"]
     
-    H1 & H2 & H3 & H4 --> I["✅ Complete Design<br/>Ready for Tasks Phase"]
+    H1 & H2 & H3 & H4 --> I["Complete Design<br/>Ready for Tasks Phase"]
     
     style A fill:#e1f5fe
     style I fill:#e8f5e8

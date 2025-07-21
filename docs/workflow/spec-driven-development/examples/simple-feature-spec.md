@@ -7,10 +7,10 @@
 
 
 ## Quick Navigation
-- **📚 Learn First:** [Methodology Overview](../README.md) - Understand the foundation
-- **📝 Use Templates:** [Templates](../templates/README.md) - Create your own specs
-- **📋 Follow Process:** [Process Guide](../process/README.md) - Step-by-step instructions
-- **🏗️ Complex Examples:** [Complex System Specs](complex-system-spec.md) - More advanced examples
+- **Learn First:** [Methodology Overview](../README.md) - Understand the foundation
+- **Use Templates:** [Templates](../templates/README.md) - Create your own specs
+- **Follow Process:** [Process Guide](../process/README.md) - Step-by-step instructions
+- **Complex Examples:** [Complex System Specs](complex-system-spec.md) - More advanced examples
 
 ---
 

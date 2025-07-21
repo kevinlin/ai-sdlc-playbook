@@ -174,7 +174,7 @@ Specs serve as living documentation that preserves the reasoning behind design d
 
 Use this framework to determine if spec-driven development is right for your project:
 
-**✅ Use Full Specs When:**
+**Use Full Specs When:**
 
 - Building features with multiple components or integrations
 - Working on high-stakes projects where failure is costly
@@ -183,14 +183,14 @@ Use this framework to determine if spec-driven development is right for your pro
 - Using AI tools that benefit from structured context
 - Requirements are complex or likely to change
 
-**⚡ Use Lightweight Specs When:**
+**Use Lightweight Specs When:**
 
 - Feature is moderately complex but well-understood
 - Working with familiar technology patterns
 - Time constraints require faster delivery
 - Team is small and communication is easy
 
-**❌ Skip Specs When:**
+**Skip Specs When:**
 
 - Making simple bug fixes or minor tweaks
 - Building experimental prototypes for learning

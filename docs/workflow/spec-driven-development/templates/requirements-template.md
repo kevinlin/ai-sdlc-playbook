@@ -7,10 +7,10 @@
 
 
 ## Quick Navigation
-- **📚 Learn Process:** [Requirements Phase Guide](../process/01-requirements-phase.md) - How to use this template
-- **📖 See Example:** [Simple Feature Requirements](../examples/simple-feature-spec.md#requirements-document) - Template in action
-- **📋 EARS Reference:** [Standards Guide](../resources/standards.md) - EARS format details
-- **➡️ Next Template:** [Design Template](design-template.md) - After requirements are done
+- **Learn Process:** [Requirements Phase Guide](../process/01-requirements-phase.md) - How to use this template
+- **See Example:** [Simple Feature Requirements](../examples/simple-feature-spec.md#requirements-document) - Template in action
+- **EARS Reference:** [Standards Guide](../resources/standards.md) - EARS format details
+- **Next Template:** [Design Template](design-template.md) - After requirements are done
 
 ---
 
@@ -182,18 +182,18 @@ Use this checklist to validate your requirements document:
 ## Tips for Writing Good Requirements
 
 ### Do's
-- ✅ Use active voice and specific language
-- ✅ Focus on what the system should do, not how
-- ✅ Make each requirement testable and verifiable
-- ✅ Include both positive and negative scenarios
-- ✅ Consider edge cases and error conditions
+- Use active voice and specific language
+- Focus on what the system should do, not how
+- Make each requirement testable and verifiable
+- Include both positive and negative scenarios
+- Consider edge cases and error conditions
 
 ### Don'ts
-- ❌ Don't use vague terms like "user-friendly" or "fast"
-- ❌ Don't combine multiple requirements in one statement
-- ❌ Don't specify implementation details
-- ❌ Don't use subjective or unmeasurable criteria
-- ❌ Don't forget to consider non-functional aspects
+- Don't use vague terms like "user-friendly" or "fast"
+- Don't combine multiple requirements in one statement
+- Don't specify implementation details
+- Don't use subjective or unmeasurable criteria
+- Don't forget to consider non-functional aspects
 
 ### Common EARS Patterns
 

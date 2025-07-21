@@ -7,10 +7,10 @@
 
 
 ## Quick Navigation
-- **📖 Learn Basics:** [Simple Feature Specs](simple-feature-spec.md) - See good examples first
-- **📋 Process Help:** [Process Guide](../process/README.md) - Avoid pitfalls with systematic approach
-- **💬 Better Prompting:** [Best Practices](../prompting/best-practices.md) - Communicate more effectively
-- **⚡ Execution Issues:** [Execution Guide](../execution/README.md) - Fix implementation problems
+- **Learn Basics:** [Simple Feature Specs](simple-feature-spec.md) - See good examples first
+- **Process Help:** [Process Guide](../process/README.md) - Avoid pitfalls with systematic approach
+- **Better Prompting:** [Best Practices](../prompting/best-practices.md) - Communicate more effectively
+- **Execution Issues:** [Execution Guide](../execution/README.md) - Fix implementation problems
 
 ---
 
@@ -540,21 +540,21 @@ A data processing pipeline was thoroughly specified for functionality but had no
 ## Quick Reference: Warning Signs
 
 ### Requirements Warning Signs
-- ❌ Requirements use subjective terms without definition ("fast", "user-friendly")
-- ❌ No error scenarios or edge cases considered
-- ❌ Technology choices embedded in requirements
-- ❌ Stakeholders haven't reviewed or approved requirements
+- Requirements use subjective terms without definition ("fast", "user-friendly")
+- No error scenarios or edge cases considered
+- Technology choices embedded in requirements
+- Stakeholders haven't reviewed or approved requirements
 
 ### Design Warning Signs
-- ❌ Design is much more complex than requirements suggest
-- ❌ No consideration of non-functional requirements
-- ❌ No error handling or failure scenarios planned
-- ❌ Design decisions not justified or documented
+- Design is much more complex than requirements suggest
+- No consideration of non-functional requirements
+- No error handling or failure scenarios planned
+- Design decisions not justified or documented
 
 ### Tasks Warning Signs
-- ❌ Tasks are too large (more than 2-3 days of work)
-- ❌ No testing included in implementation tasks
-- ❌ Dependencies between tasks not considered
+- Tasks are too large (more than 2-3 days of work)
+- No testing included in implementation tasks
+- Dependencies between tasks not considered
 - ❌ No integration or deployment tasks included
 
 ---

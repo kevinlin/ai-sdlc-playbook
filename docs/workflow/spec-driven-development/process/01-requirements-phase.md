@@ -30,7 +30,7 @@ The requirements phase serves to:
 
 ```mermaid
 flowchart TD
-    A["🎯 Feature Idea"] --> B["Step 1: Initial Requirements Generation"]
+    A["Feature Idea"] --> B["Step 1: Initial Requirements Generation"]
     B --> B1["Analyze Feature Idea"]
     B --> B2["Identify User Roles"]
     B --> B3["Define User Stories"]
@@ -54,7 +54,7 @@ flowchart TD
     
     E4 --> F{"Requirements<br/>Complete?"}
     F -->|No| E1
-    F -->|Yes| G["✅ Approved Requirements<br/>Ready for Design Phase"]
+    F -->|Yes| G["Approved Requirements<br/>Ready for Design Phase"]
     
     style A fill:#e1f5fe
     style G fill:#e8f5e8

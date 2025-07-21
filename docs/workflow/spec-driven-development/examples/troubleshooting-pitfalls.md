@@ -7,10 +7,10 @@
 
 
 ## Quick Navigation
-- **📋 Learn Process:** [Process Guide](../process/README.md) - Avoid pitfalls with systematic approach
-- **💬 Better Communication:** [Prompting Best Practices](../prompting/best-practices.md) - Prevent misunderstandings
-- **⚡ Implementation Issues:** [Execution Guide](../execution/README.md) - Fix coding problems
-- **📖 Real Examples:** [Case Studies](case-studies.md) - Learn from actual failures
+- **Learn Process:** [Process Guide](../process/README.md) - Avoid pitfalls with systematic approach
+- **Better Communication:** [Prompting Best Practices](../prompting/best-practices.md) - Prevent misunderstandings
+- **Implementation Issues:** [Execution Guide](../execution/README.md) - Fix coding problems
+- **Real Examples:** [Case Studies](case-studies.md) - Learn from actual failures
 
 ---
 

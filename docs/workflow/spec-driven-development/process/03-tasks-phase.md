@@ -31,7 +31,7 @@ The tasks phase serves to:
 
 ```mermaid
 flowchart TD
-    A["🏗️ Approved Design"] --> B["Step 1: Design Analysis & Task Identification"]
+    A["Approved Design"] --> B["Step 1: Design Analysis & Task Identification"]
     B --> B1["Review Design Components"]
     B --> B2["Map to Code Artifacts"]
     B --> B3["Identify Dependencies"]
@@ -66,7 +66,7 @@ flowchart TD
     
     F1 & F2 & F3 & F4 & F5 --> G{"Tasks Ready<br/>for Implementation?"}
     G -->|No| F1
-    G -->|Yes| H["🚀 Implementation Plan<br/>Ready for Execution"]
+    G -->|Yes| H["Implementation Plan<br/>Ready for Execution"]
     
     style A fill:#e1f5fe
     style H fill:#e8f5e8

@@ -4,13 +4,13 @@
 <!-- Section: Prompting | Level: Advanced | Prerequisites: README.md -->
 <!-- Related: templates.md, resources/ai-reasoning.md, examples/troubleshooting-pitfalls.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Prompting Strategies](README.md) → **Best Practices**
+**You are here:** [Main Guide](../../README.md) → [Prompting Strategies](README.md) → **Best Practices**
 
 ## Quick Navigation
-- **📚 Learn Strategies:** [Core Strategies](README.md) - Core approaches first
-- **📝 Use Templates:** [Prompt Templates](templates.md) - Ready-to-use patterns
-- **📖 See Examples:** [Simple Examples](../examples/simple-feature-spec.md) - Prompting in practice
-- **🔧 Fix Problems:** [Troubleshooting Guide](../examples/troubleshooting-pitfalls.md) - When prompting goes wrong
+- **Learn Strategies:** [Core Strategies](README.md) - Core approaches first
+- **Use Templates:** [Prompt Templates](templates.md) - Ready-to-use patterns
+- **See Examples:** [Simple Examples](../examples/simple-feature-spec.md) - Prompting in practice
+- **Fix Problems:** [Troubleshooting Guide](../examples/troubleshooting-pitfalls.md) - When prompting goes wrong
 
 ---
 
