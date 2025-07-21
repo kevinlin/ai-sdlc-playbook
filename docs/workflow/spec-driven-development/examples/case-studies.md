@@ -578,6 +578,22 @@ A data processing pipeline was thoroughly specified for functionality but had no
 - Dependencies between tasks not considered
 - No integration or deployment tasks included
 
+## When to Start Over
+
+Sometimes the best recovery strategy is to restart with lessons learned:
+
+**Consider Restarting When:**
+- Fundamental misunderstanding of user needs
+- Technical approach is completely wrong
+- Spec has become too complex to follow
+- More time spent on fixes than forward progress
+
+**How to Restart Effectively:**
+1. Document lessons learned from failed attempt
+2. Identify the root cause of failure
+3. Start with simplified scope
+4. Apply prevention strategies from the beginning
+
 ---
 
 [← Complex System Examples](complex-system-spec.md) | [Back to Examples Overview](README.md)
