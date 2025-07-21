@@ -4,13 +4,13 @@
 <!-- Resource: Standards | Level: Reference | Prerequisites: None -->
 <!-- Related: process/01-requirements-phase.md, templates/requirements-template.md, examples/simple-feature-spec.md -->
 
-**📍 You are here:** [Main Guide](../../README.md) → [Resources](README.md) → **Standards**
+**You are here:** [Main Guide](../../README.md) → [Resources](README.md) → **Standards**
 
 ## Quick Navigation
-- **📋 Apply EARS:** [Requirements Phase](../process/01-requirements-phase.md) - Use EARS format in practice
-- **📝 Use Template:** [Requirements Template](../templates/requirements-template.md) - EARS-formatted template
-- **📖 See Examples:** [Simple Feature Specs](../examples/simple-feature-spec.md) - EARS in action
-- **🔧 More Tools:** [Tools & Resources](tools.md) - Additional helpful resources
+- **Apply EARS:** [Requirements Phase](../process/01-requirements-phase.md) - Use EARS format in practice
+- **Use Template:** [Requirements Template](../templates/requirements-template.md) - EARS-formatted template
+- **See Examples:** [Simple Feature Specs](../examples/simple-feature-spec.md) - EARS in action
+- **More Tools:** [Tools & Resources](tools.md) - Additional helpful resources
 
 ---
 

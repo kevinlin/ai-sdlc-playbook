@@ -4,7 +4,7 @@
 <!-- Section: Examples | Level: Advanced | Prerequisites: README.md -->
 <!-- Related: ai-reasoning.md, ../prompting/best-practices.md, ../examples/case-studies.md -->
 
-**📍 You are here:** [Main Guide](../README.md) → [Resources](README.md) → **AI Reasoning Examples**
+**You are here:** [Main Guide](../README.md) → [Resources](README.md) → **AI Reasoning Examples**
 
 ## Quick Navigation
 - **Foundation:** [AI Reasoning Guide](ai-reasoning.md) - Understand the decision frameworks

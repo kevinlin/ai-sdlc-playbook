@@ -555,7 +555,7 @@ A data processing pipeline was thoroughly specified for functionality but had no
 - Tasks are too large (more than 2-3 days of work)
 - No testing included in implementation tasks
 - Dependencies between tasks not considered
-- ❌ No integration or deployment tasks included
+- No integration or deployment tasks included
 
 ---
 
