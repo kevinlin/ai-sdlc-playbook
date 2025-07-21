@@ -23,7 +23,6 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 1. [Prompting Strategies](prompting/README.md) - Core communication techniques
 2. [AI Decision Frameworks](resources/ai-reasoning.md) - Understand AI reasoning
 3. [Best Practices](prompting/best-practices.md) - Avoid common mistakes
-4. [Troubleshooting](examples/troubleshooting-pitfalls.md) - Fix problems
 
 ### Implementing from Specs
 1. [Implementation Guide](execution/implementation-guide.md) - Execute tasks systematically
@@ -60,7 +59,6 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - [Complex System Specs](examples/complex-system-spec.md) - Large system examples
 - [AI Reasoning Examples](resources/ai-reasoning-examples.md) - Decision-making thought processes
 - [Case Studies](examples/case-studies.md) - Success stories and lessons
-- [Troubleshooting Examples](examples/troubleshooting-pitfalls.md) - Common mistakes
 
 ### AI Collaboration
 
@@ -82,7 +80,6 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 - [Implementation Guide](execution/implementation-guide.md) - Execute specs systematically
 - [Quality Assurance](execution/quality-assurance.md) - Maintain code quality
-- [Troubleshooting](examples/troubleshooting-pitfalls.md) - Fix common problems
 - [AI Reasoning](resources/ai-reasoning.md) - Understand AI decisions
 
 ### Project Managers
@@ -115,13 +112,13 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 → [Methodology Overview](README.md) → [Simple Example](examples/simple-feature-spec.md) → [Requirements Template](templates/requirements-template.md)
 
 ### "My requirements are unclear/vague"
-→ [Requirements Phase Guide](process/01-requirements-phase.md) → [EARS Standards](resources/standards.md) → [Troubleshooting](examples/troubleshooting-pitfalls.md)
+→ [Requirements Phase Guide](process/01-requirements-phase.md) → [EARS Standards](resources/standards.md) → [Case Studies](examples/case-studies.md)
 
 ### "I need help with technical design"
 → [Design Phase Guide](process/02-design-phase.md) → [Design Template](templates/design-template.md) → [Complex Examples](examples/complex-system-spec.md)
 
 ### "My AI collaboration isn't working well"
-→ [Prompting Strategies](prompting/README.md) → [Best Practices](prompting/best-practices.md) → [Troubleshooting](examples/troubleshooting-pitfalls.md)
+→ [Prompting Strategies](prompting/README.md) → [Best Practices](prompting/best-practices.md) → [AI Reasoning](resources/ai-reasoning.md)
 
 ### "I'm stuck during implementation"
 → [Implementation Guide](execution/implementation-guide.md) → [Quality Assurance](execution/quality-assurance.md) → [Execution Troubleshooting](execution/README.md)
@@ -152,16 +149,15 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 4. [Best Practices](prompting/best-practices.md)
 
 ### Problem-Solving Learners
-1. [Troubleshooting Guide](examples/troubleshooting-pitfalls.md)
-2. [Case Studies](examples/case-studies.md)
-3. [Best Practices](prompting/best-practices.md)
-4. [Quality Assurance](execution/quality-assurance.md)
+1. [Case Studies](examples/case-studies.md)
+2. [Best Practices](prompting/best-practices.md)
+3. [Quality Assurance](execution/quality-assurance.md)
 
 ## Cross-Reference Map
 
 ### Requirements ↔ Related Content
 - **Requirements Phase** ↔ [EARS Standards](resources/standards.md), [Requirements Template](templates/requirements-template.md)
-- **User Stories** ↔ [Simple Examples](examples/simple-feature-spec.md), [Troubleshooting](examples/troubleshooting-pitfalls.md)
+- **User Stories** ↔ [Simple Examples](examples/simple-feature-spec.md), [Case Studies](examples/case-studies.md)
 - **Acceptance Criteria** ↔ [EARS Reference](resources/standards.md), [Quality Assurance](execution/quality-assurance.md)
 
 ### Design ↔ Related Content
@@ -176,7 +172,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 
 ### AI Collaboration ↔ Related Content
 - **Prompting** ↔ [Prompting Strategies](prompting/README.md), [Best Practices](prompting/best-practices.md)
-- **Communication** ↔ [Best Practices](prompting/best-practices.md), [Troubleshooting](examples/troubleshooting-pitfalls.md)
+- **Communication** ↔ [Best Practices](prompting/best-practices.md), [Case Studies](examples/case-studies.md)
 - **Templates** ↔ [Prompt Templates](prompting/templates.md), [Case Studies](examples/case-studies.md)
 
 ## Topic Tags

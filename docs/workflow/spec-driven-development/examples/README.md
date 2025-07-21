@@ -25,7 +25,6 @@ Real-world case studies and complete spec examples showing the methodology in ac
 
 - **[AI Reasoning Examples](../resources/ai-reasoning-examples.md)** - Detailed AI thought processes and decision-making examples
 - **[Case Studies](case-studies.md)** - Success stories and lessons learned
-- **[Troubleshooting & Pitfalls](troubleshooting-pitfalls.md)** - Common mistakes and recovery strategies
 
 ## Learning from Examples
 
