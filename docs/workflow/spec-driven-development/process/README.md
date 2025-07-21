@@ -55,7 +55,7 @@ Each phase builds upon the previous one, with explicit approval gates to ensure 
 - Reduces scope creep and feature drift
 - Creates a foundation for testing and validation
 
-### Phase 2: [Design Documentation](02-design-phase.md)
+### Phase 2: [Technical Design](02-design-phase.md)
 
 **Purpose**: Create a comprehensive technical plan for implementation
 
