@@ -92,6 +92,25 @@ Set up the Memory Bank system to enable effective AI assistance throughout the p
 
 The Memory Bank serves as the AI assistant's primary reference for understanding project context, enabling more effective and contextually-aware assistance throughout development.
 
+## (Optional) Configure VibeSpecs MCP Server for Spec-Driven Development
+
+Set up the VibeSpecs MCP Server to enable structured, spec-driven development workflow in Cursor:
+
+1. **Install VibeSpecs MCP Server**
+   - follow installation instructions from [VibeSpecs MCP Server](https://github.com/yinwm/vibedevtools/tree/main/vibedev-specs-mcp)
+   - configure the server in your Cursor MCP settings
+
+2. **Initialize Spec-Driven Workflow**
+   - use the workflow commands to guide feature development from requirements to implementation
+   - leverage structured phases: goal definition → requirements → design → tasks → execution
+
+3. **Integrate with Project Structure**
+   - align spec outputs with your repository documentation structure
+   - ensure generated specifications are version controlled
+   - reference [spec-driven development documentation](spec-driven-development/README.md) for best practices
+
+The VibeSpecs MCP Server provides a systematic approach to feature development, ensuring thorough planning and consistent implementation across your project.
+
 ## Next Steps
 
 Once your project setup is complete, proceed to the feature development lifecycle:

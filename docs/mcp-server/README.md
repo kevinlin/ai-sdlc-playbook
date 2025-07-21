@@ -31,11 +31,11 @@ When integrated with AI IDE like Cursor, the MCP server enables:
 | [GitLab MCP](https://github.com/smithery-ai/gitlab) | Version Control | Provides GitLab integration for repository management and CI/CD operations. |
 | [GitLab MR MCP](https://github.com/kopfrechner/gitlab-mr-mcp) | Code Review | Specialized GitLab merge request management and code review automation. |
 | [Knowledge Graph Memory MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | Memory Management | Maintains persistent project context across sessions, ensuring the AI remembers key details and avoids repetition. |
-| [MCP Compass](https://github.com/liuyoshio/mcp-compass) | Discovery | Your navigator for the MCP ecosystem, helping you discover and select the right tools for any task using natural language queries. |
 | [MCP Memory Bank](https://github.com/ipospelov/mcp-memory-bank) | Memory Management | Automates the creation and management of a hierarchical project memory bank, helping AI understand your project's structure and goals for complex work. |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Web Automation | Provides advanced web automation and cross-browser testing, serving as a modern, feature-rich alternative to Puppeteer. |
 | [Puppeteer MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) | Web Automation | Enables website navigation, screenshot capture, and web page interaction, making it invaluable for UI testing and automation tasks. |
 | [Sequential Thinking MCP](https://github.com/smithery-ai/server-sequential-thinking) | Problem Solving | Breaks down complex problems into manageable steps, supporting structured problem-solving for system design, architecture, and refactoring. |
+| [VibeSpecs MCP Server](https://github.com/yinwm/vibedevtools/tree/main/vibedev-specs-mcp) | Workflow | An AI-powered development workflow MCP server that guides you from requirements to code implementation. |
 
 ## Additional Resources
 
