@@ -16,7 +16,7 @@
 
 This section documents common mistakes, failed approaches, and lessons learned from real-world spec-driven development experiences. Learning from these pitfalls can help you avoid similar issues and recover when problems arise.
 
-## Common Pitfalls and How to Avoid Them
+## Common Pitfalls by Phase
 
 ### Requirements Phase Pitfalls
 
@@ -48,6 +48,7 @@ A team specified a requirement as "The system should be fast and user-friendly."
 ```
 
 **Recovery Strategy:**
+
 - Stop implementation and return to requirements clarification
 - Define specific, measurable criteria for all subjective terms
 - Get stakeholder agreement on concrete metrics
@@ -83,6 +84,7 @@ A user authentication system was specified without considering password reset, a
 ```
 
 **Recovery Strategy:**
+
 - Conduct a systematic review of all failure scenarios
 - Consider the "unhappy path" for every user story
 - Add security and edge case requirements
@@ -116,6 +118,7 @@ Requirements specified "The system must use React and Node.js" instead of focusi
 ```
 
 **Recovery Strategy:**
+
 - Separate functional requirements from implementation choices
 - Move technology decisions to the design phase
 - Focus requirements on user value and business outcomes
@@ -158,6 +161,7 @@ The content management system will start with:
 ```
 
 **Recovery Strategy:**
+
 - Start with the simplest design that meets requirements
 - Design for future scalability without implementing it initially
 - Plan clear upgrade paths for when complexity is needed
@@ -203,6 +207,7 @@ A payment processing system design focused on the happy path but didn't adequate
 ```
 
 **Recovery Strategy:**
+
 - Map out all possible failure points in the system
 - Design specific handling for each type of failure
 - Implement monitoring and alerting for error conditions
@@ -242,6 +247,7 @@ The system will:
 ```
 
 **Recovery Strategy:**
+
 - Review requirements for implicit non-functional needs
 - Add performance, security, and scalability considerations
 - Design monitoring and observability from the start
@@ -290,6 +296,7 @@ Implementation tasks were defined as "Implement user management" and "Build the 
 ```
 
 **Recovery Strategy:**
+
 - Break large tasks into specific, testable units
 - Each task should be completable in 1-2 days maximum
 - Include specific deliverables and acceptance criteria
@@ -344,6 +351,7 @@ Tasks were defined without considering dependencies, leading to blocked work and
 ```
 
 **Recovery Strategy:**
+
 - Map out dependencies between tasks
 - Sequence tasks so that each builds on completed work
 - Identify critical path items that block other work
@@ -391,6 +399,7 @@ Tasks focused only on feature implementation without adequate testing, leading t
 ```
 
 **Recovery Strategy:**
+
 - Add testing requirements to every implementation task
 - Include unit, integration, and end-to-end testing
 - Consider security testing for sensitive functionality
@@ -401,11 +410,13 @@ Tasks focused only on feature implementation without adequate testing, leading t
 ### When Requirements Are Unclear Mid-Implementation
 
 **Symptoms:**
+
 - Developers asking frequent clarification questions
 - Implementation decisions being made without stakeholder input
 - Features being built that don't match user expectations
 
 **Recovery Steps:**
+
 1. **Stop Implementation**: Pause coding work to prevent building the wrong thing
 2. **Document Assumptions**: List all assumptions being made about unclear requirements
 3. **Stakeholder Review**: Schedule immediate review with business stakeholders
@@ -416,11 +427,13 @@ Tasks focused only on feature implementation without adequate testing, leading t
 ### When Design Doesn't Support Requirements
 
 **Symptoms:**
+
 - Implementation tasks seem impossible or overly complex
 - Performance requirements can't be met with current design
 - Security or scalability concerns emerge during implementation
 
 **Recovery Steps:**
+
 1. **Identify Root Cause**: Determine which requirements the design fails to support
 2. **Design Review**: Conduct thorough review of design decisions
 3. **Alternative Evaluation**: Research alternative architectural approaches
@@ -431,11 +444,13 @@ Tasks focused only on feature implementation without adequate testing, leading t
 ### When Implementation Tasks Are Blocked
 
 **Symptoms:**
+
 - Tasks can't be started due to missing dependencies
 - Work is proceeding in wrong order
 - Team members are waiting for others to complete prerequisite work
 
 **Recovery Steps:**
+
 1. **Dependency Mapping**: Create visual map of all task dependencies
 2. **Critical Path Analysis**: Identify which tasks are blocking the most other work
 3. **Parallel Work Identification**: Find tasks that can be done simultaneously
@@ -446,11 +461,13 @@ Tasks focused only on feature implementation without adequate testing, leading t
 ### When Quality Issues Emerge Late
 
 **Symptoms:**
+
 - Bugs discovered during integration testing
 - Performance problems in production-like environments
 - Security vulnerabilities found during review
 
 **Recovery Steps:**
+
 1. **Issue Triage**: Categorize problems by severity and impact
 2. **Root Cause Analysis**: Determine why issues weren't caught earlier
 3. **Testing Gap Analysis**: Identify what testing was missing
@@ -483,12 +500,14 @@ A team created a 200-page specification document that attempted to define every 
 A team decided to use microservices, event sourcing, and GraphQL for a simple inventory management system because these were "modern" technologies.
 
 **What Went Wrong:**
+
 - Development time increased 3x due to complexity
 - Simple features required changes across multiple services
 - Debugging became extremely difficult
 - Team spent more time on infrastructure than business logic
 
 **Key Lessons:**
+
 - Choose technology based on requirements, not trends
 - Start simple and add complexity only when needed
 - Consider team expertise when making technology choices
@@ -500,12 +519,14 @@ A team decided to use microservices, event sourcing, and GraphQL for a simple in
 A data processing pipeline was thoroughly specified for functionality but had no monitoring, logging, or observability requirements.
 
 **What Went Wrong:**
+
 - Production issues were impossible to debug
 - No visibility into system performance or health
 - Customer issues couldn't be traced to root causes
 - System reliability was poor due to lack of operational insight
 
 **Key Lessons:**
+
 - Operational requirements are as important as functional ones
 - Monitoring and observability should be specified from the start
 - Consider the full lifecycle of the system, not just initial functionality
