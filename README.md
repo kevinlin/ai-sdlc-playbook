@@ -52,6 +52,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 **Attribution**: Large sections of this playbook were adapted from the [DEFRA AI SDLC Playbook](https://github.com/DEFRA/defra-ai-sdlc) © Crown copyright (2023) Department for Environment, Food & Rural Affairs, originally released under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
+Additional content and inspiration drawn from the [Kiro spec-driven development guide](https://github.com/jasonkneen/kiro) by Jason Kneen, which provides comprehensive system prompts and methodologies for AI-assisted development with Kiro IDE by Amazon.
+
 ---
 
 ## 🔧 Development & Site Publishing
