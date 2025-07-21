@@ -25,7 +25,7 @@ A comprehensive API system that handles user management, content delivery, and r
 
 #### Requirements Document
 
-```markdown
+~~~markdown
 # Multi-Service API Architecture - Requirements
 
 ## Introduction
@@ -68,11 +68,11 @@ This feature implements a scalable API architecture consisting of multiple micro
 2. WHEN errors occur THEN they SHALL be logged and traced across service boundaries
 3. WHEN performance degrades THEN alerts SHALL be triggered with actionable information
 4. IF debugging is needed THEN distributed traces SHALL be available for request flows
-```
+~~~
 
 #### Design Document
 
-```markdown
+~~~markdown
 # Multi-Service API Architecture - Design
 
 ## Overview
@@ -234,11 +234,11 @@ interface DomainEvent {
 - Health checks for each service endpoint
 - Distributed tracing for request flows
 - Business metrics and alerting
-```
+~~~
 
 #### Tasks Document
 
-```markdown
+~~~markdown
 # Multi-Service API Architecture - Implementation Plan
 
 - [ ] 1. Set up development infrastructure and tooling
@@ -410,7 +410,7 @@ interface DomainEvent {
   - Add database migration and rollback procedures
   - Write deployment validation and rollback tests
   - _Requirements: 1.1, 1.3_
-```
+~~~
 
 ### Key Decision Commentary
 
@@ -435,6 +435,7 @@ interface DomainEvent {
 ### Implementation Notes
 
 This complex system results in multiple service repositories:
+
 - `api-gateway/` - Gateway configuration and custom middleware
 - `user-service/` - User management microservice
 - `content-service/` - Content management microservice  
@@ -446,12 +447,14 @@ This complex system results in multiple service repositories:
 ### Lessons Learned
 
 **What Worked Well:**
+
 - Starting with shared interfaces prevented integration issues later
 - Event-driven architecture provided excellent decoupling
 - Comprehensive monitoring was essential for debugging distributed issues
 - Infrastructure-as-code made deployment and scaling much easier
 
 **What Could Be Improved:**
+
 - Data consistency requirements could have been more specific
 - Service discovery and configuration management needed more attention
 - Security requirements for service-to-service communication were underspecified
@@ -468,7 +471,7 @@ A high-throughput data processing system that ingests streaming data, processes 
 
 #### Requirements Document
 
-```markdown
+~~~markdown
 # Real-Time Data Processing Pipeline - Requirements
 
 ## Introduction
@@ -511,11 +514,11 @@ This feature implements a scalable real-time data processing pipeline that can i
 2. WHEN errors occur THEN they SHALL be logged with sufficient context for debugging
 3. WHEN performance degrades THEN alerts SHALL be triggered with actionable information
 4. IF data loss occurs THEN the system SHALL detect and report the issue immediately
-```
+~~~
 
 #### Design Document
 
-```markdown
+~~~markdown
 # Real-Time Data Processing Pipeline - Design
 
 ## Overview
@@ -687,11 +690,11 @@ interface ProcessingConfig {
 - Data lineage testing to ensure traceability
 - Performance testing under various load conditions
 - Recovery testing for system failures
-```
+~~~
 
 #### Tasks Document
 
-```markdown
+~~~markdown
 # Real-Time Data Processing Pipeline - Implementation Plan
 
 - [ ] 1. Set up streaming infrastructure foundation
@@ -849,7 +852,7 @@ interface ProcessingConfig {
   - Implement system health dashboards and monitoring guides
   - Write comprehensive system documentation and architecture guides
   - _Requirements: 4.2, 4.3_
-```
+~~~
 
 ### Key Decision Commentary
 
@@ -868,6 +871,7 @@ interface ProcessingConfig {
 ### Implementation Notes
 
 This complex pipeline results in multiple specialized components:
+
 - `ingestion-service/` - Data ingestion and source management
 - `stream-processor/` - Flink jobs and transformation logic
 - `output-manager/` - Output destination management and delivery
@@ -879,50 +883,18 @@ This complex pipeline results in multiple specialized components:
 ### Lessons Learned
 
 **What Worked Well:**
+
 - Separating ingestion, processing, and output concerns improved maintainability
 - Comprehensive monitoring was crucial for debugging distributed processing issues
 - Schema validation early in the pipeline prevented downstream problems
 - Auto-scaling policies handled traffic spikes effectively
 
 **What Could Be Improved:**
+
 - Data retention requirements needed more specific business input
 - Security requirements for data encryption and access control were underspecified
 - Cost optimization strategies should have been considered earlier
 - Disaster recovery procedures needed more detailed planning
-
----
-
-## Usage Guidelines
-
-### When to Use Complex System Examples
-
-**Multi-Service API Architecture** is ideal for:
-- Learning how to break down large systems into manageable services
-- Understanding distributed system challenges and solutions
-- Seeing how to coordinate multiple teams and codebases
-- Planning systems that need independent scaling and deployment
-
-**Real-Time Data Processing Pipeline** is perfect for:
-- Understanding high-throughput system requirements
-- Learning about stream processing and real-time analytics
-- Seeing how to handle data quality and reliability at scale
-- Planning systems with complex data transformation needs
-
-### Adapting Complex Examples
-
-Both examples can be adapted for different scales and requirements:
-- **Start Simple**: Begin with fewer services/stages and add complexity gradually
-- **Technology Substitution**: Replace specific technologies while keeping architectural patterns
-- **Scale Adjustment**: Modify throughput and latency requirements based on actual needs
-- **Domain Adaptation**: Apply the same patterns to different business domains
-
-### Key Takeaways for Complex Systems
-
-1. **Break Down Complexity**: Large systems become manageable when broken into well-defined components
-2. **Define Clear Interfaces**: Service boundaries and data contracts are crucial for coordination
-3. **Plan for Failure**: Complex systems will have failures - design for resilience from the start
-4. **Monitor Everything**: Observability is essential for understanding and debugging distributed systems
-5. **Iterate and Evolve**: Start with core functionality and add complexity incrementally
 
 ---
 
