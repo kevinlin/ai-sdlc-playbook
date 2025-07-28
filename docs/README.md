@@ -27,6 +27,7 @@ This playbook provides guidance on best practices for integrating AI into the So
     3. Development Workflows:
 
         **Feature-Based Development** (Enterprise/Complex Projects)
+
         1. [Functional Requirements](workflow/feature-based-development/02-functional-requirement.md)
         2. [Technical Specification](workflow/feature-based-development/03-technical-specification.md)
         3. [Development](workflow/feature-based-development/04-development.md)
@@ -35,11 +36,13 @@ This playbook provides guidance on best practices for integrating AI into the So
         6. [Documentation](workflow/feature-based-development/07-documentation.md)
 
         **Spec-Driven Development** (Systematic Planning)
+
         1. [Overview](workflow/spec-driven-development/README.md)
         2. [Process Guide](workflow/spec-driven-development/process/README.md)
         3. [Examples](workflow/spec-driven-development/examples/README.md)
 
         **Vibe Coding Plus** (Rapid Prototyping)
+        
         1. [Vibe Coding Plus Workflow](workflow/vibe-coding-plus.md)
 
     4. [Learning with AI](workflow/learning.md)
