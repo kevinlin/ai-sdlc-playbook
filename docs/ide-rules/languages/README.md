@@ -6,6 +6,7 @@ This directory contains cursor rules specific to different programming languages
 
 - **[C++](./cpp.md)**: C++ coding standards and best practices
 - **[.NET](./dotnet.md)**: .NET development standards and best practices
+- **[Draw.io](./drawio.md)**: Diagram drawing guidelines and conventions for Draw.io files
 - **[Golang](./golang.md)**: Go language conventions and idioms
 - **[Java](./java.md)**: Java coding standards, class organization, and best practices
 - **[Markdown](./markdown.md)**: Markdown formatting guidelines for documentation
