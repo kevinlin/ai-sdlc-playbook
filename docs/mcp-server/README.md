@@ -26,16 +26,15 @@ When integrated with AI IDE like Cursor, the MCP server enables:
 | [Context7 MCP](https://github.com/upstash/context7-mcp) | Context Management | Provides intelligent context management and retrieval for enhanced AI interactions. |
 | [DuckDuckGo MCP](https://github.com/nickclyde/duckduckgo-mcp-server) | Search | Instantly search the web for documentation, troubleshooting, and up-to-date info, all without needing an API key. |
 | [Figma Dev Mode MCP Server](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server) | Design Integration | Official Figma MCP server that brings Figma directly into your workflow, enabling code generation from selected frames, design context extraction, and Code Connect integration. Currently in open beta. |
-| [Figma MCP](https://github.com/GLips/Figma-Context-MCP) | Design Integration | Provides Cursor and other AI coding agents with direct access to Figma layout and design context, enabling accurate code generation from Figma files and nodes. |
 | [GitHub MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/github) | Version Control | Integrates GitHub operations into your workflow, letting you manage repositories, issues, pull requests, and content without leaving your environment. |
 | [GitLab MCP](https://github.com/smithery-ai/gitlab) | Version Control | Provides GitLab integration for repository management and CI/CD operations. |
-| [GitLab MR MCP](https://github.com/kopfrechner/gitlab-mr-mcp) | Code Review | Specialized GitLab merge request management and code review automation. |
+| [GitLab MR MCP](https://github.com/kevinlin/gitlab-mr-mcp) | Code Review | Interact seamlessly with GitLab repositories to manage merge requests and issues. Fetch details, add comments, and streamline code review process with ease. |
 | [Knowledge Graph Memory MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | Memory Management | Maintains persistent project context across sessions, ensuring the AI remembers key details and avoids repetition. |
 | [MCP Memory Bank](https://github.com/ipospelov/mcp-memory-bank) | Memory Management | Automates the creation and management of a hierarchical project memory bank, helping AI understand your project's structure and goals for complex work. |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Web Automation | Provides advanced web automation and cross-browser testing, serving as a modern, feature-rich alternative to Puppeteer. |
 | [Puppeteer MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) | Web Automation | Enables website navigation, screenshot capture, and web page interaction, making it invaluable for UI testing and automation tasks. |
 | [Sequential Thinking MCP](https://github.com/smithery-ai/server-sequential-thinking) | Problem Solving | Breaks down complex problems into manageable steps, supporting structured problem-solving for system design, architecture, and refactoring. |
-| [VibeSpecs MCP Server](https://github.com/yinwm/vibedevtools/tree/main/vibedev-specs-mcp) | Workflow | An AI-powered development workflow MCP server that guides you from requirements to code implementation. |
+| [Spec-driven Development MCP Server](https://github.com/kevinlin/spec-driven-dev-mcp) | Workflow | An MCP server that brings AI spec-driven development workflow to any AI-powered IDE besides Kiro |
 
 ## Additional Resources
 
