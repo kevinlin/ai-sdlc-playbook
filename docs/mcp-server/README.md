@@ -32,7 +32,7 @@ When integrated with AI IDE like Cursor, the MCP server enables:
 | [Memory Bank MCP](https://github.com/ipospelov/mcp-memory-bank) | Development Workflow | Automates the creation and management of a hierarchical project memory bank, helping AI understand your project's structure and goals for complex work. [Learn more](memory-bank.md) |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Web Automation | Provides advanced web automation and cross-browser testing, serving as a modern, feature-rich alternative to Puppeteer. |
 | [Puppeteer MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) | Web Automation | Enables website navigation, screenshot capture, and web page interaction, making it invaluable for UI testing and automation tasks. |
-| [Sequential Thinking MCP](https://github.com/smithery-ai/server-sequential-thinking) | Problem Solving | Breaks down complex problems into manageable steps, supporting structured problem-solving for system design, architecture, and refactoring. |
+| [Sequential Thinking MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) | Problem Solving | Provides a tool for dynamic and reflective problem-solving through a structured thinking process. |
 | [Spec-driven Dev MCP](https://github.com/kevinlin/spec-driven-dev-mcp) | Development Workflow | An MCP server that brings AI spec-driven development workflow to any AI-powered IDE besides Kiro. [Learn more](spec-driven-dev-mcp.md) |
 
 ## Additional Resources
