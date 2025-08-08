@@ -37,6 +37,7 @@ For understanding of product requirements prompt sequencing, please refer to the
 - [Create API Documentation](documentation/prompt-create-api-documentation.md)
 - [Create Repository Documentation](documentation/prompt-create-repository-documentation.md)
 - [Create Service Layer Documentation](documentation/prompt-create-service-layer-documentation.md)
+- [Create Technical Design Documentation](documentation/prompt-technical-design-documentation.md)
 
 ### Learning
 - [Add Code Knowledge and Teaching](learning/prompt-add-coding-knowledge-teaching.md)
