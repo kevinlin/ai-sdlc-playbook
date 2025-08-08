@@ -1,4 +1,4 @@
-# Feature Factoring Prompt
+# Feature Refactoring Prompt
 
 As per the [refactoring workflow](../../workflow/workflow-refactoring.md), it is important that you direct the Model to implement specific refactors that you want, and do not just ask it to simply refactor.
 
