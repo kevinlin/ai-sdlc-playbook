@@ -33,4 +33,5 @@ Create tests for [feature].
 - Standards: Follow jest testing cursor rules
 
 ## Output
-Provide the complete test implementation in a single code block, following all project conventions and testing standards. 
+Provide the complete test implementation in a single code block, following all project conventions and testing standards.
+```
