@@ -23,13 +23,13 @@ For understanding of product requirements prompt sequencing, please refer to the
 - [Deep Product Analysis](product/prompt-product-analysis.md)
 
 ### Development
-- [Implement New Feature / Story](development/prompt-new-feature-story.md)
-- [Create Integration Test from Feature](development/prompt-new-integration-test-from-feature.md)
-- [Create API Integration Test](development/prompt-new-api-integration-test.md)
-- [Create Frontend Integration Test](development/prompt-new-frontend-integration-test.md)
-- [Create End-to-End Test](development/prompt-new-e2e-test.md)
-- [Refactor Feature](development/prompt-refactor-feature.md)
-- [Review Merge Request](development/prompt-merge-request-review.md)
+- [Implement New Feature / Story](development/prompt-new-feature-story.md) - Start a new feature with a structured design and implementation plan
+- [Create Integration Test from Feature](development/prompt-new-integration-test-from-feature.md) - Generate integration tests derived from an existing feature
+- [Create API Integration Test](development/prompt-new-api-integration-test.md) - Create integration tests for API endpoints and flows
+- [Create Frontend Integration Test](development/prompt-new-frontend-integration-test.md) - Build integration tests for UI workflows
+- [Create End-to-End Test](development/prompt-new-e2e-test.md) - Author Playwright E2E tests, with optional accessibility scan
+- [Refactor Feature](development/prompt-refactor-feature.md) - Guided, incremental refactor focused on readability and consistency
+- [Review Merge Request](development/prompt-merge-request-review.md) - Perform a GitLab MR review with inline comments using MCP tools
 
 ### Documentation
 - [Add / Update Documentation](documentation/prompt-add-update-documentation.md)

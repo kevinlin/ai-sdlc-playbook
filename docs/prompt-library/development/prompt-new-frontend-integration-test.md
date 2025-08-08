@@ -1,4 +1,4 @@
-# Frontend Integration Tests
+# New Frontend Integration Test Prompt
 
 ```
 Create tests for [feature].

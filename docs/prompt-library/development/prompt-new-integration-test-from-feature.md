@@ -1,4 +1,4 @@
-# Agent Integration Tests
+# Feature Integration Tests Prompt
 
 ```
 # FUNCTIONAL TESTING PROMPT

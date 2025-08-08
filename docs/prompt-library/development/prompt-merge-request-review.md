@@ -1,4 +1,4 @@
-# GitLab Merge Request Review
+# GitLab Merge Request Review Prompt
 Perform code review on a GitLab merge rquest, add in-line comments and a summary.
 
 ## Prerequisites

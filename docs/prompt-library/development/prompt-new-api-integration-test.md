@@ -1,4 +1,4 @@
-# API Integration Tests
+# New API Integration Test Prompt
 
 ```
 Create integrations tests for [feature] in [file path].
