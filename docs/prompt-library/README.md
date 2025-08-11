@@ -11,6 +11,10 @@ This library provides a curated selection of prompts to optimize your use of AI 
 
 ### General
 - [Human-like Writing](general/prompt-human-like.md) - Make AI responses more natural and human-like
+- [Single-shot Coding Prompt](general/prompt-single-shot-coding.md) - Consolidated zero-shot coding template inspired by GPT-5 examples; defines goals, deliverables, UX tokens, data/state, validation, a11y, performance, and acceptance tests
+- [Single-shot Problem-Solving Prompt](general/prompt-single-shot-problem-solving.md) - Single-round process scaffold for problem framing, assumptions, multi-option trade-offs, expert deep dive, quality gates, and deliverables
+- [One-liner Problem Solving Prompt](general/prompt-one-liner-probelm-solving.md) - Compact one-liner for quick kick-offs; BLUF, assumptions, clarifications, options/trade-offs, deliverables, and next steps
+
 
 ### Product Specification
 For understanding of product requirements prompt sequencing, please refer to the workflow steps in [Functional Requirements](../workflow/feature-based-development/02-functional-requirement.md)
@@ -23,7 +27,6 @@ For understanding of product requirements prompt sequencing, please refer to the
 - [Deep Product Analysis](product/prompt-product-analysis.md)
 
 ### Development
-- [GPT-5 Coding Template Prompt](development/prompt-gpt-5-coding-template.md) - Consolidated zero-shot coding template inspired by GPT-5 examples; defines goals, deliverables, UX tokens, data/state, validation, a11y, performance, and acceptance tests
 - [Implement New Feature / Story](development/prompt-new-feature-story.md) - Start a new feature with a structured design and implementation plan
 - [Create Integration Test from Feature](development/prompt-new-integration-test-from-feature.md) - Generate integration tests derived from an existing feature
 - [Create API Integration Test](development/prompt-new-api-integration-test.md) - Create integration tests for API endpoints and flows

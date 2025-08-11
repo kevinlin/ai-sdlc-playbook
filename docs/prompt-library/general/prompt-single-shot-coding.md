@@ -1,4 +1,4 @@
-# GPT-5 Coding Template Prompt
+# Single-shot Coding Prompt
 
 This consolidated template is adapted from the ideas in the [GPT-5 Coding Examples](https://github.com/openai/gpt-5-coding-examples). Use it to structure zero-shot coding tasks with clear goals, deliverables, UX tokens, data/state, validation, accessibility, performance, and acceptance tests so the model can produce runnable outputs with minimal iteration.
 
