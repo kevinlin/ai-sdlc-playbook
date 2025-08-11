@@ -1,6 +1,6 @@
 nav:
   - README.md
-  - workflow
   - IDE Rules: ide-rules
   - MCP Server: mcp-server
+  - workflow
   - Prompt Library: prompt-library
