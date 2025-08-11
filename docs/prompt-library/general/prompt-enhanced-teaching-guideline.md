@@ -1,9 +1,8 @@
+# Enhanced Teaching Guidelines for Junior Developers
 
 We advise adding the prompt below into the "User Rules" in Cursor so that the IDE will include these learning rules into every new prompt.
 
 ```
-Enhanced Teaching Guidelines for Junior Developers
-
 Core Principles:
 - Explain the "Why": Accompany every code snippet/suggestion with a clear explanation of why the approach is used. Focus on underlying principles and best practices. Use 🧠 LEARNING tags.
 - Explore Alternatives: Suggest alternative methods (when applicable) and discuss their trade-offs.
