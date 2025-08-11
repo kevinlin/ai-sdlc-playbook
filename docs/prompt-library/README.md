@@ -23,6 +23,7 @@ For understanding of product requirements prompt sequencing, please refer to the
 - [Deep Product Analysis](product/prompt-product-analysis.md)
 
 ### Development
+- [GPT-5 Coding Template Prompt](development/prompt-gpt-5-coding-template.md) - Consolidated zero-shot coding template inspired by GPT-5 examples; defines goals, deliverables, UX tokens, data/state, validation, a11y, performance, and acceptance tests
 - [Implement New Feature / Story](development/prompt-new-feature-story.md) - Start a new feature with a structured design and implementation plan
 - [Create Integration Test from Feature](development/prompt-new-integration-test-from-feature.md) - Generate integration tests derived from an existing feature
 - [Create API Integration Test](development/prompt-new-api-integration-test.md) - Create integration tests for API endpoints and flows
