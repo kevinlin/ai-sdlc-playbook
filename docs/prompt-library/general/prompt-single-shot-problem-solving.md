@@ -5,39 +5,39 @@ This prompt is designed as a **process and quality scaffold** — a structured f
 Instead of stretching the work across multiple turns, the model completes in a single round what would normally require several:
 
 * **Problem formation**
-  * Summarizes the scenario (purpose, users, upstream/downstream dependencies)
-  * States non-goals and constraints (what will *not* be done, what cannot be changed)
-  * Orders priorities (e.g., Safety > Accuracy > Performance … according to your preferences)
+    * Summarizes the scenario (purpose, users, upstream/downstream dependencies)
+    * States non-goals and constraints (what will *not* be done, what cannot be changed)
+    * Orders priorities (e.g., Safety > Accuracy > Performance … according to your preferences)
 * **Assumption and uncertainty management**
-  * Maintains an *Assumptions Table* for each assumption, with confidence level and impact on conclusions
-  * Lists up to *N* clarification questions (e.g., max 5)
-  * If no response, proceeds on the chosen “default track” (e.g., Production-grade / Conservative / Maintainability-first) and notes the impact
+    * Maintains an *Assumptions Table* for each assumption, with confidence level and impact on conclusions
+    * Lists up to *N* clarification questions (e.g., max 5)
+    * If no response, proceeds on the chosen “default track” (e.g., Production-grade / Conservative / Maintainability-first) and notes the impact
 * **Option generation and trade-off**
-  * Produces 2–3 main solution options
-  * Scores them in a trade-off matrix (complexity, cost, risk control, maintainability, observability, scalability, learning curve)
-  * Recommends a default choice with applicable conditions and fallback paths
+    * Produces 2–3 main solution options
+    * Scores them in a trade-off matrix (complexity, cost, risk control, maintainability, observability, scalability, learning curve)
+    * Recommends a default choice with applicable conditions and fallback paths
 * **Expert-level deep dive** (the model adopts a *virtual panel of reviewers*):
-  * **Domain expert (Doer)** — design and implementation details
-  * **SRE / Performance engineer** — performance, capacity, resource limits, degradation strategies
-  * **Security / Compliance** — injection, privilege escalation, data retention/masking, audit
-  * **Architect** — evolution path, boundary management, dependency risks
-  * **Red team / Adversary** — premortem analysis, counterexamples, extreme inputs, weak points
+    * **Domain expert (Doer)** — design and implementation details
+    * **SRE / Performance engineer** — performance, capacity, resource limits, degradation strategies
+    * **Security / Compliance** — injection, privilege escalation, data retention/masking, audit
+    * **Architect** — evolution path, boundary management, dependency risks
+    * **Red team / Adversary** — premortem analysis, counterexamples, extreme inputs, weak points
 * **Quality Gates** (step-by-step checks, outputting only conclusions and fixes, not reasoning):
-  * **Gate A: Correctness** — consistency, transaction boundaries, idempotency, timing/race conditions
-  * **Gate B: Security** — input/concatenation whitelists, sensitive data handling, least privilege
-  * **Gate C: Performance** — indexing/caching/N+1 query issues, hotspots, degradation & throttling
-  * **Gate D: Maintainability** — replaceability, testability, migration & versioning
-  * **Gate E: Observability** — structured logging, slow-query thresholds, metric/alert integration points
+    * **Gate A: Correctness** — consistency, transaction boundaries, idempotency, timing/race conditions
+    * **Gate B: Security** — input/concatenation whitelists, sensitive data handling, least privilege
+    * **Gate C: Performance** — indexing/caching/N+1 query issues, hotspots, degradation & throttling
+    * **Gate D: Maintainability** — replaceability, testability, migration & versioning
+    * **Gate E: Observability** — structured logging, slow-query thresholds, metric/alert integration points
 * **Deliverable packaging**
-  * **BLUF** (Bottom Line Up Front) + one-page executive summary
-  * Minimal, ready-to-use patches (≤N lines), DDL/index/triggers/scripts
-  * Test & acceptance checklist (including failure injection cases)
-  * Monitoring & rollback plan
-  * Risks and consequences of non-adoption or delays
+    * **BLUF** (Bottom Line Up Front) + one-page executive summary
+    * Minimal, ready-to-use patches (≤N lines), DDL/index/triggers/scripts
+    * Test & acceptance checklist (including failure injection cases)
+    * Monitoring & rollback plan
+    * Risks and consequences of non-adoption or delays
 * **Stop conditions**
-  * After asking up to *N* key questions, proceed automatically
-  * When reaching the information boundary, flag items for external verification
-  * If browsing/citation is available, verify key conclusions and label them as Verified/Pending
+    * After asking up to *N* key questions, proceed automatically
+    * When reaching the information boundary, flag items for external verification
+    * If browsing/citation is available, verify key conclusions and label them as Verified/Pending
 
 ```
 **[Switch]** Default track: Conservative / Production-grade / Performance-first / Cost-first (choose one of four)
