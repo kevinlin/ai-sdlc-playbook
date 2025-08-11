@@ -79,16 +79,19 @@ In a single reply, complete: Problem formation → Hypotheses & defaults → Mul
 3. **Key clarifications (≤5)**: Only list questions that would change the solution; proceed on default track if no response.
 4. **Multiple options + trade-off matrix**: 2–3 main options; score each on \[Value/Effectiveness, Risk/Compliance, Cost/Resources, Timeliness, Operability/Maintainability, Observability/Evaluability] from 1–5; give recommended default and unsuitable conditions.
 5. **Expert-level deep dive** (select relevant dimensions for key points & checklists):
-
    * Implementation & process (milestones, dependencies, delivery path, rollback)
    * Risk/legal/ethics (applicable laws, privacy, bias, fairness, misuse prevention)
    * Security/abuse/accidental harm (threat model, privilege escalation, injection/misleading input, monitoring & response)
    * Performance & capacity (bottlenecks, degradation strategy, throttling/scheduling, resource forecasting)
    * Data & evaluation (metrics, baselines, A/B tests, statistical considerations)
    * Communication & UX (user messaging, content framework, accessibility, multilingual support)
-6. **Quality Gates check**: A Accuracy/Effectiveness; B Safety/Compliance/Ethics; C Performance/Impact/Resources; D Operability/Maintainability/Handover; E Observability/Evaluation/Review. For each gate, give a brief table: “Risk → Mitigation → Cost”.
+6. **Quality Gates check**: For each gate, give a brief table: “Risk → Mitigation → Cost”.
+  * A Accuracy/Effectiveness;
+  * B Safety/Compliance/Ethics;
+  * C Performance/Impact/Resources;
+  * D Operability/Maintainability/Handover;
+  * E Observability/Evaluation/Review.
 7. **Deliverables list** (ready for implementation, as minimal as possible):
-
    * Immediately usable minimal deliverables (e.g., plan/checklist/template/work breakdown & milestones/script or table snippet)
    * Test/acceptance criteria (including failure/extreme scenarios)
    * Monitoring/evaluation design (metrics, thresholds, alerts, review cadence)
