@@ -1,3 +1,7 @@
+---
+description: Python programming best practices covering code style, structure, error handling, testing, and performance optimization following PEP standards.
+---
+
 # Python Best Practices
 
 ## IDE Configuration Headers

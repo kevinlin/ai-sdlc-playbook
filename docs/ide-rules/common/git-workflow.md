@@ -1,3 +1,7 @@
+---
+description: Git workflow best practices covering branching strategies, commit conventions, and collaborative development patterns.
+---
+
 # Git Workflow Guidelines
 
 ## IDE Configuration Headers

@@ -1,3 +1,7 @@
+---
+description: SQL best practices covering query optimization, database design, and secure data manipulation patterns.
+---
+
 # SQL Development Guidelines
 
 To create a new Cursor Rule:

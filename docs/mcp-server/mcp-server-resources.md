@@ -1,3 +1,7 @@
+---
+description: Comprehensive guide to Model Context Protocol server resources and integration patterns for AI development tools.
+---
+
 # MCP Server Resources
 
 ### [Official Anthropic MCP Project](https://github.com/modelcontextprotocol/servers)

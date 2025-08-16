@@ -1,3 +1,7 @@
+---
+description: AI reasoning patterns and techniques for effective specification development and validation.
+---
+
 # AI Reasoning in Spec-Driven Development
 
 <!-- Navigation Metadata -->

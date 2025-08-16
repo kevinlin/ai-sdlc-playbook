@@ -1,3 +1,7 @@
+---
+description: Prompt template for generating and updating project documentation, including README files and technical specifications.
+---
+
 ```
 Please review the codebase and create or update the following documentation files while maintaining their existing structure and format.
 

@@ -1,3 +1,7 @@
+---
+description: .NET development best practices covering C#, framework patterns, and modern application architecture guidelines.
+---
+
 # C# .NET Development Rules
 
 To create a new Cursor Rule:

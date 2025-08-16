@@ -1,3 +1,7 @@
+---
+description: Real-world case studies demonstrating spec-driven development success stories and lessons learned.
+---
+
 # Case Studies: Troubleshooting and Pitfalls
 
 <!-- Navigation Metadata -->

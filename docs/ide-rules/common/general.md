@@ -1,3 +1,7 @@
+---
+description: Universal project guidelines and coding principles that apply across all languages and frameworks for maintaining consistent code quality.
+---
+
 # General Project Guidelines
 
 ## IDE Configuration Headers

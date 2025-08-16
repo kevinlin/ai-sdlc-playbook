@@ -1,3 +1,7 @@
+---
+description: Flask development best practices for building lightweight, modular web applications and APIs.
+---
+
 # Flask rules
 
 To create a new Cursor Rule:

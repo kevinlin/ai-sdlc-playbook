@@ -1,3 +1,7 @@
+---
+description: Techniques for making AI responses more natural by avoiding robotic phrases and marketing language.
+---
+
 # Makes AI Human-like
 A prompt to makes ChatGPT write naturally like human
 

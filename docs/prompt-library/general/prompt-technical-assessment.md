@@ -1,3 +1,7 @@
+---
+description: Template for generating comprehensive technical assessment reports with severity-based findings.
+---
+
 # Technical Assessment Report Generation Prompt
 Generate a rich HTML technical review report for the whole repo
 

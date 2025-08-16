@@ -1,3 +1,7 @@
+---
+description: Although not strictly a workflow, learning new skills can be accelerated with AI. This approach helps developers write code efficiently whilst deepening their understanding of essential software practices.
+---
+
 # Learning with AI
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+description: Markdown writing and formatting guidelines for consistent technical documentation and README files.
+---
+
 # Markdown Guidelines
 
 ## IDE Configuration Headers

@@ -1,3 +1,7 @@
+---
+description: Django framework guidelines covering MVC patterns, ORM best practices, and scalable web application development.
+---
+
 # Django Best Practices
 
 ## IDE Configuration Headers

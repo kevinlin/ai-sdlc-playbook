@@ -1,3 +1,7 @@
+---
+description: Setting up a development project effectively using AI tools and techniques ensures smooth collaboration, high productivity, and adherence to best practices.
+---
+
 # Project Setup
 
 Setting up a development project effectively using AI tools and techniques ensures smooth collaboration, high productivity, and adherence to best practices. Below is a detailed guide for initializing your project:

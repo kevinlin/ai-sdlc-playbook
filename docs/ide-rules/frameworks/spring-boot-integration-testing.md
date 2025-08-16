@@ -1,3 +1,7 @@
+---
+description: Spring Boot integration testing best practices for comprehensive application testing strategies.
+---
+
 # Spring Boot Integration Testing Best Practices
 
 To create a new Cursor Rule:

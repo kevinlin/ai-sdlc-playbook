@@ -1,3 +1,7 @@
+---
+description: Prompt template for documenting business logic, rules, and domain-specific functionality.
+---
+
 ```
 # Business Logic Technical Document Prompt
 

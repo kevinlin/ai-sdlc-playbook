@@ -1,3 +1,7 @@
+---
+description: This directory contains IDE rules specific to different software frameworks and libraries. These rules are compatible with multiple AI-powered IDEs including Cursor, Kiro, and other similar development environments.
+---
+
 # Framework IDE Rules
 
 This directory contains IDE rules specific to different software frameworks and libraries. These rules are compatible with multiple AI-powered IDEs including Cursor, Kiro, and other similar development environments.

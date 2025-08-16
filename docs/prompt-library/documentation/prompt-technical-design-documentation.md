@@ -1,3 +1,7 @@
+---
+description: Prompt for generating technical design documents with architecture decisions and implementation details.
+---
+
 ```
 Based on the project(s) in the current workspace, develop a comprehensive technical design document based on the actual implementation. 
 - Conducting necessary research during the design process.

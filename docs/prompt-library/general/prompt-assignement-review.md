@@ -1,3 +1,7 @@
+---
+description: Prompt template for evaluating assignment submissions and generating structured assessment reports.
+---
+
 # Assignment Submission Review Prompt
 Review and evaluate client assignment submissions based on curated evaluation guiedline, and generate a rich HTML report
 

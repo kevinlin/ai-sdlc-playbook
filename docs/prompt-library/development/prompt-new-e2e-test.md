@@ -1,3 +1,7 @@
+---
+description: End-to-end testing prompt template for creating comprehensive user workflow tests.
+---
+
 # New E2E Test Prompt
 
 This is an example prompt, you will need to update the "Test Setup" and "Test Interaction Data" sections to suit your specific requirements.

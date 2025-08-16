@@ -1,3 +1,7 @@
+---
+description: Comprehensive guide to tools that support spec-driven development methodology and automation.
+---
+
 # Tools and Integration Guide
 
 This guide provides recommendations for tools, platforms, and integrations that support the spec-driven development process.

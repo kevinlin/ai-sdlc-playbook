@@ -1,3 +1,7 @@
+---
+description: Template for generating integration tests based on feature specifications and requirements.
+---
+
 # Feature Integration Tests Prompt
 
 ```

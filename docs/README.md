@@ -1,3 +1,7 @@
+---
+description: This playbook provides guidance on best practices for integrating AI into the Software Development Lifecycle (SDLC), specifically tailored for development teams using AI-powered IDEs.
+---
+
 # Overview
 Version 1.0
 

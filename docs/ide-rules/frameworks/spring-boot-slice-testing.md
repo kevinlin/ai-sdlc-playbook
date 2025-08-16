@@ -1,3 +1,7 @@
+---
+description: Spring Boot slice testing techniques for focused, efficient unit and integration testing.
+---
+
 # Spring Boot Slice Testing Best Practices
 
 To create a new Cursor Rule:

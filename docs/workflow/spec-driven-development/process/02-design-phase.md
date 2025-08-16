@@ -1,3 +1,7 @@
+---
+description: Technical design phase guidelines covering architecture decisions and implementation planning.
+---
+
 # Design Phase
 
 <!-- Navigation Metadata -->

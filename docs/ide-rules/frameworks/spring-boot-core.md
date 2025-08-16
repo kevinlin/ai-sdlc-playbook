@@ -1,3 +1,7 @@
+---
+description: Spring Boot core development guidelines covering dependency injection, configuration, and application structure.
+---
+
 # Spring Boot Core Best Practices
 
 To create a new Cursor Rule:

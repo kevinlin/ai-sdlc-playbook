@@ -1,3 +1,7 @@
+---
+description: Template for breaking down specifications into actionable development tasks and milestones.
+---
+
 # Tasks Template
 
 <!-- Navigation Metadata -->

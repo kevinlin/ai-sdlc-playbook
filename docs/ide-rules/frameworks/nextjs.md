@@ -1,3 +1,7 @@
+---
+description: Next.js development best practices covering SSR, routing, performance optimization, and modern React patterns.
+---
+
 # Next.js Best Practices
 
 ## IDE Configuration Headers

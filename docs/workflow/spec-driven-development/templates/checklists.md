@@ -1,3 +1,7 @@
+---
+description: Comprehensive checklists for each phase of spec-driven development to ensure quality and completeness.
+---
+
 # Spec Process Checklists
 
 This document provides comprehensive checklists for each phase of the spec-driven development process. Use these checklists to ensure quality and completeness at each stage.

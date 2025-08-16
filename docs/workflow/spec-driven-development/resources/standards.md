@@ -1,3 +1,7 @@
+---
+description: Standards and conventions for creating consistent, high-quality specifications.
+---
+
 # Standards and Methodology References
 
 <!-- Navigation Metadata -->

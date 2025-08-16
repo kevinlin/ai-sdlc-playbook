@@ -1,3 +1,7 @@
+---
+description: Comprehensive template for creating requirements documents using the EARS format with structured acceptance criteria and stakeholder information.
+---
+
 # Requirements Template
 
 <!-- Navigation Metadata -->

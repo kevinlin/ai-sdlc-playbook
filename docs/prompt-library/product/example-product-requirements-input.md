@@ -1,3 +1,7 @@
+---
+description: Example input format for product requirements to demonstrate structured requirement gathering.
+---
+
 ```
 I'm writing a governance checklist app for governance project tracking. Here are the features of the app:
 

@@ -1,3 +1,7 @@
+---
+description: Mobile design mockup creation template covering user experience and interface design principles.
+---
+
 # Role
 You are a senior product manager, interaction designer, and UI designer.
 

@@ -1,3 +1,7 @@
+---
+description: Overview of resources available for implementing and mastering spec-driven development practices.
+---
+
 # Resources
 
 <!-- Navigation Metadata -->

@@ -1,3 +1,7 @@
+---
+description: Documentation standards and guidelines for creating clear, maintainable technical documentation across projects.
+---
+
 # Documentation Guidelines
 
 ## IDE Configuration Headers

@@ -1,3 +1,7 @@
+---
+description: Svelte framework guidelines covering reactive programming, component design, and modern web development.
+---
+
 # Svelte Best Practices
 
 To create a new Cursor Rule:

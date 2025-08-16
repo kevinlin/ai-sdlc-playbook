@@ -1,3 +1,7 @@
+---
+description: Spec-driven development is most effective when applied strategically. Use this decision framework to determine whether the methodology is appropriate for your specific situation based on complexity, stakeholder needs, and project constraints.
+---
+
 # When to Use
 
 ## Decision Framework

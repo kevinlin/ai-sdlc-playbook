@@ -1,3 +1,7 @@
+---
+description: Template for defining user interface requirements including wireframes, interactions, and accessibility.
+---
+
 First upload all mockup screenshots from the previous step using the "wait for more uploads" method with the latest thinking model (e.g. OpenAI o3). Since there is a limit of 5 uploads at a time in the ChatGPT interface, upload 5 images, with the prompt "wait for more uploads", then repeat this process until all the images are uploaded. Once all are uploaded, run the following prompt to create the frontend interface requirements:
 
 ```

@@ -1,3 +1,7 @@
+---
+description: This section outlines the recommended process and guidelines for developing features using an AI-powered development workflow. AI-powered development enables rapid creation and modification of code while maintaining established engineering principles.
+---
+
 # 4. Development
 
 This section outlines the recommended process and guidelines for developing features using an AI-powered development workflow.

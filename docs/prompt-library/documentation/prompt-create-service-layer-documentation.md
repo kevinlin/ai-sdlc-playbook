@@ -1,3 +1,7 @@
+---
+description: Template for creating service layer documentation covering interfaces, dependencies, and integration patterns.
+---
+
 ```
 # Service Layer Technical Document Prompt
 

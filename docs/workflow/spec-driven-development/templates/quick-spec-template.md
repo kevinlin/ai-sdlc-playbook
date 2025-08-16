@@ -1,3 +1,7 @@
+---
+description: Rapid specification template for time-sensitive features while maintaining quality standards.
+---
+
 # Quick Spec Template
 
 <!-- Template for 1-3 day features: Requirements + Tasks only -->

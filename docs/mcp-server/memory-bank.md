@@ -1,3 +1,7 @@
+---
+description: A structured documentation system that helps Cursor maintain project context across sessions through organized Markdown files within your project.
+---
+
 # Memory Bank for Cursor
 
 ## What is the Memory Bank?

@@ -1,3 +1,7 @@
+---
+description: Guide for generating repository-level documentation including setup, architecture, and contribution guidelines.
+---
+
 ```
 # LLM Prompt: Expert Repository Layer Technical Document
 

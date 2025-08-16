@@ -1,3 +1,7 @@
+---
+description: Node.js and Express framework guidelines for building scalable server-side applications and APIs.
+---
+
 # Node.js and Express.js Best Practices
 
 To create a new Cursor Rule:

@@ -1,3 +1,7 @@
+---
+description: This directory contains general IDE rules that can be applied to various projects regardless of programming language or framework. These rules are compatible with multiple AI-powered IDEs including Cursor, Kiro, and other similar development environments.
+---
+
 # Common IDE Rules
 
 This directory contains general IDE rules that can be applied to various projects regardless of programming language or framework. These rules are compatible with multiple AI-powered IDEs including Cursor, Kiro, and other similar development environments.

@@ -1,3 +1,7 @@
+---
+description: Comprehensive React development guidelines and best practices for building scalable applications with functional components, hooks, and proper state management.
+---
+
 # React Best Practices
 
 ## IDE Configuration Headers

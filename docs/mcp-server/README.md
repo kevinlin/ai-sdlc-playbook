@@ -1,3 +1,7 @@
+---
+description: The MCP (Model Control Protocol) server is a backend service designed to extend the capabilities of the Cursor editor and similar code tools. It acts as a bridge between the editor and advanced code intelligence, automation, and integration features.
+---
+
 # MCP Server Overview
 
 ## What is an MCP Server?

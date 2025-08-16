@@ -1,3 +1,7 @@
+---
+description: This section provides a structured workflow for spec-driven development, breaking down the methodology into clear, actionable phases. Follow this comprehensive guide to implement spec-driven development effectively in your projects.
+---
+
 # Process Guide
 
 <!-- Navigation Metadata -->

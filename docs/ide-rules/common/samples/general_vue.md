@@ -1,3 +1,7 @@
+---
+description: Sample Vue.js project showcasing component architecture and development best practices.
+---
+
 # Vue.js Project Rules
 
 ## IDE Configuration Headers

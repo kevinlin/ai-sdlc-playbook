@@ -1,3 +1,7 @@
+---
+description: React Native with Expo development guidelines for rapid mobile application development and deployment.
+---
+
 # React Native Expo Best Practice
 
 To create a new Cursor Rule:

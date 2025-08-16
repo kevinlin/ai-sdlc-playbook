@@ -1,3 +1,7 @@
+---
+description: DrawIO diagram creation guidelines for technical documentation and system architecture visualization.
+---
+
 # Draw.io Diagram Drawing Guide
 
 ## IDE Configuration Headers

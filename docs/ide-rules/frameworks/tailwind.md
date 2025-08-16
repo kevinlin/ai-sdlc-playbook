@@ -1,3 +1,7 @@
+---
+description: Tailwind CSS guidelines for utility-first styling and responsive design best practices.
+---
+
 # Tailwind CSS Best Practices
 
 ## IDE Configuration Headers

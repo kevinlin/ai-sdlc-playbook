@@ -1,3 +1,7 @@
+---
+description: A collection of proven problem-solving prompt templates for deep reasoning, critique, and expert emulation to enhance AI-assisted problem solving.
+---
+
 # A Collection of Prompts for Problem Solving
 
 ## 1. Deep Reasoning & Problem Decomposition

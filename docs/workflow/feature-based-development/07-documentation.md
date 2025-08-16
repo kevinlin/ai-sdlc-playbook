@@ -1,3 +1,7 @@
+---
+description: Leveraging an AI-powered development workflow makes it easier to create and maintain high-quality, readable documentation. This includes user guides, README.md files, and regular repository hygiene updates.
+---
+
 # 7. Documentation
 
 ## Overview

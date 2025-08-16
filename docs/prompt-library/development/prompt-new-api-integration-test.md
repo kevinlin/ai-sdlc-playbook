@@ -1,3 +1,7 @@
+---
+description: Template for creating comprehensive API integration tests covering various scenarios and edge cases.
+---
+
 # New API Integration Test Prompt
 
 ```

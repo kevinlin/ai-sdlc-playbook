@@ -1,3 +1,7 @@
+---
+description: Lightweight template for small features requiring minimal specification overhead.
+---
+
 # Micro Spec Template
 
 <!-- Template for sub-1 day changes: Minimal documentation -->

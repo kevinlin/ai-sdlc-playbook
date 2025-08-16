@@ -1,3 +1,7 @@
+---
+description: This section provides a structured approach to creating detailed technical specifications for an AI-powered development workflow. Technical specifications define how the system will be implemented, focusing on data models, API endpoints, backend architecture, and technical implementation details.
+---
+
 # 3. Technical Specification
 
 This section provides a structured approach to creating detailed technical specifications for an AI-powered development workflow. Technical specifications define how the system will be implemented, focusing on data models, API endpoints, backend architecture, and technical implementation details.

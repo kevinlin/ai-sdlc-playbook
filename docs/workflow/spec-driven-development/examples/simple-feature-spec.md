@@ -1,3 +1,7 @@
+---
+description: Step-by-step example of spec-driven development for a simple feature implementation.
+---
+
 # Simple Feature Specification Examples
 
 <!-- Navigation Metadata -->

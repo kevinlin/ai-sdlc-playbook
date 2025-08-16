@@ -1,3 +1,7 @@
+---
+description: NestJS with TypeScript development guidelines for building scalable server-side applications.
+---
+
 # TypeScript coding standards and type safety guidelines
 
 To create a new Cursor Rule:

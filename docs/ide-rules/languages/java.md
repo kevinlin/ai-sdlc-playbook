@@ -1,3 +1,7 @@
+---
+description: Java development guidelines covering modern practices, design patterns, and enterprise application best practices.
+---
+
 # Java Best Practices
 
 ## IDE Configuration Headers

@@ -1,3 +1,7 @@
+---
+description: Change management processes for handling specification updates and requirement evolution.
+---
+
 # Change Management
 
 <!-- Navigation Metadata -->

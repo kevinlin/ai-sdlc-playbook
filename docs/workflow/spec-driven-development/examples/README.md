@@ -1,3 +1,7 @@
+---
+description: This section contains practical examples of spec-driven development in action. Learn from real-world scenarios and see how to apply the methodology across different types of projects and complexity levels.
+---
+
 # Examples
 
 <!-- Navigation Metadata -->

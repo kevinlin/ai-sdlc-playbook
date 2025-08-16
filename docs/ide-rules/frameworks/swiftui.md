@@ -1,3 +1,7 @@
+---
+description: SwiftUI development best practices for building modern iOS applications with declarative UI patterns.
+---
+
 # SwiftUI Rules
 
 To create a new Cursor Rule:

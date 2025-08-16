@@ -1,3 +1,7 @@
+---
+description: Compact problem-solving prompt template for quick analysis with assumptions, options, and next steps.
+---
+
 # One-liner Problem Solving Prompt
 
 The compact version is suitable for quick project kick-offs or daily collaboration. Use this when sending short messages, with almost no changes needed.

@@ -1,3 +1,7 @@
+---
+description: React Native development best practices for building cross-platform mobile applications.
+---
+
 # TypeScript, React Native, Expo, and Mobile UI Development Rules
 
 To create a new Cursor Rule:

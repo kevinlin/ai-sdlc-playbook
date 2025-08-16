@@ -1,3 +1,7 @@
+---
+description: Task breakdown phase for converting specifications into actionable development work.
+---
+
 # Tasks Phase
 
 <!-- Navigation Metadata -->

@@ -1,3 +1,7 @@
+---
+description: Example specification for complex systems showing detailed requirements and design documentation.
+---
+
 # Complex System Specification Examples
 
 <!-- Navigation Metadata -->

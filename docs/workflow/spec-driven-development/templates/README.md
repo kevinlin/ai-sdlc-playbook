@@ -1,3 +1,7 @@
+---
+description: Overview of available templates and guidance for selecting the right template for your project.
+---
+
 # Templates
 
 <!-- Navigation Metadata -->

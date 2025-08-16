@@ -1,3 +1,7 @@
+---
+description: Practical examples of AI reasoning applied to specification development and technical decision making.
+---
+
 # AI Thought Process Examples
 
 <!-- Navigation Metadata -->

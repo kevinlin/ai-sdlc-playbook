@@ -1,3 +1,7 @@
+---
+description: AI-powered IDEs use rule files to guide their behavior. This section provides comprehensive guidance on creating and organizing IDE rules for AI development tools.
+---
+
 # IDE Rules Overview
 
 AI-powered IDEs use rule files to guide their behavior. Rules allow you to provide system-level guidance to AI assistants and development tools. Think of them as a persistent way to encode context, preferences, or workflows for your projects.

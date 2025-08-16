@@ -1,3 +1,7 @@
+---
+description: This glossary defines key terms used throughout the AI SDLC Playbook to ensure consistent terminology and understanding.
+---
+
 # Glossary
 
 This glossary defines key terms used throughout the AI SDLC Playbook to ensure consistent terminology and understanding.
@@ -37,15 +41,3 @@ This glossary defines key terms used throughout the AI SDLC Playbook to ensure c
 ## U
 
 **User Rules** - AI IDE rules that are global to a user's environment and applied across all projects, typically used for personal preferences and coding style.
-
----
-
-## Terminology Standards
-
-To maintain consistency throughout the documentation:
-
-- Use "Functional Requirements" (plural) when referring to the concept or collection of requirements
-- Use "AI IDE" consistently instead of mixing "AI-powered IDE" and "AI IDE"
-- Use "AI tools" as the general term for AI-assisted development software
-- Use "Technical Specification" (singular) when referring to the document type
-- Use American English spelling throughout (e.g., "analyze" not "analyse", "optimize" not "optimise")

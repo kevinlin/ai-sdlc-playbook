@@ -1,3 +1,7 @@
+---
+description: Structured prompt for generating comprehensive API documentation with examples and usage guidelines.
+---
+
 # API Documentation Generation Prompt
 
 ```

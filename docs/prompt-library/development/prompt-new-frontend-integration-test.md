@@ -1,3 +1,7 @@
+---
+description: Frontend integration testing prompt covering component interactions and user interface testing.
+---
+
 # New Frontend Integration Test Prompt
 
 ```

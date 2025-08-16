@@ -1,3 +1,7 @@
+---
+description: Template for creating technical design documents with architecture decisions and implementation plans.
+---
+
 # Design Template
 
 <!-- Navigation Metadata -->

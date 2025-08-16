@@ -1,3 +1,7 @@
+---
+description: MCP server implementation providing GitLab merge request integration for AI-powered development workflows.
+---
+
 # GitLab Merge Request MCP Server
 
 ## Overview

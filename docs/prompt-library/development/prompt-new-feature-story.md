@@ -1,3 +1,7 @@
+---
+description: Template for creating detailed feature stories with acceptance criteria and implementation guidance.
+---
+
 # New Feature / Story Prompt
 
 An example for starting a new feature on a new branch. Use a new context window. 

@@ -1,3 +1,7 @@
+---
+description: Structured approach for creating detailed user stories with acceptance criteria and business value.
+---
+
 This prompt can be used to create a single story from user-defined requirements.
 
 ```

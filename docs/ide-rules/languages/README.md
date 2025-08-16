@@ -1,3 +1,7 @@
+---
+description: This directory contains cursor rules specific to different programming languages. Select the rule file(s) for the programming language(s) used in your project and customize as needed.
+---
+
 # Programming Language Rules
 
 This directory contains cursor rules specific to different programming languages.

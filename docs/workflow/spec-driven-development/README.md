@@ -1,3 +1,7 @@
+---
+description: Spec-driven development is a systematic approach to software development where detailed specifications are created before implementation begins. This methodology emphasizes building the right thing correctly from the start through structured planning and living documentation.
+---
+
 # Spec-Driven Development
 
 <!-- Navigation Metadata -->

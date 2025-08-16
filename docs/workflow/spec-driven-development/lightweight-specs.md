@@ -1,3 +1,7 @@
+---
+description: For many projects, full spec-driven development may feel like overkill. Lightweight specs provide a middle ground between comprehensive specification and ad-hoc development, offering structure without excessive overhead.
+---
+
 # Lightweight Specs
 
 <!-- Navigation Metadata -->

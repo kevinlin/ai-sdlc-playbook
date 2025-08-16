@@ -1,3 +1,7 @@
+---
+description: Spring Data JDBC best practices for database access patterns and data persistence strategies.
+---
+
 # Spring Data JDBC Best Practices
 
 To create a new Cursor Rule:

@@ -1,3 +1,7 @@
+---
+description: Flutter mobile development guidelines covering widget architecture, state management, and cross-platform best practices.
+---
+
 # Flutter Rules
 
 To create a new Cursor Rule:

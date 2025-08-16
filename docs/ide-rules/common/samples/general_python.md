@@ -1,3 +1,7 @@
+---
+description: Sample Python project demonstrating general coding guidelines and best practices implementation.
+---
+
 # Python Project Rules
 
 ## IDE Configuration Headers

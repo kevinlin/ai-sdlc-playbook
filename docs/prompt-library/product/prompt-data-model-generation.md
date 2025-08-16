@@ -1,3 +1,7 @@
+---
+description: Structured approach for generating data models based on business requirements and system constraints.
+---
+
 ```
 I'd like to create a data model based on the following project business and technical requirements. 
 

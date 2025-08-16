@@ -1,3 +1,7 @@
+---
+description: Collection of prompt templates specifically designed for spec-driven development phases.
+---
+
 # Prompt Templates and Patterns
 
 This guide provides specific prompt templates for each phase of spec development, with variations for different feature types and complexity levels.

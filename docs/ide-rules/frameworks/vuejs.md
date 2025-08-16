@@ -1,3 +1,7 @@
+---
+description: Vue.js development best practices covering component architecture, state management, and modern frontend patterns.
+---
+
 # Vue.js Best Practices
 
 ## IDE Configuration Headers

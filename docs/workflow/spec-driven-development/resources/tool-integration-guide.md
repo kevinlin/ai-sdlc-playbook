@@ -1,3 +1,7 @@
+---
+description: Guide for integrating spec-driven development tools into existing development workflows.
+---
+
 # Tool Integration Guide for Spec Process
 
 This guide provides practical instructions for integrating various tools with the spec-driven development process, focusing on automation, efficiency, and seamless workflows.

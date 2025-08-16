@@ -1,3 +1,7 @@
+---
+description: Structured prompt for conducting thorough merge request reviews with quality and security checks.
+---
+
 # GitLab Merge Request Review Prompt
 Perform code review on a GitLab merge rquest, add in-line comments and a summary.
 

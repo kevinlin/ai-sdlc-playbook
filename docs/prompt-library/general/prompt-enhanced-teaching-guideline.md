@@ -1,3 +1,7 @@
+---
+description: Guidelines for creating educational AI responses with explanations, alternatives, and interactive learning elements.
+---
+
 # Enhanced Teaching Guidelines for Junior Developers
 
 We advise adding the prompt below into the "User Rules" in Cursor so that the IDE will include these learning rules into every new prompt.

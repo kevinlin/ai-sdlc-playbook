@@ -1,3 +1,7 @@
+---
+description: Structured approach for refactoring existing features while maintaining functionality and improving code quality.
+---
+
 # Feature Refactoring Prompt
 
 As per the [refactoring workflow](../../workflow/feature-based-development/06-refactoring.md), it is important that you direct the Model to implement specific refactors that you want, and do not just ask it to simply refactor.

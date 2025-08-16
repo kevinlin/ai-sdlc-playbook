@@ -1,3 +1,7 @@
+---
+description: MCP server for spec-driven development workflow automation, enabling structured feature development through AI assistance.
+---
+
 # Spec-driven Development MCP Server
 
 ## Overview

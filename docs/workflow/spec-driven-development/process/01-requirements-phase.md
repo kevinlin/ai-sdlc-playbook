@@ -1,3 +1,7 @@
+---
+description: Detailed guide to the requirements gathering phase of spec-driven development.
+---
+
 # Requirements Phase
 
 <!-- Navigation Metadata -->

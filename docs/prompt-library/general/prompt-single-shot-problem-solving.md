@@ -1,3 +1,7 @@
+---
+description: Single-session problem-solving framework with structured analysis and expert-level recommendations.
+---
+
 # Single-shot Problem-Solving Prompt
 
 This prompt is designed as a **process and quality scaffold** — a structured framework that hands the model everything it needs in one go, so it can deliver expert-level results in fewer interaction steps.

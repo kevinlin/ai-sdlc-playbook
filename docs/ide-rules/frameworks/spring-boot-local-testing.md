@@ -1,3 +1,7 @@
+---
+description: Spring Boot local testing guidelines for efficient development and debugging workflows.
+---
+
 # Spring Boot Local Testing Best Practices
 
 To create a new Cursor Rule:

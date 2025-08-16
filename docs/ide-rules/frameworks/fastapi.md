@@ -1,3 +1,7 @@
+---
+description: FastAPI development guidelines covering API design, dependency injection, async patterns, and best practices for building performant web APIs.
+---
+
 # FastAPI Best Practices
 
 ## IDE Configuration Headers

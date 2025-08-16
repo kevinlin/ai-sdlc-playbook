@@ -1,3 +1,7 @@
+---
+description: This section outlines workflows for integrating AI into the development lifecycle. Start with project setup, then choose the workflow that best fits your project needs and team structure.
+---
+
 # AI Development Workflow
 
 This section outlines workflows for integrating AI into the development lifecycle. Start with project setup, then choose the workflow that best fits your project needs and team structure.

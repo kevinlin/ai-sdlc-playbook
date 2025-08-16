@@ -1,3 +1,7 @@
+---
+description: Go programming best practices covering idiomatic patterns, concurrency, and efficient service development.
+---
+
 # Go Best Practices
 
 ## IDE Configuration Headers

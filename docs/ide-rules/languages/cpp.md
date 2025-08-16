@@ -1,3 +1,7 @@
+---
+description: C++ programming guidelines covering modern standards, memory management, and best practices for safe and efficient code.
+---
+
 # C++ Programming Guidelines
 
 To create a new Cursor Rule:

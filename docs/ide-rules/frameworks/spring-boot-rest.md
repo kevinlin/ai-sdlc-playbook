@@ -1,3 +1,7 @@
+---
+description: Spring Boot REST API development best practices covering controller design and API patterns.
+---
+
 # Sprint Boot REST API Design Principles
 
 To create a new Cursor Rule:

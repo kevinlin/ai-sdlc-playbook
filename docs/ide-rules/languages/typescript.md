@@ -1,3 +1,7 @@
+---
+description: TypeScript development guidelines covering type safety, advanced patterns, and modern JavaScript best practices.
+---
+
 # TypeScript Best Practices
 
 ## IDE Configuration Headers

@@ -1,3 +1,7 @@
+---
+description: Guide to effective prompting techniques and strategies for spec-driven development workflows.
+---
+
 # Prompting Best Practices
 
 <!-- Navigation Metadata -->

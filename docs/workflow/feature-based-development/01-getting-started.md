@@ -1,3 +1,7 @@
+---
+description: To get started working with AI ways of working, it's helpful to have a conceptual understanding of how to use this playbook to generate quality, consistent code.
+---
+
 # 1. Getting Started
 
 To get started working with AI ways of working, it's helpful to have a conceptual understanding of how to use this playbook to generate quality, consistent code.
