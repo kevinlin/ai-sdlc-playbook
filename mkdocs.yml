@@ -22,6 +22,8 @@ plugins:
   - search
   - awesome-nav
   - mermaid2
+  - meta
+  - tags
 markdown_extensions:
   - pymdownx.superfences:
         # make exceptions to highlighting of code:
