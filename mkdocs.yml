@@ -24,6 +24,7 @@ plugins:
   - mermaid2
   - meta
   - tags
+  - social
 markdown_extensions:
   - pymdownx.superfences:
         # make exceptions to highlighting of code:
