@@ -35,7 +35,7 @@ As the codebase grows, the importance of comprehensive documentation increases. 
 
 ### Embedding Documentation into Development
 
-Consider documentation as an integral part of the development lifecycle (ref: [03-development](03-development.md)), not a separate task to be completed later. LLMs make it straightforward to maintain clear and consistent documentation as you work, generating drafts for function descriptions, usage guides and code doc-strings in real-time.
+Consider documentation as an integral part of the development lifecycle (ref: [04-development](04-development.md)), not a separate task to be completed later. LLMs make it straightforward to maintain clear and consistent documentation as you work, generating drafts for function descriptions, usage guides and code doc-strings in real-time.
 
 ### Using Documentation as a Knowledge Base
 
@@ -131,7 +131,7 @@ This provides a great starting point for creating business case documentation an
 
 When working with legacy source repositories, conducting a comprehensive technical assessment is crucial for understanding the current state of the codebase and identifying areas for improvement. This assessment provides valuable insights into code quality, security vulnerabilities, performance bottlenecks, and technical debt.
 
-The [prompt-technical-assessment](../../prompt-library/documentation/prompt-technical-assessment.md) provides a structured approach to generating detailed technical review reports that can help teams:
+The [prompt-technical-assessment](../../prompt-library/general/prompt-technical-assessment.md) provides a structured approach to generating detailed technical review reports that can help teams:
 
 - **Identify Critical Issues:** Systematically scan the entire codebase to uncover security vulnerabilities, performance issues, and code quality problems
 - **Prioritize Improvements:** Categorize findings by severity (critical, high, medium, low) to help teams focus on the most impactful issues first

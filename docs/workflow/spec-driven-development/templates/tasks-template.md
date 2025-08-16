@@ -9,7 +9,7 @@
 ## Quick Navigation
 - **Learn Process:** [Tasks Phase Guide](../process/03-tasks-phase.md) - How to use this template
 - **See Example:** [Simple Feature Tasks](../examples/simple-feature-spec.md#tasks-document) - Template in action
-- **Execute Tasks:** [Implementation Guide](../execution/implementation-guide.md) - How to work through tasks
+- **Execute Tasks:** [Implementation Guide](../process/03-tasks-phase.md#task-execution) - How to work through tasks
 - **Start Over:** [Requirements Template](requirements-template.md) - Full workflow
 
 ---

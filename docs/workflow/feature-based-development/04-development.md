@@ -10,7 +10,7 @@ That fact that AI-powered development enables rapid creation and modification of
 
 Before starting development, ensure you have:
 
-1. **Clear Requirements**: Detailed feature requirements with defined scope, as outlined in the [Functional Requirements](01-functional-requirement.md)
+1. **Clear Requirements**: Detailed feature requirements with defined scope, as outlined in the [Functional Requirements](02-functional-requirement.md)
 2. **IDE Configuration**: Language-specific [IDE rules](../../ide-rules/languages/README.md) for consistent code style and design
 3. **Clean Codebase**: 
     - passing tests with good coverage
@@ -37,11 +37,11 @@ Before starting development, ensure you have:
 
 ### 4. Testing
 
-- See [Testing](04-testing.md)
+- See [Testing](05-testing.md)
 
 ### 5. Refactor
 
-- See [Refactoring](05-refactoring.md)
+- See [Refactoring](06-refactoring.md)
 
 ### 6. Code Review
 
@@ -56,7 +56,7 @@ Before starting development, ensure you have:
 
 ### 8. Documentation
 
-- See [Documentation](06-documentation.md)
+- See [Documentation](07-documentation.md)
 - Prompt the AI to update or create relevant documentation in the repository's architecture folder, including regular updates to the data models, implementation specifics and general architecture. Use the [prompt-add-update-documentation](../../prompt-library/documentation/prompt-add-update-documentation.md) prompt for this purpose.
 - Update the IDE rules files as necessary.
 - Maintaining clear and up-to-date rules documentation ensures better context for future development cycles.
@@ -69,7 +69,7 @@ Before starting development, ensure you have:
 
 ## Guidelines
 
-- **Quality, consistent results**: The combination of good quality [IDE rules](../../ide-rules/languages/README.md), good quality [prompts](../../prompt-library/README.md) and clear [functional requirements](01-functional-requirement.md) are essential to limit the scope and be clear to the IDE tools on what they are trying to achieve.  This limiting of scope and clarity is critical for getting consistent and predictable results throughout the development process.
+- **Quality, consistent results**: The combination of good quality [IDE rules](../../ide-rules/languages/README.md), good quality [prompts](../../prompt-library/README.md) and clear [functional requirements](02-functional-requirement.md) are essential to limit the scope and be clear to the IDE tools on what they are trying to achieve.  This limiting of scope and clarity is critical for getting consistent and predictable results throughout the development process.
 
 - **Avoid multiple branches or simultaneous changes**: Avoid having two or more people separately changing the same codebase or at least the same of areas of the codebase at the same time.
 

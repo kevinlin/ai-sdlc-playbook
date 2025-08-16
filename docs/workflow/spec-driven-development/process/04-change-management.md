@@ -9,7 +9,7 @@
 ## Quick Navigation
 - **Prerequisites:** [Requirements Phase](01-requirements-phase.md), [Design Phase](02-design-phase.md)
 - **Templates:** [Checklists](../templates/checklists.md) - Change impact assessment guides
-- **Execution:** [Implementation Guide](../execution/implementation-guide.md) - Handle discovered changes
+- **Execution:** [Implementation Guide](03-tasks-phase.md#task-execution) - Handle discovered changes
 
 ---
 
@@ -133,4 +133,4 @@ flowchart TD
 ### Templates
 - [Checklists](../templates/checklists.md) - Impact assessment guidelines
 
-[← Back to Process Guide](README.md) | [Implementation Guide →](../execution/implementation-guide.md)
+[← Back to Process Guide](README.md) | [Implementation Guide →](03-tasks-phase.md#task-execution)

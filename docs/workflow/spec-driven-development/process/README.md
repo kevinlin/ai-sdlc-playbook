@@ -105,6 +105,6 @@ Each phase builds upon the previous one, with explicit approval gates to ensure 
 ### Related Sections
 - [Examples](../examples/README.md) - See complete process examples
 - [Prompting Strategies](../prompting/README.md) - Get better AI collaboration
-- [Execution Guide](../execution/README.md) - Implement your completed specs
+- [Execution Guide](03-tasks-phase.md#task-execution) - Implement your completed specs
 
 [← Back to Main Guide](../../README.md)

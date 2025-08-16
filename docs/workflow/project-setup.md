@@ -44,8 +44,8 @@ This guide outlines how to set up a development project using AI tools and techn
 3. **Add Required Configurations**
     
     **For Cursor:**
-    - Copy language-specific rules from [programming language rules](../cursor-rules/languages/README.md)
-    - Copy framework-specific rules from [framework rules](../cursor-rules/frameworks/README.md)
+    - Copy language-specific rules from [programming language rules](../ide-rules/languages/README.md)
+    - Copy framework-specific rules from [framework rules](../ide-rules/frameworks/README.md)
     - Customize IDE rules for team requirements
     - Update system prompt for LLM base understanding
     
@@ -61,7 +61,7 @@ Create directory within the repository to store documentation, such as:
 
 - product requirements
 - architecture documentation
-- development rules and guidelines (reference [IDE rules](../cursor-rules/common/README.md))
+    - development rules and guidelines (reference [IDE rules](../ide-rules/common/README.md))
 
 Ensure all documentation is:
 

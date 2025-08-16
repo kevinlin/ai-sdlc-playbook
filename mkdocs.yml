@@ -12,7 +12,7 @@ theme:
   palette:
     primary: custom
   font:
-    text: Luto
+    text: Lato
   features:
     - content.action.edit
     - content.code.copy

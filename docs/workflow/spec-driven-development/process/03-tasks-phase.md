@@ -7,7 +7,7 @@
 ## Quick Navigation
 - **Get Started:** [Tasks Template](../templates/tasks-template.md) - Ready-to-use template
 - **See Example:** [Simple Feature Tasks](../examples/simple-feature-spec.md#tasks-document) - Complete tasks example
-- **Execute Tasks:** [Implementation Guide](../execution/implementation-guide.md) - How to work through tasks
+- **Execute Tasks:** [Implementation Guide](#task-execution) - How to work through tasks
 - **Back to Start:** [Requirements Phase](01-requirements-phase.md) - Full workflow context
 
 ---

@@ -10,7 +10,7 @@
 - **Learn Basics:** [Simple Feature Specs](simple-feature-spec.md) - See good examples first
 - **Process Help:** [Process Guide](../process/README.md) - Avoid pitfalls with systematic approach
 - **Better Prompting:** [Prompting Strategies](../prompting/README.md) - Communicate more effectively
-- **Execution Issues:** [Execution Guide](../execution/README.md) - Fix implementation problems
+- **Execution Issues:** [Execution Guide](../process/03-tasks-phase.md#task-execution) - Fix implementation problems
 
 ---
 
