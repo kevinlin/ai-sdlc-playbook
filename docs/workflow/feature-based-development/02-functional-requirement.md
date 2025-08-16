@@ -38,7 +38,7 @@ Dedicate substantial time and team effort to refining the functional requirement
 
 ## Next Steps
 
-Once your functional requirements are complete, proceed to create the [Technical Specification](02-technical-specification.md) that will define how these functional requirements will be implemented technically.
+Once your functional requirements are complete, proceed to create the [Technical Specification](03-technical-specification.md) that will define how these functional requirements will be implemented technically.
 
 ## Related Resources
 
