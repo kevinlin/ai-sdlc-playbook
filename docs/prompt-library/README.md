@@ -14,6 +14,7 @@ This library provides a curated selection of prompts to optimize your use of AI 
 - [Enhanced Teaching Guideline](general/prompt-enhanced-teaching-guideline.md)
 - [Human-like Writing](general/prompt-human-like.md) - Make AI responses more natural and human-like
 - [One-liner Problem Solving](general/prompt-one-liner-probelm-solving.md) - Compact one-liner for quick kick-offs; BLUF, assumptions, clarifications, options/trade-offs, deliverables, and next steps
+- [Problem Solving Prompts](general/prompt-problem-solving.md) - A Collection of Prompts for Problem Solving
 - [Single-shot Coding Prompt](general/prompt-single-shot-coding.md) - Consolidated zero-shot coding template inspired by GPT-5 examples; defines goals, deliverables, UX tokens, data/state, validation, a11y, performance, and acceptance tests
 - [Single-shot Problem-Solving](general/prompt-single-shot-problem-solving.md) - Single-round process scaffold for problem framing, assumptions, multi-option trade-offs, expert deep dive, quality gates, and deliverables
 - [Technical Assessment Report Generation](general/prompt-technical-assessment.md) - Generate a comprehensive HTML technical review report for the repository
