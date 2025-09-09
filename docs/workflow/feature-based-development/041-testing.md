@@ -2,7 +2,7 @@
 description: Testing effectively with AI can be challenging—often more so than developing new features. This document outlines a recommended workflow for designing and implementing robust and sustainable tests utilising AI.
 ---
 
-# 5. Testing
+# 4.1 Testing
 
 Testing effectively with AI can be challenging—often more so than developing new features. While AI can readily generate tests, these tests are not always valuable in the long term. We have observed that automated test creation without careful consideration often produces brittle, tightly coupled tests that break with code changes, offering little practical value.
 

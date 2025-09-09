@@ -28,28 +28,20 @@ This playbook provides guidance on best practices for integrating AI into the So
 
     1. [Getting Started](workflow/feature-based-development/01-getting-started.md)
     2. [Project Setup](workflow/project-setup.md)
-    3. Development Workflows:
-
-        **Feature-Based Development** (Enterprise/Complex Projects)
-
+    3. **Feature-Based Development** (Enterprise/Complex Projects)
         1. [Requirement Specification](workflow/feature-based-development/02-requirement-specification.md)
         2. [Technical Design](workflow/feature-based-development/03-technical-design.md)
         3. [Development](workflow/feature-based-development/04-development.md)
-        4. [Testing](workflow/feature-based-development/05-testing.md)
-        5. [Refactoring](workflow/feature-based-development/06-refactoring.md)
-        6. [Documentation](workflow/feature-based-development/07-documentation.md)
-
-        **Spec-Driven Development** (Systematic Planning)
-
+           3.1 [Testing](workflow/feature-based-development/041-testing.md)
+           3.2 [Refactoring](workflow/feature-based-development/042-refactoring.md)
+        4. [Documentation](workflow/feature-based-development/07-documentation.md)
+    4. **Spec-Driven Development** (Systematic Planning)
         1. [Overview](workflow/spec-driven-development/README.md)
         2. [Process Guide](workflow/spec-driven-development/process/README.md)
         3. [Examples](workflow/spec-driven-development/examples/README.md)
-
-        **Vibe Coding Plus** (Rapid Prototyping)
-        
+    5. **Vibe Coding Plus** (Rapid Prototyping)
         1. [Vibe Coding Plus Workflow](workflow/vibe-coding-plus.md)
-
-    4. [Learning with AI](workflow/learning.md)
+    6. [Learning with AI](workflow/learning.md)
 
 4. [Prompt Library](prompt-library/README.md)
 

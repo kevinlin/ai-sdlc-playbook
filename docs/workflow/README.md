@@ -28,9 +28,9 @@ We provide three complementary approaches for different project needs:
 1. [Requirement Specification](feature-based-development/02-requirement-specification.md) - Define expected behavior, UI, testable features, and user experience using AI tools to draft and refine
 2. [Technical Design](feature-based-development/03-technical-design.md) - Define technical implementation, data models, API endpoints, and backend architecture
 3. [Development](feature-based-development/04-development.md) - Develop the solution iteratively, leveraging AI for implementation
-4. [Testing](feature-based-development/05-testing.md) - Unit, functional and end-to-end testing
-5. [Refactoring](feature-based-development/06-refactoring.md) - Refactor once feature complete
-6. [Documentation](feature-based-development/07-documentation.md) - Update all relevant documentation to reflect changes
+    - [Testing](feature-based-development/041-testing.md) - Unit, functional and end-to-end testing
+    - [Refactoring](feature-based-development/042-refactoring.md) - Refactor once feature complete
+4. [Documentation](feature-based-development/07-documentation.md) - Update all relevant documentation to reflect changes
 
 **Use when:**
 

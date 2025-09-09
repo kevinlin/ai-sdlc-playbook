@@ -366,6 +366,6 @@ Once your technical specification is complete, you can proceed with the developm
 ## Related Resources
 
 - [Development](04-development.md) - Next step in the workflow for implementing your specifications
-- [Testing](05-testing.md) - Comprehensive testing strategies for your implementation
+- [Testing](041-testing.md) - Comprehensive testing strategies for your implementation
 - [Prompt Library](../../prompt-library/README.md) - Ready-to-use prompts for technical specification tasks
 - [Glossary](../../glossary.md) - Key terms and definitions used in this workflow 

@@ -39,26 +39,28 @@ Before starting development, ensure you have:
 - Iterate as needed, verifying each code change aligns with expectations.
 - Feeding log messages back into the model when it has issues enables it to rapidly identify and fix issues.
 
-### 4. Testing
+### 4. Testing and Refactoring
 
-- See [Testing](05-testing.md)
+#### 4.1 Testing
 
-### 5. Refactor
+- See [Testing](041-testing.md)
 
-- See [Refactoring](06-refactoring.md)
+#### 4.2 Refactoring
 
-### 6. Code Review
+- See [Refactoring](042-refactoring.md)
+
+### 5. Code Review
 
 - Conduct a thorough code review by walking through the git diff for every change.
     - For GitLab projects, use the [prompt-merge-request-review](../../prompt-library/development/prompt-merge-request-review.md) to perform automated code review with AI assistance:
 - Ensure all feedback from the automated review is addressed before proceeding.
 
-### 7. Finalise and Merge
+### 6. Finalise and Merge
 
 - Use the standard git workflow of push the feature branch to the repository and creating a MR for review. Then merge into the main branch after acceptance.
 - Delete the feature branch after merging.
 
-### 8. Documentation
+### 7. Documentation
 
 - See [Documentation](07-documentation.md)
 - Prompt the AI to update or create relevant documentation in the repository's architecture folder, including regular updates to the data models, implementation specifics and general architecture. Use the [prompt-add-update-documentation](../../prompt-library/documentation/prompt-add-update-documentation.md) prompt for this purpose.

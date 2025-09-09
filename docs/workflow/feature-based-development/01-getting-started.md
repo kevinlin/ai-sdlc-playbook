@@ -16,19 +16,19 @@ config:
   layout: dagre
 ---
 flowchart TD
-    A["Product Idea / Business Goals<br>[URS]"] -- Prompt with input --> B["Requirement Specification<br>[PRD + FRS]"]
-    B --> C{"Complex System?"}
-    C -- Yes --> D["Define System Requirements<br>[SRS]]"]
-    C -- No --> E["Skip / Inline into requirement spec]"]
-    D --> F["Techncial Design<br>[TDS, ADR, design spec]"]
-    E --> F
-    F -- Prompt with input --> G["Test"] & H["Application Code"]
-    G -- Test passes --> H
-    H -- Refactor as necessary --> G
-    H -- Prompt with input --> I["Documentation<br>[Updated docs]"]
-    I -- Prompt with MCP --> J["Code Review on Pull Request"]
-    J --> H
-    J -- Approve pull request --> K["Merge Feature Branch"]
+    UR["Product Idea / Business Goals<br>[URS]"] -- Prompt with input --> RS["Requirement Specification<br>[PRD + FRS]"]
+    RS --> CS{"Complex System?"}
+    CS -- Yes --> SRY["Define System Requirements<br>[SRS]]"]
+    CS -- No --> SRN["Skip / Inline into requirement spec]"]
+    SRY --> TD["Techncial Design<br>[TDS, ADR, design spec]"]
+    SRN --> TD
+    TD -- Prompt with input --> Te["Test"] & AC["Application Code"]
+    Te -- Test passes --> AC
+    AC -- Refactor as necessary --> Te
+    AC -- Prompt with input --> Doc["Documentation<br>[Updated docs]"]
+    Doc -- Prompt with MCP --> CR["Code Review on Pull Request"]
+    CR --> AC
+    CR -- Approve pull request --> MR["Merge Feature Branch"]
 ```
 
 *Image: Simplified development workflow diagram*
