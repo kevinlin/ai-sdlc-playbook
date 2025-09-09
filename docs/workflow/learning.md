@@ -11,6 +11,7 @@ Although not strictly a workflow, learning new skills can be accelerated with AI
 AI can accelerate coding and learning, but there's a risk it might weaken developers' understanding of core software principles. To mitigate this risk, we have designed a learning prompt that helps developers write code efficiently whilst deepening their understanding of essential software practices.
 
 This approach is particularly effective for:
+
 - Learning new programming languages and technologies
 - Maintaining existing services
 - Understanding complex codebases
@@ -29,8 +30,8 @@ The prompt can be found here: [Enhanced Teaching Guidelines](../prompt-library/g
 
 ## Related Resources
 
+- [AI Development Workflows](README.md) - Various development workflows that can be enhanced with learning
 - [Prompting Guidance](../prompt-library/prompting-guidance.md) - Best practices for crafting effective learning prompts
-- [Development Workflow](feature-based-development/04-development.md) - Main development process that can be enhanced with learning
 - [IDE Rules](../ide-rules/README.md) - Setting up IDE rules to support learning-focused development
 - [Glossary](../glossary.md) - Key terms and definitions used throughout the playbook
 
