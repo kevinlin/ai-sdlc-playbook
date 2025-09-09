@@ -1,14 +1,14 @@
 ---
-description: To get started working with AI ways of working, it's helpful to have a conceptual understanding of how to use this playbook to generate quality, consistent code.
+description: To get started on feature-based development with AI workflow, it's helpful to have a conceptual understanding of how to use this playbook to generate quality, consistent code.
 ---
 
 # 1. Getting Started
 
-To get started working with AI ways of working, it's helpful to have a conceptual understanding of how to use this playbook to generate quality, consistent code.
+To get started on feature-based development with AI workflow, it's helpful to have a conceptual understanding of how to use this playbook to generate quality, consistent code.
 
 ## Workflow overview
 
-Below is a diagram that provides a high-level overview of the steps defined in this playbook. For the most part, this development workflow follows recognized best practices already established throughout government, with the additional aid of AI tools and techniques.
+Below is a diagram that provides a high-level overview of the steps defined in Feature-Based Development worflwo. For the most part, this development workflow follows recognized best practices already established throughout government, with the additional aid of AI tools and techniques.
 
 ```mermaid
 ---
@@ -16,15 +16,19 @@ config:
   layout: dagre
 ---
 flowchart TD
-    A["Product Idea"] -- Prompt with input --> B["Requirement Specification"]
-    B -- Prompt with input --> C["Technical Design"]
-    C -- Prompt with input --> D["Tests"] & E["Application Code"]
-    D -- Test passes --> E
-    E -- Refactor code as necessary --> D
-    E -- Prompt with input --> G["Create / update documentation"]
-    G -- Prompt with MCP --> H["Code review on Pull Request"]
-    H --> E
-    H -- Approve pull request --> I["Feature Branch Merged"]
+    A["Product Idea / Business Goals<br>[URS]"] -- Prompt with input --> B["Requirement Specification<br>[PRD + FRS]"]
+    B --> C{"Complex System?"}
+    C -- Yes --> D["Define System Requirements<br>[SRS]]"]
+    C -- No --> E["Skip / Inline into requirement spec]"]
+    D --> F["Techncial Design<br>[TDS, ADR, design spec]"]
+    E --> F
+    F -- Prompt with input --> G["Test"] & H["Application Code"]
+    G -- Test passes --> H
+    H -- Refactor as necessary --> G
+    H -- Prompt with input --> I["Documentation<br>[Updated docs]"]
+    I -- Prompt with MCP --> J["Code Review on Pull Request"]
+    J --> H
+    J -- Approve pull request --> K["Merge Feature Branch"]
 ```
 
 *Image: Simplified development workflow diagram*
