@@ -92,19 +92,32 @@ flowchart TB
 
 *Image: Development workflow diagram*
 
+### Stage ownership and focus
+
+The following table outlines the primary owners and focus areas for each stage of the workflow:
+
+| Stage | Owner | Contributors | Focus Area |
+|-------|---------------|----------------------|------------|
+| **Requirements** | Product Manager | Business Analyst, UI/UX Designer | What the user needs in business terms and what the product must do to satisfy user needs |
+| **Technical Design** | Solution Architect | Dev Team, UI/UX Designer | How the product functions in detail and how the system will be implemented technically |
+| **Implementation** | Dev Team | QA | What the system must achieve, including non-functional aspects, and how features are built and validated |
+| **Change Management** | Product Manager | Business Analyst, Solution Architect, Dev Team | How changes are evaluated, approved, and integrated across all stages |
+
+This collaborative approach ensures that each stage benefits from the right expertise while maintaining clear accountability for outcomes.
+
 ## Workflow stages
 
-### Stage 1 — Requirements
+###  Requirements
 
 - **Product Idea / Business Goals** - This represents the problems to be solved for your users using existing service design and user research techniques, documented as User Requirements Specification (URS).
 - **Requirement Specification** - Using advanced models, such as the latest "thinking" models, the clearly defined ideas can be used to generate detailed requirements documentation including Product Requirements Document (PRD) and Functional Requirements Specification (FRS) that the AI IDE can later use to generate code.
 - **System Requirements** - For complex systems, define additional System Requirements Specification (SRS) to handle technical and non-functional requirements, otherwise inline these requirements into the main requirement specification.
 
-### Stage 2 — Design
+### Design
 
 - **Technical Design** - The requirements document is then used to create a detailed technical specification including Technical Design Specification (TDS), Architecture Decision Records (ADR), and Design Specifications that define the architecture, implementation approach, and technical details needed for development.
 
-### Stage 3 — Implementation
+### Implementation
 
 - **Implementation Plan** - Generate a Work Breakdown Structure (WBS) and specific tasks based on the technical design to organize development work.
 - **Development** - Both tests and application code are generated from the technical specification in the AI IDE, following the planned tasks and ensuring the business logic defined in the requirements are tested independently from the code generation.
