@@ -77,6 +77,7 @@ Changes can originate from various sources throughout the development process:
 - **User Feedback**: Usability testing or user acceptance findings
 
 **Documentation Requirements:**
+
 - Clear description of the proposed change
 - Business justification and impact assessment
 - Affected components and dependencies
@@ -87,6 +88,7 @@ Changes can originate from various sources throughout the development process:
 The first critical decision point determines whether the change represents a scope modification:
 
 **Minor Changes (No Scope Change):**
+
 - Bug fixes and defect corrections
 - Small UI/UX improvements
 - Minor functional enhancements within existing features
@@ -94,6 +96,7 @@ The first critical decision point determines whether the change represents a sco
 - Documentation updates
 
 **Scope Changes:**
+
 - New features or functionality
 - Significant modifications to existing features
 - Changes to user workflows or business processes
@@ -105,95 +108,59 @@ The first critical decision point determines whether the change represents a sco
 For scope changes, evaluate the magnitude of impact:
 
 **Minor Scope Changes:**
+
 - Can be accommodated within current sprint/iteration
 - Require updates to existing documentation
 - Do not fundamentally alter system architecture
 - Can be implemented without stopping ongoing development
 
 **Major Scope Changes:**
+
 - Require significant development effort (>1 sprint)
 - Necessitate new versions of requirements and design documents
 - May impact system architecture or technology choices
 - Require stopping ongoing development to re-plan
 
-## Implementation Workflows
-
-### Minor Changes Workflow
+### 4a. Minor Changes
 
 For changes that don't affect project scope:
 
 1. **Update Requirements**
-   - Modify existing Product Requirements Document (PRD)
-   - Update Functional Requirements Specification (FRS)
-   - Maintain version history and change tracking
-
+    - Modify existing Product Requirements Document (PRD)
+    - Update Functional Requirements Specification (FRS)
+    - Maintain version history and change tracking
 2. **Update Technical Design**
-   - Revise Technical Design Specification (TDS)
-   - Update Architecture Decision Records (ADR)
-   - Modify design specifications as needed
-
+    - Revise Technical Design Specification (TDS)
+    - Update Architecture Decision Records (ADR)
+    - Modify design specifications as needed
 3. **Re-plan Implementation**
-   - Adjust Work Breakdown Structure (WBS)
-   - Update task definitions and dependencies
-   - Communicate changes to development team
+    - Adjust Work Breakdown Structure (WBS)
+    - Update task definitions and dependencies
+    - Communicate changes to development team
 
-**Tools and Templates:**
-- Use version control to track document changes
-- Maintain change logs in requirement documents
-- Update AI IDE rules if coding patterns change
-
-### Major Changes Workflow
+### 4b. Major Changes
 
 For significant scope changes that require careful management:
 
 1. **Stop Ongoing Development**
-   - Complete current development tasks where possible
-   - Disable or cancel affected work items
-   - Secure completed work through version control
-
+    - Complete current development tasks where possible
+    - Disable or cancel affected work items
+    - Secure completed work through version control
 2. **Create New Document Versions**
-   - Generate new version of requirements documents
-   - Create updated technical design specifications
-   - Establish new baseline for development
-
+    - Generate new version of requirements documents
+    - Create updated technical design specifications
+    - Establish new baseline for development
 3. **Comprehensive Re-planning**
-   - Rebuild Work Breakdown Structure
-   - Re-estimate development effort
-   - Establish new timeline and milestones
-   - Communicate scope changes to all stakeholders
+    - Rebuild Work Breakdown Structure
+    - Re-estimate development effort
+    - Establish new timeline and milestones
+    - Communicate scope changes to all stakeholders
 
-## Maintaining Synchronization
+**Tools and Templates:**
 
-### Requirements and Implementation Sync
-
-**Continuous Alignment Practices:**
-
-- **Regular Reviews**: Schedule weekly alignment checks between requirements and implementation status
-- **Living Documentation**: Use AI-powered tools to keep documentation current with code changes
-- **Traceability**: Maintain clear links between requirements, design decisions, and implemented features
-- **Automated Validation**: Implement checks to ensure code changes align with documented requirements
-
-**Synchronization Checkpoints:**
-
-- **Feature Completion**: Verify implementation matches requirements before marking features complete
-- **Sprint Boundaries**: Conduct alignment reviews at the end of each development cycle
-- **Release Preparation**: Comprehensive sync verification before production deployments
-- **Post-Release**: Update documentation based on any last-minute implementation changes
-
-### Technical Design and Code Sync
-
-**Architecture Alignment:**
-
-- **Design Reviews**: Regular comparison of implemented architecture against design specifications
-- **Decision Tracking**: Update Architecture Decision Records (ADR) when implementation deviates from design
-- **Pattern Compliance**: Ensure code follows architectural patterns defined in technical specifications
-- **Performance Validation**: Verify implementation meets performance requirements from design
-
-**Tools for Maintaining Sync:**
-
-- **AI-Powered Documentation Updates**: Use [prompt-add-update-documentation](../../prompt-library/documentation/prompt-add-update-documentation.md)
-- **Automated Architecture Validation**: Tools that verify code structure against design patterns
-- **Regular Technical Debt Assessment**: Identify and address divergence between design and implementation
+- Use version control to track document changes
+- Maintain change logs in requirement documents
+- Update AI IDE rules if coding patterns change
 
 ## AI-Powered Change Management
 
@@ -241,42 +208,6 @@ Please provide:
 - Feed change outcomes back to AI for improved future impact assessment
 - Update prompts based on successful change management patterns
 - Refine processes based on AI-generated insights
-
-## Best Practices
-
-### Documentation Management
-
-1. **Version Control for Documents**
-   - Use semantic versioning for major document updates
-   - Maintain change logs in all specification documents
-   - Tag document versions with corresponding code releases
-
-2. **Change Traceability**
-   - Link every change request to affected requirements and design elements
-   - Maintain bidirectional traceability between specifications and implementation
-   - Document decision rationale for future reference
-
-3. **Stakeholder Communication**
-   - Provide regular updates on change implementation status
-   - Maintain transparent communication about scope modifications
-   - Ensure all team members understand current system state
-
-### Process Optimization
-
-1. **Automation Where Possible**
-   - Automate documentation updates for routine changes
-   - Use AI to generate change impact reports
-   - Implement automated validation of requirements-implementation alignment
-
-2. **Regular Process Review**
-   - Conduct retrospectives on change management effectiveness
-   - Refine processes based on team feedback and lessons learned
-   - Update templates and prompts based on successful patterns
-
-3. **Tool Integration**
-   - Integrate change management with existing project management tools
-   - Use version control systems to track both code and documentation changes
-   - Leverage AI IDE capabilities for seamless documentation updates
 
 ## Common Pitfalls and Solutions
 
