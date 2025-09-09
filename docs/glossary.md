@@ -14,7 +14,7 @@ This glossary defines key terms used throughout the AI SDLC Playbook to ensure c
 
 ## F
 
-**Functional Requirements** - Specifications that define what a system should do from a user's perspective, focusing on expected behaviors, user interface elements, and testable features. Always used in plural form throughout this playbook.
+**Requirement Specification** - A document that defines what a system should do from a user's perspective, focusing on expected behaviors, user interface elements, and testable features.
 
 ## I
 

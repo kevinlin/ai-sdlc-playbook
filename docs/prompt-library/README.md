@@ -30,7 +30,7 @@ The prompts are organized by workflow stage and purpose, covering everything fro
 
 ### Product Specification
 
-These prompts help you define, analyze, and specify product requirements. For optimal results, use them in sequence: start with business analysis, create data models, define APIs, and then specify UI requirements. Refer to [Functional Requirements](../workflow/feature-based-development/02-functional-requirement.md) for detailed workflow guidance.
+These prompts help you define, analyze, and specify product requirements. For optimal results, use them in sequence: start with business analysis, create data models, define APIs, and then specify UI requirements. Refer to [Requirement Specification](../workflow/feature-based-development/02-requirement-specification.md) for detailed workflow guidance.
 
 - [Example Product Requirements Input](product/example-product-requirements-input.md) - Sample product requirements for a governance checklist app showing proper feature specification format
 - [API Requirements](product/prompt-api-requirements.md) - Generate RESTful API endpoint specifications from data models with request/response examples

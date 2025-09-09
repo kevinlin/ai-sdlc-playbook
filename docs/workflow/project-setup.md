@@ -119,4 +119,4 @@ The VibeSpecs MCP Server provides a systematic approach to feature development, 
 
 Once your project setup is complete, proceed to the feature development lifecycle:
 
-**[Functional Requirements](feature-based-development/02-functional-requirement.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.
+**[Requirement Specification](feature-based-development/02-requirement-specification.md)** - Start by defining what your system should do from a user's perspective, including expected behaviors, UI elements, and testable features.

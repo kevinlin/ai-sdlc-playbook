@@ -35,7 +35,7 @@ The emphasis of the testing workflow is to have test-specific cursor rules and d
 
 ### Prerequisites
 
-- **Feature Requirements**: Ensure there is are detailed feature requirements with clear scope, as per the [Functional Requirements](02-functional-requirement.md). This could be a User Story or Product Requirement Document, in markdown format. The document should be accessible to the AI-powered IDE.
+- **Feature Requirements**: Ensure there is are detailed feature requirements with clear scope, as per the [Requirement Specification](02-requirement-specification.md). This could be a User Story or Product Requirement Document, in markdown format. The document should be accessible to the AI-powered IDE.
 - **IDE Rules:** Ensure there are detailed [IDE rules for your chosen language](../../ide-rules/languages/README.md) to guide the AI tools in adhering to code style and design preferences.
 
 ### 1. Interactively Prompt the IDE

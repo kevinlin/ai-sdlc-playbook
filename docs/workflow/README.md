@@ -21,11 +21,11 @@ We provide three complementary approaches for different project needs:
 
 **Get Started:**
 
-- **[Functional Requirements](feature-based-development/02-functional-requirement.md)** - Define expected behavior and user experience
+- **[Requirement Specification](feature-based-development/02-requirement-specification.md)** - Define expected behavior and user experience
 
 **Complete Process:**
 
-1. [Functional Requirements](feature-based-development/02-functional-requirement.md) - Define expected behavior, UI, testable features, and user experience using AI tools to draft and refine
+1. [Requirement Specification](feature-based-development/02-requirement-specification.md) - Define expected behavior, UI, testable features, and user experience using AI tools to draft and refine
 2. [Technical Design](feature-based-development/03-technical-design.md) - Define technical implementation, data models, API endpoints, and backend architecture
 3. [Development](feature-based-development/04-development.md) - Develop the solution iteratively, leveraging AI for implementation
 4. [Testing](feature-based-development/05-testing.md) - Unit, functional and end-to-end testing
