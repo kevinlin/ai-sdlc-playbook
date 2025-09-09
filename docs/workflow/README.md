@@ -30,7 +30,8 @@ We provide three complementary approaches for different project needs:
 3. [Development](feature-based-development/04-development.md) - Develop the solution iteratively, leveraging AI for implementation
     - [Testing](feature-based-development/041-testing.md) - Unit, functional and end-to-end testing
     - [Refactoring](feature-based-development/042-refactoring.md) - Refactor once feature complete
-4. [Documentation](feature-based-development/07-documentation.md) - Update all relevant documentation to reflect changes
+4. [Change Management](feature-based-development/05-change-management.md) - Manage changes while keeping requirements and technical specifications synchronized with implementation
+5. [Documentation](feature-based-development/07-documentation.md) - Update all relevant documentation to reflect changes
 
 **Use when:**
 
