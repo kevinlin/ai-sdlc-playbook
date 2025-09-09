@@ -17,7 +17,7 @@ config:
 ---
 flowchart TD
     A["Product Idea"] -- Prompt with input --> B["Functional Requirements"]
-    B -- Prompt with input --> C["Technical Specification"]
+    B -- Prompt with input --> C["Technical Design"]
     C -- Prompt with input --> D["Tests"] & E["Application Code"]
     D -- Test passes --> E
     E -- Refactor code as necessary --> D

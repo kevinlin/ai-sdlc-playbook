@@ -2,7 +2,7 @@
 description: This section provides a structured approach to creating detailed technical specifications for an AI-powered development workflow. Technical specifications define how the system will be implemented, focusing on data models, API endpoints, backend architecture, and technical implementation details.
 ---
 
-# 3. Technical Specification
+# 3. Technical Design
 
 This section provides a structured approach to creating detailed technical specifications for an AI-powered development workflow. Technical specifications define how the system will be implemented, focusing on data models, API endpoints, backend architecture, and technical implementation details.
 
@@ -346,7 +346,7 @@ VERIFICATION AND COMPLETION PHASE:
 Validate your work to check that all technical components defined in the documents above meet all necessary requirements and there is no ambiguity or technical gaps before writing the final output.
 ```
 
-## 8. Ensuring Technical Specification Precision
+## 8. Ensuring Technical Design Precision
 
 Dedicate substantial time and team effort to refining the technical specifications to eliminate vagueness and potential misinterpretations.
 
@@ -355,13 +355,13 @@ Dedicate substantial time and team effort to refining the technical specificatio
 - Validate that all technical requirements are implementable with the chosen technology stack.
 - Ensure security, performance, and scalability requirements are properly addressed.
 
-## 10. Saving Technical Specifications
+## 10. Saving Technical Designs
 
 Once you have the markdown text, save it in the folder that was set up at the start of the project in `technical-specification.md` format. It's important that this file is INSIDE the code repository, as we will have the AI-powered IDE reference it later in the workflow.
 
 ## Next Steps
 
-Once your technical specification is complete, you can proceed with the development phase where both the [Functional Requirements](02-functional-requirement.md) and Technical Specification will be used together to guide the AI-powered code generation process.
+Once your technical specification is complete, you can proceed with the development phase where both the [Functional Requirements](02-functional-requirement.md) and Technical Design will be used together to guide the AI-powered code generation process.
 
 ## Related Resources
 

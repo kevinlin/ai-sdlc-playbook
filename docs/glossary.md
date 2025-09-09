@@ -36,7 +36,7 @@ This glossary defines key terms used throughout the AI SDLC Playbook to ensure c
 
 ## T
 
-**Technical Specification** - A detailed document that defines how functional requirements will be implemented technically, including data models, API endpoints, backend architecture, and implementation details.
+**Technical Design** - A detailed document that defines how functional requirements will be implemented technically, including data models, API endpoints, backend architecture, and implementation details.
 
 ## U
 

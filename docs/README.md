@@ -33,7 +33,7 @@ This playbook provides guidance on best practices for integrating AI into the So
         **Feature-Based Development** (Enterprise/Complex Projects)
 
         1. [Functional Requirements](workflow/feature-based-development/02-functional-requirement.md)
-        2. [Technical Specification](workflow/feature-based-development/03-technical-specification.md)
+        2. [Technical Design](workflow/feature-based-development/03-technical-design.md)
         3. [Development](workflow/feature-based-development/04-development.md)
         4. [Testing](workflow/feature-based-development/05-testing.md)
         5. [Refactoring](workflow/feature-based-development/06-refactoring.md)
