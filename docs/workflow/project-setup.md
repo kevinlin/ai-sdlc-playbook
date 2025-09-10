@@ -78,42 +78,38 @@ Ensure all documentation is:
 Set up the Memory Bank system to enable effective AI assistance throughout the project lifecycle:
 
 1. **Create Memory Bank Structure**
-   - install Memory Bank MCP server
-   - initialize core memory bank files using prompt: `Initialize memory bank with tools`
-
+    - Install [Memory Bank MCP](https://github.com/ipospelov/mcp-memory-bank)
+    - Initialize core memory bank files using prompt: `Initialize memory bank with tools`
 2. **Configure Memory Bank Files**
-   - `projectbrief.md` - foundation document defining project scope and goals
-   - `productContext.md` - user experience goals and problem definition
-   - `activeContext.md` - current work focus and recent changes
-   - `systemPatterns.md` - architecture and technical decisions
-   - `techContext.md` - technologies and development setup
-   - `progress.md` - current status and evolution tracking
-
+    - `projectbrief.md` - foundation document defining project scope and goals
+    - `productContext.md` - user experience goals and problem definition
+    - `activeContext.md` - current work focus and recent changes
+    - `systemPatterns.md` - architecture and technical decisions
+    - `techContext.md` - technologies and development setup
+    - `progress.md` - current status and evolution tracking
 3. **Integrate with Development Workflow**
-   - ensure memory bank files are version controlled
-   - establish update patterns for maintaining current context
-   - configure AI tools to reference memory bank for project understanding
+    - Ensure memory bank files are version controlled
+    - Establish update patterns for maintaining current context
+    - Configure AI tools to reference memory bank for project understanding
 
 The Memory Bank serves as the AI assistant's primary reference for understanding project context, enabling more effective and contextually-aware assistance throughout development.
 
-## (Optional) Configure VibeSpecs MCP Server for Spec-Driven Development
+## (Optional) Configure MCP Server for Spec-Driven Development
 
-Set up the VibeSpecs MCP Server to enable structured, spec-driven development workflow in Cursor:
+Set up the VibeSpecs MCP Server to enable structured, spec-driven development workflow in Cursor / VS Code:
 
 1. **Install VibeSpecs MCP Server**
-   - follow installation instructions from [VibeSpecs MCP Server](https://github.com/yinwm/vibedevtools/tree/main/vibedev-specs-mcp)
-   - configure the server in your Cursor MCP settings
-
+    - Follow installation instructions from [Spec-Diven Dev MCP](https://github.com/kevinlin/spec-driven-dev-mcp)
+    - Configure the server in your Cursor MCP settings
 2. **Initialize Spec-Driven Workflow**
-   - use the workflow commands to guide feature development from requirements to implementation
-   - leverage structured phases: goal definition → requirements → design → tasks → execution
-
+    - Use the workflow commands to guide feature development from requirements to implementation
+    - Leverage structured phases: goal definition → requirements → design → tasks → execution
 3. **Integrate with Project Structure**
-   - align spec outputs with your repository documentation structure
-   - ensure generated specifications are version controlled
-   - reference [spec-driven development documentation](spec-driven-development/README.md) for best practices
+    - Align spec outputs with your repository documentation structure
+    - Ensure generated specifications are version controlled
+    - Reference [Spec-Driven Development](spec-driven-development/README.md) for best practices
 
-The VibeSpecs MCP Server provides a systematic approach to feature development, ensuring thorough planning and consistent implementation across your project.
+The Spec-Driven Dev MCP Server provides a systematic approach to feature development, ensuring thorough planning and consistent implementation across your project.
 
 ## Next Steps
 
