@@ -207,22 +207,6 @@ Do you have time for proper planning (20-30% of dev time)?
 
 ## Adapting the Process
 
-### Lightweight Spec Process
-
-For scenarios that fall between "full spec" and "direct implementation":
-
-**Mini-Spec Approach:**
-- Brief requirements (key user stories only)
-- High-level design (architecture diagram, key decisions)
-- Task list (major implementation steps)
-- Skip detailed documentation and extensive examples
-
-**When to use mini-specs:**
-- Medium complexity features
-- Tight timelines but some planning needed
-- Small team with good communication
-- Well-understood domain
-
 ### Spec-First vs. Spec-Alongside
 
 **Spec-First (Recommended):**
@@ -270,9 +254,3 @@ For scenarios that fall between "full spec" and "direct implementation":
 - Team resistance to following the process
 - Specs not being referenced during implementation
 - Over-documentation of simple features
-
-## Conclusion
-
-Spec-driven development is a powerful methodology when applied appropriately. The key is recognizing when the investment in planning and documentation will pay dividends in reduced risk, improved quality, and better collaboration. Use the decision framework and examples in this guide to make informed choices about when to apply the full methodology, when to use a lightweight approach, and when to skip specs entirely in favor of direct implementation.
-
-Remember that the goal is better software delivery, not perfect documentation. The spec process should serve your development goals, not become an end in itself.

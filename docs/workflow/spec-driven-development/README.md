@@ -143,13 +143,6 @@ Specifications serve as living documentation that preserves reasoning behind des
 - Requirements are complex or likely to change
 - Need to maintain architectural consistency across implementations
 
-**Use Lightweight SDD When**:
-
-- Feature is moderately complex but well-understood
-- Working with familiar technology patterns
-- Time constraints require faster delivery
-- Team is small and communication is straightforward
-
 **Skip SDD When**:
 
 - Making simple bug fixes or minor tweaks
