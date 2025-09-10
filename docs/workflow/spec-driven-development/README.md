@@ -2,7 +2,7 @@
 description: Specification-Driven Development (SDD) is a transformative methodology that inverts the traditional relationship between specifications and code, making specifications the primary source of truth that generates implementation rather than merely guiding it.
 ---
 
-# Specification-Driven Development (SDD)
+# Specification-Driven Development (SDD) Overview
 
 <!-- Navigation Metadata -->
 <!-- Section: Methodology | Level: Overview | Prerequisites: None -->
@@ -15,34 +15,6 @@ description: Specification-Driven Development (SDD) is a transformative methodol
 - **Get Started:** [Requirements Template](templates/requirements-template.md) - Start your first spec
 
 ---
-
-## What is Spec-Driven Development?
-
-Spec-driven development is a systematic approach to software feature development that emphasizes thorough planning, clear documentation, and structured implementation. It represents a balanced methodology that combines the benefits of comprehensive upfront planning with the flexibility needed for modern software development.
-
-### Key Characteristics
-
-- **Structured Planning**: Features are developed through a deliberate three-phase process
-- **Living Documentation**: Specifications evolve and serve as ongoing communication tools
-- **AI-Optimized**: Designed to work seamlessly with AI-assisted development workflows
-- **Quality-Focused**: Emphasizes building the right thing correctly from the start
-- **Collaborative**: Facilitates better communication among team members and stakeholders
-
-### The Problem It Solves
-
-Traditional development approaches often suffer from:
-
-- Unclear requirements leading to scope creep and rework
-- Technical debt from rushed implementation decisions
-- Poor communication between stakeholders and developers
-- Difficulty maintaining and extending features over time
-- Inefficient use of AI development tools due to lack of context
-
-Spec-driven development addresses these challenges by transforming rough feature ideas into well-defined, implementable solutions through a process that ensures quality, maintainability, and successful delivery.
-
-### Why It Works
-
-The methodology is particularly powerful when combined with AI-assisted development tools, as the structured approach to requirements, design, and task planning provides the clear context that AI systems need to be most effective. By following this approach, development teams can build better software more efficiently while maintaining the agility needed to respond to changing requirements and emerging opportunities.
 
 ## The Power Inversion
 
@@ -86,9 +58,9 @@ stateDiagram-v2
   Implementation --> Requirements : Production feedback
 ```
 
-1. **Requirements Gathering**: Transform vague ideas into clear, testable requirements using structured templates and AI-assisted refinement
-2. **Design Documentation**: Create comprehensive technical plans that map requirements to architectural decisions
-3. **Task Planning**: Break down designs into actionable, sequential implementation steps that can drive code generation
+1. **[Requirements Specification](process/01-requirements-phase.md)**: Transform vague ideas into clear, testable requirements using structured templates and AI-assisted refinement
+2. **[Technical Design](process/02-design-phase.md)**: Create comprehensive technical plans that map requirements to architectural decisions
+3. **[Task Planning](process/03-tasks-phase.md)**: Break down designs into actionable, sequential implementation steps that can drive code generation
 
 Each phase builds upon the previous one, creating specifications precise enough to generate working systems.
 
@@ -104,14 +76,6 @@ Modern systems integrate dozens of services, frameworks, and dependencies. Keepi
 
 ### Accelerating Change Pace
 Requirements change far more rapidly today than ever before. Pivoting is no longer exceptional—it's expected. SDD transforms requirement changes from obstacles into normal workflow. When specifications drive implementation, pivots become systematic regenerations rather than manual rewrites.
-
-## The SDD Workflow in Practice
-
-The workflow begins with an idea—often vague and incomplete. Through iterative dialogue with AI, this idea becomes a comprehensive specification. The AI asks clarifying questions, identifies edge cases, and helps define precise acceptance criteria. What might take days of meetings and documentation in traditional development happens in hours of focused specification work.
-
-Throughout this specification process, research agents gather critical context. They investigate library compatibility, performance benchmarks, and security implications. Organizational constraints are discovered and applied automatically—your company's database standards, authentication requirements, and deployment policies seamlessly integrate into every specification.
-
-From the specification, AI generates implementation plans that map requirements to technical decisions. Every technology choice has documented rationale. Every architectural decision traces back to specific requirements. Code generation begins as soon as specifications are stable enough, creating a continuous feedback loop between specification, implementation, and operational reality.
 
 ## Core Philosophy
 
@@ -171,6 +135,7 @@ Specifications serve as living documentation that preserves reasoning behind des
 ### Decision Framework
 
 **Use Full SDD When**:
+
 - Building features with multiple components or integrations
 - Working on high-stakes projects where failure is costly  
 - Coordinating work across multiple developers or teams
@@ -179,12 +144,14 @@ Specifications serve as living documentation that preserves reasoning behind des
 - Need to maintain architectural consistency across implementations
 
 **Use Lightweight SDD When**:
+
 - Feature is moderately complex but well-understood
 - Working with familiar technology patterns
 - Time constraints require faster delivery
 - Team is small and communication is straightforward
 
 **Skip SDD When**:
+
 - Making simple bug fixes or minor tweaks
 - Building experimental prototypes for learning
 - Handling time-critical hotfixes
