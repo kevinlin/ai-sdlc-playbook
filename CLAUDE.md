@@ -1,6 +1,6 @@
----
-alwaysApply: true
----
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
 
@@ -65,3 +65,9 @@ Key directories:
 - `docs/stylesheets/` - Custom CSS
 
 ## Deployment
+
+The site auto-deploys to GitHub Pages via `.github/workflows/publish.yml` when:
+- Changes are pushed to main branch
+- Manual workflow trigger from GitHub Actions tab
+
+Published at: https://kevinlin.github.io/ai-sdlc-playbook
