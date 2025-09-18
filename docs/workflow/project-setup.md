@@ -99,7 +99,7 @@ The Memory Bank serves as the AI assistant's primary reference for understanding
 Set up the VibeSpecs MCP Server to enable structured, spec-driven development workflow in Cursor / VS Code:
 
 1. **Install VibeSpecs MCP Server**
-    - Follow installation instructions from [Spec-Diven Dev MCP](https://github.com/kevinlin/spec-driven-dev-mcp)
+    - Follow installation instructions from [Spec-Diven Dev MCP](https://github.com/kevinlin/spec-coding-mcp)
     - Configure the server in your Cursor MCP settings
 2. **Initialize Spec-Driven Workflow**
     - Use the workflow commands to guide feature development from requirements to implementation

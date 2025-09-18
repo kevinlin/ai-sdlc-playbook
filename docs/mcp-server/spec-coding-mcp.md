@@ -30,17 +30,17 @@ Spec-driven development is a methodology that emphasizes creating detailed speci
 
 ```bash
 # Always get the latest version
-npx spec-driven-dev-mcp@latest
+npx spec-coding-mcp@latest
 
 # Or simply (will also get latest)
-npx spec-driven-dev-mcp
+npx spec-coding-mcp
 ```
 
 ### Using npm
 
 ```bash
-npm install -g spec-driven-dev-mcp
-spec-driven-dev-mcp
+npm install -g spec-coding-mcp
+spec-coding-mcp
 ```
 
 ## Configuration
@@ -52,9 +52,9 @@ Add the following configuration to your Cursor MCP settings:
 ```json
 {
   "mcpServers": {
-    "spec-driven-dev-mcp": {
+    "spec-coding-mcp": {
       "command": "npx",
-      "args": ["spec-driven-dev-mcp@latest"],
+      "args": ["spec-coding-mcp@latest"],
       "env": {},
       "disabled": false
     }
@@ -66,15 +66,15 @@ Add the following configuration to your Cursor MCP settings:
 
 The MCP server provides nine distinct tools that guide you through the complete development workflow:
 
-1. **spec_driven_dev_workflow_start** - Initiates the development workflow
-2. **spec_driven_dev_goal_confirmed** - Confirms and locks in feature goals
-3. **spec_driven_dev_requirements_start** - Begins the requirements gathering phase
-4. **spec_driven_dev_requirements_confirmed** - Confirms requirements completion
-5. **spec_driven_dev_design_start** - Starts the design documentation phase
-6. **spec_driven_dev_design_confirmed** - Confirms design completion
-7. **spec_driven_dev_tasks_start** - Begins task planning and breakdown
-8. **spec_driven_dev_tasks_confirmed** - Confirms task planning completion
-9. **spec_driven_dev_execute_start** - Starts the implementation phase
+1. **spec_coding_workflow_start** - Initiates the development workflow
+2. **spec_coding_goal_confirmed** - Confirms and locks in feature goals
+3. **spec_coding_requirements_start** - Begins the requirements gathering phase
+4. **spec_coding_requirements_confirmed** - Confirms requirements completion
+5. **spec_coding_design_start** - Starts the design documentation phase
+6. **spec_coding_design_confirmed** - Confirms design completion
+7. **spec_coding_tasks_start** - Begins task planning and breakdown
+8. **spec_coding_tasks_confirmed** - Confirms task planning completion
+9. **spec_coding_execute_start** - Starts the implementation phase
 
 ## Workflow Stages
 
@@ -262,5 +262,5 @@ Spec-driven development is particularly valuable for:
 
 ## Links
 
-- [GitHub Repository](https://github.com/kevinlin/spec-driven-dev-mcp)
-- [NPM Package](https://www.npmjs.com/package/spec-driven-dev-mcp)
+- [GitHub Repository](https://github.com/kevinlin/spec-coding-mcp)
+- [NPM Package](https://www.npmjs.com/package/spec-coding-mcp)

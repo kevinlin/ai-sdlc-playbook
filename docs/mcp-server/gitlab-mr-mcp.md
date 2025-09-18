@@ -285,12 +285,6 @@ The server is built with TypeScript and follows MCP best practices:
 - **Error handling**: Comprehensive error responses for debugging
 - **Type safety**: Full TypeScript support for reliable development
 
-## Related Resources
-
-- [MCP Server Overview](README.md) - General information about MCP servers
-- [Spec-driven Dev MCP](spec-driven-dev-mcp.md) - Complementary development workflow tool
-- [Memory Bank](memory-bank.md) - Context management for development projects
-
 ## Links
 
 - [GitHub Repository](https://github.com/kevinlin/gitlab-mr-mcp)
