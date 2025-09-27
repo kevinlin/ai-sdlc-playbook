@@ -21,7 +21,7 @@ We provide three complementary approaches for different project needs:
 
 **Get Started:**
 
-- **[Requirement Specification](feature-based-development/02-requirement-specification.md)** - Define expected behavior and user experience
+- **[Getting Started](feature-based-development/01-getting-started.md)** - Workflow stages at a glance
 
 **Complete Process:**
 

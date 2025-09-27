@@ -15,8 +15,8 @@ This playbook provides practical guidance, rules, workflows, and prompts for eff
    - Setting up AI IDE rules? Check [IDE Rules](docs/ide-rules/README.md)
    - Building tools and integrations? Explore [MCP Server](docs/mcp-server/README.md)
    - Looking for prompts? Explore the [Prompt Library](docs/prompt-library/README.md)
-   - New to AI development? Start with [Getting Started](docs/workflow/feature-based-development/01-getting-started.md)
 3. **Follow the Workflow**: Implement the [AI Development Workflow](docs/workflow/README.md) in your projects
+   - New to AI development? Start with [Project Setup](project-setup.md) to define foundational elements, tools, and conventions (start here for all workflows)
 
 ## What's Included
 
