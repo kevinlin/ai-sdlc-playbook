@@ -28,6 +28,7 @@ First, analyze the file types that have been changed in this merge request and l
 
 Apply the appropriate rules when reviewing each file and ensure your feedback aligns with the project's established conventions as defined in these ruleset files.
 
+## Coding Guidelines
 Please follow these guidelines for the review:
 
 1. Code Quality & Standards:
@@ -68,14 +69,7 @@ Please follow these guidelines for the review:
    - Ensure secure handling of user data
    - Review authentication and authorization changes
 
-For each file type, consider the following specific concerns:
-- TypeScript/JavaScript: Type safety, functional patterns, component structure
-- Python: PEP 8 compliance, error handling, docstrings
-- Markdown: Documentation clarity, structure, completeness
-- Configuration files: Environment variables, deployment settings
-- CSS/SCSS: Style organization, responsiveness, accessibility
-- Shell scripts: Error handling, permissions, portability
-
+## Outcome
 Add comments directly to the merge request:
 1. General comment that start with overall summary, followed by all the findings.
 2. Detailed inline comments on specific code sections that expect code changes
