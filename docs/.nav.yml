@@ -1,6 +1,7 @@
 nav:
   - README.md
   - IDE Rules: ide-rules
+  - Claude Code (.claude): claude-code
   - MCP Server: mcp-server
   - workflow
   - Prompt Library: prompt-library
