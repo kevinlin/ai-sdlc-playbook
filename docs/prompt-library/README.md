@@ -63,3 +63,18 @@ These prompts help create comprehensive technical documentation that explains bo
 - [Create Repository Documentation](documentation/prompt-create-repository-documentation.md) - Document repository layer architecture, design patterns, and implementation decisions
 - [Create Service Layer Documentation](documentation/prompt-create-service-layer-documentation.md) - Document service layer interfaces, business logic, workflows, and architectural decisions
 - [Create Technical Design Documentation](documentation/prompt-technical-design-documentation.md) - Develop comprehensive technical design documents with research, architecture, and component details
+
+
+## Set Prompt as Slash Command in Claude Code
+
+To reuse this prompt easily in Claude Code, save it as a custom slash command:
+
+```bash
+# Create project command (shared with team)
+echo "[paste prompt content above]" > .claude/commands/doc-api.md
+
+# Or create personal command (available across all projects)
+echo "[paste prompt content above]" > ~/.claude/commands/doc-api.md
+```
+
+Then invoke with `/project:doc-api` or `/doc-api` respectively.

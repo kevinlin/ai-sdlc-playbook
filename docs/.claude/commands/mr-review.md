@@ -1,18 +1,3 @@
-# GitLab Merge Request Review Prompt
-Perform code review on a GitLab merge rquest, add in-line comments and a summary.
-
-## Prerequisites
-
-**Required MCP Server:** This prompt requires the `gitlab-mr-mcp` MCP server to be active and properly configured.
-
-- **Installation:** Follow the setup instructions at https://github.com/upstash/context7
-- **Verification:** Before running this prompt, ensure:
-  - The MCP server status light shows **green** 
-  - All MCP functions are visible and properly loaded
-     - If the server appears inactive, try toggling it **Off/On** and refresh
-     - Wait for the status to show active before proceeding
-
-```
 ---
 argument-hint: [mr-number]
 description: Structured prompt for conducting thorough merge request reviews with quality and security checks.
@@ -86,4 +71,3 @@ For each inline comment, please:
 - Highlgiht any potential bugs or issues that need to be addressed
 - Provide code examples for suggested improvements
 - Explain the reasoning behind each suggestion
-```
