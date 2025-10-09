@@ -24,7 +24,14 @@ This playbook provides guidance on best practices for integrating AI into the So
     1. [MCP Server Resources](mcp-server/mcp-server-resources.md)
     2. [Memory Bank MCP](mcp-server/memory-bank.md)
 
-3. [AI Development Workflow](workflow/README.md)
+3. [Claude Code Configuration](claude-code/slash-commands.md)
+
+    1. [Slash Commands](claude-code/slash-commands.md)
+    2. Sample Commands:
+        - [Create Hook](claude-code/commands/create-hook.md)
+        - [MR Review](claude-code/commands/mr-review.md)
+
+4. [AI Development Workflow](workflow/README.md)
 
     1. [Getting Started](workflow/feature-based-development/01-getting-started.md)
     2. [Project Setup](workflow/project-setup.md)
@@ -44,6 +51,6 @@ This playbook provides guidance on best practices for integrating AI into the So
         1. [Vibe Coding Plus Workflow](workflow/vibe-coding-plus.md)
     6. [Learning with AI](workflow/learning.md)
 
-4. [Prompt Library](prompt-library/README.md)
+5. [Prompt Library](prompt-library/README.md)
 
     1. [Prompting Guidance](prompt-library/prompting-guidance.md)
