@@ -10,7 +10,9 @@ Make use of MCP tools from `gitlab-mr-mcp` MCP server:
 - Call `get_merge_request_details`, `get_merge_request_diff`, `get_merge_request_comments` to fetch merge request details
 - Call `add_merge_request_comment` and `add_merge_request_diff_comment` to add comments to the merge request
 
-First, analyze the file types that have been changed in this merge request and load the appropriate Cursor rules based on file types.
+First, analyze the file types that have been changed in this merge request and load the appropriate IDE rules based on file types:
+- Cursor IDE: `.cursor/rules/`
+- Kiro: `.kiro/steering/`
 
 Apply the appropriate rules when reviewing each file and ensure your feedback aligns with the project's established conventions as defined in these ruleset files.
 
@@ -18,7 +20,7 @@ Apply the appropriate rules when reviewing each file and ensure your feedback al
 Please follow these guidelines for the review:
 
 1. Code Quality & Standards:
-   - Follow language-specific best practices according to the Cursor rules
+   - Follow language-specific best practices according to the IDE rules
    - Ensure proper error handling and type safety where applicable
    - Check for code duplication and unnecessary complexity
    - Verify naming conventions and code formatting based on project standards
@@ -62,12 +64,12 @@ Add comments directly to the merge request:
 3. DO NOT include a Final Summary comment
 
 For each inline comment, please:
-- Reference the specific Cursor rule that applies, if any
-- Make it clear the comment it is made by Cursor IDE
+- Reference the specific IDE rule that applies, if any
+- Make it clear the comment is made by [you] (Claude Code, Cursor, Codex, etc)
 - Include file names and line numbers
-- The inline commment should be inserted right after the code referring to (line number + 1)
+- The inline comment should be inserted right after the code referring to (line number + 1)
 - Be specific and actionable
 - Skip comments only about documentation changes
-- Highlgiht any potential bugs or issues that need to be addressed
+- Highlight any potential bugs or issues that need to be addressed
 - Provide code examples for suggested improvements
 - Explain the reasoning behind each suggestion
