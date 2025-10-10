@@ -10,7 +10,7 @@ description: Go programming best practices covering idiomatic patterns, concurre
 
 To create a new Cursor Rule:
 
-1. Enter the name as `golang`
+1. Create a file named `golang.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

@@ -6,7 +6,7 @@ description: C++ programming guidelines covering modern standards, memory manage
 
 To create a new Cursor Rule:
 
-1. Enter the name as `cpp`
+1. Create a file named `cpp.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

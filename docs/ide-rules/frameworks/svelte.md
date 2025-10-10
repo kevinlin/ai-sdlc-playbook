@@ -6,7 +6,7 @@ description: Svelte framework guidelines covering reactive programming, componen
 
 To create a new Cursor Rule:
 
-1. Enter the name as `svelte`
+1. Create a file named `svelte.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

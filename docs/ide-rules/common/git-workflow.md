@@ -10,7 +10,7 @@ description: Git workflow best practices covering branching strategies, commit c
 
 To create a new Cursor Rule:
 
-1. Enter the name as `git-workflow`
+1. Create a file named `git-workflow.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

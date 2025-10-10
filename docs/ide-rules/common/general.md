@@ -10,7 +10,7 @@ description: Universal project guidelines and coding principles that apply acros
 
 To create a new Cursor Rule:
 
-1. Enter the name as `general`
+1. Create a file named `general.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

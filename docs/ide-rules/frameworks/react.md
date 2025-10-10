@@ -10,7 +10,7 @@ description: Comprehensive React development guidelines and best practices for b
 
 To create a new Cursor Rule:
 
-1. Enter the name as `react`
+1. Create a file named `react.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

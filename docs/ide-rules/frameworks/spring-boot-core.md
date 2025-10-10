@@ -6,7 +6,7 @@ description: Spring Boot core development guidelines covering dependency injecti
 
 To create a new Cursor Rule:
 
-1. Enter the name as `sprint-boot-core`
+1. Create a file named `sprint-boot-core.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

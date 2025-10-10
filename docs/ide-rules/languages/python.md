@@ -10,7 +10,7 @@ description: Python programming best practices covering code style, structure, e
 
 To create a new Cursor Rule:
 
-1. Enter the name as `python`
+1. Create a file named `python.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

@@ -6,7 +6,7 @@ description: Spring Boot slice testing techniques for focused, efficient unit an
 
 To create a new Cursor Rule:
 
-1. Enter the name as `sprint-boot-slice-testing`
+1. Create a file named `sprint-boot-slice-testing.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

@@ -6,7 +6,7 @@ description: .NET development best practices covering C#, framework patterns, an
 
 To create a new Cursor Rule:
 
-1. Enter the name as `dotnet`
+1. Create a file named `dotnet.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

@@ -6,7 +6,7 @@ description: Flask development best practices for building lightweight, modular 
 
 To create a new Cursor Rule:
 
-1. Enter the name as `flask`
+1. Create a file named `flask.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

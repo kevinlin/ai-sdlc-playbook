@@ -10,7 +10,7 @@ description: Java development guidelines covering modern practices, design patte
 
 To create a new Cursor Rule:
 
-1. Enter the name as `java`
+1. Create a file named `java.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

@@ -10,7 +10,7 @@ description: Vue.js development best practices covering component architecture, 
 
 To create a new Cursor Rule:
 
-1. Enter the name as `vuejs`
+1. Create a file named `vuejs.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

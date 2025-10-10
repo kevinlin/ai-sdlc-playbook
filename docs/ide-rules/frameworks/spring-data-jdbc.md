@@ -6,7 +6,7 @@ description: Spring Data JDBC best practices for database access patterns and da
 
 To create a new Cursor Rule:
 
-1. Enter the name as `sprint-data-jdbc`
+1. Create a file named `sprint-data-jdbc.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

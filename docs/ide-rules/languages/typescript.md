@@ -10,7 +10,7 @@ description: TypeScript development guidelines covering type safety, advanced pa
 
 To create a new Cursor Rule:
 
-1. Enter the name as `typescript`
+1. Create a file named `typescript.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

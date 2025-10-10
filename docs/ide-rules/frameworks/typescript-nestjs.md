@@ -6,7 +6,7 @@ description: NestJS with TypeScript development guidelines for building scalable
 
 To create a new Cursor Rule:
 
-1. Enter the name as `typescript-nestjs`
+1. Create a file named `typescript-nestjs.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

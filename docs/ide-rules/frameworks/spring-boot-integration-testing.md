@@ -6,7 +6,7 @@ description: Spring Boot integration testing best practices for comprehensive ap
 
 To create a new Cursor Rule:
 
-1. Enter the name as `sprint-boot-integration-testing`
+1. Create a file named `sprint-boot-integration-testing.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

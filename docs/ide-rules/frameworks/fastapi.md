@@ -10,7 +10,7 @@ description: FastAPI development guidelines covering API design, dependency inje
 
 To create a new Cursor Rule:
 
-1. Enter the name as `fastapi`
+1. Create a file named `fastapi.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

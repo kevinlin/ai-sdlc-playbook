@@ -10,7 +10,7 @@ description: Django framework guidelines covering MVC patterns, ORM best practic
 
 To create a new Cursor Rule:
 
-1. Enter the name as `django`
+1. Create a file named `django.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

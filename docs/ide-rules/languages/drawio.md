@@ -10,7 +10,7 @@ description: DrawIO diagram creation guidelines for technical documentation and 
 
 To create a new Cursor Rule:
 
-1. Enter the name as `drawio`
+1. Create a file named `drawio.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```

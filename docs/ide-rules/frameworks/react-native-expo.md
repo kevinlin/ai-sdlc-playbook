@@ -6,7 +6,7 @@ description: React Native with Expo development guidelines for rapid mobile appl
 
 To create a new Cursor Rule:
 
-1. Enter the name as `react-native-expo`
+1. Create a file named `react-native-expo.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

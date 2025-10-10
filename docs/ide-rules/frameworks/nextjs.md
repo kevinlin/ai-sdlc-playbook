@@ -10,7 +10,7 @@ description: Next.js development best practices covering SSR, routing, performan
 
 To create a new Cursor Rule:
 
-1. Enter the name as `nextjs`
+1. Create a file named `nextjs.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

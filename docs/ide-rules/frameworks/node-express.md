@@ -6,7 +6,7 @@ description: Node.js and Express framework guidelines for building scalable serv
 
 To create a new Cursor Rule:
 
-1. Enter the name as `node-express`
+1. Create a file named `node-express.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

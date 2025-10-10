@@ -10,7 +10,7 @@ description: Markdown writing and formatting guidelines for consistent technical
 
 To create a new Cursor Rule:
 
-1. Enter the name as `markdown`
+1. Create a file named `markdown.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

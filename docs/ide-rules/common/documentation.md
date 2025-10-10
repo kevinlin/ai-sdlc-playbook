@@ -10,7 +10,7 @@ description: Documentation standards and guidelines for creating clear, maintain
 
 To create a new Cursor Rule:
 
-1. Enter the name as `document`
+1. Create a file named `document.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown

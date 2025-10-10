@@ -6,7 +6,7 @@ description: Spring Boot local testing guidelines for efficient development and 
 
 To create a new Cursor Rule:
 
-1. Enter the name as `sprint-boot-local-testing`
+1. Create a file named `sprint-boot-local-testing.md` in `.cursor/rules/`
 2. Copy & paste the file content from below
 
 For more information, visit the [Project rules](https://docs.cursor.com/context/rules#project-rules).

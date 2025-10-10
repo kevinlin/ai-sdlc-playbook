@@ -10,7 +10,7 @@ description: Tailwind CSS guidelines for utility-first styling and responsive de
 
 To create a new Cursor Rule:
 
-1. Enter the name as `tailwind`
+1. Create a file named `tailwind.md` in `.cursor/rules/`
 2. Copy & paste the following header and rule content below:
 
 ```markdown
