@@ -2,7 +2,7 @@
 description: AI-powered IDEs use rule files to guide their behavior. This section provides comprehensive guidance on creating and organizing IDE rules for AI development tools.
 ---
 
-# IDE Rules Overview
+# IDE Rules
 
 AI-powered IDEs use rule files to guide their behavior. Rules allow you to provide system-level guidance to AI assistants and development tools. Think of them as a persistent way to encode context, preferences, or workflows for your projects.
 
@@ -98,7 +98,7 @@ Modern AI IDEs provide powerful capabilities for automatically generating rules 
 You can generate rules directly in a conversation using IDE-specific commands:
 
 - **Cursor**: Use `/Generate Cursor Rules` command
-- **Kiro**: Rules can be generated from conversation patterns and workflows
+- **Kiro**: Refer to [Kiro Steering Document Creation and Usage Guide](steering-creation-guide.md)
 
 This is particularly useful when:
 
