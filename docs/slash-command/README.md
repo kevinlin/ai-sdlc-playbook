@@ -286,47 +286,19 @@ Cursor can work with Claude Code through the Claude Code extension:
 ### Performance Tips
 
 1. **Reduce Token Usage**: Extract fixed workflows from `CLAUDE.md` into commands
-   - Can reduce token consumption by 20% or more
-   - Commands are only loaded when needed
+    - Can reduce token consumption by 20% or more
+    - Commands are only loaded when needed
 
 2. **Reusable Patterns**: Create commands for repetitive tasks
-   - Code reviews
-   - Commit message generation
-   - Test generation
-   - Documentation updates
+    - Code reviews
+    - Commit message generation
+    - Test generation
+    - Documentation updates
 
 3. **Team Standardization**: Share commands via git
-   - Ensures consistent workflows
-   - New team members get instant access
-   - Easy to update and maintain
-
-
-**By Feature:**
-```
-.claude/commands/
-├── api/
-├── ui/
-├── database/
-└── deployment/
-```
-
-**By Role:**
-```
-.claude/commands/
-├── frontend/
-├── backend/
-├── devops/
-└── testing/
-```
-
-**By Task Type:**
-```
-.claude/commands/
-├── create/
-├── review/
-├── test/
-└── deploy/
-```
+    - Ensures consistent workflows
+    - New team members get instant access
+    - Easy to update and maintain
 
 ---
 
@@ -335,9 +307,12 @@ Cursor can work with Claude Code through the Claude Code extension:
 This repository includes ready-to-use example commands in the [`docs/slash-command/commands/`](commands/) directory:
 
 - [`commit.md`](commands/commit.md) - Create conventional commits with all changes
-- [`dev/create-component.md`](commands/dev/create-component.md) - Generate React components with tests and stories
-- [`security-audit.md`](commands/security-audit.md) - Perform comprehensive security audits
+- [`create-hook.md`](commands/create-hook.md) - Create custom hooks for Claude Code
 - [`fix-github-issue.md`](commands/fix-github-issue.md) - Automatically fix GitHub issues
+- [`mr-review.md`](commands/mr-review.md) - Conduct thorough merge request reviews
+- [`security-audit.md`](commands/security-audit.md) - Perform comprehensive security audits
+- [`dev/create-component.md`](commands/dev/create-component.md) - Generate React components with tests and stories
+- [`dev/generate-tests.md`](commands/dev/generate-tests.md) - Generate unit tests with high coverage
 - [`docs/generate-readme.md`](commands/docs/generate-readme.md) - Generate or update README documentation
 
 To use these commands in your project, copy them to your `.claude/commands/` directory or use them as templates for creating your own custom commands.
