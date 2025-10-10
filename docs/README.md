@@ -11,8 +11,6 @@ This playbook provides guidance on best practices for integrating AI into the So
 
 ## Table of Contents
 
-**Quick Reference:** [Glossary](glossary.md) - Key terms and definitions used throughout this playbook
-
 - [AI Development Workflow](workflow/README.md)
     - [Getting Started](workflow/feature-based-development/01-getting-started.md)
     - [Project Setup](workflow/project-setup.md)

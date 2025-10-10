@@ -72,5 +72,4 @@ Once your functional requirements are complete, proceed to create the [Technical
 ## Related Resources
 
 - [Prompting Guidance](../../prompt-library/prompting-guidance.md) - Best practices for crafting effective prompts
-- [Project Setup](../project-setup.md) - Ensure your development environment is properly configured
-- [Glossary](../../glossary.md) - Key terms and definitions used in this workflow 
+- [Project Setup](../project-setup.md) - Ensure your development environment is properly configured 

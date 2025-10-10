@@ -264,4 +264,3 @@ After implementing effective change management:
 - [Development](04-development.md) - Implementing changes while maintaining quality and consistency
 - [Documentation](07-documentation.md) - Keeping documentation synchronized with implementation changes
 - [Prompt Library](../../prompt-library/README.md) - Ready-to-use prompts for change management tasks
-- [Glossary](../../glossary.md) - Key terms and definitions used in change management

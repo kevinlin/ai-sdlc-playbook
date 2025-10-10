@@ -169,7 +169,6 @@ We also advise reading and understanding the detailed [Prompting Guidance](../..
 
 ## Related Resources
 
-- [Glossary](../../glossary.md) - Key terms and definitions
 - [IDE Rules Overview](../../ide-rules/README.md) - Setting up IDE rules for consistent AI behavior
 - [MCP Server Overview](../../mcp-server/README.md) - Extending AI capabilities with external tools
 - [Prompt Library](../../prompt-library/README.md) - Ready-to-use prompts for common tasks

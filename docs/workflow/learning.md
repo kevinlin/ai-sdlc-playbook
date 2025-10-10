@@ -33,5 +33,4 @@ The prompt can be found here: [Enhanced Teaching Guidelines](../prompt-library/g
 - [AI Development Workflows](README.md) - Various development workflows that can be enhanced with learning
 - [Prompting Guidance](../prompt-library/prompting-guidance.md) - Best practices for crafting effective learning prompts
 - [IDE Rules](../ide-rules/README.md) - Setting up IDE rules to support learning-focused development
-- [Glossary](../glossary.md) - Key terms and definitions used throughout the playbook
 
