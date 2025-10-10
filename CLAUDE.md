@@ -61,8 +61,7 @@ Key directories:
 - `docs/` - All documentation content
 - `site/` - Generated static site (build output)
 - `.overrides/` - Theme customizations
-- `docs/assets/`, `docs/img/` - Static assets and images
-- `docs/stylesheets/` - Custom CSS
+- `docs/assets/` - Static assets (images, stylesheets, etc.)
 
 ## Deployment
 
