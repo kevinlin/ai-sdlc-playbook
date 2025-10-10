@@ -144,39 +144,6 @@ Reference commands in your `CLAUDE.md` to use natural language:
 
 This allows you to say "commit my changes" and Claude will automatically execute the `/commit` command.
 
-### Advanced Example
-
-```markdown
----
-argument-hint: [issue-number]
-description: Automatically fix a GitHub issue
----
-
-# Fix GitHub Issue
-
-Please analyze and fix GitHub issue: $ARGUMENTS
-
-## Steps
-
-1. Use `gh issue view $ARGUMENTS` to get the issue details
-2. Understand the problem described in the issue
-3. Search the codebase for relevant files using codebase search
-4. Implement the necessary changes to fix the issue
-5. Write and run tests to verify the fix
-6. Ensure code passes linting and type checking
-7. Create a descriptive commit message following conventional commits
-8. Push changes and create a PR
-
-## Guidelines
-
-- Always test the fix before committing
-- Include the issue number in the commit message
-- Update relevant documentation if needed
-- Consider edge cases and potential side effects
-```
-
-**Usage:** `/project:fix-github-issue 1234`
-
 ---
 
 ## Cursor Custom Commands
@@ -365,12 +332,12 @@ Cursor can work with Claude Code through the Claude Code extension:
 
 ## Example Commands
 
-This repository includes ready-to-use example commands in the [`docs/claude-code/commands/`](commands/) directory:
+This repository includes ready-to-use example commands in the [`docs/slash-command/commands/`](commands/) directory:
 
 - [`commit.md`](commands/commit.md) - Create conventional commits with all changes
 - [`dev/create-component.md`](commands/dev/create-component.md) - Generate React components with tests and stories
 - [`security-audit.md`](commands/security-audit.md) - Perform comprehensive security audits
-- [`generate-tests.md`](commands/generate-tests.md) - Generate unit tests with high coverage
+- [`fix-github-issue.md`](commands/fix-github-issue.md) - Automatically fix GitHub issues
 - [`docs/generate-readme.md`](commands/docs/generate-readme.md) - Generate or update README documentation
 
 To use these commands in your project, copy them to your `.claude/commands/` directory or use them as templates for creating your own custom commands.

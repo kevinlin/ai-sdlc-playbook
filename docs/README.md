@@ -13,44 +13,28 @@ This playbook provides guidance on best practices for integrating AI into the So
 
 **Quick Reference:** [Glossary](glossary.md) - Key terms and definitions used throughout this playbook
 
-1. [IDE Rules](ide-rules/README.md)
-
-    1. [Common Rules](ide-rules/common/README.md)
-    2. [Language Rules](ide-rules/languages/README.md)
-    3. [Framework Rules](ide-rules/frameworks/README.md)
-
-2. [MCP Server](mcp-server/README.md)
-
-    1. [MCP Server Resources](mcp-server/mcp-server-resources.md)
-    2. [Memory Bank MCP](mcp-server/memory-bank.md)
-
-3. [Claude Code Configuration](claude-code/slash-commands.md)
-
-    1. [Slash Commands](claude-code/slash-commands.md)
-    2. Sample Commands:
-        - [Create Hook](claude-code/commands/create-hook.md)
-        - [MR Review](claude-code/commands/mr-review.md)
-
-4. [AI Development Workflow](workflow/README.md)
-
-    1. [Getting Started](workflow/feature-based-development/01-getting-started.md)
-    2. [Project Setup](workflow/project-setup.md)
-    3. **Feature-Based Development** (Enterprise/Complex Projects)
-        1. [Requirement Specification](workflow/feature-based-development/02-requirement-specification.md)
-        2. [Technical Design](workflow/feature-based-development/03-technical-design.md)
-        3. [Development](workflow/feature-based-development/04-development.md)
-           3.1 [Testing](workflow/feature-based-development/041-testing.md)
-           3.2 [Refactoring](workflow/feature-based-development/042-refactoring.md)
-        4. [Change Management](workflow/feature-based-development/05-change-management.md)
-        5. [Documentation](workflow/feature-based-development/07-documentation.md)
-    4. **Spec-Driven Development** (Systematic Planning)
-        1. [Overview](workflow/spec-driven-development/README.md)
-        2. [Process Guide](workflow/spec-driven-development/process/README.md)
-        3. [Examples](workflow/spec-driven-development/examples/README.md)
-    5. **Vibe Coding Plus** (Rapid Prototyping)
-        1. [Vibe Coding Plus Workflow](workflow/vibe-coding-plus.md)
-    6. [Learning with AI](workflow/learning.md)
-
-5. [Prompt Library](prompt-library/README.md)
-
-    1. [Prompting Guidance](prompt-library/prompting-guidance.md)
+- [AI Development Workflow](workflow/README.md)
+    - [Getting Started](workflow/feature-based-development/01-getting-started.md)
+    - [Project Setup](workflow/project-setup.md)
+    - **Feature-Based Development** (Enterprise/Complex Projects)
+        - [Requirement Specification](workflow/feature-based-development/02-requirement-specification.md)
+        - [Technical Design](workflow/feature-based-development/03-technical-design.md)
+        - [Development](workflow/feature-based-development/04-development.md)
+        - [Change Management](workflow/feature-based-development/05-change-management.md)
+        - [Documentation](workflow/feature-based-development/07-documentation.md)
+    - **[Spec-Driven Development](workflow/spec-driven-development/README.md)**
+    - **[Vibe Coding Plus](workflow/vibe-coding-plus.md)**
+    - [Learning with AI](workflow/learning.md)
+- [IDE Rules](ide-rules/README.md)
+    - [Common Rules](ide-rules/common/README.md)
+    - [Language Rules](ide-rules/languages/README.md)
+    - [Framework Rules](ide-rules/frameworks/README.md)
+- [MCP Server](docs/mcp-server/README.md)
+- [Slash Commands](slash-command/README.md)
+- [Prompt Library](prompt-library/README.md)
+    - [Prompting Guidance](prompt-library/prompting-guidance.md)
+    - [Agent Prompts](prompt-library/agent/)
+    - [Development Prompts](prompt-library/development/)
+    - [Documentation Prompts](prompt-library/documentation/)
+    - [General Prompts](prompt-library/general/)
+    - [Product Prompts](prompt-library/product/)

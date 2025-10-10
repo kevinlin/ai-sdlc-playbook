@@ -121,7 +121,7 @@ IDE rules guide AI behavior and provide context about your project. Learn more i
 
 ### 5. Set Up Slash Commands
 
-Slash commands reduce token consumption and enable reusable workflows. Learn more in [Slash Commands Guide](../claude-code/slash-commands.md).
+Slash commands reduce token consumption and enable reusable workflows. Learn more in [Slash Commands Guide](../slash-command/README.md).
 
 **For Cursor:**
 

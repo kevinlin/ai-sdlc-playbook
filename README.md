@@ -11,20 +11,20 @@ This playbook provides practical guidance, rules, workflows, and prompts for eff
 ## Quick Start
 
 1. **Browse the Documentation**: Visit the [complete documentation](docs/README.md) for detailed guidance
-2. **Choose Your Focus Area**:
+2. **Follow the Workflow**: Implement the [AI Development Workflow](docs/workflow/README.md) in your projects
+   - New to AI development? Start with [Project Setup](project-setup.md) to define foundational elements, tools, and conventions (start here for all workflows)
+3. **Choose Your Focus Area**:
    - Setting up AI IDE rules? Check [IDE Rules](docs/ide-rules/README.md)
    - Building tools and integrations? Explore [MCP Server](docs/mcp-server/README.md)
-   - Using Claude Code? See [Claude Code Configuration](docs/claude-code/slash-commands.md)
+   - Setting up slash commands? See [Slash Commands](docs/slash-command/README.md)
    - Looking for prompts? Explore the [Prompt Library](docs/prompt-library/README.md)
-3. **Follow the Workflow**: Implement the [AI Development Workflow](docs/workflow/README.md) in your projects
-   - New to AI development? Start with [Project Setup](project-setup.md) to define foundational elements, tools, and conventions (start here for all workflows)
 
 ## What's Included
 
+- **[AI Development Workflow](docs/workflow/README.md)** - Step-by-step workflow for AI-assisted development
 - **[IDE Rules](docs/ide-rules/README.md)** - Rules and guidelines for AI-powered IDEs to improve AI assistance
 - **[MCP Server](docs/mcp-server/README.md)** - Model Control Protocol server resources for enhanced AI capabilities
-- **[Claude Code Configuration](docs/claude-code/slash-commands.md)** - Slash commands and sample configurations for Claude Code
-- **[AI Development Workflow](docs/workflow/README.md)** - Step-by-step workflow for AI-assisted development
+- **[Slash Commands](docs/slash-command/README.md)** - Custom slash commands for Claude Code and Cursor
 - **[Prompt Library](docs/prompt-library/README.md)** - Curated collection of effective AI prompts for development tasks
 
 ## Usage Examples
