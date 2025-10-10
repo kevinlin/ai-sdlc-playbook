@@ -24,40 +24,117 @@ This guide outlines how to set up a development project using AI tools and techn
 
 ## Development Environment
 
-1. **Configure AI IDE**
-    - **Cursor**
-        - Install Cursor from [cursor.sh](https://cursor.sh)
-        - Add required VS Code extensions (Cursor is built on VS Code)
-        - Configure workspace settings and preferences
-    - **Kiro**
-        - Install Kiro AI IDE
-        - Add required VS Code extensions (Kiro is also built on VS Code)
-        - Configure workspace settings and preferences
-    - **GitHub Copilot**
-        - Install GitHub Copilot plugin to VS Code / JetBrains IDE
-        - Requires GitHub Copilot subscription
+### 1. Choose Your AI IDE or Extension
 
-2. **Configure Privacy Settings - IMPORTANT**
-    - In ChatGPT -> Settings -> Data Controls -> "Improve the model for everyone" -> toggle off / disable
-    - In Cursor -> Settings -> General -> Privacy Mode -> enabled
-    - In Kiro -> Configure privacy settings according to your organization's policy
-    - In GitHub Copilot -> Settings -> Data retention -> Configure according to your organization's policy
+Select an AI-powered development environment that fits your workflow:
 
-**IMPORTANT:** Privacy settings must be enabled. This ensures that data is not persisted on providers servers and it is not used for training models. 
+- **[Cursor](https://cursor.sh)** - AI-first code editor with built-in AI chat and editing (subscription required)
+- **[Kiro](https://kiro.ai)** - AI IDE with steering documents for consistent AI behavior (subscription required)
+- **[GitHub Copilot](https://github.com/features/copilot)** - AI pair programmer available as VS Code/JetBrains plugin (subscription required)
+- **[Claude Code](https://claude.ai/code)** - AI coding agent by Anthropic, available as CLI and IDE extension (Claude Pro subscription required)
+- **[OpenAI Codex](https://openai.com/codex/)** - AI coding agent by OpenAI, available as cloud service, CLI tool, and IDE extensions (subscription required)
 
-3. **Add Required Configurations**
-    
-    **For Cursor:**
-    - Copy language-specific rules from [programming language rules](../ide-rules/languages/README.md)
-    - Copy framework-specific rules from [framework rules](../ide-rules/frameworks/README.md)
-    - Customize IDE rules for team requirements
-    - Update system prompt for LLM base understanding
-    
-    **For Kiro:**
-    - Set up steering guidelines in `.kiro/steering/` directory
-    - Configure project-specific steering rules for consistent AI behavior
-    - Add team standards and coding conventions to steering files
-    - Refer to `.kiro/steering` documentation for detailed configuration options
+### 2. Install IDE and Required Plugins
+
+**For Cursor and Kiro:**
+
+- Download and install the IDE (both are built on VS Code)
+- Install required VS Code extensions for your tech stack
+- Configure workspace settings and preferences
+
+**For GitHub Copilot:**
+
+- Install GitHub Copilot extension in VS Code or JetBrains IDE
+- Sign in with GitHub account
+
+**For Claude Code:**
+
+- Install Claude Code CLI from [claude.ai/code](https://claude.ai/code)
+- Subscribe to Claude Pro for access
+- Optional: Install [VS Code extension](https://docs.claude.com/en/docs/claude-code/vs-code) for IDE integration
+- See [Claude Code Settings](https://docs.claude.com/en/docs/claude-code/settings) for configuration options
+
+**For OpenAI Codex:**
+
+- Install IDE extension from marketplace or use CLI tool
+- Configure API access with OpenAI API key
+- See [Codex IDE Configuration](https://developers.openai.com/codex/ide) for setup details
+
+### 3. Configure Privacy Settings
+
+**IMPORTANT:** Privacy settings must be enabled. This ensures that data is not persisted on providers' servers and is not used for training models.
+
+- **ChatGPT**: Settings -> Data Controls -> "Improve the model for everyone" -> toggle off/disable
+- **Cursor**: Settings -> General -> Privacy Mode -> enabled
+- **Kiro**: Configure privacy settings according to your organization's policy
+- **GitHub Copilot**: Settings -> Data retention -> Configure according to your organization's policy
+- **Claude Code**: Configure via [settings files](https://docs.claude.com/en/docs/claude-code/settings)
+- **OpenAI Codex**: TBA
+
+### 4. Configure IDE Rules
+
+IDE rules guide AI behavior and provide context about your project. Learn more in [IDE Rules Overview](../ide-rules/README.md).
+
+**Common Steps for All IDEs:**
+
+- Copy language-specific rules from [programming language rules](../ide-rules/languages/README.md)
+- Copy framework-specific rules from [framework rules](../ide-rules/frameworks/README.md)
+- Customize rules for your team's requirements and coding standards
+- Update system prompt for LLM base understanding
+
+**IDE-Specific Rule Configuration:**
+
+**For Cursor:**
+
+- Enable Rules & Memories in Cursor Settings:
+    - Go to Settings -> Features -> Rules & Memories
+    - Enable "Include CLAUDE.md in context" - adds CLAUDE.md and CLAUDE.local.md files to the agent's context when relevant
+    - Enable "Import Claude Commands" - loads commands from .claude/commands directories alongside .cursor/commands
+- Store rules in `.cursor/rules/` directory using MDC format
+    - Support for Always, Auto Attached, Agent Requested, and Manual rule types
+
+**For Kiro:**
+
+- Store steering documents in `.kiro/steering/` directory
+    - Configure file match patterns for conditional inclusion
+    - Support for Always Included, File Match Conditional, and Manual Inclusion
+
+**For Claude Code:**
+
+- User-level:
+    - Create `~/CLAUDE.md` file for custom user prompts
+    - Create `~/.claude/settings.json` for global configurations
+    - Store personal commands in `~/.claude/commands/` directory (user-level)
+- Project-level:
+    - Create `CLAUDE.md` file in repository root for project context and instructions
+    - Create `.claude/settings.json` for project-level configuration (shared with team)
+    - Create `.claude/settings.local.json` for personal settings (not checked into source control)
+    - Store commands in `.claude/commands/` directory (project-level)
+- Configure permissions, environment variables, and hooks in settings files
+- See [Claude Code Settings documentation](https://docs.claude.com/en/docs/claude-code/settings) for complete configuration options
+
+**For OpenAI Codex:**
+
+- Configure IDE-specific settings according to [Codex IDE configuration](https://developers.openai.com/codex/ide)
+- Set up API key and model preferences
+- Create project-specific configuration files as needed
+
+### 5. Set Up Slash Commands
+
+Slash commands reduce token consumption and enable reusable workflows. Learn more in [Slash Commands Guide](../claude-code/slash-commands.md).
+
+**For Cursor:**
+
+- Commands stored in `.cursor/commands/` directory
+- Also supports `.claude/commands/` when "Import Claude Commands" is enabled
+
+**For Claude Code:**
+
+- Project commands in `.claude/commands/` - appear as `(project)` in `/help`
+- Personal commands in `~/.claude/commands/` - appear as `(user)` in `/help`
+- Create Markdown files - filename becomes the command name
+- Support for namespacing with subdirectories
+
 
 ## Using Repository Documentation
 
