@@ -33,3 +33,8 @@ Generate a complete test file with:
 - Well-organized test suites
 - Clear assertions
 - Helpful comments for complex scenarios
+
+
+## Focus Area
+
+If $1 is provided, focus on the specific method/file.
