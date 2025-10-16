@@ -104,11 +104,11 @@ IDE rules guide AI behavior and provide context about your project. Learn more i
 - User-level:
     - Create `~/CLAUDE.md` file for custom user prompts
     - Create `~/.claude/settings.json` for global configurations
-    - Store personal commands in `~/.claude/commands/` directory (user-level)
+    - Store user commands in `~/.claude/commands/` directory (user-level)
 - Project-level:
-    - Create `CLAUDE.md` file in repository root for project context and instructions
+    - Create `CLAUDE.md` for the current repository/folder using `/init` command
     - Create `.claude/settings.json` for project-level configuration (shared with team)
-    - Create `.claude/settings.local.json` for personal settings (not checked into source control)
+    - Create `.claude/settings.local.json` for local settings (not checked into source control)
     - Store commands in `.claude/commands/` directory (project-level)
 - Configure permissions, environment variables, and hooks in settings files
 - See [Claude Code Settings documentation](https://docs.claude.com/en/docs/claude-code/settings) for complete configuration options
