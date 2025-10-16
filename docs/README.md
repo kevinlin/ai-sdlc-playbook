@@ -14,14 +14,14 @@ This playbook provides guidance on best practices for integrating AI into the So
 - [AI Development Workflow](workflow/README.md)
     - [Getting Started](workflow/feature-based-development/01-getting-started.md)
     - [Project Setup](workflow/project-setup.md)
-    - **Feature-Based Development** (Enterprise/Complex Projects)
+    - **Feature-Based Development** (Complex projects)
         - [Requirement Specification](workflow/feature-based-development/02-requirement-specification.md)
         - [Technical Design](workflow/feature-based-development/03-technical-design.md)
         - [Development](workflow/feature-based-development/04-development.md)
         - [Change Management](workflow/feature-based-development/05-change-management.md)
         - [Documentation](workflow/feature-based-development/07-documentation.md)
-    - **[Spec-Driven Development](workflow/spec-driven-development/README.md)**
-    - **[Vibe Coding Plus](workflow/vibe-coding-plus.md)**
+    - **[Spec-Driven Development](workflow/spec-driven-development/README.md)** (Most projects)
+    - **[Vibe Coding Plus](workflow/vibe-coding-plus.md)** (Personal projects / Quick prototyping)
     - [Learning with AI](workflow/learning.md)
 - [IDE Rules](ide-rules/README.md)
     - [Common Rules](ide-rules/common/README.md)
